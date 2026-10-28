@@ -1,0 +1,263 @@
+{
+  "$defs": {
+    "control": {
+      "additionalProperties": false,
+      "properties": {
+        "control_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "needs_reboot": {
+          "type": "boolean"
+        },
+        "read_method": {
+          "type": "string"
+        },
+        "risk_level": {
+          "enum": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "type": "string"
+        },
+        "value_rules": {
+          "type": "object"
+        },
+        "warning_text": {
+          "type": "string"
+        },
+        "write_method": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "control_id",
+        "read_method",
+        "write_method",
+        "value_rules",
+        "risk_level",
+        "needs_reboot",
+        "warning_text"
+      ],
+      "type": "object"
+    }
+  },
+  "$id": "https://routerverse.local/library/schema/router_profile.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "Per-model control profile. Fields follow section 4 of the Universal Router App plan exactly. profile_hash is the SHA-256 of the canonical JSON of this object with profile_hash AND signature replaced by empty strings (keys sorted, separators \",\" and \":\", UTF-8, no ASCII escaping), so a profile hashes identically before and after signing.",
+  "properties": {
+    "admin_url": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "brand": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "default_credentials_ref": {
+      "type": "string"
+    },
+    "default_gateway_paths": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "driver_type": {
+      "enum": [
+        "api",
+        "standard",
+        "openwrt",
+        "web"
+      ],
+      "type": "string"
+    },
+    "firmware_range": {
+      "additionalProperties": false,
+      "properties": {
+        "max": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "min": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "min",
+        "max"
+      ],
+      "type": "object"
+    },
+    "hardware_versions": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "http_fingerprints": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "body_contains": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "page_title_contains": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "realm_contains": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "server_header_contains": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "url_paths": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "page_title_contains",
+          "server_header_contains",
+          "realm_contains",
+          "url_paths",
+          "body_contains"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "known_issues": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "last_updated": {
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+      "type": "string"
+    },
+    "login_method": {
+      "enum": [
+        "basic auth",
+        "form login",
+        "token login",
+        "API login"
+      ],
+      "type": "string"
+    },
+    "model": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "oui_prefixes": {
+      "items": {
+        "pattern": "^[0-9a-f]{2}:[0-9a-f]{2}:[0-9a-f]{2}$",
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "ports": {
+      "items": {
+        "maximum": 65535,
+        "minimum": 1,
+        "type": "integer"
+      },
+      "type": "array"
+    },
+    "profile_hash": {
+      "pattern": "^(|[0-9a-f]{64})$",
+      "type": "string"
+    },
+    "profile_id": {
+      "minLength": 1,
+      "pattern": "^[a-z0-9_]+$",
+      "type": "string"
+    },
+    "profile_version": {
+      "minimum": 1,
+      "type": "integer"
+    },
+    "status": {
+      "enum": [
+        "tested",
+        "community",
+        "unverified"
+      ],
+      "type": "string"
+    },
+    "supported_controls": {
+      "items": {
+        "$ref": "#/$defs/control"
+      },
+      "type": "array"
+    },
+    "test_result": {
+      "type": "object"
+    },
+    "tested_by": {
+      "type": "string"
+    },
+    "tested_on": {
+      "type": "string"
+    },
+    "unsupported_controls": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "signature": {
+      "type": "string",
+      "description": "Optional base64 Ed25519 signature over the canonical JSON (profile_hash and signature blanked). Absent on unsigned profiles."
+    }
+  },
+  "required": [
+    "profile_id",
+    "brand",
+    "model",
+    "hardware_versions",
+    "firmware_range",
+    "profile_version",
+    "profile_hash",
+    "last_updated",
+    "status",
+    "oui_prefixes",
+    "http_fingerprints",
+    "default_gateway_paths",
+    "driver_type",
+    "admin_url",
+    "login_method",
+    "ports",
+    "default_credentials_ref",
+    "supported_controls",
+    "unsupported_controls",
+    "tested_on",
+    "tested_by",
+    "test_result",
+    "known_issues"
+  ],
+  "title": "RouterVerse Library Router Profile",
+  "type": "object"
+}
