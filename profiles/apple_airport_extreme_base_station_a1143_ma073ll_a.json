@@ -1,0 +1,59 @@
+{
+  "profile_id": "apple_airport_extreme_base_station_a1143_ma073ll_a",
+  "brand": "Apple",
+  "model": "AirPort Extreme Base Station A1143 (MA073LL/A)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "356c6b6a7d8644d47c1908f570bb3fd48a1e143b8f6b620be188706ef316002d",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:19:e3"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Apple AirPort Extreme Base Station A1143 (MA073LL/A); manufacturer Foxconn U01H335 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: BCGA1143; year: 2007; CPU: 88F5181; Wi-Fi chip: AR5416"
+  ],
+  "signature": "nmSppnfiGKAAJazsfmnUz+seaCxE7F9DHeH3gcy+rRH6+66ksCoM8jAo8I5VGJivYQXcXkI+yBZUoz553f/sBw=="
+}

@@ -1,0 +1,60 @@
+{
+  "profile_id": "alpha_networks_wrg_n49",
+  "brand": "Alpha Networks",
+  "model": "WRG-N49",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "7e2ce2ca5b9201b7dcc2bf9b81107e9fa2199b8629f38ec9c2892b909a871284",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "fc:75:16"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Alpha Networks WRG-N49; FCC ID matches D-Link DIR-600 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: KA2IR600B5; year: 2011; CPU: RT5350; Wi-Fi chip: RT5350",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: KA2IR610A1; year: 2012; CPU: RT5350; Wi-Fi chip: RT5350"
+  ],
+  "signature": "b5Gs3TTrcunWgHpXnrlcggFax5J/7EW+2GGyv6IgZr9er9hL3c3/suhoFU9LE8hvih9VdDsJRti7W6Ox8pfCCA=="
+}

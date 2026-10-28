@@ -1,0 +1,64 @@
+{
+  "profile_id": "asus_dsl_ac88u",
+  "brand": "Asus",
+  "model": "DSL-AC88U",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "f7994447ce38c6be3e0e2a5dbe189668871bc7a865431efa4163be04427112b8",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:24:8c",
+    "04:d4:c4",
+    "1c:87:2c",
+    "60:45:cb",
+    "60:46:cb"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model ASUS DSL-AC88U; manufacturer Arcadyan VR9517U (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2017; CPU: BCM63138; Wi-Fi chip: BCM4366E"
+  ],
+  "signature": "NpyDRbHlGyA645ywTPUn0ehNym8W3x7rSZcXqJ8pCT6a73UtU/6QUPUBkpt9OA5JSnXfyoA0YfPg3Ex4piO/BQ=="
+}

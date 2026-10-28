@@ -1,0 +1,65 @@
+{
+  "profile_id": "azurewave_aw_gm310s",
+  "brand": "AzureWave",
+  "model": "AW-GM310S",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "becc4f584bfbe2118c50ee3219ed220fbb5a3c1fa27a94029a86df32c4475a23",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "08:ed:b9",
+    "18:f4:6a",
+    "38:59:f9",
+    "74:f0:6d",
+    "78:e4:00",
+    "7c:e9:d3",
+    "c0:f8:da",
+    "e4:d5:3d"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2009"
+  ],
+  "signature": "4qdMXcq9EP1ShY2YT0iIUmU+seJCTh7S6tcuQhevYEnh+YnnXNCtWNiMCz3YR3NuruX2Eu3sYfy18OJI5BOpCw=="
+}

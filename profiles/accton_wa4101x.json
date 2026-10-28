@@ -1,0 +1,59 @@
+{
+  "profile_id": "accton_wa4101x",
+  "brand": "Accton",
+  "model": "WA4101X",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "0bf1984473fdae4ce38b0f7f0da5fe086d354f0fdad59f290553f2d6b78520ae",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:13:f7"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Accton WA4101X; FCC ID matches SMC SMC2552W-G2 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: HEDSMC2552WG2; year: 2006; CPU: AR5312A; Wi-Fi chip: AR5312A"
+  ],
+  "signature": "wggdvU31FhKznzNo7TmC73osDHXFsH0bQ/j+yUHBJ7l3/sJ6BvRp/AWgWkgNm7iLU/AW0CwhKtHaZfSMIhI3Aw=="
+}

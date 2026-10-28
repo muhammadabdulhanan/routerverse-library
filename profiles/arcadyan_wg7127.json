@@ -1,0 +1,61 @@
+{
+  "profile_id": "arcadyan_wg7127",
+  "brand": "Arcadyan",
+  "model": "WG7127",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "32439af27aed00b45081ef63b0e9bb556e22ef919902314f597c6645290984b9",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:26:18",
+    "20:cf:30",
+    "48:5b:39"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Arcadyan WG7127; FCC ID matches Asus RT-N16 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MSQRTN16; year: 2009; CPU: BCM4718A1; Wi-Fi chip: BCM4718A1"
+  ],
+  "signature": "By3JMA/kQxd7FIqAKbFYkAaYRsl1jIA2aolxiKRO+Z/V6YzGB9QKF7RPI4mjtaCyH55xQ6bnQPAsxppnhcgWCQ=="
+}

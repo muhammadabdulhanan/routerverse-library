@@ -1,0 +1,57 @@
+{
+  "profile_id": "askey_rt5000w",
+  "brand": "Askey",
+  "model": "RT5000W",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "0faccd55e1640253abe419672ac0f24f4af7a0873e972df4ceebceb27ebe6f8a",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Askey RT5000W; FCC ID matches Charter RAX1V1K — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: H8NRAX1V1K; year: 2018; CPU: IPQ8072; Wi-Fi chip: QCN5054"
+  ],
+  "signature": "DBye85QaxOVykf0wQPKbNU+lRduwzm40ZB0ctUftZ44IHspTKDHBKe9iW3aiBq2ZAc1eFtEsVYeJ879DkZ2zAQ=="
+}

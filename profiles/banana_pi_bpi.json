@@ -1,0 +1,68 @@
+{
+  "profile_id": "banana_pi_bpi",
+  "brand": "Banana Pi",
+  "model": "BPI",
+  "hardware_versions": [
+    "BPI-M2 ZERO (v1.0)",
+    "BPI-M2+ V1.2",
+    "BPI-P2 ZERO (v1.0)",
+    "M1",
+    "M2",
+    "M2 Berry (v1.0)",
+    "M2 Ultra",
+    "R2 (v1.2)",
+    "R64",
+    "S64 Core"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "135661a097606e995b6a460fc50470388103d33accd1a8fce6418f83987ef114",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "02:44:07",
+    "22:3b:09"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work"
+  ],
+  "signature": "95uXn9X765UD9E5aG36ySGiZE9kmda0LQY/j1mmELQny0lqs23JzgMjLF7UtYyEAdHk0c4LI1M3wxeCFOt7zCg=="
+}

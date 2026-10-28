@@ -1,0 +1,59 @@
+{
+  "profile_id": "accton_wg4005_68_cm",
+  "brand": "Accton",
+  "model": "WG4005-68(CM)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "42558efaf2100edeaec13aaf70d30cf430e9f000a9da726174fb6f97821508bb",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:0d:3a"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Accton WG4005-68(CM); FCC ID matches Microsoft MN-700 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: C3KMN700; year: 2003; CPU: BCM4702; Wi-Fi chip: BCM4306"
+  ],
+  "signature": "IxelP73y4veqGO/FEAF6Kdab9/XHWwRgsbG1yIaH4BMDUHjCK3v2IhXewCoMmJIw9nJnxpJwfJ7ZeTgghYlODQ=="
+}

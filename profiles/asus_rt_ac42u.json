@@ -1,0 +1,63 @@
+{
+  "profile_id": "asus_rt_ac42u",
+  "brand": "Asus",
+  "model": "RT-AC42U",
+  "hardware_versions": [
+    "U"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "5a5ffc5134e4f2cc64195191942e57ca0b74b6d10a417c228ae3c4d4b044dbd0",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "10:7b:44",
+    "38:d5:47",
+    "ac:9e:17"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target ipq40xx/generic); stock admin fingerprint not inferred from OpenWrt support.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model ASUS RT-AC42U; manufacturer Arcadyan WG911DA (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MSQ-RTHD00; year: 2017; CPU: IPQ4019; Wi-Fi chip: IPQ4019"
+  ],
+  "signature": "kwYoMAbiP1hpc4CAgDQup1v7pmks++ij0a8APxsH6gAFsO9c56Qii/c/W4g9GDgmcaiIbF7yHdNX3KNg7BZvBA=="
+}

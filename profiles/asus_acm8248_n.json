@@ -1,0 +1,62 @@
+{
+  "profile_id": "asus_acm8248_n",
+  "brand": "Asus",
+  "model": "ACM8248-N",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "51d7faa32248c454e1a63ab9074789c0756c4fe5bf1dc728ff4b500a6204fb5e",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:24:8c",
+    "04:d4:c4",
+    "1c:87:2c"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model ASUS ACM8248-N; FCC ID matches Netgear CG814WB — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY3CG814WB; year: 2003; Wi-Fi chip: BCM4301",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MSQWL120G, PY3CG814WG; year: 2003; CPU: BCM3348; Wi-Fi chip: BCM4306"
+  ],
+  "signature": "3KdX+a3MrkEDLZXKJSUnkYsMubcZGBviK/gcOrREsImD6sMsC3VYz+i2aJK4wQW3J32puGceESBpKUhsGE4HCw=="
+}

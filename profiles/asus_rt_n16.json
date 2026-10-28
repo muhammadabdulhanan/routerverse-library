@@ -1,0 +1,79 @@
+{
+  "profile_id": "asus_rt_n16",
+  "brand": "Asus",
+  "model": "RT-N16",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "56f57d711848d229ec3e184ad906407376e96270f6f559274e8d342d8d6898f3",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:24:8c",
+    "00:26:18",
+    "04:d4:c4",
+    "1c:87:2c",
+    "20:cf:30",
+    "48:5b:39"
+  ],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [],
+      "server_header_contains": [],
+      "realm_contains": [],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": [
+        "rt-n16"
+      ]
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "FingerprintHub rule rt-n16 (verified: true).",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target bcm47xx/mips74k); stock admin fingerprint not inferred from OpenWrt support.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MSQRTN16; year: 2009; CPU: BCM4718A1; Wi-Fi chip: BCM4718A1",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model ASUS RT-N16; manufacturer Arcadyan WG7127 (DeviWiki live)."
+  ],
+  "signature": "EKxBeBXrBMvcXNhpgs6tL4soFa/wJOiMR/8naG+m8riATlwa6PRlw30QQkvYZcRUMgXBiyvVCTTjEDGWKEziAA=="
+}

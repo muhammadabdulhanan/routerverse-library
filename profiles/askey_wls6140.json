@@ -1,0 +1,56 @@
+{
+  "profile_id": "askey_wls6140",
+  "brand": "Askey",
+  "model": "WLS6140",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "db6d6fc54264eec4ddaf4902127fa3415fc10e1e34d510c2de3cff3bda01f94a",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: A4S-6W61; year: 2013; CPU: SPG101B1B-TB; Wi-Fi chip: BCM43362"
+  ],
+  "signature": "yu5ePz8B5PC6B+a/QzzTqQVDMFtSgDw/riOeUry5kyHfNt7dPZjUWG3cUDImqE4DwEhj1SQItYi9wDvzSAY6Dw=="
+}

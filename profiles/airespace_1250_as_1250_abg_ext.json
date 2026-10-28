@@ -1,0 +1,59 @@
+{
+  "profile_id": "airespace_1250_as_1250_abg_ext",
+  "brand": "Airespace",
+  "model": "1250 (AS-1250-ABG-EXT)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "5528b1e36788c15344e956ab57c96cb91140401a0f9e0593f067a4d2bcfb140d",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:0b:85"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: Wistron NeWeb; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: QTZ1200W; year: 2004; CPU: AR5312A; Wi-Fi chip: AR5312A"
+  ],
+  "signature": "eZ5tahHVuHsYp1WL0zJA8qKS2wXlsFq6hbyxepBBTJbKoNcVud9bXhKnc47d9WqUU4ZtCMjc9M2NoueAIp6NDQ=="
+}

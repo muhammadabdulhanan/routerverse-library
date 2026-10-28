@@ -1,0 +1,60 @@
+{
+  "profile_id": "altai_wa1011n_g_c1n",
+  "brand": "Altai",
+  "model": "WA1011N-G (C1n)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "1c8da8d9f91ba51714cb2c46dc3e4de3350489972b7529b28dd39e0d7bf205ce",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:12:0e",
+    "00:19:be"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: AboCom; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: TWS-AP-100, UCC-WA1011N-G; year: 2013; CPU: AR9344; Wi-Fi chip: AR9344"
+  ],
+  "signature": "86ZIPBF6MAMCKZwj9ktwbSXG4lyZhB1eV25CJh5RcLeiHDxPQ5tTssUpTS5PUMInhnHvzdzR+yrFT5qtyqEyCw=="
+}

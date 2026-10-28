@@ -1,0 +1,57 @@
+{
+  "profile_id": "avm_fritz_box_5490",
+  "brand": "AVM",
+  "model": "FRITZ!Box 5490",
+  "hardware_versions": [
+    "Micron NAND",
+    "Other NAND"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "9b0dec4d775b6f55e22e73fb960caf20cadce652ac56b28e5e6d298d975e9c55",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target lantiq/xrx200); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "tN5eVuDjl6ysUU9u66SrOJ5u+6khbsW/dJ2BOo7icitAVuo1uilnTFS00SuojjLYkzJbNg64GhSa6W6wxq7cDw=="
+}

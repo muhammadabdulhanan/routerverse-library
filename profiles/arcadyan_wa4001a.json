@@ -1,0 +1,59 @@
+{
+  "profile_id": "arcadyan_wa4001a",
+  "brand": "Arcadyan",
+  "model": "WA4001A",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "90bf02cb52c21982df1b6c15766db7f8d45d046678622e0f15cda3d482756029",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:12:bf"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: RAXWA4001AARC, RSE-ST180; year: 2004; CPU: ISL3893; Wi-Fi chip: ISL3893",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: RAXWA4001AARC; year: 2004; CPU: ISL3893; Wi-Fi chip: ISL3893"
+  ],
+  "signature": "d8nQv+T7HvNTyDVynSwbV2yBW2mF1Fke8MvJhlQH5uZtLG3DvMKHVZ32hetbF795PNfRG2U1Ojoa+bf0YTvNAA=="
+}

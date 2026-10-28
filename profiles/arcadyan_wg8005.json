@@ -1,0 +1,57 @@
+{
+  "profile_id": "arcadyan_wg8005",
+  "brand": "Arcadyan",
+  "model": "WG8005",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "0d263d3c269b5b77603635fc3e9edbad5faf68bc0edeb49e3ea92a8e19c3dc61",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Arcadyan WG8005; FCC ID matches Belkin F9K1105 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: K7SF9K1105V3; year: 2012; CPU: BCM5356UB0; Wi-Fi chip: BCM5356UB0"
+  ],
+  "signature": "5UE39pJR11od749g5saiUmk+W79kdNykORlPTr46OjMMR4a9kGjHEkl05mk6XMOIWlvCS+i6b4+JPnOlANfbBw=="
+}

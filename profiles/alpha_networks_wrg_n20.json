@@ -1,0 +1,59 @@
+{
+  "profile_id": "alpha_networks_wrg_n20",
+  "brand": "Alpha Networks",
+  "model": "WRG-N20",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "12fd46573f21493657cac598164dd657452f574769278bba71b2cfc4f37ff287",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:1d:6a"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Alpha Networks WRG-N20; FCC ID matches Airlink101 AR690W — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: RRK-WRGN20; year: 2008; CPU: RT2880; Wi-Fi chip: RT2880"
+  ],
+  "signature": "ALhk3L/p3Hts7xzSYGJB/4k3UXyeBeVJrlW2DIei0gHDO0LVL583yOU/vYG9hqlE3AnN3uToLz+ZcMMuC5EvCQ=="
+}

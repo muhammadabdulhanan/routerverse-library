@@ -1,0 +1,61 @@
+{
+  "profile_id": "accton_wg3004a",
+  "brand": "Accton",
+  "model": "WG3004A",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "d0bb14d1fdb2b2454644d5008f22ecfb31f6153312a879d1c7d462f2f95b79b2",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:01:24",
+    "00:30:bd",
+    "00:30:f1"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: HEDWG3004A-17; year: 2001; CPU: S3C4510",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: HEDWG3004A-17, K7SF5D62303; year: 2002; CPU: S3C4510"
+  ],
+  "signature": "VHFuqzBCKF/CkIDRpjmMnk1vZRdhG6SfBP9MAMNEfQUX8mpyfxYYRcVSladCcD5/ApEcRF0RqgbAZ2UeS4cKAg=="
+}

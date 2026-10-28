@@ -1,0 +1,57 @@
+{
+  "profile_id": "arcadyan_ch6640e",
+  "brand": "Arcadyan",
+  "model": "CH6640E",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "8404d3a727fee781131992d7bdde2889766b9b5049e96f86f6af277099bc521f",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Arcadyan CH6640E; FCC ID matches Compal Broadband Networks CG6640A — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: O2UCG6640A; year: 2012; CPU: DNCE2500GU; Wi-Fi chip: RTL8192CE"
+  ],
+  "signature": "otillw46RgJiQHHHz+X0tgkTHneFjxPAGFpDw/Q3vSAyKh+AuDj+djAoU6LSHeoSK3o/GRlvkowsAy04QEIpAg=="
+}

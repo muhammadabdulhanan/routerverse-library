@@ -1,0 +1,60 @@
+{
+  "profile_id": "3com_3crwe41196",
+  "brand": "3Com",
+  "model": "3CRWE41196",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "f346ed204fd5e08c7cc7237de8e31ed080c8ec0be9cdab0b79824ed5306c493c",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:0b:ac"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: HED3CRWE41196; year: 2003",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model 3Com 3CRWE41196; manufacturer Accton WA3001B (DeviWiki live)."
+  ],
+  "signature": "KplrnKS+2l4DM50JhwRtyzo6MKQgNAZrtTMn0XYvEE2+/arSEZTisjHhaGLGO2l0c1cdQGPwQ+iy3vARWnIJAQ=="
+}

@@ -1,0 +1,58 @@
+{
+  "profile_id": "arris_sbg7580_ac",
+  "brand": "Arris",
+  "model": "SBG7580-AC",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "71d7d07c5c0d51510f0b0b4fd45bad9582429073b3b662abaeb2a07c437ed2c4",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: UIDDG2470; year: 2015; CPU: DHCE2652; Wi-Fi chip: AR9381",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Arris SBG7580-AC; manufacturer Pegatron ARCT04034 (DeviWiki live)."
+  ],
+  "signature": "o5fYQ8J+ceEuJwxLbTY4hxhHy2/cFE+dKAdlRCR/RjKl3EKTsVa+b3thaDjmDRljQbcD8ceJpKN75NfFGPvbCA=="
+}

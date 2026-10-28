@@ -1,0 +1,64 @@
+{
+  "profile_id": "arcadyan_wg9117a",
+  "brand": "Arcadyan",
+  "model": "WG9117A",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "6a2cf973bd300ebab685e2641c22b6ff92006819f7654f98358be2b811630506",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "10:c3:7b",
+    "70:8b:cd",
+    "78:24:af",
+    "d0:17:c2"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Arcadyan WG9117A; FCC ID matches Asus RT-AC1900 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MSQ-RTACHC00; year: 2016; CPU: BCM4709A0; Wi-Fi chip: BCM43602",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MSQ-RTACHC00; year: 2016; CPU: BCM4708C0; Wi-Fi chip: BCM4360",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MSQ-RTAC87U; year: 2014; CPU: BCM4709A0; Wi-Fi chip: QT3840BC"
+  ],
+  "signature": "fIp5ZwabPd3lq4bJ+1vN47G/le0WTbuaG9oyi6sm3cqwfOwP9M/+qg0qJH8oiLjRUQjH3s5HCODbpl5n/4GpBA=="
+}

@@ -1,0 +1,57 @@
+{
+  "profile_id": "amazon_fire_tv_cl1130",
+  "brand": "Amazon",
+  "model": "Fire TV (CL1130)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "5ac48cdf6387768cd0b896733cafe97bd177d5423b73143bb57be2cac83e951a",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Amazon Fire TV (CL1130); manufacturer Foxconn U73X003 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PPD-QCA6234, S59-4891; year: 2014; CPU: APQ8064T; Wi-Fi chip: AR6004"
+  ],
+  "signature": "r4aBgmnd8R3UQ3dmfk5hP+RKMCLOZ/yGlil1vUuQm8TRApElhWaaj/n088JSMR7o+JzsW2SD4wVnoFdmq8taCA=="
+}

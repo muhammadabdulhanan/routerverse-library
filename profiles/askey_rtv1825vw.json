@@ -1,0 +1,58 @@
+{
+  "profile_id": "askey_rtv1825vw",
+  "brand": "Askey",
+  "model": "RTV1825VW",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "6585e433be616d47d95a3c10c966330b5949cd954a051d4aee2f666b1ba97cba",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "fc:b4:e6"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: H8N-RTF3026VWD25, H8N-RTV1825VWD124; year: 2014; CPU: 88F6281; Wi-Fi chip: BCM63168V"
+  ],
+  "signature": "YvoQlXDUoblIUj7n1rAMsUwjWKngO8Ae9whM742wxA3ZuVcXcTX3M7l9+BV4+A0GFXWiwQTgH4soBsoZOH65Cw=="
+}

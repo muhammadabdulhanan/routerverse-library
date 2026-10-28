@@ -1,0 +1,60 @@
+{
+  "profile_id": "arcadyan_ar7505qw",
+  "brand": "Arcadyan",
+  "model": "AR7505QW",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "143928afe544decda9a874247fa641f74277177bc4176b75264880cd16257aa5",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:13:f7"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Arcadyan AR7505QW; FCC ID matches Belkin F5D8633-4 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: K7SF5D8633-4A; year: 2007; CPU: PSB 50610; Wi-Fi chip: RT2860",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: RAX7904WBRA-N; year: 2007; CPU: PSB 50610; Wi-Fi chip: RT2860"
+  ],
+  "signature": "cI3IpUbJqGHh5LJdS7FCrfbBy8kId5jpE73jDuudz4PmAJJfN/ZJhKWAENdrq09HwYDXzr/s6wu0ncXeA6MKAg=="
+}

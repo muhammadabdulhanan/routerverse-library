@@ -1,0 +1,57 @@
+{
+  "profile_id": "arcadyan_wap7465",
+  "brand": "Arcadyan",
+  "model": "WAP7465",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "5e77eecff1932cc4951a7fc6a5a83eb2cd16d52dd56e28d1871468241093a59b",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Arcadyan WAP7465; FCC ID matches Compal Broadband Networks AP7465 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: O2U-AP7465; year: 2018; CPU: CL1870; Wi-Fi chip: CL2330"
+  ],
+  "signature": "89Xpa5KFdrepmdQA/yGU4UlX0fyhb2bG7qwaakfZp6gmEjHF1Nnz4289GcAvvo7RSMhiKVsXeHCNMIzkqOFYAA=="
+}

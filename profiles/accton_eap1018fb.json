@@ -1,0 +1,59 @@
+{
+  "profile_id": "accton_eap1018fb",
+  "brand": "Accton",
+  "model": "EAP1018FB",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "13e4f473679b8e6704a6456d30bae024505ae215d29fb51eb516926cc9219d10",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "70:72:cf"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Accton EAP1018FB; FCC ID matches Edge-corE ECW7210-L — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: YZKECW7210L; year: 2014; CPU: P1020; Wi-Fi chip: BCM43460"
+  ],
+  "signature": "yJWOJu2hw6oQdFrbbvg2HbFjCPqvoZQUuBB7UXJIQp1qwj0DZgzaF441R56igSenhqOUjU3iDpFMc9y+WrW1Bg=="
+}

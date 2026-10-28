@@ -1,0 +1,59 @@
+{
+  "profile_id": "abocom_wr104k",
+  "brand": "AboCom",
+  "model": "WR104K",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "fb706623da7b415eeb680b6d3b1b2842eb340cd05d1f5311dec041da1e2f8917",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:e0:98"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model AboCom WR104K; FCC ID matches Xterasys XR-1405B — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MQ4WR104K; year: 2002; CPU: R1620; Wi-Fi chip: ISL3873B"
+  ],
+  "signature": "bTv0t7L2Z2hK0Z1y0fxnOzy8pdo7OO2Ns0szyD4aIVTD1M04DeaY7w7S4LDaE7V5uKI3+4f6Wa0pwEGHZ1tiDQ=="
+}

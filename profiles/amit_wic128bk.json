@@ -1,0 +1,57 @@
+{
+  "profile_id": "amit_wic128bk",
+  "brand": "AMIT",
+  "model": "WIC128BK",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "5b8d6c20b58eb3299b8658812f4ecb66f0ef7381ab04d9156e5bf581e524890b",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model AMIT WIC128BK; FCC ID matches Belkin F5D9230-4 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: K7SF5D9230-4V4; year: 2007; CPU: 10000-G; Wi-Fi chip: RT2661"
+  ],
+  "signature": "lypchRZT0z8QjTrnmqI66Gqvo+sXFXwC89iHzTeHAU7p0z2okiKEkRl93INHH+0TGp/lDIu+/k1nU86qswidCg=="
+}

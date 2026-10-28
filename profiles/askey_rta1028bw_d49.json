@@ -1,0 +1,58 @@
+{
+  "profile_id": "askey_rta1028bw_d49",
+  "brand": "Askey",
+  "model": "RTA1028BW-D49",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "6922b6cb781b99256cc6a2b7663b61fb1f8c6df660f50ca08a54bf0ab53d7432",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:14:7f"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: RSE-ST585V6; year: 2005; CPU: BCM6348; Wi-Fi chip: BCM4318"
+  ],
+  "signature": "Pc3MrwGb7Oj1d8ujCeOdjf0aM83qqPcDbQU9albrdmD+KHa7Zv+jjRKlGsXFQnmtOXv7DMiXc8vtiI7l9BPjBw=="
+}

@@ -1,0 +1,66 @@
+{
+  "profile_id": "apple_tv_a1427_3rd_generation",
+  "brand": "Apple",
+  "model": "TV A1427 (3rd generation)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "e399f963c1d886136d94a1e979ff90cb7fa114a1a095359936be0ce630ba6151",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "3c:06:30",
+    "60:f4:45",
+    "88:66:5a",
+    "8c:85:90",
+    "9c:20:7b",
+    "a4:83:e7",
+    "d0:a6:37",
+    "f0:18:98"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer unproven (no manufacturer property).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: BCGA1427; year: 2012; CPU: A5; Wi-Fi chip: BCM4330"
+  ],
+  "signature": "kMSma+uv2FgnDtafarGQdyD6J/V6HYFyxLqEVLwfgxSRd4WTHQEk9dIop2eV2VvH3Zhczg3MkneF4vJ92RZRBQ=="
+}

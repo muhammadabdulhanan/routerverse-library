@@ -1,0 +1,61 @@
+{
+  "profile_id": "asus_rt_ac52u",
+  "brand": "Asus",
+  "model": "RT-AC52U",
+  "hardware_versions": [
+    "B1"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "02a73d64dd126c901526e34beada0ca660a2f569ce59f54a953136c35c801332",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "2c:4d:54"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: Edimax; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MSQ-RTAC52U; year: 2014; CPU: MT7620A; Wi-Fi chip: MT7620A",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MSQ-RTAC52U; year: 2017; CPU: MT7620A; Wi-Fi chip: MT7620A"
+  ],
+  "signature": "yvpKAQkWTna/M54xrw7OqlonF4rBd+sJeuzt83H20VQltIHthExrKl6XEHnEP3rLzLH5qAS6OoVWbLwXssvPAg=="
+}

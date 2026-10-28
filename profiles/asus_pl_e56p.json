@@ -1,0 +1,60 @@
+{
+  "profile_id": "asus_pl_e56p",
+  "brand": "Asus",
+  "model": "PL-E56P",
+  "hardware_versions": [
+    "A1"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "86c508c7c56453ba8c9dcd9ff1f63e136cba84e52e0100b8cbd2c15c1f2df4ae",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "34:97:f6"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "DeviWiki live: brand/model from page title (category: wired); manufacturer unproven (no manufacturer property).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2016; CPU: QCA7500"
+  ],
+  "signature": "lwS1IgQzu0B9iKqqR1dmx9O9anNoaXmmFXhp1rj+KhO+baOQI/t2Sc5NmjbS/mBtVSehPhXFwdy1B5S+zuecCg=="
+}

@@ -1,0 +1,56 @@
+{
+  "profile_id": "arcadyan_ar8517zw22",
+  "brand": "Arcadyan",
+  "model": "AR8517ZW22",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "57848f1afe6c40bf0c70d3e65f4b5c8945fd24748fc1aa100a3064146580b64d",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: K7SF7D4401V1; year: 2010; CPU: BCM4718A1; Wi-Fi chip: BCM4718A1"
+  ],
+  "signature": "VnHm4tgIQg7bRKSnv0+rMA0zdhmsvIS2THvedc4t0U7K1WY9FwMuXdeVOOD1fK5NaR5dJcWYcU+bAhnGyox3CA=="
+}

@@ -1,0 +1,60 @@
+{
+  "profile_id": "asante_smarthub_awrt_300n",
+  "brand": "Asante",
+  "model": "SmartHub AWRT-300N",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "0e69e97819ea637f50aca12ddf9d2077ac4e2fd811e935b74d3b0c52e82b833f",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:00:94"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MXF-CWRTB264GN; year: 2010; CPU: BCM5356A1; Wi-Fi chip: BCM5356A1",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Asante SmartHub AWRT-300N; manufacturer Gemtek WRTB-264GN (DeviWiki live)."
+  ],
+  "signature": "g9qDagYiSXO2uOBvk7HVJtfa/CfcYHXDhSv9A5hAL3/+3kGH+XPLznOi6AERGliaX3ENREorhovLXuHUr76/Ag=="
+}

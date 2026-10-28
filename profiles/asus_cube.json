@@ -1,0 +1,62 @@
+{
+  "profile_id": "asus_cube",
+  "brand": "Asus",
+  "model": "CUBE",
+  "hardware_versions": [
+    "(QUBE)"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "bc2153483326476882eb817eef94b9cda35c9c120c129c5753e4bb75c0f11a07",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:24:8c",
+    "04:d4:c4",
+    "1c:87:2c"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer unproven (no manufacturer property).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MSQ-QUBE010112, MSQ-QUBE0101U, MSQ-QUBERC01U, TLZ-NM388; year: 2012; CPU: 88DE3100; Wi-Fi chip: 88W8787"
+  ],
+  "signature": "D3CoWLOpPWe61JsswjTC1y2LMNEIut8xvLhZ4VRckUbU77qZG2s7kqEhylJD3Uf56h0XPti8cI1vDLET8nl9BA=="
+}

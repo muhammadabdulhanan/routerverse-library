@@ -1,0 +1,65 @@
+{
+  "profile_id": "askey_rt3105w",
+  "brand": "Askey",
+  "model": "RT3105W",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "48a7f2fd7ebb041a62675f1a8acfd4882a46113cfb65157bb7342e4c1e63cfe3",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:11:50",
+    "00:13:10",
+    "00:16:b6",
+    "00:18:39",
+    "00:18:f8"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Askey RT3105W; FCC ID matches Belkin F5D9230-4 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: SA3-AGN0901AP0100, SA3-AGN1223AR0300; year: 2006; CPU: RTL8651B; Wi-Fi chip: AGN103BB",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-WRT54GX, SA3-AGN1223AR0300; year: 2005; CPU: RTL8651B; Wi-Fi chip: AGN103BB",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-WRT54GX2, SA3-AGN0922AR0100; year: 2005; CPU: RTL8651B; Wi-Fi chip: AGN102BB"
+  ],
+  "signature": "YMAP2Jil6lEfqOg2rYL48CEXeWjOqGIQDpaaDkb7NDoa3gQcoWznbh1YhFOQYsUsbBPVbmgUBLXGK/mpO0yPDg=="
+}

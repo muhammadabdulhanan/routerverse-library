@@ -1,0 +1,56 @@
+{
+  "profile_id": "avm_fritz_box_7412",
+  "brand": "AVM",
+  "model": "FRITZ!Box 7412",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "3626c8782c15a64c5ecf9e9f1a6c4e6e20df6691b8800a25864cea23643ed824",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target lantiq/xrx200); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "a9ShDkktLQCE1UH9m1uGHIOFYGjoltCMRvMPFwRJD2/v+W1tcnAgE8yoeLJF4zuq1Wd8CYVZaIXNulVJSQ4kAw=="
+}

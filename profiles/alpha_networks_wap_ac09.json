@@ -1,0 +1,57 @@
+{
+  "profile_id": "alpha_networks_wap_ac09",
+  "brand": "Alpha Networks",
+  "model": "WAP-AC09",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "9b2710e5cbfbd283ffea2680074ff97f09cc01f22dfb853c8d2d2a9489731ebb",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Alpha Networks WAP-AC09; FCC ID matches D-Link DAP-2660 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: KA2AP2660A1; year: 2014; CPU: QCA9557; Wi-Fi chip: QCA9557"
+  ],
+  "signature": "yEwR4iXvxrSVKnLKd49t3WMhQJphxMctVxqlp/O4FxCAGrs3w730qSCGXz584v3pcWXSB6tySeyDG321WkWNBQ=="
+}

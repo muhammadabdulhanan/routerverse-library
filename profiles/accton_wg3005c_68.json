@@ -1,0 +1,59 @@
+{
+  "profile_id": "accton_wg3005c_68",
+  "brand": "Accton",
+  "model": "WG3005C-68",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "fea0625b31f6d7d1361fd18df7932e847a3f720580344a5d5fc3d84bbc7d25fc",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:50:f2"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Accton WG3005C-68; FCC ID matches Microsoft MN-500 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: HEDACC300568; year: 2002; CPU: X01-03620-01; Wi-Fi chip: ISL3873B"
+  ],
+  "signature": "Ba8ep2DJEC2mxDGPzjGGbAv4ojajsRb3cEsPaYf1BPUr7/ZekLY4nox1lD6tFw/boTtUtSo+AKWEpdQelrc1Dw=="
+}

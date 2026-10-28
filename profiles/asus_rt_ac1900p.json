@@ -1,0 +1,61 @@
+{
+  "profile_id": "asus_rt_ac1900p",
+  "brand": "Asus",
+  "model": "RT-AC1900P",
+  "hardware_versions": [
+    "P"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "7a114a998e08c56e9304b10dd831da366ecd3a83e38c162ddf17d24743b2130c",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "34:97:f6",
+    "d0:17:c2"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model ASUS RT-AC1900P; manufacturer Arcadyan WG9117G (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MSQ-RTACHC00; year: 2016; CPU: BCM4709C0; Wi-Fi chip: BCM4360"
+  ],
+  "signature": "YF9MdDlCfzzoDZf9GSvM28VYa50SFAVvo4fw/mgcRJnrUkWFgGUv4TMeOasqKzKd0ujqeDEX4JGIoc/zHM8SCw=="
+}

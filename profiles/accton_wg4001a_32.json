@@ -1,0 +1,56 @@
+{
+  "profile_id": "accton_wg4001a_32",
+  "brand": "Accton",
+  "model": "WG4001A-32",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "586315e6b482d57cd402a2b3ccddf1772dd8c70a94054d0d2515a6326e0ed4ba",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: HED3CRWE454G72; year: 2003; CPU: ISL3893; Wi-Fi chip: ISL3893"
+  ],
+  "signature": "EaiRgukea9m9rJwpG0ol/xMu01k+lMD9RDC+sj3g5CH7Oiw8ccf8Wo6FQTYhZSwDsNhOduqnZK0mUO0kyuIjAQ=="
+}

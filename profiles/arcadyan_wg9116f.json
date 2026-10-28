@@ -1,0 +1,62 @@
+{
+  "profile_id": "arcadyan_wg9116f",
+  "brand": "Arcadyan",
+  "model": "WG9116F",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "29af563fe75f4659f7a0fd3572a38b134793bdcc076fd0ebdb25086f2a1bef44",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "48:f8:b3",
+    "c0:c1:c0"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Arcadyan WG9116F; FCC ID matches Linksys EA6300 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-EA6300; year: 2013; CPU: BCM47081A0; Wi-Fi chip: BCM4352",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-EA6350; year: 2014; CPU: BCM47081A0; Wi-Fi chip: BCM4352",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-EA6350V2; year: 2015; CPU: BCM4708C0; Wi-Fi chip: BCM4352"
+  ],
+  "signature": "WE/O8sgeH/KNJAvlgYLB8mip28ZY7qFJb4gEtlWbVAzqOjjXBR0BIWhGIwgGdPxNbE63sXukCZ6vrcBnkR0DBg=="
+}

@@ -1,0 +1,60 @@
+{
+  "profile_id": "3com_airconnect_3crdw696_rev_a",
+  "brand": "3Com",
+  "model": "AirConnect 3CRDW696 rev A",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "acd03bd0454a0b5c5d16472f15ff3c0381565568e77a322fb3c949c6ce7818b4",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:04:75",
+    "00:0e:6a"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model 3Com AirConnect 3CRDW696 rev A; manufacturer Gemtek WL-360F (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MXF-C901005, MXF-C910729; year: 2002"
+  ],
+  "signature": "/oVcInzyCkAdLctAfSPyZrjABbnS+h8w0h2yGU6k84gkEBST24K3nOPuKqGpx0i0b4IuF8uA9Dg5KNeAGPpfDw=="
+}

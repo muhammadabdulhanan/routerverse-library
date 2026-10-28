@@ -1,0 +1,59 @@
+{
+  "profile_id": "accton_wg3001_bk",
+  "brand": "Accton",
+  "model": "WG3001-BK",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "9d151a05d764427cbf261bf4fc4875b9bd497e861c9a15b036a92ba7319a6c44",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:c0:b7"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Accton WG3001-BK; FCC ID matches APC WMR1000B — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: HEDWA3001B17; year: 2003; CPU: ADM8628; Wi-Fi chip: ADM8628"
+  ],
+  "signature": "OsyFS+pzzYB97kjPWFMojEZy9zsunymRy2b9EQreT1KBnPESmVN7i/pIxZ0U3aaCsba5LenDXgH2AVB45GaJDg=="
+}

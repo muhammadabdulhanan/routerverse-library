@@ -1,0 +1,56 @@
+{
+  "profile_id": "atmel_at91sam9g20_ek",
+  "brand": "Atmel",
+  "model": "AT91SAM9G20-EK",
+  "hardware_versions": [
+    "2MMC"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "6f4a6d69ab9c68ac0c53ab74faf161930ce2d7dad879bc20b23be7ed90b66749",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target at91/sam9x); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "2lxwsqgur4h5QHIqJr1p7VTsyyCjDkqOoMiIp2gut/xaopbVKlMBeKDFnAYuLLIhIvWePNXEu3mY9VE2+gCoAQ=="
+}

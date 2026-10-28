@@ -1,0 +1,59 @@
+{
+  "profile_id": "3com_homeconnect_3crwe50194",
+  "brand": "3Com",
+  "model": "HomeConnect 3CRWE50194",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "5d81b226d39d36871309d5a373803a49f52a4ee0faa4f801d49093731c7d41e2",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:01:03"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model 3Com HomeConnect 3CRWE50194; manufacturer Accton WG3002-32 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: DF63CRWE50194; year: 2000; CPU: S3C4510; Wi-Fi chip: AT76C510"
+  ],
+  "signature": "8vNmS7oWmGIXb9G1nMMb4zAJ/mUgJ5n9+24ME41QKhrx12k6waSYYSa+91Mx+leCsBHddYOIU7AFktLr4r2FBA=="
+}

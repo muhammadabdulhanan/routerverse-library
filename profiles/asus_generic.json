@@ -1,0 +1,78 @@
+{
+  "profile_id": "asus_generic",
+  "brand": "Asus",
+  "model": "Asus (generic)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "44cdcb21e4622cbe0ed58a9175f011b8f3962cab68478810fb8d8fc6e3831ee4",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:24:8c",
+    "04:d4:c4",
+    "1c:87:2c"
+  ],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [
+        "ASUS Login",
+        "AiCloud"
+      ],
+      "server_header_contains": [
+        "AsusWRT"
+      ],
+      "realm_contains": [],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": []
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Fingerprint: recog (recog_html_title) ASUS AiCloud.",
+    "Brand-level fallback: model-level match pending.",
+    "Fingerprint: recog (recog_html_title) ASUS Router/Network Device.",
+    "Fingerprint: recog (recog_http_servers) AsusWRT Firmware."
+  ],
+  "signature": "VmCjy0HL4MbYyae/M17Sr37cOrio4Kd5PjXFK4oRiO7Sq1cB8UkvH907as5w/S6JgsCk2jdufTRGmpIrDhB6Aw=="
+}

@@ -1,0 +1,61 @@
+{
+  "profile_id": "arcadyan_wg9117b",
+  "brand": "Arcadyan",
+  "model": "WG9117B",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "3a75bd9fbdf05c1f40650e0c2ce70e056e58e2f247b55c5a5bbe71e3ca98a35c",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "88:d7:f6"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MSQ-RTACHN00; year: 2017; CPU: BCM4906; Wi-Fi chip: BCM4366E",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-EA9200; year: 2014; CPU: BCM4709A0; Wi-Fi chip: BCM43602",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-EA9500V2; year: 2017; CPU: BCM4908; Wi-Fi chip: BCM4366E",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-EA9500; year: 2015; CPU: BCM4709C0; Wi-Fi chip: BCM4366"
+  ],
+  "signature": "EmqUqFHgSGzeaFz8RYjA47KCcVmRyd5+Wmtlll9lo2/dRSC9QE3K3NJ/6+ZkzSwfAbugnaHyhfiSEmYNHOWpAQ=="
+}

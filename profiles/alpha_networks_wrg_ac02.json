@@ -1,0 +1,58 @@
+{
+  "profile_id": "alpha_networks_wrg_ac02",
+  "brand": "Alpha Networks",
+  "model": "WRG-AC02",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "5e398627f5c49dc5888d1c1d1baf38e104cc752b9980534d95c27f198d84cbca",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "c8:d3:a3"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: KA2IR868LA1, RRK2012060056-1; year: 2013; CPU: BCM4708; Wi-Fi chip: BCM4360"
+  ],
+  "signature": "DYw95mGM06J3jJhqtWR9xHF/PNno6/gi/memW6bNLLk0ZnKLeoZjawMj39a+1x+Wn9brYj+0QDFYf2g051aWDw=="
+}

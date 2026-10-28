@@ -1,0 +1,62 @@
+{
+  "profile_id": "asus_aam6020vi",
+  "brand": "Asus",
+  "model": "AAM6020VI",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "13492c9e042c0472ddd424e78ecb2cfa15f847bbe3dc83598ec3082c59329a92",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:24:8c",
+    "04:d4:c4",
+    "1c:87:2c"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model ASUS AAM6020VI; FCC ID matches Paradyne 6218-I2-200-0CC — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: KA2SL2600UT, MSQAAM6KVIB6; year: 2007; CPU: BCM6348S; Wi-Fi chip: BCM4318",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: KA2SL2640BB3; year: 2010; CPU: BCM6333; Wi-Fi chip: BCM4312"
+  ],
+  "signature": "FblrgRYUEmbH4wWuA3l5mnN9j0osnFGdW90Wtd3A/O56fuqdtlBIvv6OXxnP4AGPeZNn1M5wsF6NBbQ+3ZanBw=="
+}

@@ -1,0 +1,63 @@
+{
+  "profile_id": "askey_rt2320w",
+  "brand": "Askey",
+  "model": "RT2320W",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "6b96820896eaa62903af998eb66cfe4c65e46eff45243651cb16935a33cdf60f",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "08:60:6e",
+    "10:bf:48",
+    "30:85:a9",
+    "50:46:5d",
+    "d0:17:c2"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Askey RT2320W; FCC ID matches Asus RT-AC1750 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MSQ-RTAC66U; year: 2012; CPU: BCM4706; Wi-Fi chip: BCM4360"
+  ],
+  "signature": "rJOGmt66a/k/RVuWRIJh+o6FRrGhcQlOM4dAvBl7WweLixDDwUZzzYtvhaeaNrFV7FgBDXtr5Gw8EOT+6EmuDQ=="
+}

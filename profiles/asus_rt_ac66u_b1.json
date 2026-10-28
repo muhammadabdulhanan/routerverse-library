@@ -1,0 +1,60 @@
+{
+  "profile_id": "asus_rt_ac66u_b1",
+  "brand": "Asus",
+  "model": "RT-AC66U B1",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "6d35cb3244b968d15ca4d07e19efdf0c2f716398512a595a54426845d11abe64",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "70:8b:cd",
+    "d0:17:c2"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model ASUS RT-AC66U B1; manufacturer Arcadyan WG9117A (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MSQ-RTACHC00; year: 2016; CPU: BCM4708C0; Wi-Fi chip: BCM4360"
+  ],
+  "signature": "04JtX9+oe0S3BGxPb55/+qKIXDXqQZNzLrIPLibrJBOBlqhXF1pTxYetByr10S/QNLy6+kFccmCX0qkTCaoZCg=="
+}

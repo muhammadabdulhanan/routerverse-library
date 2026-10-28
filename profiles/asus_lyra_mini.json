@@ -1,0 +1,59 @@
+{
+  "profile_id": "asus_lyra_mini",
+  "brand": "Asus",
+  "model": "Lyra Mini",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "7b76f5de4a561d40d1c22017f14d0d28a088edd130052daeea65befacc096d42",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "34:97:f6"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model ASUS Lyra Mini; manufacturer Pegatron HiveDot (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MSQ-RTACBV00; year: 2017; CPU: IPQ4018; Wi-Fi chip: IPQ4018"
+  ],
+  "signature": "UHooQJYJxdMzJFhbv82C36/v6WfD9sZRUaUdiSpUBCnX+ez1o0Em29REOklB1NTPNdW/+kPqHTQe0xPnQqc/CQ=="
+}

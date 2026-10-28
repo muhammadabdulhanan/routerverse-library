@@ -1,0 +1,60 @@
+{
+  "profile_id": "amx_nxa_wap200g",
+  "brand": "AMX",
+  "model": "NXA-WAP200G",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "a54956b975bd652994069d78536db7106c516dcfdac047b2e957822716093a0b",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:02:e3"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PPQWP300UP; year: 2004; CPU: IP2022; Wi-Fi chip: ISL3880",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model AMX NXA-WAP200G; manufacturer Lite-On WP300UP (DeviWiki live)."
+  ],
+  "signature": "+NIsZlj+e/TpvMOZgiPPyd+dhF0Ta5vuAtmV3sWP/OlfFPJZuIS/7EgpJzN8D34CN6rfFSuLNS8wWpcXt2kMDg=="
+}

@@ -1,0 +1,57 @@
+{
+  "profile_id": "askey_wlu6250_d14",
+  "brand": "Askey",
+  "model": "WLU6250-D14",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "376c889dde81d60d58e156fd2471e5a457210ac17cb95ef36cabadd3632967d1",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Askey WLU6250-D14; FCC ID matches Kingston Wi-Drive+ — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: ZME-WIDP; year: 2012; CPU: AM1806S; Wi-Fi chip: BCM43362"
+  ],
+  "signature": "eoUSVnpCcn/PnHut0ggL5OYncMG1cbb76BEdzqxDN2OGtrYEG3crM1EWjtDwu26UJaklJC6HczGuIWXWnQn/Dw=="
+}

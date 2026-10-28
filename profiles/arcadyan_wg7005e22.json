@@ -1,0 +1,61 @@
+{
+  "profile_id": "arcadyan_wg7005e22",
+  "brand": "Arcadyan",
+  "model": "WG7005E22",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "0dec7d9b73f5f5862ff58c14fcb949d73498edbe9394e4da3caef38a941e246a",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:22:75",
+    "94:44:52"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Arcadyan WG7005E22; FCC ID matches Belkin F5D8236-4 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: K7SF5D8236V2; year: 2008; CPU: RT3052F; Wi-Fi chip: RT3052F",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: K7SF7D2301V1; year: 2010; CPU: RT3052; Wi-Fi chip: RT3052"
+  ],
+  "signature": "RESGI0v+moGmF0kmpqGXJIVYFlIn07CDg6eC6Dfy9yCqqDE8lzXra5Es2RW3Rhdpu0rpO+hM57lybts2YhEKAQ=="
+}

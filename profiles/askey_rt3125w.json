@@ -1,0 +1,61 @@
+{
+  "profile_id": "askey_rt3125w",
+  "brand": "Askey",
+  "model": "RT3125W",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "504a8fd32972cd6fc61fa3e5fb0fd0fc6b9ad4bc2d2628239fbc23a955d77aef",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:13:10",
+    "00:16:b6",
+    "00:18:39"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Askey RT3125W; FCC ID matches Netgear WPNT834 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-WRT54GX4, SA3-AGN3023MX0100; year: 2005; CPU: RTL8651B; Wi-Fi chip: AGN303BB"
+  ],
+  "signature": "26Uh3pnHb3X3Nbip93/fCPgR8BbWDHnckpDCWK5UD/5VbuXw+TQAtdtHjI2VAZwzNPbXz1wae/ZE4gq/LYgSCA=="
+}

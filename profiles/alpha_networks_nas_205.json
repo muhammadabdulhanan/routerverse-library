@@ -1,0 +1,58 @@
+{
+  "profile_id": "alpha_networks_nas_205",
+  "brand": "Alpha Networks",
+  "model": "NAS-205",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "acb6f23cadbd143440a97c6c8208faecc5404278cbcb5af04ef03607a2015e81",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "5c:33:8e"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2010; CPU: 88F6281"
+  ],
+  "signature": "FPvFG00WX3Jp3FwcqMEwgFH8gv71bP3Nh9U2G9Pd/C4vk+XTmj9iq+ytU7A2P8iMvOlnhViMExt0iFp36J3pDA=="
+}

@@ -1,0 +1,57 @@
+{
+  "profile_id": "alpha_networks_wrg_n79",
+  "brand": "Alpha Networks",
+  "model": "WRG-N79",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "a3071d020dfa3957f789302119775fee8efbdacda22712e359b47279952435d3",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Alpha Networks WRG-N79; FCC ID matches Sony VGP-WAR100 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: RRK-VGPWAR100; year: 2013; CPU: RTL8196EU; Wi-Fi chip: RTL8188ER"
+  ],
+  "signature": "5qalp/97TgNXTbUXDK1YycHg46NB8/nZBdl8avViri+O9o3JLXsNhpZ93xzudBamLvZOy0MkT/um05nsUn9CCg=="
+}

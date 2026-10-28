@@ -1,0 +1,61 @@
+{
+  "profile_id": "asus_wl_500",
+  "brand": "Asus",
+  "model": "WL-500",
+  "hardware_versions": [
+    "(R1.92)"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "20503e7e49dc0aafd6d05bee143720d97395b2eaf6d6a3c8c8c69982b0109706",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:0c:6e",
+    "00:e0:18"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer unproven (no manufacturer property).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MSQPCCAC100, MSQWL100, MSQWL500; year: 2001; CPU: GDS1110BD; Wi-Fi chip: ISL3873"
+  ],
+  "signature": "kZZBGGwRlzHhsc+Znc+1rcz5Cn5X7rIJ7Z/oFIK2GSmm8prLQJCH1tycSKZEOoMJ+km9TnXt3mOikvXednAdCw=="
+}

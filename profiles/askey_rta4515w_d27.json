@@ -1,0 +1,59 @@
+{
+  "profile_id": "askey_rta4515w_d27",
+  "brand": "Askey",
+  "model": "RTA4515W-D27",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "44c3c664554074b51a781b335e661bbf0827cb21d25cef48113ccebc86f23f0c",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "74:44:01"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Askey RTA4515W-D27; FCC ID matches Netgear VersaLink B90-755025-15 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: CH8B755; year: 2011; CPU: PSB 50810; Wi-Fi chip: AR9227"
+  ],
+  "signature": "vl+j58+KGakX8maV6Ono3Vm4A9K8o/s4+tOIggFpNmBptV/qqPjf2rVY5Iu8jdwDrc1mCMBAdSXydQ5eYsLcAg=="
+}

@@ -1,0 +1,60 @@
+{
+  "profile_id": "askey_pke938b_d49",
+  "brand": "Askey",
+  "model": "PKE938B-D49",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "173997a38160244d0d3725f3257a4c10dac5319d87602b0a2cf7fe2b6ce06231",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "28:be:9b",
+    "80:c6:ab"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Askey PKE938B-D49; FCC ID matches Thomson DWG875T — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: H8NPKE938; year: 2010; CPU: BCM3380; Wi-Fi chip: BCM43224"
+  ],
+  "signature": "wLlLwboYHfBj/iXGCldBPbSTwQ0TLEzRU4GBAwtBSshuQdITXyabqhcYnsK2IWbCGJ6SLVtNNGPvUvfWcAY6Cw=="
+}

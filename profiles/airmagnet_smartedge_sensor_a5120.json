@@ -1,0 +1,57 @@
+{
+  "profile_id": "airmagnet_smartedge_sensor_a5120",
+  "brand": "AirMagnet",
+  "model": "SmartEdge Sensor A5120",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "7b54d67b348d376f740f97e75edebc657d96bf2fa32030cb7a97b7caae9ad081",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model AirMagnet SmartEdge Sensor A5120; manufacturer Gemtek WAPD-143AG (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: RD7-A5020; year: 2005; Wi-Fi chip: AR5213A"
+  ],
+  "signature": "+Kj1118QkSfal9bOgnIq00oTgOf79qEP8De6EH5/Csb4JyNtmGKUlEZs4ntQmypnfZg80Bv5yotAqmXmIbIEDA=="
+}

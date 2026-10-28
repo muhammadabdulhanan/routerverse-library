@@ -1,0 +1,60 @@
+{
+  "profile_id": "arcadyan_wga911fa",
+  "brand": "Arcadyan",
+  "model": "WGA911FA",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "2512ee673a5c577a901c3c13205b556df424cdb0f1559e7e94aa7de742602a7b",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "30:5a:3a",
+    "60:45:cb"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Arcadyan WGA911FA; FCC ID matches Asus GT-AC5300 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MSQ-RTGZ00; year: 2017; CPU: BCM4908; Wi-Fi chip: BCM4366E"
+  ],
+  "signature": "UX2rUpENs4FJwIPGHfXGPx+og/vh9QVqPnXmIviemfPF5JvCfAwkeMR/Szuo+xspKWjc7boXi7ojZwDV0FWcBA=="
+}

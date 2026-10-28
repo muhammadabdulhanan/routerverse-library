@@ -1,0 +1,58 @@
+{
+  "profile_id": "arcadyan_wa8001b",
+  "brand": "Arcadyan",
+  "model": "WA8001B",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "cf670b403059d6d54f9492df876e0c1e49387df3edfc8ad2dad772fc73a20a58",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Arcadyan WA8001B; FCC ID matches Airsonics GXT542U — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: RAXWA8001BAC; year: 2015; CPU: QT3840BC; Wi-Fi chip: QT3840BC",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: RAXWA8001BAC2; year: 2016; CPU: QT3840BC; Wi-Fi chip: QT3840BC"
+  ],
+  "signature": "B7kubnIYBdRiGiv5TzfrI2CgQcyL3aZSEYjJPVM0MDEeDRcgdF5SBx5rfq1y30yGg/tF7K0voOHp+Px3s6WJDg=="
+}

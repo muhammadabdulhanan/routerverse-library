@@ -1,0 +1,57 @@
+{
+  "profile_id": "araknis_networks_an_510_ap_i_ac",
+  "brand": "Araknis",
+  "model": "Networks AN-510-AP-I-AC",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "56704a1970db40167acd32271011ade6120592b32d856b1cc6f0383e503c9ce5",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Araknis Networks AN-510-AP-I-AC; manufacturer Emplus WAP353 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: 2AG6R-AN510APIAC; year: 2019"
+  ],
+  "signature": "9W+4IhXSrp5kUaGyIBw7vyAKyuUOgfvXu0EzrlzqA/JW3PtXDRkLUE1aQJFG8CkXmCAkWjRPqMuFnUdoVyGUAA=="
+}

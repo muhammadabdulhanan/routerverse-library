@@ -1,0 +1,58 @@
+{
+  "profile_id": "askey_rta4525w_d31",
+  "brand": "Askey",
+  "model": "RTA4525W-D31",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "7624356635adfee4b5624d4f8f47c04ddfb9f940ab4399a0fbf8cad403b2d516",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "90:01:3b"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); CPU: PSB 50810; Wi-Fi chip: AR9227"
+  ],
+  "signature": "zRMw3aWvDxYfOuVOYsGAzwm3kG5NW/vKJ4rR1JJUlSaUYsibO6CCF1n6ilnkMbTNS2Pm3Ygo4n/AkfrUiqnsDQ=="
+}

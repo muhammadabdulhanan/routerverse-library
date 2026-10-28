@@ -1,0 +1,60 @@
+{
+  "profile_id": "alpha_networks_wap_nd03",
+  "brand": "Alpha Networks",
+  "model": "WAP-ND03",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "1c053ecb693b055b9302ea3b4cd46417a11a9adfc3b75cf16fec3ed504508304",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "1c:7e:e5",
+    "c8:be:19"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Alpha Networks WAP-ND03; FCC ID matches D-Link DAP-2553 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: KA2AP2553A1; year: 2008; CPU: AR9132; Wi-Fi chip: AR9132"
+  ],
+  "signature": "HBeuTh5VNfS8Wv4AwBZWzbIaKk0TxDXWx8M1i4OmOOsLiGb73aG6Qq3OUN2HRLU7R0JV0hTExXg0bbKxLUScDg=="
+}

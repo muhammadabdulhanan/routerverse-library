@@ -1,0 +1,58 @@
+{
+  "profile_id": "3com_3crgpoe10075",
+  "brand": "3Com",
+  "model": "3CRGPOE10075",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "2cae1eec9af6bb8605ff74d7654d23e221a23edb685897e3a63f2186b60fd125",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: P27AP51GA; year: 2004",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model 3Com 3CRGPOE10075; manufacturer SerComm AP51GA (DeviWiki live)."
+  ],
+  "signature": "h7gBBXgLY5AT/PEZZrY0bnpFFqaB1YJY6sf+w1kme0QUkV5rP8x9R36bdugQ1WjMl9oMsIrRo37odgg3oTOPCw=="
+}

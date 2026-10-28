@@ -1,0 +1,60 @@
+{
+  "profile_id": "alpha_networks_wrg_ac05",
+  "brand": "Alpha Networks",
+  "model": "WRG-AC05",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "0a3c2e9d41b6095bdf165b3246e2298eb466f795eec33b1e3f1f43f0c9c2d6bd",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "90:94:e4"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Alpha Networks WRG-AC05; FCC ID matches D-Link DAP-1650 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: KA2AP1650A1; year: 2013; CPU: RTL8197D; Wi-Fi chip: RTL8812AR",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: KA2IR850LA1; year: 2013; CPU: RTL8197D; Wi-Fi chip: RTL8812AR"
+  ],
+  "signature": "o71ip7QVtoDQk3cFSDWJ1ykO8FdrADkV1V46QC+y+9lH9mLxSxYa5mEVC5OvVUfGLV1o0VoOlh4+Mga91a9PBQ=="
+}

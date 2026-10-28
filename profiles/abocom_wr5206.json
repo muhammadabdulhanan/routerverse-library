@@ -1,0 +1,61 @@
+{
+  "profile_id": "abocom_wr5206",
+  "brand": "AboCom",
+  "model": "WR5206",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "804db9a49f95ebba4cad4e40da653dbf95b91112c3fb37f192b5b63fb4581edc",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:23:f8",
+    "cc:5d:4e"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model AboCom WR5206; FCC ID matches Zyxel NBG-419N — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: I88NBG419N; year: 2009; CPU: RT3052; Wi-Fi chip: RT3052",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: I88NBG419N, MQ4WR5205; year: 2009; CPU: RT3052; Wi-Fi chip: RT3052"
+  ],
+  "signature": "ok73NK0Wj+Pl5hSgQrBUrMjc0xVUhlZT78fswE34htxF3OvC+p59+KlQ4jMePoRywOAa+H+zva8toZ4aK5H/BA=="
+}

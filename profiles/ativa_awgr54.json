@@ -1,0 +1,60 @@
+{
+  "profile_id": "ativa_awgr54",
+  "brand": "Ativa",
+  "model": "AWGR54",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "8b87c9792451503ddb733f5e805e056257bb3b587fa7110732afac2c7eacac4c",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:17:3f"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: RAXWG4005G; year: 2006; CPU: AR2317; Wi-Fi chip: AR2317",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Ativa AWGR54; manufacturer Arcadyan WG4005G (DeviWiki live)."
+  ],
+  "signature": "Br7hppIo6aCzH6Iw0tGIcd3jMpxXXjRy5N+Khwoqb+u9SgcuGhD0Ng5ufnDfdyZgAvTeld1xMVB4iJlGdv1nBg=="
+}

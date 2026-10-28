@@ -1,0 +1,73 @@
+{
+  "profile_id": "apple_a1354",
+  "brand": "Apple",
+  "model": "A1354",
+  "hardware_versions": [
+    "(MC340LL/A)"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "b0cd53405941284e7ddd6860bac2b3f435841ec12e3bae746ea606ecad1bcf0e",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:26:bb",
+    "10:9a:dd",
+    "24:ab:81",
+    "3c:06:30",
+    "60:f4:45",
+    "78:ca:39",
+    "88:66:5a",
+    "8c:85:90",
+    "90:84:0d",
+    "9c:20:7b",
+    "a4:83:e7",
+    "d0:a6:37",
+    "d8:a2:5e",
+    "f0:18:98",
+    "f8:1e:df"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: BCGA1354; year: 2009; CPU: 88F6281A1; Wi-Fi chip: 88W8366"
+  ],
+  "signature": "pW+B9lx/C+jtVubL2sF2IXz4s31CpzDJ+VSX+T3DMBPuWpDxv20/9XSFhkqIVQiNSGx8AiBuePOC4phiOn9yDg=="
+}

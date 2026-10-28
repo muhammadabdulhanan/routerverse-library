@@ -1,0 +1,60 @@
+{
+  "profile_id": "arris_nvg448b",
+  "brand": "Arris",
+  "model": "NVG448B",
+  "hardware_versions": [
+    "B"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "a349f530291428ecbf4197488989e2b628303c11c6f7fe4452fd6bbb55900a95",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "0c:ea:c9"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Arris NVG448B; manufacturer Foxconn U62L051 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: GZ5NVG4XX, GZ5NVG4XXQ; year: 2016; CPU: BCM63148; Wi-Fi chip: BCM43217"
+  ],
+  "signature": "ZrodUbbjnCbn7dqerKrhW4GGS1gxwAsK7cdkkSNvFrX1fYxUnBi8lHWgY2KalnCsCTf6Y4oR0BJjY7AVfZbOAw=="
+}

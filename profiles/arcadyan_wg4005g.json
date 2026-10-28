@@ -1,0 +1,65 @@
+{
+  "profile_id": "arcadyan_wg4005g",
+  "brand": "Arcadyan",
+  "model": "WG4005G",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "29b28adaf75c79008e52b1f096159b9f2ff9b42c109b8b5ee6f058e87824b306",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:0c:c3",
+    "00:11:50",
+    "00:14:c1",
+    "00:17:3f",
+    "00:1c:df",
+    "00:1d:19"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Arcadyan WG4005G; FCC ID matches Ativa AWGR54 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: RAXWG4005G; year: 2006; CPU: AR2317; Wi-Fi chip: AR2317",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: K7S-F5D7234V3; year: 2008; CPU: AR2317; Wi-Fi chip: AR2317"
+  ],
+  "signature": "uxKNN535DOY2cdy3QDuQMSkLHbm/lTwRb3VBA2UpwCOv6khbBXZ5Gs4z+B/ZsUyVXAJcDK3BbsLO51L9R13UCg=="
+}

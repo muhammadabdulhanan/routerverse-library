@@ -1,0 +1,57 @@
+{
+  "profile_id": "askey_pke1331bp_d49",
+  "brand": "Askey",
+  "model": "PKE1331BP-D49",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "1c123db7b0c761d99bf5df1832b7806c41a82b9a596b47ad8a30cb123303c421",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Askey PKE1331BP-D49; FCC ID matches Technicolor TC8305C — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: H8N-PKE1331BP; year: 2012; CPU: BCM3383Z; Wi-Fi chip: BCM4331"
+  ],
+  "signature": "8IUf00dLFNpZqvmW7J5UmrAcjL2DGv2cfT//SF3k/mOe+jKNsG06Cy0NajW9SWu/QPFe93WpZs9iIZ25qNT7Ag=="
+}

@@ -1,0 +1,59 @@
+{
+  "profile_id": "3com_officeconnect_3crtrv10075_wl_534",
+  "brand": "3Com",
+  "model": "OfficeConnect 3CRTRV10075 (WL-534)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "0b073becfccb73a29c7c46e90900a24dc0113e2619c49dd7a31ca9f89001eb33",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:0f:cb"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model 3Com OfficeConnect 3CRTRV10075 (WL-534); manufacturer SerComm IP802SM (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: P27IP802SM; year: 2004; CPU: 88W8510; Wi-Fi chip: 88W8510"
+  ],
+  "signature": "eSWJ+kBZhl+xQUqyhfuo8NhhZjzjVlVB+01sgE0LzgJlhBw+XQQ8b2yyk+o/mEpXTPMF3KiPrBg9afb8Rue1CQ=="
+}

@@ -1,0 +1,57 @@
+{
+  "profile_id": "alpha_networks_wrg_n93",
+  "brand": "Alpha Networks",
+  "model": "WRG-N93",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "dd2ce22ccba8d93ef3c38b1bde9db2bedbef856ac109cfe7d06ed42c6216a600",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Alpha Networks WRG-N93; FCC ID matches D-Link DIR-605L — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: KA2IR605LB2; year: 2014; CPU: RTL8196E; Wi-Fi chip: RTL8192ER"
+  ],
+  "signature": "ATLfCkv6yK1x+DSEoMMZiVgx59o8oHYjxYdXF+nVETQ6+MgNBsf8CZdw5OPrhJ0XIPBL4DzVLhGoqLTqj7tHDA=="
+}

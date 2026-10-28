@@ -1,0 +1,66 @@
+{
+  "profile_id": "asus_rt_acrh17",
+  "brand": "Asus",
+  "model": "RT-ACRH17",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "5e5d1485edb13f7d8212365cd5d1095f09764f03bfc1848ee308b8af5640d718",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:24:8c",
+    "04:d4:c4",
+    "10:7b:44",
+    "1c:87:2c",
+    "38:d5:47",
+    "ac:9e:17"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target ipq40xx/generic); stock admin fingerprint not inferred from OpenWrt support.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MSQ-RTHD00; year: 2017; CPU: IPQ4019; Wi-Fi chip: IPQ4019",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model ASUS RT-ACRH17; manufacturer Arcadyan WG911DA (DeviWiki live)."
+  ],
+  "signature": "IJRJ+2pJCgVgqgYkCUEAGvuvSZ5r48msTuHxb8FUvQNPML8e7t/UnBJgYY1wQ/0GXwnYMS7+JzIY7iNUmHvMCQ=="
+}

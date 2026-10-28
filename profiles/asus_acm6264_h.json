@@ -1,0 +1,63 @@
+{
+  "profile_id": "asus_acm6264_h",
+  "brand": "Asus",
+  "model": "ACM6264-H",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "157e9d1ed73ec9765ae5199f2d9c229f30e0c4d7b19cd370c84feb8a36d9d20b",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:24:8c",
+    "04:d4:c4",
+    "1c:87:2c"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model ASUS ACM6264-H; FCC ID matches Linksys BEFCMUH4 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PKW-BEFCMUH4; year: 2003; CPU: BCM3360; Wi-Fi chip: ISL3871",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MSQDCW615, QDWAB008WN100; year: 2003; CPU: BCM3360; Wi-Fi chip: ISL3873B",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MSQDCW615A, MXF-C911003; year: 2003; CPU: BCM3360; Wi-Fi chip: BCM4301"
+  ],
+  "signature": "YellGSRgu0uflbCR6lxEHhzCZdBF4aCn5O/SanickOqGSz/r26F7FexiTax4DDcesu2+bQYpEshPc2gj8NegCQ=="
+}

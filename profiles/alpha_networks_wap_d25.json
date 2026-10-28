@@ -1,0 +1,62 @@
+{
+  "profile_id": "alpha_networks_wap_d25",
+  "brand": "Alpha Networks",
+  "model": "WAP-D25",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "694a428579edba36fa0105060a5367b399bc0f9d7e74a696c4d77eadcf5282c0",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:0b:0e",
+    "00:15:e8",
+    "00:19:5b",
+    "00:1f:45"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: QZE200; year: 2005; CPU: AR5312A; Wi-Fi chip: AR5312A",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: RVW2330; year: 2005; CPU: AR5312A; Wi-Fi chip: AR5312A"
+  ],
+  "signature": "dzeb5QYv4LRLR6gK/XOeBmHgUkzbX2PiYMTesxxdZmryrGibwziDt6fW7UeTzbsEhBpb4RY0edAB3xm2MNUSAg=="
+}

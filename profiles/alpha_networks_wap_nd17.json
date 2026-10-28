@@ -1,0 +1,57 @@
+{
+  "profile_id": "alpha_networks_wap_nd17",
+  "brand": "Alpha Networks",
+  "model": "WAP-ND17",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "b15a7d6592506d8e9d6d9450611444e624e75ec8b53aecfbf67d1cd40da0646b",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Alpha Networks WAP-ND17; FCC ID matches D-Link DAP-2690 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: KA2AP2690B1; year: 2012; CPU: AR9344; Wi-Fi chip: AR9344"
+  ],
+  "signature": "lfBqKbNa4x46ZQioq1H0xLmfoCiR/pOULsPXWECe/4a3EAXi9KtUAhbJgb6QNsEgLbkw1JH/m6rcnmnFtOKVAw=="
+}

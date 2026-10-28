@@ -1,0 +1,61 @@
+{
+  "profile_id": "apple_airport_base_station_m5757_graphite",
+  "brand": "Apple",
+  "model": "AirPort Base Station M5757 (Graphite)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "fb80be9f66826e7306d51cf51d2c050dc6c8872d5a443c9458cc9c08916618f5",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:02:2d",
+    "00:30:65",
+    "00:60:1d"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer unproven (no manufacturer property).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: IMRWLPCE24H; year: 1999; CPU: ElanSC400-33AC; Wi-Fi chip: HERMES I"
+  ],
+  "signature": "9FQB951jsmybrSLbi44ocWsabyx8kesvkZoJXSpHMrij4O+WHaZ+jsfIu7N5+cQr3/bxd7miQaWH/PTrDct5Dg=="
+}

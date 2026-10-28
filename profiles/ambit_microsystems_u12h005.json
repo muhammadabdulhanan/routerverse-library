@@ -1,0 +1,59 @@
+{
+  "profile_id": "ambit_microsystems_u12h005",
+  "brand": "Ambit Microsystems",
+  "model": "U12H005",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "42ddc59391a740c5ed8f1de3329148fa808c0513b64b7f36ac80de2ad07c01c7",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:0b:cd"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Ambit Microsystems U12H005; FCC ID matches Netgear FWAG114 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MCLJ07H06901, MCLJ07H06903, MCLJ07H06904, PY3FWAG114; year: 2003; CPU: BCM4702; Wi-Fi chip: AR5212"
+  ],
+  "signature": "E6YUTsVEvAMvM6/2CzdRABUH47PKep49h+jUZFhTI4qw2XF9SN2qUnrGnzOL7P5IQaIb96mrpvOivsbzkj8PBg=="
+}
