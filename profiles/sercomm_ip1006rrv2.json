@@ -1,0 +1,57 @@
+{
+  "profile_id": "sercomm_ip1006rrv2",
+  "brand": "SerComm",
+  "model": "IP1006RRV2",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "330187bf26b79a0784afec53ec94bab6b046ba4b49b572170e5324b61dd67e63",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model SerComm IP1006RRV2; FCC ID matches Honeywell WAP — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: P27IP1006RRV2; year: 2008; CPU: RT3052; Wi-Fi chip: RT3052"
+  ],
+  "signature": "fBV7gWF9eZhReDWF2mRk2KtCwUBUt0md8oW80AuktkA6WK6PSsQdbMch9hdkA+zJP4M+6XpQ7WS/EUOF+9j0BA=="
+}

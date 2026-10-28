@@ -1,0 +1,62 @@
+{
+  "profile_id": "netgear_wpn824v2",
+  "brand": "Netgear",
+  "model": "WPN824v2",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "05859d942cf673cb0a2bd5abea35e46a302b7ce4e5c7c346af90b6e90ff86e9f",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:14:6c",
+    "00:18:4d",
+    "00:1b:2f",
+    "00:1e:2a"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Netgear WPN824v2; manufacturer Foxconn U12H050 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY305300021; year: 2005; CPU: AR2316A; Wi-Fi chip: AR2316A"
+  ],
+  "signature": "YLw1uaI5CMPhDLx6EdJ4DnrX0Jk8IwtD/Q8QxiyRl/2eJnVnmrbJX0Vtns0A8Em6DCrn1XdQ1N0yLqBwlhRgBg=="
+}

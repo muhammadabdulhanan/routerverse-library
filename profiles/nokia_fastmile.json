@@ -1,0 +1,59 @@
+{
+  "profile_id": "nokia_fastmile",
+  "brand": "Nokia",
+  "model": "FastMile",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "ff36844663167e88e52e33a80c320e62e62f2ab3062d7a314b5a58e1ba99e288",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "44:44:4c",
+    "a0:51:0b"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Saudi ISP context (STC/Mobily/Zain): network-compatible, ISP issue unproven — no tender/support/manual source confirms ISP issue. Nokia FastMile 5G Gateway (5G16-12W-A family)."
+  ],
+  "signature": "cE/Ze+qNVzUF2IdSVXjoSPLXEala0T3p+bKLdTiEpT74fWPSRlUCkTVNJDUX3/7xotsy9BKbnp4SFXvsI3HIDg=="
+}

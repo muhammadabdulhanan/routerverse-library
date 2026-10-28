@@ -1,0 +1,58 @@
+{
+  "profile_id": "shenzhen_gongjin_electronics_grnv6_1u23",
+  "brand": "Shenzhen Gongjin Electronics",
+  "model": "GRNV6.1U23",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "d4bc86fe6b2130839da3643360f7c9cfeafff6d2431dae9502cf34495e47777d",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "84:c9:b2"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); CPU: Comcerto 1000 (M83241G-13); Wi-Fi chip: AR9283"
+  ],
+  "signature": "7jaDmQ/5vRdJ2HTOmYHGmyogBwQJvvs9mmI46skOCSNm6xwrgQ/iXVQCkAFNDxAWdlY0DA2RSHQdv0zV2glGAg=="
+}

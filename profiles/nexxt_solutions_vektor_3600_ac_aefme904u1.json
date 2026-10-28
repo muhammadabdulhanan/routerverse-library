@@ -1,0 +1,60 @@
+{
+  "profile_id": "nexxt_solutions_vektor_3600_ac_aefme904u1",
+  "brand": "Nexxt Solutions",
+  "model": "Vektor 3600-AC (AEFME904U1)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "6d6483bc0bf86a33155a0565a6aa6f8f5305093de86c0d0a6a311b307010b01a",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "c0:25:67"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Nexxt Solutions Vektor 3600-AC (AEFME904U1); manufacturer Tenda Mesh3f (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: V7TMESH3F, X4YVEK3600; year: 2019; CPU: RTL8197FNT; Wi-Fi chip: RTL8197FNT"
+  ],
+  "signature": "YeHawIjsL1yT4yogqkBTsngliSgADLbO0mpmSFe4LjtcJbq9VdhYO4LswEFWpjQpW6DaKkX0p8PSKn75nlTACQ=="
+}

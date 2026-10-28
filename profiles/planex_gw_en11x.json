@@ -1,0 +1,58 @@
+{
+  "profile_id": "planex_gw_en11x",
+  "brand": "Planex",
+  "model": "GW-EN11X",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "06e48bdcc09f2b0bd24a531d87716a10e5c3fa8611ac5ceaa2a55e058fd4e0ec",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: N89-WA310A; year: 2003; CPU: IP2022; Wi-Fi chip: WL600101LY",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Planex GW-EN11X; manufacturer CyberTAN WA310A (DeviWiki live)."
+  ],
+  "signature": "ps94EBAq9GcWGTWPmFuLIjhSNWA59W6YJxgCQ9T8P8y0tF6K1hFOCBYHbdqblSdPFoYX1rdwGcZehpYVUeQfCQ=="
+}

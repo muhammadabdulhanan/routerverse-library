@@ -1,0 +1,80 @@
+{
+  "profile_id": "netgear_rax40",
+  "brand": "Netgear",
+  "model": "Nighthawk RAX40",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "8c7b315525c9c2c2261d3d34ede38afb4e18e56854f0386a65cbfae1e50a14db",
+  "last_updated": "2026-10-28",
+  "status": "unverified",
+  "oui_prefixes": [
+    "00:09:5b",
+    "00:14:6c",
+    "a0:04:60",
+    "a0:63:91",
+    "c4:04:15",
+    "e4:f4:c6"
+  ],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [
+        "NETGEAR",
+        "RAX40"
+      ],
+      "server_header_contains": [],
+      "realm_contains": [
+        "NETGEAR"
+      ],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": [
+        "RAX40",
+        "NETGEAR"
+      ]
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet."
+  ],
+  "signature": "DxzE2iwfLuqURS6ihJVKGAoohYwph5DU52j7sBDIBZoDyCCP/pz1yHtd9ibVP/lYuTgDTIJcrHnxeGo7aN+RBQ=="
+}

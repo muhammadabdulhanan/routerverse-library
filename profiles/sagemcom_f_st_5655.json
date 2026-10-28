@@ -1,0 +1,58 @@
+{
+  "profile_id": "sagemcom_f_st_5655",
+  "brand": "Sagemcom",
+  "model": "F@ST 5655",
+  "hardware_versions": [
+    "V2",
+    "V2 CanalBox",
+    "V2 GPON ONT"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "1f096f36913e8fd9c230082d15c5f6fa03ff7ff5d3b7ef4dd501394a9b68d199",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work"
+  ],
+  "signature": "q2NDztCsGv1INDAOptY/AJuxyLJPRYVMiNYRAs3bt+ru9SLl2R02m4p6H30Pn+T49D2P+vrI+xOG9ZSGt5QfCw=="
+}

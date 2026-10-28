@@ -1,0 +1,59 @@
+{
+  "profile_id": "netgear_nighthawk_m5_fusion_mr5000",
+  "brand": "Netgear",
+  "model": "Nighthawk M5 Fusion (MR5000)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "021f4238c89c7590966677097ce7eeb775e67a7f597029fbc6fc58431ddc0721",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "3c:37:86"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer unproven (no manufacturer property).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY318300428; year: 2018; CPU: SM8150; Wi-Fi chip: WCN3998"
+  ],
+  "signature": "ORLhPTO8OUBTr0CRkBHLmQNZjY2nrFoguvr8aHJVUyX7wRl7akO5nisBBNZn8IdpGkx9Wzi2+hX1eBJESKepCQ=="
+}

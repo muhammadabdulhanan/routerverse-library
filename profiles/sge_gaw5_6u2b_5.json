@@ -1,0 +1,59 @@
+{
+  "profile_id": "sge_gaw5_6u2b_5",
+  "brand": "SGE",
+  "model": "GAW5.6U2B-5",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "be2c5763a0e816054c45b93be66cfe774cf788ffe6f05e43f84e9af0dc84060f",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "6c:2e:85"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model SGE GAW5.6U2B-5; FCC ID matches Sagemcom F@st 1704 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: VW3FAST1704; year: 2010; CPU: BCM6338; Wi-Fi chip: BCM4312"
+  ],
+  "signature": "WyuVymFHaWmRDAEiokqDxMxOJBCqRJd+ypa2BjLPQsBR6qpy0UmMlJfMiy0ssCySb3AxFBmP4kxuu/Yd/sKXCw=="
+}

@@ -1,0 +1,57 @@
+{
+  "profile_id": "shenzhen_gongjin_electronics_gpn2_8p61a_c",
+  "brand": "Shenzhen Gongjin Electronics",
+  "model": "GPN2.8P61A-C",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "3e81e23fc42dd25e70749e8dc4c96b6945aacc1b7f05bbfc079dbe8b5be62415",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Shenzhen Gongjin Electronics GPN2.8P61A-C; FCC ID matches Actiontec WPB3000 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: LNQWPB3000; year: 2013; CPU: AR9344; Wi-Fi chip: AR9344"
+  ],
+  "signature": "5CiB/6NK0Frh83lv8njAhhTve1I2pogmeD0hm5qQrIlqlV5vwiXJxigz0gQuQ89nGg6xsd/GBdAlZFKu7+txDA=="
+}

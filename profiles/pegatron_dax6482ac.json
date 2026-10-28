@@ -1,0 +1,60 @@
+{
+  "profile_id": "pegatron_dax6482ac",
+  "brand": "Pegatron",
+  "model": "DAX6482AC",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "dff4ab253376ca722f571b9881d39638ae4cba72037588d6113ab61bcf9cc6da",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:90:4c",
+    "f8:35:dd"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Pegatron DAX6482AC; FCC ID matches Arris SBG6700-AC — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MXF-WPEB135N, UIDSBG6700; year: 2014; CPU: BCM3383G; Wi-Fi chip: BCM4360"
+  ],
+  "signature": "TwluER43DjyqUgCobR7C8Wg05u8ncdQJ79tCKshDOQJaDmrQMaTFyEXrDDQxUEBuxmAqbxyZYdRAbKWCwu8aBQ=="
+}

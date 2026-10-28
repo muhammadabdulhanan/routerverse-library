@@ -1,0 +1,57 @@
+{
+  "profile_id": "nexxt_solutions_amp_300_arn02304u8",
+  "brand": "Nexxt",
+  "model": "Solutions Amp 300 (ARN02304U8)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "9f5bfc0cdb71e9d871b1bb9d6fd698fa892fec44199ed0284d44b91f8943dc86",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer unproven (no manufacturer property).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: X4YAMP300; year: 2017; CPU: MT7628N; Wi-Fi chip: MT7628N"
+  ],
+  "signature": "9FMIStTTfJYvOWgZZ13IMvsOY03Ppytg1OBmWgyuTkwgcMTLydVkZyXwmgCn9EiWgC65/7A2zv5EHgSNph64CA=="
+}

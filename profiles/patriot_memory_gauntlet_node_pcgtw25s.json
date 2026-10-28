@@ -1,0 +1,59 @@
+{
+  "profile_id": "patriot_memory_gauntlet_node_pcgtw25s",
+  "brand": "Patriot",
+  "model": "Memory Gauntlet Node (PCGTW25S)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "0e43c97177abcb3fef77a97bd5b01de86c32422ad690c728012a1e7947a27e16",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:0a:d8"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Patriot Memory Gauntlet Node (PCGTW25S); manufacturer Mapower Electronics WiFi DAS (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: LD3WIFIDAS21; year: 2012; CPU: RT5350; Wi-Fi chip: RT5350"
+  ],
+  "signature": "hDG40qdYxIGrwLtp9sBR1UnSbErgOtq15i/eduUGpKM1FhVeYOEGAiQcJizifxFQW+Ns2/Soabxce1pxWrUQCg=="
+}

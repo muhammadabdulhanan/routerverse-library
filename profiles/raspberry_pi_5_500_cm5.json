@@ -1,0 +1,59 @@
+{
+  "profile_id": "raspberry_pi_5_500_cm5",
+  "brand": "Raspberry Pi",
+  "model": "5/500/CM5",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "9bbda6b858d089a1ff741458e44b72bee5243e00adfd2adc53b8d8256356110d",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "b8:27:eb",
+    "dc:a6:32"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target bcm27xx/bcm2712); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "ah0qC4s9xxj30S08GvNfmMS8UdD2Y795HQkENiATWW8uWNYcaVaorTXrTKM+bMPc4l6TPGKWi81PzvpkUjpnAw=="
+}

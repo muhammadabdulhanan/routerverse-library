@@ -1,0 +1,59 @@
+{
+  "profile_id": "siemens_gigaset_sx762",
+  "brand": "Siemens",
+  "model": "Gigaset SX762",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "64f53244c2fe94637f068255c10b8a30e381bba66f7cf1aa816b71a699c07664",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:21:04"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer unproven (no manufacturer property).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: TVU-SX762-SX765, TVU-SX762-SX765-D; CPU: XWAY™ DANUBE (PSB 50702 E V1.3); Wi-Fi chip: AR2413A"
+  ],
+  "signature": "CK9Z9MF80w8nFviM492HEVaEDsstmFN9+h+luZc+rOFCxVq5dJOoyBQEVZzKG3sugLHqbN3WpCIazkpyRR9zAQ=="
+}

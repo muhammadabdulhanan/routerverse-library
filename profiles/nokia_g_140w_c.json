@@ -1,0 +1,60 @@
+{
+  "profile_id": "nokia_g_140w_c",
+  "brand": "Nokia",
+  "model": "G-140W-C",
+  "hardware_versions": [
+    "-C (Shanghai Bell)"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "d0460766b6d5c240b7c4df8d24543e7c30f712fa6c7437f3058052a60a382eee",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "f8:44:e3"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer unproven (no manufacturer property).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: 2ADZRG140WC, 2ADZRG240WFV2, SFK-140W; year: 2018; CPU: EN7526GT; Wi-Fi chip: MT7602EN"
+  ],
+  "signature": "tSUO53sJF/X4iNC2yZQXRrmWvl8hZ/i6f3evrw4d7034EJRzVBZSC18miDU+fwNUPmcUFBXQ8eXDX2ql+1FRBg=="
+}

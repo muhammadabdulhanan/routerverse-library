@@ -1,0 +1,57 @@
+{
+  "profile_id": "senao_etd5_acs",
+  "brand": "Senao",
+  "model": "ETD5-ACS",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "f4258e13f8b7f8d1934a577d24b5190d26352ed00c395c8ad2e6a867966c91f3",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Senao ETD5-ACS; FCC ID matches EnGenius EnStationAC — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: A8J-ENSTACV2; year: 2019; CPU: QCA9563; Wi-Fi chip: QCA9563"
+  ],
+  "signature": "ZJjPgc3Cspo9RknO4vIoic9s4c3PyqYwePEBJSV12uGimicDkwuWkwki7NkaSEfSw/SNIr00+vtycZwFDjygDg=="
+}

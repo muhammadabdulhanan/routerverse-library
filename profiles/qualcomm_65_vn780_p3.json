@@ -1,0 +1,58 @@
+{
+  "profile_id": "qualcomm_65_vn780_p3",
+  "brand": "Qualcomm",
+  "model": "65-VN780-P3",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "cb7e7a48bf9518272a695a98877ce49d3aced173c5e16aae7098e01dfcf1c6da",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: J9C-DC544D1, J9C-DC544D2, J9C-DC544D3; year: 2009; CPU: WCN1320; Wi-Fi chip: WCN1320",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Qualcomm 65-VN780-P3; manufacturer Qualcomm DC544D (DeviWiki live)."
+  ],
+  "signature": "euEhZbLZFFRMpIK6+mm39C6evuJghzVjBSV/EhX3w0B5fFxDDaVNQQT8P3RvYKx0EPLczIF7bSWbqSEFPggACQ=="
+}

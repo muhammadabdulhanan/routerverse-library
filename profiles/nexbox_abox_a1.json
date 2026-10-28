@@ -1,0 +1,59 @@
+{
+  "profile_id": "nexbox_abox_a1",
+  "brand": "NEXBOX",
+  "model": "ABOX A1",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "d00f73de6884292ec3c7ae03230b857ebde9e92d49306defbea2a75b64e38d30",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "68:1d:ef"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model NEXBOX ABOX A1; manufacturer GooBang Doo ABOX (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: 2AMYS-ABOX; year: 2017; CPU: S905X; Wi-Fi chip: RTL8189ETV"
+  ],
+  "signature": "1RO6jGUGmsHN8rp4F/2m172gCq7wI4E4HsEI4rCabVFsiBzdPPGYpjlAXX6pMF+xPBU+tNYo8rU+bcL+CYQaCA=="
+}

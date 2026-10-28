@@ -1,0 +1,56 @@
+{
+  "profile_id": "ptcl_zxhn_f680",
+  "brand": "PTCL",
+  "model": "ZXHN-F680",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "5eac8d3012117009bfd6a4e21eac15df5f520952da9f20cf117a0b2dad19d69a",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "PTCL tender seed: PTCL Refurbished GPON ONTs RFI (18-Aug-2020, ptcl.com.pk). Underlying vendor/model: ZTE ZXHN-F680. Driver family: ZTE ONT. Admin surface = ISP variant, unproven."
+  ],
+  "signature": "10Ou9By9YMG1vjjinoN/mz4p3V4m4OhINJTo4SPkKUpe647DjkwmHN5hf26KoU8GlR1YatOkfaQUCYzIFzmlAw=="
+}

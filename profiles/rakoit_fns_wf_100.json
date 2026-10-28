@@ -1,0 +1,57 @@
+{
+  "profile_id": "rakoit_fns_wf_100",
+  "brand": "RAKOIT",
+  "model": "FNS-WF-100",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "9a9c35ef2d862e6b27d641adf220d502fe4a11a02058837b58e756ca3a78c0ed",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model RAKOIT FNS-WF-100; FCC ID matches Arylic Up2Stream — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: 2AAPP-A31; year: 2018; CPU: MT7688AN; Wi-Fi chip: MT7688AN"
+  ],
+  "signature": "VKKxW74RI5ciIb4GyL/saDN9TrpsjO5xZEXyEgPaC16BRyQUPraA72FzN01xR3OhUR7DOBGITNkDcT4/t01QCg=="
+}

@@ -1,0 +1,66 @@
+{
+  "profile_id": "netgear_wg511_v2",
+  "brand": "Netgear",
+  "model": "WG511 v2",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "8a573a2c77e61b80d1a0c9feb732799756a2917c0ae732569e9c75833a7be976",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:09:5b",
+    "00:0f:b5",
+    "00:14:6c",
+    "00:18:4d",
+    "00:1b:2f",
+    "00:1e:2a"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Netgear WG511 v2; manufacturer Ambit Microsystems T60H747 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY3WG511-F; year: 2003",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Netgear WG511v2; manufacturer Cameo WLG-1101 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: NHPWLG1101, PY3WG511V2H1; year: 2004"
+  ],
+  "signature": "WnEH8jBrfYjXjCH2x3VGetcpoQ/w3o0ir8An3qv/IEdyaLAVnmCpCZLa7hC+q65hK6lScXhQtRbEoYDCb6/DAw=="
+}

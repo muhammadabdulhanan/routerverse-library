@@ -1,0 +1,60 @@
+{
+  "profile_id": "scientific_atlanta_dpr2320",
+  "brand": "Scientific Atlanta",
+  "model": "DPR2320",
+  "hardware_versions": [
+    "(P/N: 4013371), v2 <??>"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "91564b57810bc9a20a72d37209877392bfb6b11a4aec5458c19f097f922bbc02",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:0a:73",
+    "00:0f:21"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: H8N-DPR2320G; year: 2004; Wi-Fi chip: BCM4306"
+  ],
+  "signature": "DUnQT27+IPuc1B/Ve5vJ7ZIHIFjoShpLLy16xu8w12G5tVz333++WIgBcJqio1tNGTrKNYPBFENpZ9BFugTLCw=="
+}

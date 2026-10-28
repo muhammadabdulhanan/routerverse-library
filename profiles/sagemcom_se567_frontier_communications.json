@@ -1,0 +1,60 @@
+{
+  "profile_id": "sagemcom_se567_frontier_communications",
+  "brand": "Sagemcom",
+  "model": "SE567 (Frontier Communications)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "4b54cfbe18476cc392a594a6be619ce6addc1d2cf91e76ac882491af262e20e7",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "c8:cd:72",
+    "e8:be:81"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Sagemcom SE567 (Frontier Communications); manufacturer Siemens Gigaset SE567 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: SN8H650; year: 2006; CPU: TNETD7200; Wi-Fi chip: TNETW1350A"
+  ],
+  "signature": "d4BUMPdkggiSr5W+R7Gqa4igSXD+BfwJdk5lKBOpVfuD3KMQlT5CtCOmD1+bXruWcrdKXXzJJlXSk9yDtmUZCA=="
+}

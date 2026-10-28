@@ -1,0 +1,57 @@
+{
+  "profile_id": "shenzhen_mtn_electronics_mt_wn850n",
+  "brand": "Shenzhen MTN Electronics",
+  "model": "MT-WN850N",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "75abad1c214a2e5517f4b21666c804eaa77aeeebb69e4b5cf5708e89f5cfe8df",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Shenzhen MTN Electronics MT-WN850N; FCC ID matches ReadyNet WRT300N-DD — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Y2PWRT300N-DD; year: 2012; CPU: RT3052; Wi-Fi chip: RT3052"
+  ],
+  "signature": "VZecFKdRthr4ogSG2pAmME1xzoGOp1N42n1y4T3wMZ8lHHLcILoOJofHl7emWI0EKggloB0fsCkz5ogZ1vEBBA=="
+}

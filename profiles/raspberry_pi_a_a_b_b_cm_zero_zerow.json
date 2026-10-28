@@ -1,0 +1,59 @@
+{
+  "profile_id": "raspberry_pi_a_a_b_b_cm_zero_zerow",
+  "brand": "Raspberry Pi",
+  "model": "A/A+/B/B+/CM/Zero/ZeroW",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "9236e6cedd5364cca9cf0caffaccb0d800528e899fc72fbb92635c11ebe69d32",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "b8:27:eb",
+    "dc:a6:32"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target bcm27xx/bcm2708); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "A1xkWvpCug7p80edTUoQ19bSG6s4N4qtewdBdez9GABWU4SUmMW454W6r5ei/8N/2aWj+sN84nQjA7r9TQ5wCA=="
+}

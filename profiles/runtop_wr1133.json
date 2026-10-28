@@ -1,0 +1,57 @@
+{
+  "profile_id": "runtop_wr1133",
+  "brand": "Runtop",
+  "model": "WR1133",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "8be32b29c2a55ed5ff6939ddde21f6efe5647f083a67c58706bf5526ab0db6fb",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Runtop WR1133; FCC ID matches Linksys NWR04B — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PKW-NWR04B; year: 2003; CPU: CX84200; Wi-Fi chip: AT76C502A"
+  ],
+  "signature": "hKZtO+xaM3FcYcw+m4jcTVWM/Hwwuj6J8TJ8GAY1ioiWcflZ/0zXj1N0mQtjNzzfoNkzGeXHd2EZAd4XpV4eAQ=="
+}

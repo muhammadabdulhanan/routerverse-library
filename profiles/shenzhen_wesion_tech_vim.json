@@ -1,0 +1,58 @@
+{
+  "profile_id": "shenzhen_wesion_tech_vim",
+  "brand": "Shenzhen Wesion Tech",
+  "model": "Vim",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "5bf2150bbfbe6ce3b63725947fcbc7d7d9719eabd91de999e48c7785a3995911",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "44:2c:05"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2016; CPU: S905X; Wi-Fi chip: BCM43430"
+  ],
+  "signature": "dTfHqhv38XGB4JoVjYj3SYetMuPm2AWtDyjuuLweT1DIxpkWHdgHXlIycTrXqfSMIYiZK6hGMEhAJSDaDDx6Ag=="
+}

@@ -1,0 +1,56 @@
+{
+  "profile_id": "pegatron_acm6234",
+  "brand": "Pegatron",
+  "model": "ACM6234",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "f1f4ab00e44e6403ca59bd11bcf817a23697aec710c86662d63fe5a5b26cc4eb",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: VUIUPWL6580; year: 2013; CPU: DNCE2530GU; Wi-Fi chip: AR9344"
+  ],
+  "signature": "61JrwrScjxOmX0vqjBXbJHD2aMSkxrEIA7OURxXCNTXeWMTR6LraWi1lFPqde53jF82jnI34gDm9wvHGQji8BQ=="
+}

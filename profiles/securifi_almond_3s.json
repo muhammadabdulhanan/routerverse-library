@@ -1,0 +1,57 @@
+{
+  "profile_id": "securifi_almond_3s",
+  "brand": "Securifi",
+  "model": "Almond 3S",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "1e14429c2dcd8486f92c045d8ef3bc1e0eef81a48a615c85eb0c5e34288bd0a3",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer unproven (no manufacturer property).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: AHL-ALMOND3S, XMR201606EC21A; year: 2018; CPU: MT7621AT; Wi-Fi chip: MT7602EN"
+  ],
+  "signature": "3BIAMKv7PvJp0ezVqzYyasBQ9GUyuT1pUBuf+N5uDJtWuoaUUvQaa5Ue61RgFZnuYuP2YrQnt+1fLXCk+p1jCg=="
+}

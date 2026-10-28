@@ -1,0 +1,65 @@
+{
+  "profile_id": "netgear_wnr834b",
+  "brand": "Netgear",
+  "model": "WNR834B",
+  "hardware_versions": [
+    "v1",
+    "v2"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "95339d335451438bc345d2df6cad2ee1b1c9e42d364dea7a42d35f46094b3214",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:14:6c",
+    "00:1b:2f",
+    "00:1e:2a",
+    "00:1f:33",
+    "00:22:3f",
+    "00:24:b2"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY307100061; year: 2007; CPU: BCM4704; Wi-Fi chip: BCM4321"
+  ],
+  "signature": "YdRUR5jFM5Bzy+qUHyOwAeqlNuhuWsvj+ZBpuI4sfzqYsnaD7K4BQhaOU87DrYXfyxFMUHtaMW/fT9KUAxlfAw=="
+}

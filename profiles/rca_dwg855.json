@@ -1,0 +1,62 @@
+{
+  "profile_id": "rca_dwg855",
+  "brand": "RCA",
+  "model": "DWG855",
+  "hardware_versions": [
+    "v1.0",
+    "v2.1"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "8878a5a741a3afebff6feef937ca2ce545852f220cedd2d8dcd16f8865a12e4d",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:10:95",
+    "00:1e:69"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: H8NDWG855; year: 2006; CPU: BCM3368; Wi-Fi chip: BCM4318",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: H8NDWG855V21; year: 2008; CPU: BCM3368; Wi-Fi chip: BCM4318"
+  ],
+  "signature": "raXHkqb4Bte/CD8pbToFA7O2leNqnvMZusXWGzaiOv/1xsLQimxixENOTgp4aLMModQZX1rT5qKFUEpQzBcbDw=="
+}

@@ -1,0 +1,63 @@
+{
+  "profile_id": "sagemcom_f_st_2804",
+  "brand": "Sagemcom",
+  "model": "F@st 2804",
+  "hardware_versions": [
+    "V2",
+    "V7",
+    "V7 rev1",
+    "V7 rev2.2",
+    "V7 rev3",
+    "v5"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "29d58e26b22f8fd3b26262d3ab70b6a48dfdbedf8b5d22cc4891ed0fe03f1a7a",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "7c:03:4c"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work"
+  ],
+  "signature": "K5MHFubbunSe+CPG5Yk5pLwHQU38nnirvnJASVfskvIDCRgHrFbYLmNxyGrzRhdZN0LT4GWxQdSt5daqe+hmDQ=="
+}

@@ -1,0 +1,64 @@
+{
+  "profile_id": "netgear_prosecure",
+  "brand": "Netgear",
+  "model": "ProSecure",
+  "hardware_versions": [
+    "UTM25",
+    "UTM25S",
+    "UTM50",
+    "UTM9S"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "0d6e1211acf4b9497d809cf32220335dc80a0a00510540b865ccc3d76482b2c6",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:22:3f",
+    "00:26:f2",
+    "44:94:fc",
+    "e0:46:9a"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work"
+  ],
+  "signature": "3cQuzD3/ykUwBGPeN0nRo3WQLBE2mp58PHewVa3P5pjhL0LBaphCzkHNIb2B8qdYJeiO72y5ix+/LHxrc7grCw=="
+}

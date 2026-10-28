@@ -1,0 +1,61 @@
+{
+  "profile_id": "sercomm_na401",
+  "brand": "SerComm",
+  "model": "NA401",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "0903a0fcdae5819d1290d0bc6f5147ed3252b7c078e577201128ca3db12c33df",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:06:d3",
+    "00:c0:02"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model SerComm NA401; FCC ID matches 4Home ControlPoint 2000 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: P27YN400, WX5CP2000; year: 2009; CPU: BCM5354; Wi-Fi chip: BCM5354",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: P27YN400; year: 2009; CPU: BCM5354; Wi-Fi chip: BCM5354"
+  ],
+  "signature": "2irH3M1jt3/mif4Ngza6CW2lb0gEWWhLNAYqbeRs8b8ovG8MxbYXeAXZZ2m5ngEoFB0XnSu/6SI8ewXbvSYoBw=="
+}

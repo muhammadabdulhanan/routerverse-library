@@ -1,0 +1,62 @@
+{
+  "profile_id": "sge_ap699e8n3",
+  "brand": "SGE",
+  "model": "AP699E8N3",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "4397a8482c0bce921783f9d5a57c1ca86a3b59d64553d0c40e43e920d5f08933",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "38:2c:4a",
+    "54:a0:50",
+    "bc:ae:c5"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model SGE AP699E8N3; FCC ID matches Asus RT-N10+ — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MSQRTN10B; year: 2010; CPU: RT3050; Wi-Fi chip: RT3050",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MSQ-RT1901; year: 2015; CPU: MT7620N; Wi-Fi chip: MT7620N"
+  ],
+  "signature": "z8Zng5icB05PLBXMKhCgcFvKiVzBPKALNvcloj2J0tLEC2UkHF5moq5/atwzxl4yyGiSzzcIDCp/58fi3OI0AQ=="
+}

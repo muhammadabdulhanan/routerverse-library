@@ -1,0 +1,62 @@
+{
+  "profile_id": "netgear_wndr3700v1",
+  "brand": "Netgear",
+  "model": "WNDR3700v1",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "14acc1434c9e878577a7f0a668c6fe4b4a649ed59e736967567166d63b7633cd",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:26:f2",
+    "30:46:9a",
+    "c0:3f:0e",
+    "e0:91:f5"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: Delta Networks; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY308300092; year: 2009; CPU: AR7161; Wi-Fi chip: AR9220"
+  ],
+  "signature": "qw1lhSf1G0XoO/JALIs1ar3tDQmYiW36/G+FSsEkLB5G0+E4fy3bYyzw1C5s1iKif+K02PDJgfA6plLYetG4CA=="
+}

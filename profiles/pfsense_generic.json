@@ -1,0 +1,77 @@
+{
+  "profile_id": "pfsense_generic",
+  "brand": "pfSense",
+  "model": "pfSense (generic)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "b3b2fd5fd64d08165adcd70795928c3891d50d7f1884c54db1b7fe26fb9b1ef3",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [
+        "Netgate pfSense Plus - Login",
+        "pfSense - Login"
+      ],
+      "server_header_contains": [],
+      "realm_contains": [],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": [
+        "<h4>login to pfsense</h4>",
+        "pfblockerng",
+        "rubicon communications, llc (netgate)"
+      ]
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "FingerprintHub rule pfsense (verified: true).",
+    "Brand-level fallback: model-level match pending.",
+    "FingerprintHub rule pfblockerng (verified: true). pfBlockerNG package string; pages carrying it run pfSense.",
+    "Fingerprint: recog (recog_html_title) pfSense Firewall.",
+    "Fingerprint: recog (recog_html_title) pfSense Plus Firewall."
+  ],
+  "signature": "qyNR4xTQDImwyuYlOBBMAS4xb7zML6wqN0t3to6IQBOwWHai1Au0PCl1jJvvmHAZo4wiLw/a4md1t12NVVhiBQ=="
+}

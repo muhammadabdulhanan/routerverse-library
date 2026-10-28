@@ -1,0 +1,57 @@
+{
+  "profile_id": "sercomm_ad1006s",
+  "brand": "SerComm",
+  "model": "AD1006S",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "86cc704b41c24bbcfa488f75cd339f1aa6f1a137380464c8e4f5acf1b73c4d2e",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model SerComm AD1006S; FCC ID matches TRENDnet TEW-657BRM — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: P27AD1006D; year: 2009; CPU: RT3050; Wi-Fi chip: RT3050"
+  ],
+  "signature": "/8EQQq04LcGRMIM4YJLUFir7TI//nrckHfjAWq0v+fQAxV2jqmHzOjY0TDFHJjACRwshOmU64WrYoTqqXyftCw=="
+}

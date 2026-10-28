@@ -1,0 +1,58 @@
+{
+  "profile_id": "sge_pi699e2",
+  "brand": "SGE",
+  "model": "PI699E2",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "36f2613e883b705bf94217f71f219fa60e089e11ac3478dde6174d2053d8e867",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "68:1c:a2"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2013; CPU: AR7420"
+  ],
+  "signature": "dI+Ep4vRsrcpfI3/2dyHkW+X0YRzvbiRNMBk74aou2ovpWxlunT2Tj2gjnkjH6j0le8DOxc82cfYLI3BHFfmBg=="
+}

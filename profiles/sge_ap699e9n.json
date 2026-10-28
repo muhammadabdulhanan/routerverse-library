@@ -1,0 +1,60 @@
+{
+  "profile_id": "sge_ap699e9n",
+  "brand": "SGE",
+  "model": "AP699E9N",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "eddbb2b44ff7d57a3f56fd3681ec4eb1c9b978eb5104627bcb5fc7d868250c93",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model SGE AP699E9N; FCC ID matches Asus RT-N10E — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MSQRTN10E; year: 2012; CPU: RTL8196C; Wi-Fi chip: RTL8188RE",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MSQRTN12E; year: 2012; CPU: RTL8196C; Wi-Fi chip: RTL8192CE",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: KA2IR300D1; year: 2013; CPU: RTL8196E; Wi-Fi chip: RTL8188ER",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY312100183; year: 2012; CPU: RTL8196C; Wi-Fi chip: RTL8188RE"
+  ],
+  "signature": "HZLKU1rE/bg1Juc/0e4pzdYtn6WudKj5TSm9qDCdDd/mLnQK5buM/ocWfoHGPWDT4+6PqOw7ArEz39MmVfLuBA=="
+}

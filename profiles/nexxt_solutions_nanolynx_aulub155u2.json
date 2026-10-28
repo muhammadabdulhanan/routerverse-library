@@ -1,0 +1,57 @@
+{
+  "profile_id": "nexxt_solutions_nanolynx_aulub155u2",
+  "brand": "Nexxt",
+  "model": "Solutions NanoLynx (AULUB155U2)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "836febefd8c862e47ea8f1deb3cdb5a08c4f2583e4d45a3a20692b875ad042b1",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Nexxt Solutions NanoLynx (AULUB155U2); manufacturer Tenda W311MI (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2017"
+  ],
+  "signature": "6co2gjILqj8UFPdqX8F9n7tJEveIafRcg8f7z6seP3l6Aq0xhLYydSlzrh5zPtPkKJuZhnlXm13sK67wjX1wAQ=="
+}

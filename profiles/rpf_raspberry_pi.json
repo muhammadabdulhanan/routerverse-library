@@ -1,0 +1,68 @@
+{
+  "profile_id": "rpf_raspberry_pi",
+  "brand": "RPF",
+  "model": "Raspberry Pi",
+  "hardware_versions": [
+    "2 Model B (1GB)",
+    "3 Model B",
+    "3 Model B+",
+    "4 Model B",
+    "4 Model B (2GB)",
+    "Model A",
+    "Model B (512MB)",
+    "Model B+ (512MB)",
+    "Zero",
+    "Zero W"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "6e95e2800291569473c4645a9d43e26a56421131572eb17b97ce10fb3b8c95d4",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "b8:27:eb",
+    "dc:a6:32"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work"
+  ],
+  "signature": "mnoCC5IJjgwFTySO2QpD7rj4MVu2/dOBgWnwaNvnkm45iJQca1knildCbANFe1hzvOBRUKS2KC2BEavBAMjYAw=="
+}

@@ -1,0 +1,62 @@
+{
+  "profile_id": "samsung_artik",
+  "brand": "Samsung",
+  "model": "ARTIK",
+  "hardware_versions": [
+    "1020",
+    "710"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "65aa1657a9fc9e030b9959deb58607f1bf003196ead94820e9dad6797529de21",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "70:2c:1f",
+    "8e:4c:2e",
+    "e6:ab:40",
+    "ec:9b:f3"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work"
+  ],
+  "signature": "LZB8suqj3Iw0kloLM3OkhuZBit8P/EPZZKBkdRA2lxPmKC1RDCx/RITV5vnfzblHfIwfEWlQ+Z1nIGbREy5uDA=="
+}

@@ -1,0 +1,59 @@
+{
+  "profile_id": "nexxt_solutions_nebula_150_arn01154u1",
+  "brand": "Nexxt",
+  "model": "Solutions Nebula 150 (ARN01154U1)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "a6be2cd93a0d2406c72516957e7629dc29a42b636a91d8edfa931224355bbf51",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "c8:3a:35"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Nexxt Solutions Nebula 150 (ARN01154U1); manufacturer Tenda W311R (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: V7TW311R, X4Y311; year: 2010; CPU: RT3050; Wi-Fi chip: RT3050"
+  ],
+  "signature": "Cm0KrMwhti9pS37j5y+uojZt7fJ7VXEcaBr40rUWfeywbb7lIwGrK/z0oZZ2/bpcKa0PyNEFtVC2hvr9DT8MBg=="
+}

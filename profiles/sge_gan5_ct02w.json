@@ -1,0 +1,61 @@
+{
+  "profile_id": "sge_gan5_ct02w",
+  "brand": "SGE",
+  "model": "Gan5.CT02W",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "ba58af64e836115f72d905d4f0301aced18804f426484ffbd0fd777bb9f3c8cd",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "28:10:7b",
+    "b8:a3:86",
+    "cc:b2:55"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model SGE Gan5.CT02W; FCC ID matches D-Link DSL-2750B — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: KA2SL2750UT1; year: 2011; CPU: BCM63281; Wi-Fi chip: BCM43225"
+  ],
+  "signature": "eCEeoiZJCwhTKdfjRCp/pX4mTG1pPVBsyi0pn6QMmKe4ZbwhwM2hZOoq/8K1zgBTo4NhLq71fwgF1On1j8ObAA=="
+}

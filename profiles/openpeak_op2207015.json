@@ -1,0 +1,57 @@
+{
+  "profile_id": "openpeak_op2207015",
+  "brand": "OpenPeak",
+  "model": "OP2207015",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "2439097bcd1e5510644f3ff1f59734632cf3f62a99672cf928ef89515b3b0bfe",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model OpenPeak OP2207015; FCC ID matches Verizon One (VZ1) — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: VGBW4BOP2207015; year: 2007; CPU: i.MX31C"
+  ],
+  "signature": "Es4xnZsfCAWDOBtvZkSnrEWmztNNA3Ho/ikPoYGf9LZrujLDt4+Z8dQCko6Lpl3AlCyy3YszKdzBrBfit9xyCw=="
+}

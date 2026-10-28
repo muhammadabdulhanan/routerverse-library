@@ -1,0 +1,218 @@
+{
+  "profile_id": "openwrt_generic_luci",
+  "brand": "OpenWrt",
+  "model": "Generic OpenWrt Router",
+  "hardware_versions": [
+    "any LuCI-supported device"
+  ],
+  "firmware_range": {
+    "min": "21.02",
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "46d6fd4db67c1c39f1376c3a5b2432ea5ef2f3fb15a854491f37ff55754d7eac",
+  "last_updated": "2026-10-22",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [
+        "LuCI",
+        "OpenWrt"
+      ],
+      "server_header_contains": [],
+      "realm_contains": [
+        "OpenWrt"
+      ],
+      "url_paths": [
+        "/cgi-bin/luci",
+        "/"
+      ],
+      "body_contains": [
+        "LuCI",
+        "OpenWrt"
+      ]
+    }
+  ],
+  "default_gateway_paths": [
+    "/cgi-bin/luci",
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/cgi-bin/luci",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443,
+    22
+  ],
+  "default_credentials_ref": "redmind-default-credentials:openwrt",
+  "supported_controls": [
+    {
+      "control_id": "router_info",
+      "read_method": "ubus call system board; LuCI status page",
+      "write_method": "not_writable",
+      "value_rules": {},
+      "risk_level": "low",
+      "needs_reboot": false,
+      "warning_text": ""
+    },
+    {
+      "control_id": "wifi_ssid_24",
+      "read_method": "uci get wireless (2.4 GHz iface ssid)",
+      "write_method": "uci set wireless ssid; wifi reload",
+      "value_rules": {
+        "min_length": 1,
+        "max_length": 32
+      },
+      "risk_level": "medium",
+      "needs_reboot": false,
+      "warning_text": "Devices connected to the old network name will need to reconnect."
+    },
+    {
+      "control_id": "wifi_ssid_5",
+      "read_method": "uci get wireless (5 GHz iface ssid)",
+      "write_method": "uci set wireless ssid; wifi reload",
+      "value_rules": {
+        "min_length": 1,
+        "max_length": 32
+      },
+      "risk_level": "medium",
+      "needs_reboot": false,
+      "warning_text": "Devices connected to the old network name will need to reconnect."
+    },
+    {
+      "control_id": "wifi_password",
+      "read_method": "uci get wireless key (value masked in the app)",
+      "write_method": "uci set wireless key; wifi reload",
+      "value_rules": {
+        "min_length": 8,
+        "max_length": 63
+      },
+      "risk_level": "high",
+      "needs_reboot": false,
+      "warning_text": "Changing the WiFi password will disconnect all connected devices until they join again with the new password."
+    },
+    {
+      "control_id": "wifi_band_enable",
+      "read_method": "uci get wireless disabled flag per band",
+      "write_method": "uci set wireless disabled flag; wifi reload",
+      "value_rules": {
+        "type": "boolean"
+      },
+      "risk_level": "medium",
+      "needs_reboot": false,
+      "warning_text": "Turning off a WiFi band disconnects every device on that band."
+    },
+    {
+      "control_id": "guest_wifi",
+      "read_method": "uci get guest wireless iface",
+      "write_method": "uci set guest wireless iface; wifi reload",
+      "value_rules": {
+        "ssid_min_length": 1,
+        "ssid_max_length": 32,
+        "password_min_length": 8,
+        "password_max_length": 63
+      },
+      "risk_level": "medium",
+      "needs_reboot": false,
+      "warning_text": "Turning off Guest WiFi disconnects all guest devices."
+    },
+    {
+      "control_id": "connected_devices",
+      "read_method": "iwinfo assoclist plus DHCP leases",
+      "write_method": "not_writable",
+      "value_rules": {},
+      "risk_level": "low",
+      "needs_reboot": false,
+      "warning_text": ""
+    },
+    {
+      "control_id": "device_block",
+      "read_method": "firewall MAC filter rules",
+      "write_method": "add or remove MAC filter rule",
+      "value_rules": {
+        "value_type": "mac_address"
+      },
+      "risk_level": "medium",
+      "needs_reboot": false,
+      "warning_text": "Blocking a device cuts its network access immediately."
+    },
+    {
+      "control_id": "reboot",
+      "read_method": "not_applicable",
+      "write_method": "ubus call system reboot",
+      "value_rules": {},
+      "risk_level": "high",
+      "needs_reboot": true,
+      "warning_text": "The router will reboot and the network will be offline for a short time."
+    },
+    {
+      "control_id": "wifi_channel",
+      "read_method": "uci get wireless channel",
+      "write_method": "uci set wireless channel; wifi reload",
+      "value_rules": {
+        "allowed": [
+          "auto",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "36",
+          "40",
+          "44",
+          "48"
+        ]
+      },
+      "risk_level": "medium",
+      "needs_reboot": false,
+      "warning_text": "Changing the channel can briefly interrupt WiFi."
+    },
+    {
+      "control_id": "wifi_security_view",
+      "read_method": "uci get wireless encryption",
+      "write_method": "not_writable",
+      "value_rules": {},
+      "risk_level": "low",
+      "needs_reboot": false,
+      "warning_text": ""
+    },
+    {
+      "control_id": "admin_password",
+      "read_method": "not_readable",
+      "write_method": "LuCI user password change (passwd)",
+      "value_rules": {
+        "min_length": 10
+      },
+      "risk_level": "high",
+      "needs_reboot": false,
+      "warning_text": "Changing the admin password ends the current admin session. Store the new password before applying."
+    },
+    {
+      "control_id": "firmware_check",
+      "read_method": "ubus call system board (release)",
+      "write_method": "not_writable",
+      "value_rules": {},
+      "risk_level": "low",
+      "needs_reboot": false,
+      "warning_text": ""
+    }
+  ],
+  "unsupported_controls": [],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Generic LuCI profile built from public OpenWrt documentation. Marked community until it passes a real-device test."
+  ],
+  "signature": "w3Jf9OPCLDreBgd1kcr71yPY70EpqSp7FdeEahcYbxKRNX/zmBPDG+Hhn8VT11RrFml3S5oUvDejGfCZHz8gCg=="
+}

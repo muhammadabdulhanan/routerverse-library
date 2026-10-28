@@ -1,0 +1,61 @@
+{
+  "profile_id": "onion_omega2",
+  "brand": "Onion",
+  "model": "Omega2",
+  "hardware_versions": [
+    "OM-02"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "4f1195f2dd45814d78f11002af61ead9d9c8e0960016473427afd8f2adda3863",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "40:a3:6b"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target ramips/mt76x8); stock admin fingerprint not inferred from OpenWrt support.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer unproven (no manufacturer property).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: 2AJVP-OMEGA2; year: 2016; CPU: MT7688A; Wi-Fi chip: MT7688A"
+  ],
+  "signature": "3pCUDqxbmPTGZwNCanfHTSjk3ONm5o11wYly4pu98HlhiSxfHwnsQgyNYdtNlSYDKljeM76YJ0YMRNa9AMn2AA=="
+}

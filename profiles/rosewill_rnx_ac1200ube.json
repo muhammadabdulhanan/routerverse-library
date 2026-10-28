@@ -1,0 +1,59 @@
+{
+  "profile_id": "rosewill_rnx_ac1200ube",
+  "brand": "Rosewill",
+  "model": "RNX-AC1200UBE",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "3ecd5ad38752996f469aeeb54467c556ecb2370345c5c393a3b1f7a8d5bc9e87",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "68:1c:a2"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Rosewill RNX-AC1200UBE; manufacturer Edimax EW-7822UAC (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2013"
+  ],
+  "signature": "zUAnC25mpSFYSi9rCY4Y8drpRCH+c/kau9bjBtsAdjfF1pu3xH88aYpf5TZR/jovSyU44DFy8MZW8YIaWrfTCQ=="
+}

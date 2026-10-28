@@ -1,0 +1,61 @@
+{
+  "profile_id": "paradyne_6218_i2_200_0cc",
+  "brand": "Paradyne",
+  "model": "6218-I2-200-0CC",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "eebc8af966b946c66cf8ae58496e630a49665889dc0fa7c353f4d8849df908ce",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:1e:8c"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: KA2SL2600UT, MSQAAM6KVIB6; year: 2007; CPU: BCM6348S; Wi-Fi chip: BCM4318",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MSQAAM6KVIB6; year: 2005; CPU: BCM6348; Wi-Fi chip: BCM4318",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Paradyne 6218-I2-200-0CC; manufacturer ASUS AAM6020VI-B6 (DeviWiki live)."
+  ],
+  "signature": "Cj9Bv6XPAkR4VtaA28g3eK0MqmjqORvf/JmDl6wXND3XyhaNAJY9Roip2q74Srq0n2RMa3Egx3ajOjYmntrcBQ=="
+}

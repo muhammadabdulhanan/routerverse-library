@@ -1,0 +1,59 @@
+{
+  "profile_id": "panda_wireless_pau09",
+  "brand": "Panda",
+  "model": "Wireless PAU09",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "e0fb424c551ab045abe7da247e923bd7ce453d380d247e9ff29397caaf6c7463",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "9c:ef:d5"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Panda Wireless PAU09; manufacturer MTN MT-WN813N-D (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2016"
+  ],
+  "signature": "7XlhvuD1Z2U3kLEXNdwBYlnNtl36BKOEE3ISbeBPVrp0Re2hHKJWlpkSQmR8iAZ4CSEdF9OABAvtqewCnTEHDg=="
+}

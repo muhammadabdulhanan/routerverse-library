@@ -1,0 +1,60 @@
+{
+  "profile_id": "seco_cs975",
+  "brand": "SECO",
+  "model": "CS975",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "0fa7ab45a4bd8aea31841e5bf4f9ad1bb8c4726ef9281a21651ab919890a9bb1",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:c0:08",
+    "7c:dd:90"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model SECO CS975; FCC ID matches UDOO Quad — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: QR4WF5370M08; year: 2013; CPU: i.MX6Q; Wi-Fi chip: RT5370"
+  ],
+  "signature": "qUYUfrzgtmyeLFt8EB6+fqhKyNsKCNja6TEvVIC+zUNIKM85yX1iLoXEIGx8HsulO8GMFZtdRqGru/vvWlZHBg=="
+}

@@ -1,0 +1,57 @@
+{
+  "profile_id": "rca_dcw615r",
+  "brand": "RCA",
+  "model": "DCW615R",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "8c4e74ac834802cd7fabe6c7b80612fae855a16dac6abbeb11e9bc426d271cb4",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model RCA DCW615R; manufacturer ASUS ACM6264-H (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MSQDCW615A, MXF-C911003; year: 2003; CPU: BCM3360; Wi-Fi chip: BCM4301"
+  ],
+  "signature": "LyAnpdeWJ60j4vb7iGu6zKYNoYYEae0JGPx2UI2k1hWC9wDVnB8ixAzkNR3ZvUVDaDrHaaflqkymC+NjlHwOBA=="
+}

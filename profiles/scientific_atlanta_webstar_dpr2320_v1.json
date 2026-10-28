@@ -1,0 +1,59 @@
+{
+  "profile_id": "scientific_atlanta_webstar_dpr2320_v1",
+  "brand": "Scientific",
+  "model": "Atlanta WebSTAR DPR2320 v1 (?)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "ab4126b8463ce5d89258992ce4a6a7a62dbdb8491bcbef314f7c04f6d9889384",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:0f:21"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Scientific Atlanta WebSTAR DPR2320 v1 (?); manufacturer Askey CHE107W-D17-0D (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: H8N-DPR2320G; year: 2004; Wi-Fi chip: BCM4306"
+  ],
+  "signature": "gkji0KSJO5T5juqfmP0hxJnT9WOFnqtMDl+q02AYuXQLsxpFGzeLnEUhvBmwf9FbF4Xam4RKPiLuWKAF9XUfAA=="
+}

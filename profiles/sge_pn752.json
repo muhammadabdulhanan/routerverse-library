@@ -1,0 +1,59 @@
+{
+  "profile_id": "sge_pn752",
+  "brand": "SGE",
+  "model": "PN752",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "f73efba1b3ad4b57d7f336b03b1a2a6d9f32a6f52a2471720298c01257708e96",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "2c:4d:54"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model SGE PN752; FCC ID matches Asus RT-AC52U — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MSQ-RTAC52U; year: 2017; CPU: MT7620A; Wi-Fi chip: MT7620A"
+  ],
+  "signature": "GJE6rPHV2zv2ke9PKkOxXEvD3K7HwRJWUUQJJonng9Ehht1DKQnMtgFjP8MhP/PfiZl7Y+FHBerTRsfg7GCIAA=="
+}

@@ -1,0 +1,56 @@
+{
+  "profile_id": "optus_f_st_5393",
+  "brand": "Optus",
+  "model": "F@ST 5393",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "53bf2e6fc3f0351c95ef73375fe408c883cf6b0d6e0e6c7f84418a6e999110e2",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Verified ISP mapping: Optus = Sagemcom F@ST 5393. ISP admin surface unproven (no fingerprint yet). Underlying vendor family: Sagemcom F@ST 5393."
+  ],
+  "signature": "Q6N4w4GY7mYUgIJ+lLhp1HoI9HF9Q9EIh0Ok4mCLx+h3XIITGL2wikNFlLe30xz8BCiki/023nbu1whpMb7TBA=="
+}

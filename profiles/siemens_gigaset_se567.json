@@ -1,0 +1,62 @@
+{
+  "profile_id": "siemens_gigaset_se567",
+  "brand": "Siemens",
+  "model": "Gigaset SE567",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "99e20f11d117b2c81eb015c71087bde7d5a5da396a61aac586b1ea4057012286",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:21:04",
+    "c8:cd:72",
+    "e8:be:81"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: SN8H650; year: 2006; CPU: TNETD7200; Wi-Fi chip: TNETW1350A",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer unproven (no manufacturer property)."
+  ],
+  "signature": "Jz1E5wLz7DHxxtxCwNra/NdTYkihCp1Dca+cOvO8K8PNHMRcjtAtthDaucLrX6M8qmJSoZTwx9hRSrNGVeMTBQ=="
+}

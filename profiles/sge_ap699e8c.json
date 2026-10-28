@@ -1,0 +1,61 @@
+{
+  "profile_id": "sge_ap699e8c",
+  "brand": "SGE",
+  "model": "AP699E8C",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "6c7335a70b782a646afe3fa0cb06457f8f59f26fbe2b548ccfafd91e321c30a5",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "10:c3:7b",
+    "9c:5c:8e"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model SGE AP699E8C; FCC ID matches Asus RT-AC51U — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MSQ-RTAC51U, MSQ-RTDV00; year: 2014; CPU: MT7620A; Wi-Fi chip: MT7620A",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2014; CPU: MT7620A; Wi-Fi chip: MT7620A"
+  ],
+  "signature": "rEUumFoXlmIIX7oA7mm29ruR0oaLI9+MLSoPz7VzWe3LgTQpGvQsJM3MNCtrsMyT8YGFM96/xpAPME+z5B16Bg=="
+}

@@ -1,0 +1,63 @@
+{
+  "profile_id": "roku_2",
+  "brand": "Roku",
+  "model": "2",
+  "hardware_versions": [
+    "000C (HD)",
+    "050X (XD)",
+    "400X (LT)",
+    "500X (HD)",
+    "XD (3050X)",
+    "XS (3100X)"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "2991accae7b2236d15032a91d3e2dcc9f222c36b8b945b5ddb1a675597984177",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "cc:6d:a0"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work"
+  ],
+  "signature": "uE6mnXZLYDPEDhKb35eP412n4HAVNxSRsNHR7oQBxmMc3YLmmohdPvIVFnfMS+LJo0MhPNgX09e78dAAIGEnDQ=="
+}

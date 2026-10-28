@@ -1,0 +1,60 @@
+{
+  "profile_id": "ruckus_wireless_zoneflex_7441",
+  "brand": "Ruckus Wireless",
+  "model": "ZoneFlex 7441",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "0e424095b1b8c617e7438ece89775f307e2dfc52a4c46dc6cb3a908bb06ed167",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "54:3d:37"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer unproven (no manufacturer property).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: S9GZF7441; year: 2013; CPU: AR9342; Wi-Fi chip: AR9342"
+  ],
+  "signature": "JwyTLGRnmm4P1NMwpxsoepPoYRAqnIhQLB1u2HZB6HdF9HA1YfMcRiPfqS2xbqXA7HmbxQner+PGc2HGo7mjBQ=="
+}

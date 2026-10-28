@@ -1,0 +1,69 @@
+{
+  "profile_id": "securepoint_generic",
+  "brand": "Securepoint",
+  "model": "Securepoint (generic)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "a22b745ab25406438af84f4eae135a79f82271a6137bafebb26a48e7b07f7c56",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [
+        "securepoint utm"
+      ],
+      "server_header_contains": [],
+      "realm_contains": [],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": []
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "FingerprintHub rule unified_threat_management (vendor securepoint, verified: true). A second rule with the same id claimed vendor sophos; the securepoint one is used.",
+    "Brand-level fallback: model-level match pending."
+  ],
+  "signature": "Ge/q0PvO8Msh/6clCfEBNwV2wbAaJF/fsYBix5TtHshRdmhcSIr1BI0Q6LtzyFEeTuh9NwBjGSUcE2KKWmwLDQ=="
+}

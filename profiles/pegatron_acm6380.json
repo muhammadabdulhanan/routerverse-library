@@ -1,0 +1,61 @@
+{
+  "profile_id": "pegatron_acm6380",
+  "brand": "Pegatron",
+  "model": "ACM6380",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "cab6fccaa235dbd28bbd34eba201b5a6da18fe788fb7e0418593af91074c2655",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "20:4e:7f",
+    "e0:46:9a"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Pegatron ACM6380; FCC ID matches Netgear CG3000 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY309300119; year: 2009; CPU: BCM3380Z; Wi-Fi chip: BCM43225",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY309300119; year: 2009; CPU: BCM3380; Wi-Fi chip: BCM43225"
+  ],
+  "signature": "VH18ALfOcq6ts0Zr5ccb508VjkjuKMMrFE7girb6S6I00qwtJF5x2XjRe7c6L0TxiSdG+J2K+pjNbCdmpXytCg=="
+}

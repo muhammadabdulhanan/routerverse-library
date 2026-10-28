@@ -1,0 +1,58 @@
+{
+  "profile_id": "onelink_ac3000",
+  "brand": "Onelink",
+  "model": "AC3000",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "8fbf028889febe997c79ed0b053fcc5dfbfd71f5a7e215911e4e3daa30f11a6c",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MXF-WAPQ-245; year: 2018; CPU: IPQ4019; Wi-Fi chip: IPQ4019",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Onelink AC3000; manufacturer Gemtek WAPQ-245ACN (DeviWiki live)."
+  ],
+  "signature": "CIdSdSqmGll0rzN0bNsWxb3A7ZZNG+uhT8aRN+G4058Quizic6zJ56Rvmx3g03TbL4FIetU1B0zZ9ifZ5L+sBg=="
+}

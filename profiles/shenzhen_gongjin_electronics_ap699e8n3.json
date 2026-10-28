@@ -1,0 +1,59 @@
+{
+  "profile_id": "shenzhen_gongjin_electronics_ap699e8n3",
+  "brand": "Shenzhen Gongjin Electronics",
+  "model": "AP699E8N3",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "282664ecad1287c7a7ccd03d9cf316e6b52c7a8cb2e549870b6ae4582337cbc6",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "54:04:a6"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Shenzhen Gongjin Electronics AP699E8N3; FCC ID matches Asus RT-N10+ — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MSQRTN10B; year: 2011; CPU: RT3050; Wi-Fi chip: RT3050"
+  ],
+  "signature": "luMA5uFMk7DPDPvDmYzEAZHAGr1r8xh0ocJJczjSlpTq+oSnmvNZXwxbzBY43B+H10qv1XVCQRlfhdExgaCwCg=="
+}

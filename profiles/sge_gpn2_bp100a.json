@@ -1,0 +1,57 @@
+{
+  "profile_id": "sge_gpn2_bp100a",
+  "brand": "SGE",
+  "model": "GPN2.BP100A",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "4f6c88905f6cfa2b8b9b2d4670069614044285ec38f226dd9f5ff21f2bc3c995",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model SGE GPN2.BP100A; FCC ID matches Huawei PT530 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: QISPT530; year: 2013; CPU: AR9341; Wi-Fi chip: AR9341"
+  ],
+  "signature": "gB8z7LdbowC3JshZk1X4Eo59zV7K18SayhTI+3JiHO64BfEWY7StndnM1Uf3wPqhuxIopZR7RAQW/kFIT9UICw=="
+}

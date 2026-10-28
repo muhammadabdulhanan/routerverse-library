@@ -1,0 +1,59 @@
+{
+  "profile_id": "nexaira_nexconnect_r_nexusb08",
+  "brand": "Nexaira",
+  "model": "NexConnect (R-NEXUSB08)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "39ca48f929724550b6d5333e2dca8dc2a8b275e573619916103ebad3b7d85213",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:50:18"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Nexaira NexConnect (R-NEXUSB08); manufacturer AMIT WMQ137AM (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PBLWL533M; year: 2008; CPU: 20000; Wi-Fi chip: RT2561S"
+  ],
+  "signature": "ee6k/L/NZMNa47iVnukZ1730Dwr+nUr9ng50gZ2z06zbaB6eqJv3nBgcqXORaRNX1uhEYS0GUJqx/qX62EtBAw=="
+}

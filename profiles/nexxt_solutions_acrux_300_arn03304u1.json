@@ -1,0 +1,57 @@
+{
+  "profile_id": "nexxt_solutions_acrux_300_arn03304u1",
+  "brand": "Nexxt",
+  "model": "Solutions Acrux 300 (ARN03304U1)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "d7e6ffae9b3b337019adc1309cb30bc335f78865884a9a9b4db9f789dc2a07df",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Nexxt Solutions Acrux 300 (ARN03304U1); manufacturer TP-LINK TL-WR1043ND (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: TE7WR1043NX, X4YARN03304U1; year: 2012; CPU: AR9132; Wi-Fi chip: AR9132"
+  ],
+  "signature": "JuiXgt4QVkD3TdV0BBfsua6YPriU7gY4B+fHy9vP+CVebKpyHsB4lvlF/uboDzlvHdxuAUVk1yuHtFgP41d0BA=="
+}

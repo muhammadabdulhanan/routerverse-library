@@ -1,0 +1,74 @@
+{
+  "profile_id": "opnsense_generic",
+  "brand": "OPNsense",
+  "model": "OPNsense (generic)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "daa865eedd22315af5c2aa3c1c318a8dca232255328ac9628c29902776ef62f1",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [
+        "Login | OPNsense",
+        "opnsense"
+      ],
+      "server_header_contains": [
+        "OPNsense"
+      ],
+      "realm_contains": [],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": []
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "FingerprintHub rule opnsense (verified: true).",
+    "Brand-level fallback: model-level match pending.",
+    "Fingerprint: recog (recog_html_title) OPNSense Firewall.",
+    "Fingerprint: recog (recog_http_servers) OPNsense Firewall."
+  ],
+  "signature": "1pjtYz76zc2Kkgg3d6J8gQJ3bSzUlEnHbsTzIdsZ3jRUf6TDZwU4uRq8X4pY/zWILjpj7xlnvXPZwZRrIj/DDw=="
+}
