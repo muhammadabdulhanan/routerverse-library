@@ -1,0 +1,59 @@
+{
+  "profile_id": "haoliyuan_shenzhen_electronic_wu110ec",
+  "brand": "Haoliyuan (Shenzhen) Electronic",
+  "model": "WU110EC",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "b755a1eac3164400a7ceb35155270d37f76e6e62cb29407e69d79d4feac0a437",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:e0:4c",
+    "e8:4e:06"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2011"
+  ],
+  "signature": "bSxNTyp51cTY4II+7NezFEYscW18STc23mJr2ELN5wKbmmx+UGMBD21rWLciolVabQ3Q2KIoyRrD1rrb7dwHCQ=="
+}

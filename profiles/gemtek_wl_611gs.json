@@ -1,0 +1,58 @@
+{
+  "profile_id": "gemtek_wl_611gs",
+  "brand": "Gemtek",
+  "model": "WL-611GS",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "7130a8fe2feb66999805ecf3e239681d5aa4dc6c66fb3d80d7191b73029358ea",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:0c:e5"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: ACQWN825GV2, MXF-C921217G; year: 2004"
+  ],
+  "signature": "XeLkNs/N3kHY203vkCFNKb3VBRjxfE7HJDrPQB61f/3v6yMELKT/7nIQ3fGIRrjI6GdgWrr38iqEi9T51qXkCA=="
+}

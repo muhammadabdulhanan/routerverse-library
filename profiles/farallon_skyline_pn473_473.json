@@ -1,0 +1,59 @@
+{
+  "profile_id": "farallon_skyline_pn473_473",
+  "brand": "Farallon",
+  "model": "SkyLINE PN473 (473)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "a7978d7b4e4744423e851ba822df66a5f2435e39e89b4051f05ee80e1d1ad331",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:00:c5"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Farallon SkyLINE PN473 (473); manufacturer Gemtek WL-211F (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MXF-WL211F; year: 2000"
+  ],
+  "signature": "x9jqk3Jg3RseJ5v7MTnwkkrn2vsddFazSx+HdW6ds8Watloib5/Nk1i2mk8AQpXsbR25XfJcEpso4ADK/fE2Bg=="
+}

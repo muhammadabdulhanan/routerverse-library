@@ -1,0 +1,56 @@
+{
+  "profile_id": "good_way_uh_507",
+  "brand": "Good Way",
+  "model": "UH-507",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "8c4e9727157c4ee6eac469757bdba0cf5e58d4dcdc0f987cc336ead9a2c2aacd",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28)"
+  ],
+  "signature": "fY40a6Cm82bjq/NNJYbtaI5OQAcfGvS8FD43NzPrMjJn77RxC+YCkqe7BrL1afKlgPEpwNHrjr9nWPEyX+1SBw=="
+}

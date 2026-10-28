@@ -1,0 +1,59 @@
+{
+  "profile_id": "edup_ep_ms8518",
+  "brand": "EDUP",
+  "model": "EP-MS8518",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "412797ebd2d9c10e452334b4ba988727260ed08ed88c6c43c0043e474ce7fc73",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "e8:4e:06"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model EDUP EP-MS8518; manufacturer Shenzhen MTN Electronics MT-WN713NP (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2012"
+  ],
+  "signature": "rKMA7ni6UY6jexsXeHQv3G0Uqwvt7XaUqrInmKWwXzg8BaQdbRzmi5Q7c0tpLk+wVqSVHB5cPnM6l2f3jx8hBQ=="
+}

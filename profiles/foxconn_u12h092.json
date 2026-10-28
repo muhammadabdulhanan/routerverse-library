@@ -1,0 +1,60 @@
+{
+  "profile_id": "foxconn_u12h092",
+  "brand": "Foxconn",
+  "model": "U12H092",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "32c9d99549f0f3a22e4ed9c28d69d68bdfd2cbb452798017e182d3b4282198fa",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:1f:33",
+    "00:24:b2"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Foxconn U12H092; FCC ID matches Netgear WNR3500 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY307300074; year: 2008; CPU: 88F5180NB1; Wi-Fi chip: 88W8363"
+  ],
+  "signature": "N8fqNo3ULogvTuusBpCs4fm1izxoNgT/3SI0BDeLnN2tLHSSLw7LnfbiULAhWrKBOZ3QkJeuDdydvbAYEdhEDQ=="
+}

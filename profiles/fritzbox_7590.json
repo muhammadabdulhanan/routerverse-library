@@ -1,0 +1,72 @@
+{
+  "profile_id": "fritzbox_7590",
+  "brand": "Fritz!Box",
+  "model": "FRITZ!Box 7590",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "d69e40bd2994bb7f2751bf45063030d40021322f2c88b58e65c372588fd35af9",
+  "last_updated": "2026-10-28",
+  "status": "unverified",
+  "oui_prefixes": [],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [
+        "FRITZ!Box",
+        "7590"
+      ],
+      "server_header_contains": [],
+      "realm_contains": [],
+      "url_paths": [
+        "/",
+        "/login.lua"
+      ],
+      "body_contains": [
+        "FRITZ!Box",
+        "7590"
+      ]
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet."
+  ],
+  "signature": "Xmd69VbD9eLaX3N1jPO+kLHg1Nv2Nmm/Q7tVNfeoR9t9T+F2UaRbjod6HtSpwyfPmcUb5irGKFR/4wXkw6SLDg=="
+}

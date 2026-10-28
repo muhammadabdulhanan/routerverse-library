@@ -1,0 +1,83 @@
+{
+  "profile_id": "dlink_dir842",
+  "brand": "D-Link",
+  "model": "DIR-842",
+  "hardware_versions": [
+    "A1",
+    "C1",
+    "C2",
+    "C3"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "4269a8a6c1400bf5083450e8112db2ec279ed44294ff5305b259a9e58a5973bc",
+  "last_updated": "2026-10-28",
+  "status": "unverified",
+  "oui_prefixes": [
+    "00:05:5d",
+    "00:15:e9",
+    "00:19:5b",
+    "14:d6:4d",
+    "1c:7e:e5",
+    "f0:7d:68"
+  ],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [
+        "D-Link",
+        "DIR-842"
+      ],
+      "server_header_contains": [],
+      "realm_contains": [],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": [
+        "DIR-842",
+        "D-Link"
+      ]
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target ath79/generic); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "NZxo4JigzvkOueJ21ngr1i57RcUrIBdvfPfh3cvf4vv23hZZ9w39xgcY++M4ii2acsZRHX/xfzNaEKpiQC9uCg=="
+}

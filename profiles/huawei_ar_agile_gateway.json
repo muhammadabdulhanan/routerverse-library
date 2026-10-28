@@ -1,0 +1,81 @@
+{
+  "profile_id": "huawei_ar_agile_gateway",
+  "brand": "Huawei",
+  "model": "AR Agile Gateway",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "8b4baf3cb37a4400220f1c7f44332a1c610a6652283ff379833552de34a6ac94",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:e0:fc",
+    "04:8d:38",
+    "0c:96:bf",
+    "10:47:80",
+    "20:f1:7c",
+    "54:89:98",
+    "5c:7d:5e",
+    "70:8c:b5",
+    "a4:99:47",
+    "e8:cd:2d",
+    "f8:3d:ff"
+  ],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [],
+      "server_header_contains": [],
+      "realm_contains": [],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": [
+        "/verifycode.cgi?vrfcodeid=",
+        "document.title = 'ar web登录"
+      ]
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "FingerprintHub rule huawei-ar-min-jie-wang-guan (verified: false)."
+  ],
+  "signature": "sv2ae217d11zLdbVGJZ9D96j5PT0hw4SOMUU/0byxMkbe8y3ma4GjT3NXDOXV94N1QKWPLx25rG+TRJbQ6iTDw=="
+}

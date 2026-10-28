@@ -1,0 +1,57 @@
+{
+  "profile_id": "delta_networks_wap581",
+  "brand": "Delta Networks",
+  "model": "WAP581",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "08e41c4536d227ea6f24e7434f32a515fa790f94a86696013b17932baa6b9dc1",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Delta Networks WAP581; FCC ID matches Cisco WAP581 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PD5-WAP581; year: 2017; CPU: BCM58535; Wi-Fi chip: BCM43460"
+  ],
+  "signature": "8W6Gs1o59x217uTTnF7f8hTjUi6E3nBlaxqefW42cvE7aZJyOkZyxgYOsp144fJe95D9H5+e8ALhSunUQllLDQ=="
+}

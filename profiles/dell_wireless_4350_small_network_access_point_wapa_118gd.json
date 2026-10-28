@@ -1,0 +1,59 @@
+{
+  "profile_id": "dell_wireless_4350_small_network_access_point_wapa_118gd",
+  "brand": "Dell",
+  "model": "Wireless 4350 Small Network Access Point (WAPA-118GD)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "32554c11638c7d04f7914c4c0bd8e0dfc6c85e74f43075f38196ff29018f9e4d",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:90:4b"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Dell Wireless 4350 Small Network Access Point (WAPA-118GD); manufacturer Gemtek WAPA-118GD (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MXF-A930909G; year: 2004; CPU: AR2313A; Wi-Fi chip: AR2313A"
+  ],
+  "signature": "LkcLEmaF3mX2GG/u6FipfnPbeKqzTP0s49pqoUt7jRv0mJ+G9cpVYY7bxiNKS6Jk2n5H5f3KUWYT3mbZ38XrDA=="
+}

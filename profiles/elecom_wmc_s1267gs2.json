@@ -1,0 +1,56 @@
+{
+  "profile_id": "elecom_wmc_s1267gs2",
+  "brand": "ELECOM",
+  "model": "WMC-S1267GS2",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "27d539779f949092e02163cae3c16da7f5bb5516d0405f8dafb58ec07238f5f0",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target ramips/mt7621); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "/kgigSG9z4Wr7gHv9i9fT+hyU9ln73zNluDjgVhOnf+ulvDvhQjuyM5S/Y1797tQSdjK8ftx1w/0I0LCABqLCQ=="
+}

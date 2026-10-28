@@ -1,0 +1,57 @@
+{
+  "profile_id": "gl_technologies_teton",
+  "brand": "GL Technologies",
+  "model": "TETON",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "1385218d732d9b5ed84621eeed7cc5e7aea1f7dc4d63a4e3a17d49b1b91bc0e9",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model GL Technologies TETON; FCC ID matches TETON camera TR-750 Router — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: 2ARV8-TR750; year: 2019; CPU: MT7628AN; Wi-Fi chip: MT7628AN"
+  ],
+  "signature": "aoYobujW3WXuB7g0KYxGTn2L0lPCnnJhO0OVDAT/7ubRI3jirM2XiHj7Bqea7bKdr45GX4BAOzbXYhx0mtN/Bw=="
+}

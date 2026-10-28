@@ -1,0 +1,59 @@
+{
+  "profile_id": "foxconn_m30h009",
+  "brand": "Foxconn",
+  "model": "M30H009",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "4b40d1edb37e71040060a4b06952a80765071d5aac4dd98de07dc392dc1accdc",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "8c:be:be",
+    "fc:64:ba"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2015; CPU: BCM4709C0; Wi-Fi chip: BCM43217"
+  ],
+  "signature": "Y5Am6AjlQsqH5qR2HZc3V6xjmUrq5IbzcD+B20iOXAi8bdp0B2YDkdUG0KHPRe/fACq12qM+Rb7cI+NfviBxAw=="
+}

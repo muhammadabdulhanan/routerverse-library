@@ -1,0 +1,59 @@
+{
+  "profile_id": "gemtek_wrtr_136c",
+  "brand": "Gemtek",
+  "model": "WRTR-136C",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "9627556ce4566fae41891eff131c116448359e112b2eee7628179ba8e78cc79d",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:14:bf"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Gemtek WRTR-136C; FCC ID matches Linksys WRT54GR — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-WRT54GR; year: 2005; CPU: R3211-G; Wi-Fi chip: RT2661"
+  ],
+  "signature": "wbshiHgkdHF0QOpeIm2vgb4azOXJe8feGCkxhGvdJaRy890XwQpkVDKoKBoaP6QqCIai9PzUKyVkfuiWBR7pDw=="
+}

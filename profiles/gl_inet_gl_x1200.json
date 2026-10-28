@@ -1,0 +1,57 @@
+{
+  "profile_id": "gl_inet_gl_x1200",
+  "brand": "GL.iNet",
+  "model": "GL-X1200",
+  "hardware_versions": [
+    "NOR",
+    "NOR/NAND"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "166d5d4d6b73158843de534d61e42a130e92d88f238b58227dee765cd0b7bb2e",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target ath79/nand); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "NTGu3xmVEUS1aR3gN5rdDzNVXOJvQE76cPItDO3WJ2/u9wLuE3dP5zQ4uRwtuhPeHGlZJMLk8Kp1qHhz0gq9Cg=="
+}

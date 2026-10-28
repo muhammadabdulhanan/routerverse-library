@@ -1,0 +1,62 @@
+{
+  "profile_id": "gemtek_wapa_139g",
+  "brand": "Gemtek",
+  "model": "WAPA-139G",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "ee0f39e6ca341cf41ea7b6b054625602c5add7fe0b4cf2414601e2762c9f399f",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:14:a5",
+    "00:1a:c1",
+    "00:1e:c1"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Gemtek WAPA-139G; FCC ID matches 3Com 3CRWE454G75 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: O9C-WL524; year: 2006; CPU: AR2316A; Wi-Fi chip: AR2316A",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MXF-A940711G; year: 2005; CPU: AR2316A; Wi-Fi chip: AR2316A"
+  ],
+  "signature": "1toMKrOH2axw56wUwDhzjW7ZGC3aFFw2XIMcNIifhYXRMHfm9LDoff+lkh5CYEcBYXYot6vcjruCOjTgWtAUCg=="
+}

@@ -1,0 +1,59 @@
+{
+  "profile_id": "gigafast_wf721_aex_cc_c_wl_1102",
+  "brand": "GigaFast",
+  "model": "WF721-AEX (CC&C WL-1102)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "6656f09d7c83a34d88813fc92477a4a11ad01a97cd89054ca0a4cb50b7ca1372",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:90:47"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model GigaFast WF721-AEX (CC&C WL-1102); manufacturer CC&C WL-1102 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2003"
+  ],
+  "signature": "9rMrfcK+dx5dBf1nkTVvhTxZk8Yfj77Gn375D6lGar9smMfF+58yHrBfw+sFYvzdno/NExV8mBEcQLBz8Y8/Cw=="
+}

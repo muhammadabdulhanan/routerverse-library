@@ -1,0 +1,62 @@
+{
+  "profile_id": "globalscale_mirabox",
+  "brand": "GlobalScale",
+  "model": "MiraBox",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "4c9c7b01df3957dce058ade5a9a0243c940935b4d15702f5e49994677198ba1a",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:90:a2",
+    "f0:ad:4e"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target mvebu/cortexa9); stock admin fingerprint not inferred from OpenWrt support.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: 003-MBX0001, GlobalScale; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: YCJ003-MBX001; year: 2013; CPU: 88F6707; Wi-Fi chip: 88W8787; note: title carries several manufacturer values, pairs are cross-product approximations"
+  ],
+  "signature": "lwmv3YOnRYRbuT8sDW0tPasNpz3joQ2cM2PqbQVxNKhALAEPVH6sdb9TMO/+6wGQJjodoZi0euaKCoRBi8AVDg=="
+}

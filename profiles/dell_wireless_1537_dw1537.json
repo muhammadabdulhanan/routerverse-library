@@ -1,0 +1,61 @@
+{
+  "profile_id": "dell_wireless_1537_dw1537",
+  "brand": "Dell",
+  "model": "Wireless 1537 (DW1537)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "828bf5306bcee90ba2d037d6af978c9b44c386f4d07c2194a07e86e8b00bf793",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "48:5a:b6",
+    "54:35:30",
+    "bc:85:56"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Dell Wireless 1537 (DW1537); manufacturer Foxconn T77H470 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2013"
+  ],
+  "signature": "uSDqa1wAw/Q/d/xYFEmRq042y+nJcHwraAWYbdFuo4vk+1dZy5WUWndmNCvWeFdnPqZGaPTQ+KlAj6QOav8cCQ=="
+}

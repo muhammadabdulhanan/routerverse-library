@@ -1,0 +1,60 @@
+{
+  "profile_id": "foxconn_u12h136",
+  "brand": "Foxconn",
+  "model": "U12H136",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "0a4b3ed21c2f02a9d385bc203b6787ffb5ad48842b3276206962d42496021fd5",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "30:46:9a",
+    "a0:21:b7",
+    "c0:3f:0e"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY308400093; year: 2009; CPU: BCM4718A1; Wi-Fi chip: BCM4718A1"
+  ],
+  "signature": "T0YpHSiYxqhGUP9m0HTmy23ZiL5yJuCPIb9HG96VtV+2Ffhj5idSf8zg6tU+a+7mzaaEUFqtOYaxkFDtFKeNDA=="
+}

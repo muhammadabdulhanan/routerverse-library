@@ -1,0 +1,59 @@
+{
+  "profile_id": "gemtek_wrtb_239gn",
+  "brand": "Gemtek",
+  "model": "WRTB-239GN",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "62a960f8b19aaef3d75f3577d6e1868f953e2eb81ec8c0cf8161bbf3c88dc94f",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:1c:df"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Gemtek WRTB-239GN; FCC ID matches Dynex DX-NRUTER — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: K7SDXNRUTER; year: 2008; CPU: BCM4703; Wi-Fi chip: BCM4322"
+  ],
+  "signature": "QQ5SvBn9MrKqYScmbA0rfrhJT85YRX2Yr8jNxY7nXej30zTemGZCecbwGliL2s0JUxl705D984vbVcuDoF6xBQ=="
+}

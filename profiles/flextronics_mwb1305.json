@@ -1,0 +1,60 @@
+{
+  "profile_id": "flextronics_mwb1305",
+  "brand": "Flextronics",
+  "model": "MWB1305",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "2f8a6be83cd5df557e358be4e79297096c167f7fe229afb430411ee7e904ad8c",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:0b:8c"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Flextronics MWB1305; manufacturer Celeno VXT1300 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: XQOMWB-1305; year: 2009; CPU: CL1300; Wi-Fi chip: CL1300"
+  ],
+  "signature": "a1PAOtsDwubel49DS+3buxnq9lsulCWLHS1dpTYB2QS+F8KV5+vYiOS5jIaqNh+CzK+HeUMKZm5JUOkfXdEiBg=="
+}

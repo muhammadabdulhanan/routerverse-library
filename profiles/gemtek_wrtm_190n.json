@@ -1,0 +1,59 @@
+{
+  "profile_id": "gemtek_wrtm_190n",
+  "brand": "Gemtek",
+  "model": "WRTM-190N",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "81a78c6137b7b38fc0c318f56ea96374eff4ccf8d390dd0865deecaa81121ec0",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:16:01"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Gemtek WRTM-190N; FCC ID matches Buffalo WZR-AG300NH — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: FDI-09101479-0; year: 2007; CPU: 88F5181; Wi-Fi chip: 88W8363"
+  ],
+  "signature": "SeTArKq72jkz5M6ePdMIB4cuL9rKC6U0t8P1XRs53VvFz5Ck/JaKN6DftgHEe/Puq0K/me8cjLOH/QcxjTNMAQ=="
+}

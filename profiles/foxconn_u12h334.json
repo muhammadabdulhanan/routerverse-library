@@ -1,0 +1,57 @@
+{
+  "profile_id": "foxconn_u12h334",
+  "brand": "Foxconn",
+  "model": "U12H334",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "03cc098182b6ba1041b7a5daa0e0a5dd0bdc3d8d3928c181685a054f55b7cd89",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Foxconn U12H334; FCC ID matches Netgear R8500 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY315200309; year: 2015; CPU: BCM4709C0; Wi-Fi chip: BCM4366"
+  ],
+  "signature": "xj5jTPag8GFtZIgS8cVAUYJge8AZKDPIAYrWa09mZZWrXJX4tPYxOex+165nNNsZgyWJwuTNjBez1s6CljqXDQ=="
+}

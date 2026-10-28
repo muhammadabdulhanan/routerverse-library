@@ -1,0 +1,64 @@
+{
+  "profile_id": "d_link_dwl_810_rev_a1",
+  "brand": "D-Link",
+  "model": "DWL-810+ rev A1",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "3241e23c0c96a2d46d6f31dfc91479367338295941b0d09d9cf7f0d4b5d9971b",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:05:5d",
+    "00:15:e9",
+    "00:19:5b",
+    "14:d6:4d",
+    "1c:7e:e5",
+    "f0:7d:68"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model D-Link DWL-810+ rev A1; manufacturer Global Sun GL2422AP-6T3 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: KA2DWL-800APPLUS; year: 2003; Wi-Fi chip: ACX100"
+  ],
+  "signature": "Ukmx+T3kDH0EaMPbD9It9OSimQCMEYXej+0JAG3d2v1rVZC9KAEGpWtA/D10/x+kgF2n3pwABjWnqVSjmaHnCA=="
+}

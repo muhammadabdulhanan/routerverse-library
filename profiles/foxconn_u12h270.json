@@ -1,0 +1,65 @@
+{
+  "profile_id": "foxconn_u12h270",
+  "brand": "Foxconn",
+  "model": "U12H270",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "f458c660d18aa198fa2b6d85f78ddd3f2e6975a6e2fe1c64fcbce1fad29a5a46",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "04:a1:51",
+    "44:94:fc",
+    "e4:f4:c6"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Foxconn U12H270; FCC ID matches Netgear R6700 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY313200233; year: 2014; CPU: BCM4709A0; Wi-Fi chip: BCM4360",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY313200233, PY318300420; year: 2013; CPU: BCM4709A0; Wi-Fi chip: BCM4360",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY316200351; year: 2016; CPU: BCM4708C0; Wi-Fi chip: BCM4365E",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY315200307; year: 2015; CPU: BCM4709A0; Wi-Fi chip: BCM4360",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); CPU: BCM4708C0; Wi-Fi chip: BCM4365E"
+  ],
+  "signature": "i3Hs/byHk/MJf8ntBoArlvwYyeIeUI2x2nVf636j+IBIgQOPe2UyxM3vQEnNeKvjapQ/l9X5z5zYORUQX74uAA=="
+}

@@ -1,0 +1,60 @@
+{
+  "profile_id": "dynex_dx_nruter",
+  "brand": "Dynex",
+  "model": "DX-NRUTER",
+  "hardware_versions": [
+    "v1"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "09d1fc34e8e21b696e84cbae762fde9fe77ef20061bd830301f80ddca7acf8c1",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:1c:df"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: K7SDXNRUTER; year: 2008; CPU: BCM4703; Wi-Fi chip: BCM4322",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Dynex DX-NRUTER; manufacturer Gemtek WRTB-239GN (DeviWiki live)."
+  ],
+  "signature": "00i8SBkvC3My4AM+H3CBzLDsD7xBx15hcqOOLIBIW+kDs3lRHyfvYVY+Uiuq26AwfRMKLQVdI1MdbE10VlXLBA=="
+}

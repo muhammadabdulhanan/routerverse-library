@@ -1,0 +1,60 @@
+{
+  "profile_id": "foxconn_u12h163",
+  "brand": "Foxconn",
+  "model": "U12H163",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "c95924db79acebbef2aade7a9f21f83dfb04eeaeb599444d7780aa23a4ce33d1",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "20:4e:7f",
+    "44:94:fc"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Foxconn U12H163; FCC ID matches Netgear WNDAP360 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY310300142; year: 2011; CPU: BCM5357C0; Wi-Fi chip: BCM5357C0"
+  ],
+  "signature": "r+I5qa0qkvAmFdp4v9CAAS7jFQT0lsQoDw7AUEC80xCaa/WSg8XUO22yWyCsyPY0Cs3y2dyBvA2Puhae8MwrAQ=="
+}

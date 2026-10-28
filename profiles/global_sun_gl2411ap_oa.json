@@ -1,0 +1,58 @@
+{
+  "profile_id": "global_sun_gl2411ap_oa",
+  "brand": "Global Sun",
+  "model": "GL2411AP-OA",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "4df6a02a85bfb837282b160524f26dc3eab203e7976036eba71a19de5e911da4",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Global Sun GL2411AP-OA; FCC ID matches Linksys WAP11 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: O7JGL2411AP; year: 2001; CPU: AT76C510; Wi-Fi chip: AT76C510",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: O7JGL2411AP; CPU: AT76C510; Wi-Fi chip: AT76C510"
+  ],
+  "signature": "UwdBHVVWw1q+zssbY4aWOrpJ96UhxLE85jNzwZg0I1M0B47mfPJA6L1urWKpZLBEKZwmEcIke7mrPy1gGfmQCQ=="
+}

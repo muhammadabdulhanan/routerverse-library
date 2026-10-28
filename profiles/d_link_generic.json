@@ -1,0 +1,81 @@
+{
+  "profile_id": "d_link_generic",
+  "brand": "D-Link",
+  "model": "D-Link (generic)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "ed7e73cb681b38e62210d5585171eb6b74c673ec50d42c7eaf033fa78c2afa52",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:05:5d",
+    "00:15:e9",
+    "00:19:5b",
+    "14:d6:4d",
+    "1c:7e:e5",
+    "f0:7d:68"
+  ],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [
+        "d-link路由器管理页"
+      ],
+      "server_header_contains": [
+        "TBS/R2"
+      ],
+      "realm_contains": [],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": [
+        "d-link systems, inc"
+      ]
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "FingerprintHub rule dlink (verified: true). ShareCenter word marker dropped: it identifies NAS pages, not routers.",
+    "Brand-level fallback: model-level match pending.",
+    "Fingerprint: recog (recog_http_servers) D-Link generic."
+  ],
+  "signature": "QFcq7h+9G3ySpaM7r3+GRKAbFnX0oOH8mdCbfva82xyJpRigR3PFbsW2t1d8l/7XKawqV4bH599fXrE4c7TPAQ=="
+}

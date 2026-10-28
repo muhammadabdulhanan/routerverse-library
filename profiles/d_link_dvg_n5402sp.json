@@ -1,0 +1,66 @@
+{
+  "profile_id": "d_link_dvg_n5402sp",
+  "brand": "D-Link",
+  "model": "DVG-N5402SP",
+  "hardware_versions": [
+    "A1"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "98b4d2ae7e7bc3794bf96cfc93f887b217b324b62c23d7ccdfcb3302e193a015",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:05:5d",
+    "00:15:e9",
+    "00:19:5b",
+    "14:d6:4d",
+    "1c:7e:e5",
+    "84:c9:b2",
+    "f0:7d:68"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model D-Link DVG-N5402SP; manufacturer Shenzhen Gongjin Electronics GRNV6.1U23 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); CPU: Comcerto 1000 (M83241G-13); Wi-Fi chip: AR9283"
+  ],
+  "signature": "V1kh2/5SZKftLokd4VTibrNBala2Iq5ZW9X39LRhLJqIStcdTNeO7L/tN2nV6xSbzzI1CpxyuNZu0ZhG2y/aDA=="
+}

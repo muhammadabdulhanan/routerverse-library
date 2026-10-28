@@ -1,0 +1,57 @@
+{
+  "profile_id": "dareglobal_dsl_g624b",
+  "brand": "DareGlobal",
+  "model": "DSL-G624B",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "43d0061e034505d39421812e5eaec7f870a89ceadb7ed0c59f0a2c4e3195d905",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model DareGlobal DSL-G624B; FCC ID matches D-Link DSL-2640U — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: KA2DSL-G624B; year: 2008; CPU: BCM6338; Wi-Fi chip: BCM4312"
+  ],
+  "signature": "KrAtotb9oiTbg4Zh2/Z/0bv1oSJBT2KWdZ+ex5MDpmO84XXd2yyaxwu58euItstSQAqp2U5vjtfgy5Yo9mCpCg=="
+}

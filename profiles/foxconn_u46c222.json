@@ -1,0 +1,61 @@
+{
+  "profile_id": "foxconn_u46c222",
+  "brand": "Foxconn",
+  "model": "U46C222",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "f17800f002ca13cd2f7b9ad3799751d5b9f07d4549ef41ae5acdeaa205ecc954",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "8c:04:ff",
+    "c4:27:95"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: G95-TC8706-C; year: 2013; CPU: BCM3382; Wi-Fi chip: BCM4331",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: RSE-TC8717T; year: 2014; CPU: BCM33843; Wi-Fi chip: BCM4360",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: G95-TC8717C; year: 2014; CPU: BCM33843; Wi-Fi chip: BCM4360"
+  ],
+  "signature": "jEz6WmNBboNACXGdVAyNinfHJcy7RjXFX1sR6udTaByi8JOytsEKd6hP8ROTiE+7dkowQNjQgWQcLEG10MGYBA=="
+}

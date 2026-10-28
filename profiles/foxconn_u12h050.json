@@ -1,0 +1,61 @@
+{
+  "profile_id": "foxconn_u12h050",
+  "brand": "Foxconn",
+  "model": "U12H050",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "0810b01db9d3681880d459ae8f52ae75b7de20cd31866ca442a76602a77034d4",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:14:6c",
+    "00:18:4d",
+    "00:1b:2f",
+    "00:1e:2a"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY305300021; year: 2005; CPU: AR2316A; Wi-Fi chip: AR2316A"
+  ],
+  "signature": "x2fGobZgrspP6PqJkufx0e6mZ/OXj6CfR2X+W19FVMI6s1s0x0GiS1SFM8q4q6OlSFWuEuAc1reKQMgUrnTCCQ=="
+}

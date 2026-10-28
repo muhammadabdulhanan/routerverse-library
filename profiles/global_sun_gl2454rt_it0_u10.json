@@ -1,0 +1,59 @@
+{
+  "profile_id": "global_sun_gl2454rt_it0_u10",
+  "brand": "Global Sun",
+  "model": "GL2454RT-IT0-U10",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "40e86aaee40ac80b363724cca866fe2f762b55dc4f0af9ad6a36772fb1a87b91",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:c0:49"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Global Sun GL2454RT-IT0-U10; FCC ID matches USRobotics USR8054 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: O7J-GL2454MP-0T; year: 2003; CPU: MSP2006; Wi-Fi chip: TNETW1130"
+  ],
+  "signature": "l9mJpCYbPlAL4l6iqWmOhnzTtsUUEyqposxo6ZsG6Q08+tUSR9M9n/bkEGqE+ltHT7f+5zYAKAHWryOcsxrPAQ=="
+}

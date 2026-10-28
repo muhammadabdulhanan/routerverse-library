@@ -1,0 +1,58 @@
+{
+  "profile_id": "edimax_ew_7822utc",
+  "brand": "Edimax",
+  "model": "EW-7822UTC",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "5d755e0b4b6b07e665e38c2ef4db04123bd0f52ecf7cfea4f7e5a31598ca768c",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "10:7b:44"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2018"
+  ],
+  "signature": "Ej3vEGL8Cz1+9F9lIBCO2S8X+nZYOfbu0X/r3nNZzQqJFEp819BsVZsGF/dypYE6ker8Wav1yiBw3WPY9/NtAQ=="
+}

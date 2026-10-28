@@ -1,0 +1,57 @@
+{
+  "profile_id": "gemtek_wmtr_164gn",
+  "brand": "Gemtek",
+  "model": "WMTR-164GN",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "0f9d36e778312ddf476b41af775418b22f6641c352974b156c69ed630c1ac334",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Gemtek WMTR-164GN; FCC ID matches Belkin F8J007 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: K7SF8J007; year: 2012; CPU: RT5350; Wi-Fi chip: RT5350"
+  ],
+  "signature": "2pTPxJSsQtGvU7ugvdTHy/qpQcgUwdphGv+b029cUrkaVf8Lq/0NdWyU+Qb0DrplJ5GtBaAf/n8IyVuAqD8ADA=="
+}

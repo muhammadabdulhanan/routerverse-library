@@ -1,0 +1,59 @@
+{
+  "profile_id": "fast_fw300r_v9_x",
+  "brand": "FAST",
+  "model": "FW300R v9.x",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "009a6122f4480336a84af882aca52a2a0e4f0693352ad22fff60196f45f98ce8",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "28:2c:b2"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model FAST FW300R v9.x; manufacturer TP-LINK TL-WR842N (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2013; CPU: QCA9533; Wi-Fi chip: QCA9533"
+  ],
+  "signature": "+3AuaMHp4d/ibC46wFtM8/OQdCll50SLJq1znh0xQnfy+hlMqu2pUb9bPywM8ji6ME28cdXD0t1ELzu3Ys2vBQ=="
+}

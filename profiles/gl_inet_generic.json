@@ -1,0 +1,69 @@
+{
+  "profile_id": "gl_inet_generic",
+  "brand": "GL.iNet",
+  "model": "GL.iNet (generic)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "9cbcd577cc60c5adda54b28903302dc6750bbc4c173afe483e806f843a6ae4f1",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [
+        "gl.inet admin panel"
+      ],
+      "server_header_contains": [],
+      "realm_contains": [],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": []
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "FingerprintHub rules gl-ar300m_firmware, gl-s20_firmware (verified: true). Covers GL-AR300M and GL-S20; both rules share one title marker, so model-level separation is not possible from this source.",
+    "Brand-level fallback: model-level match pending."
+  ],
+  "signature": "Ej/HK21C2WJ873GR/x15HsC1UD0mUAXulbbtzjQwNAbDqzv/aH6U0a1owT0VhTzYsXOiCN0vZ2qB8KRkUOt8Dw=="
+}

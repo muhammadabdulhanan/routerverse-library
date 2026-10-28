@@ -1,0 +1,59 @@
+{
+  "profile_id": "edimax_br_6428n_v2",
+  "brand": "Edimax",
+  "model": "BR-6428n v2 (??)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "3ec314fe019c53be629ffe5399d163faae0bb736a45a6ea8de9fd15e6224826f",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "80:1f:02"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: Edimax; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: NDD9564281014; year: 2010; CPU: RTL8196C; Wi-Fi chip: RTL8192CE"
+  ],
+  "signature": "ICMJmcLBwXjpwNLudw7jeufudqxUJZdOKCEXL+F2nNnYVkkd1dN5wgSwJXOEpX6XfTc37QKc6QNBYpiBvFtEBA=="
+}

@@ -1,0 +1,57 @@
+{
+  "profile_id": "global_sun_gl5454ap_la0",
+  "brand": "Global Sun",
+  "model": "GL5454AP-LA0",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "185b35403ea3c528c1bebed8367d10a62894c9c1c6169445615b55506e8b367d",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Global Sun GL5454AP-LA0; FCC ID matches D-Link DWL-2000AP — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: KA2DWL2000APC1; year: 2003; CPU: AR2313A; Wi-Fi chip: AR2313A"
+  ],
+  "signature": "9cCN4E4Uv7KhZdH3EKYwsyv4ng2QItqX9xqakWcIPAC3FKc6xbD420SK859pvv0XjNczJNI1BO2b4h9uEywXDg=="
+}

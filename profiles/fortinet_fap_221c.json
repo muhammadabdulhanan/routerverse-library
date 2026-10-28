@@ -1,0 +1,57 @@
+{
+  "profile_id": "fortinet_fap_221c",
+  "brand": "Fortinet",
+  "model": "FAP-221C",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "156e27eb73de84e521d00f0470704086fc14150d2a8e9661e08c8f9b3f542eed",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target ath79/generic); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "DEkE2kqQ3a3S7n/8t5nLbLQ+5x0eNSBr/2/eZZQnI48Z0rZLwjlhM/CpsXAj3PH34qa1io7J3u9dKYZ3mUrqDQ=="
+}

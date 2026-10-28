@@ -1,0 +1,59 @@
+{
+  "profile_id": "gemtek_wx_1600n",
+  "brand": "Gemtek",
+  "model": "WX-1600N",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "531a092d5781532e00ab0180b9f372da4040152d8d845c69409bbaf0b4830565",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:40:43"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Gemtek WX-1600N; FCC ID matches Gemtek WX-1516 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MXF-A910603; year: 2002; CPU: ISL3856; Wi-Fi chip: ISL3856"
+  ],
+  "signature": "rjNJT6yrYSwfkQtZhviZ4TM7yZWsnUyCkilbZaUmXoBgU7z4U/BQ9fWqlnNk9LZWeA1OW7zpxf1e9TKP1ZVHDg=="
+}

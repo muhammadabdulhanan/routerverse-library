@@ -1,0 +1,59 @@
+{
+  "profile_id": "gemtek_wrtm_176gn",
+  "brand": "Gemtek",
+  "model": "WRTM-176GN",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "960c293ceab2d27429c4d7680fc6e3bfee6877c0a31e66a679fac256fe16c039",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:14:6c"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Gemtek WRTM-176GN; FCC ID matches Netgear WNR834M — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY306100038; year: 2006; CPU: 88F5180; Wi-Fi chip: 88W8361P"
+  ],
+  "signature": "SgKGIMpfL+c/ZWrXNIT9eOiRhQ2CJ+TbPO4Nk2RjLqjr5fQj3cByL1QB0lyyCh6lS6KLTpUHE91Luihof2+9Dw=="
+}

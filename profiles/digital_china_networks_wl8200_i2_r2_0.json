@@ -1,0 +1,59 @@
+{
+  "profile_id": "digital_china_networks_wl8200_i2_r2_0",
+  "brand": "Digital",
+  "model": "China Networks WL8200-I2 R2.0",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "65eeb2003431a04fb186559eb09b1fed499d8b5a01774f6558ee00f6fbe98090",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:03:0f"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer unproven (no manufacturer property).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: 2AM4IWL8200-I2; year: 2017; CPU: QCA9563; Wi-Fi chip: QCA9563"
+  ],
+  "signature": "1RTtFldyC6r8aAHw5VRuEgmZQe/yPRKV2MPMQX4w4Ejn02EY++cbwOLT9szPf3K7z6MP1hxU/QbzGnlVcvUmBQ=="
+}

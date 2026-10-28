@@ -1,0 +1,68 @@
+{
+  "profile_id": "google_onhub",
+  "brand": "Google",
+  "model": "OnHub",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "fdc620bd9532b141bf0ffa36b04ac183ce10c7b4eef7974a436411a4d3a3798c",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [
+        "Google Wifi"
+      ],
+      "server_header_contains": [],
+      "realm_contains": [],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": []
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Fingerprint: recog (recog_html_title) Google OnHub Router."
+  ],
+  "signature": "u7SlPt3yu+m//GwK54CcISZwcbhicp/Eg/GHdSNWkhzobHPX2GUJtitF3MSja4Us2EiI21B/iA1ub/V2AgwBDw=="
+}

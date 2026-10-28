@@ -1,0 +1,56 @@
+{
+  "profile_id": "generic_x86_64",
+  "brand": "Generic",
+  "model": "x86/64",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "9c9773294ea64eae4314b3df8b9686899e9f58f739ec1b2a34c2d41a07f83a82",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target x86/64); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "fPlTjwd60NtUi3CpTt5Ru6jobQ9+ZZ7God8Ekc1/9gZ11Nz7RZVDMavqugb5uhAqZJpAo3srD1xe+uxXRMqGBg=="
+}

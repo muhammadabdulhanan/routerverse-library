@@ -1,0 +1,57 @@
+{
+  "profile_id": "gemtek_wapq_244acn",
+  "brand": "Gemtek",
+  "model": "WAPQ-244ACN",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "b88b8ba97c8dd2f069dd5de747fb816e018523a15deb6d7de0cc425b91d297c0",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Gemtek WAPQ-244ACN; FCC ID matches Gryphon Online Safety Gryphon — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: 2AOIDGRYPHON01; year: 2018; CPU: IPQ4019; Wi-Fi chip: IPQ4019"
+  ],
+  "signature": "7ZOw+2YgtMMohKLhz+q9/VMWYh1Wd8Cl3+VrurhpXlZoHJhxvfTmSrcmVmYDNnyCQ9abcXNSo7agpC6U/OkTAA=="
+}

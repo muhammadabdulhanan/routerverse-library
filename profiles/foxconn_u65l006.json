@@ -1,0 +1,59 @@
+{
+  "profile_id": "foxconn_u65l006",
+  "brand": "Foxconn",
+  "model": "U65L006",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "88f0c3f5c6637e8ab097dc21c7bd33e30b09c1da8938ae5b71b413197fbd8d3b",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:23:97",
+    "0c:d5:02"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: CH87500XX-07; year: 2007; CPU: BCM6358; Wi-Fi chip: BCM4318E"
+  ],
+  "signature": "6vJLwR7v2jdT+7SSs5T6WFufJZli2ZRLyWrnmu1IL6lqXvOc806WnZNHIOGOYTABA5MQHxCdsdy73WpGspJWBw=="
+}

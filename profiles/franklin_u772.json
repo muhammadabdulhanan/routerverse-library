@@ -1,0 +1,59 @@
+{
+  "profile_id": "franklin_u772",
+  "brand": "Franklin",
+  "model": "U772",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "5ce791407b7f5a7ee12ed660cba128f55bbd84f433e4c78c89ab60271831d01e",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "f4:63:49"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer unproven (no manufacturer property).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: RB2-U772; year: 2012; CPU: MDM9615"
+  ],
+  "signature": "1SCmNv6lQN63HgMOci+KXURDo7jx26G13QxcMsE7A6zcYaYs6bS4+Nvk5r3v5sSWrf1fA/MXJRVWAx4c1RAODQ=="
+}

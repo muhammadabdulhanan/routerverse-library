@@ -1,0 +1,59 @@
+{
+  "profile_id": "gemtek_wrta_273n",
+  "brand": "Gemtek",
+  "model": "WRTA-273N",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "c725566a8e999a0e7be245a224c18070ce9ef4253c8811ab14a291fd3c00fb47",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "4c:e6:76"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Gemtek WRTA-273N; FCC ID matches Buffalo WZR-HP-AG300H — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: FDI-09101889-0; year: 2011; CPU: AR7161; Wi-Fi chip: AR9220"
+  ],
+  "signature": "UrrUCWITa/I3LN+XsW0TuUu2+Tbdhj4uzNMqFcktB3k0xhh2DPFBr+c/LiQjMo1w4hB9GMTJ6AbQAJvHsQjwAQ=="
+}

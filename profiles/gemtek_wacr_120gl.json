@@ -1,0 +1,57 @@
+{
+  "profile_id": "gemtek_wacr_120gl",
+  "brand": "Gemtek",
+  "model": "WACR-120GL",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "576b5ba1c0060ff68ed66f4620ca4c7e409125b208b854a13588de7a89254a66",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Gemtek WACR-120GL; FCC ID matches Linksys WGA54G — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-WGA54GV2; CPU: R2600; Wi-Fi chip: R2600"
+  ],
+  "signature": "Ek+0AIHyegOfcwsjyMojDe9uBeOzCEqo4L96C+FkTMkoEnKLJpsbcbRS/M28YnuMOOxufWG/D0+eMHGteTI6BA=="
+}

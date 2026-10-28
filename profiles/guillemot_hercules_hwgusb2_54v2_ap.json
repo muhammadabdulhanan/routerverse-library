@@ -1,0 +1,59 @@
+{
+  "profile_id": "guillemot_hercules_hwgusb2_54v2_ap",
+  "brand": "Guillemot",
+  "model": "Hercules HWGUSB2-54V2-AP",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "eb5714ed7a16448f65614d2a5f7e88007e74f9560ba96a8cddb3d9c70b7c3615",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:08:d3"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Guillemot Hercules HWGUSB2-54V2-AP; manufacturer Edimax EW-7318Ug (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2006"
+  ],
+  "signature": "oq+tNJUcmlQ3Mr0Z8KxUFzd662OJOYhHvBU/g9XnoxwXqdYgHffhEUaCgESSYkcbwAsOl14Ry4lFV48JLYBPAA=="
+}

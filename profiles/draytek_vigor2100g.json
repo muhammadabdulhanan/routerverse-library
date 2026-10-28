@@ -1,0 +1,61 @@
+{
+  "profile_id": "draytek_vigor2100g",
+  "brand": "DrayTek",
+  "model": "Vigor2100G",
+  "hardware_versions": [
+    "module 5"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "3b3d389ced55018a3f764cec4ef75e34c6479994f0967065fec620285afad680",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:1d:92",
+    "00:50:7f"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: DrayTek; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: I4L-MS6833B; year: 2005; CPU: S3C2510A; Wi-Fi chip: RT2561"
+  ],
+  "signature": "Iag9CS/+gsS4g6HxgnUIIq+P+oYp3+hd8z39aLC1ZGYV1QK1kjSrf2T1ddqO31MwGvaYwviCB/2pPsQ8v2vNBg=="
+}

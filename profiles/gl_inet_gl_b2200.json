@@ -1,0 +1,56 @@
+{
+  "profile_id": "gl_inet_gl_b2200",
+  "brand": "GL.iNet",
+  "model": "GL-B2200",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "68daad4375d88586afe8a12d25e2199fb7b7a3d3bdc9313ee79972c8431caf6b",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target ipq40xx/generic); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "9DS/Tp+O+07d6MfqgI9hECvz4D52BmBHgv3zljFPbpa0wL6TqSz9iElY7ExwflR5swYwTKsDrWUvK4/fGEJmCQ=="
+}

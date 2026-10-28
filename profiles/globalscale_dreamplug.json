@@ -1,0 +1,60 @@
+{
+  "profile_id": "globalscale_dreamplug",
+  "brand": "GlobalScale",
+  "model": "DreamPlug",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "21c2be62f3fccb5262bc8e1c2396062b891c909e816bd65dd9f1bb9df3023625",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:24:23",
+    "f0:ad:4e"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: GlobalScale; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: YCJ003-DS2XXXB, YCJ003-DS2XXXW; year: 2011; CPU: 88F6281; Wi-Fi chip: 88W8688"
+  ],
+  "signature": "7k3eeizwupUCc4j+YRIW0M+5HIulI5hhVXXYaWvvoGhtmdst9h2/AANm93A3uAzSE4Wo138pzzqUawD4u0CdDQ=="
+}

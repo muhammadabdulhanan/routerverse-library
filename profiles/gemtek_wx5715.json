@@ -1,0 +1,60 @@
+{
+  "profile_id": "gemtek_wx5715",
+  "brand": "Gemtek",
+  "model": "WX5715",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "9acc07b892715671d2bab061b4173049dc8c4b1eb0c762b21789b8554d8f711b",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:12:17",
+    "00:1a:70"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Gemtek WX5715; FCC ID matches Linksys WRV54G — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-WRV54G; year: 2004; CPU: XScale IXP425; Wi-Fi chip: ISL3880"
+  ],
+  "signature": "BLP0zJJlVUs6oIYsZG9rZdx8sLCKDj6sGdHwIqm+BX//kNPPs0VyqT5Dgvn+eiw5pPDcfK7c57XvRwPhzWhVAA=="
+}

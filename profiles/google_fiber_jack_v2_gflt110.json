@@ -1,0 +1,59 @@
+{
+  "profile_id": "google_fiber_jack_v2_gflt110",
+  "brand": "Google",
+  "model": "Fiber Jack v2 (GFLT110)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "a3fe0078b50d9626fcf46c7c38c9d9994ef4b31f170b4382b8c5ef389b2de7bd",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "f4:f5:e8"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wired); manufacturer on page: Actiontec; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); CPU: 88F6601"
+  ],
+  "signature": "mWTAClAupuT1JtUGQUBSZXk3BT6+X2MDGp9D6ZB918QPv5oIm2sbn1t1TocS1LMDYXgeefY4/0bJbyJKfQDFDA=="
+}

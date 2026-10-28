@@ -1,0 +1,57 @@
+{
+  "profile_id": "foxconn_3812as11",
+  "brand": "Foxconn",
+  "model": "3812AS11",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "0a851b35d7d86cee02dc35f4bc8ebd39498aa21a66527e778a6f61a0c6af4d40",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Foxconn 3812AS11; FCC ID matches Valve Steam Link — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: 2AES41003; year: 2015; CPU: 88DE3005; Wi-Fi chip: 88W8897"
+  ],
+  "signature": "hK7cRHhfEqWNQKMXbgzlEbg5tR4mcVmPdDtFgqrWZTRhZRpeJ5YJu/+f0jcKcjL5k5bMleL1tGgG5vnWGUJnDA=="
+}

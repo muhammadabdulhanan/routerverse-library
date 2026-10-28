@@ -1,0 +1,59 @@
+{
+  "profile_id": "foxconn_u62l051",
+  "brand": "Foxconn",
+  "model": "U62L051",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "b29a5ba66ce9f1547e0622c8b24a403cf8fba32d9a0c46dc493da9f5f27e0101",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "0c:ea:c9"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Foxconn U62L051; FCC ID matches Arris NVG448 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: GZ5NVG4XX, GZ5NVG4XXQ; year: 2016; CPU: BCM63148; Wi-Fi chip: BCM43217"
+  ],
+  "signature": "Nmasvzfy78d3BwSZA6hgmada4RVJNpBI5fHwkLzuHQGpZ4MHpL+GURkI72N8pPaUuUhSVvEvI+6JfQ2dul2OAA=="
+}

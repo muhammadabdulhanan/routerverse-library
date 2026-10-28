@@ -1,0 +1,59 @@
+{
+  "profile_id": "funai_x6060ud",
+  "brand": "Funai",
+  "model": "X6060UD",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "12f1982c2053560a64ec7d3b96625623df623285dff2f4755d1880e037a7acec",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "7c:4f:b5"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Funai X6060UD; FCC ID matches Magnavox X6060UD — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: RAXWN7111A; year: 2011; CPU: BCM7615; Wi-Fi chip: BCM43234"
+  ],
+  "signature": "BaIdq2YVPbhbwMB+WqHx7wFUgGdBKNO1g0k9Uw5b3Su/56Goz09sRhm+AOb1+nzH9xMhuhbyN4FUKYMxfrqPBg=="
+}

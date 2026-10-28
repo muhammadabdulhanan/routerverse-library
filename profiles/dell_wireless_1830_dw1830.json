@@ -1,0 +1,60 @@
+{
+  "profile_id": "dell_wireless_1830_dw1830",
+  "brand": "Dell",
+  "model": "Wireless 1830 (DW1830)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "a40dbf026e071604985be247dbaf0009972443ec85f0d65ca95a693f30bc6013",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "18:4f:32",
+    "60:6d:c7"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Dell Wireless 1830 (DW1830); manufacturer Foxconn U40H039 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2015"
+  ],
+  "signature": "EsSBWBcv8c94kuau95MO7zz0JyOeUIRFi9/cUX44Ikgfe5DVhWdzccQZXV8OvNn7rGCw8Jb6csdRG7ddKJR8Dw=="
+}

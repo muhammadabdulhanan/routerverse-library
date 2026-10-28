@@ -1,0 +1,58 @@
+{
+  "profile_id": "dq_technology_visionnet_m625n",
+  "brand": "DQ Technology",
+  "model": "VisionNet M625N",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "71cba471dd36b8dd68ee871111e8375d23ff2a802442c3bab41d6051824d466f",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model DQ Technology VisionNet M625N; manufacturer Kasda KW5225 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: QMPM625NR1; year: 2013; CPU: BCM63168; Wi-Fi chip: BCM63168"
+  ],
+  "signature": "F+59YNejk5VDQ4uMqdBb0836PvEctdfL8ayUTe4/w+lBPZLoeUDE0OlrHBHhifRlyS/EAv1mZepgQ5D8YvckCw=="
+}

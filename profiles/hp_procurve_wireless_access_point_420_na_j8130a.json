@@ -1,0 +1,57 @@
+{
+  "profile_id": "hp_procurve_wireless_access_point_420_na_j8130a",
+  "brand": "HP",
+  "model": "ProCurve Wireless Access Point 420 NA (J8130A)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "75b71156f983d49ad6698bb67605dad261d36bef7885715690b495ea9ed20ab9",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model HP ProCurve Wireless Access Point 420 NA (J8130A); manufacturer Accton WA4101 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: HEDWA4101ACCAA, HEDWL463ACC; year: 2003; CPU: MPC8241; Wi-Fi chip: AR5212"
+  ],
+  "signature": "haqp0BOKcePJOv5PhvKPs5fT1MB3TVxVv/lxl2zxXjGLFamFMUUhbLTBf0ZbJKhXoxqZeIsgm8+4v+OyUny6Bg=="
+}

@@ -1,0 +1,59 @@
+{
+  "profile_id": "edup_war_54m_01",
+  "brand": "EDUP",
+  "model": "WAR-54M-01",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "4ba01f6b8b6eaa55543a76eb38eb535d7d2df04b436da7d01b3b5a43aea33374",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:15:05"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model EDUP WAR-54M-01; manufacturer Actiontec GT701WG (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: LNQGT701; year: 2003; CPU: TNETD7300A; Wi-Fi chip: TNETW1130"
+  ],
+  "signature": "ICaN5U9XU5lVOMM3z2/p8D5WBZgM1to1aggmeF8YdtHVLvz7x0gravvTV+S2aM9eXcKr6ceO5R6DWu0H/J1HBQ=="
+}

@@ -1,0 +1,60 @@
+{
+  "profile_id": "foxconn_u12h315",
+  "brand": "Foxconn",
+  "model": "U12H315",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "ade8274362c35b1d9ac70dc1e2504a6660c12eca6aa3390b2f6aef5fa4c546a3",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "e8:fc:af"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Foxconn U12H315; FCC ID matches Netgear R7900 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY314200264; year: 2015; CPU: BCM4709A0; Wi-Fi chip: BCM43602",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY314200264; year: 2014; CPU: BCM4709A0; Wi-Fi chip: BCM43602"
+  ],
+  "signature": "m2zZ5MwXlBJ5qujCH0vC/H4Fw9/s4aPlOycYj776BF6NUbEYLqDbYxAxI3Yz300dIc7irCBCHfM1GBx2KYmIBA=="
+}

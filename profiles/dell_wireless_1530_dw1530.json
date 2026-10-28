@@ -1,0 +1,66 @@
+{
+  "profile_id": "dell_wireless_1530_dw1530",
+  "brand": "Dell",
+  "model": "Wireless 1530 (DW1530)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "700e10411673ec6d06f8c40abd1819e3e222e4482d6f8ffa8a85a33678168f2d",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "38:59:f9",
+    "60:d8:19",
+    "64:27:37",
+    "68:94:23",
+    "84:4b:f5",
+    "a4:17:31",
+    "c0:f8:da",
+    "cc:af:78"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Dell Wireless 1530 (DW1530); manufacturer Foxconn U40Z028 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2010"
+  ],
+  "signature": "HWwM5ExeFB2WM2wsz4jydsZbZPnw1BAo+pGTh34m3qG1na+DH9a8Y2h4yocI35kxA6HdYZyuPEaJexPXe+VVBQ=="
+}

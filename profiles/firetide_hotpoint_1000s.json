@@ -1,0 +1,60 @@
+{
+  "profile_id": "firetide_hotpoint_1000s",
+  "brand": "Firetide",
+  "model": "HotPoint 1000S",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "930b0ab5bc0ec52f194223829c372d2ea31eac2f7da3feda722c3582ea27e97c",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:00:24",
+    "00:02:6f"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Firetide HotPoint 1000S; manufacturer Soekris Engineering net4501 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: REP-1000S-1; year: 2004; CPU: ElanSC520-133AC; Wi-Fi chip: ISL3874"
+  ],
+  "signature": "lmf7+TP2DjDMhAFkEfO84UVtspBfn/HEfA4UDPC4Ctn9965pRIzK0AjpTpZtRSl4i0f64l+c1/GXx6y62pwJBg=="
+}

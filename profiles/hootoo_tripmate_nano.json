@@ -1,0 +1,59 @@
+{
+  "profile_id": "hootoo_tripmate_nano",
+  "brand": "HooToo",
+  "model": "TripMate Nano",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "d2bc6c86b2d89c9c1f7d6ce023057484e9fec8cbc1b1cc921da10d44963947a7",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:1c:c2"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer unproven (no manufacturer property).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); CPU: RT5350; Wi-Fi chip: RT5350"
+  ],
+  "signature": "qey4ArXPq2bZs8q0zPuYovorlH2ebHV7iFD1W55NsnZ6HNGZDzOwrlz/Xn9/F+7TfJL2NSvPW0fArbyyCrw3Ag=="
+}

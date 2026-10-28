@@ -1,0 +1,64 @@
+{
+  "profile_id": "d_link_dwl_g810_rev_unknown",
+  "brand": "D-Link",
+  "model": "DWL-G810 rev unknown",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "0b49f40a6437a86061e9a7437814af398453bdd664694dd51084393a1d1d5541",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:05:5d",
+    "00:15:e9",
+    "00:19:5b",
+    "14:d6:4d",
+    "1c:7e:e5",
+    "f0:7d:68"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer unproven (no manufacturer property).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: KA2DWLG810; year: 2003"
+  ],
+  "signature": "x/pmzASGyWCjdYoHvXni76DI3SKIWbjSqy1V+0/y3Pd7XzQSpvj8inTq3KAfG/S+92gwf1QP1YFvnQ1AjAcFDA=="
+}

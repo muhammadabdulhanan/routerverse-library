@@ -1,0 +1,56 @@
+{
+  "profile_id": "globalscale_mochabin",
+  "brand": "Globalscale",
+  "model": "MOCHAbin",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "2b44f4aae0e6a6987be3a7451196431496aa4f23f685f71e7fc3cb6417557901",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target mvebu/cortexa72); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "Surwmuo72eo2JTSchD9QqLoztLQZYJi7kQbwkbbafsuA7LkRU67hNxMRQqurPLtXORw6QGZ/Qxs6LYXJik/5CQ=="
+}

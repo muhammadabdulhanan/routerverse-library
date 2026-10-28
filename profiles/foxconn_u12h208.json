@@ -1,0 +1,60 @@
+{
+  "profile_id": "foxconn_u12h208",
+  "brand": "Foxconn",
+  "model": "U12H208",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "0937d05595be17eee04fad8d8d3731a1a06641df74919c07f1a3a1f816943a4a",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "04:a1:51",
+    "c4:04:15"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Foxconn U12H208; FCC ID matches Netgear WNDR3400v3 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY312300210; year: 2012; CPU: BCM5358UB0; Wi-Fi chip: BCM5358UB0"
+  ],
+  "signature": "9vxhDnvKRi3GWGpm7+c0/3EVfVhdpdQTA0s/u9d/XLY3GU7DJzmiRXi6Hy3kcyKwOD+f8225GNuivO+3iK+rDA=="
+}

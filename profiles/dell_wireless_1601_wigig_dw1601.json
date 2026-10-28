@@ -1,0 +1,61 @@
+{
+  "profile_id": "dell_wireless_1601_wigig_dw1601",
+  "brand": "Dell",
+  "model": "Wireless 1601 WiGig (DW1601)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "c7dd0c5c2e51dcdc975a9a0bb334d55239859c9c2e63bdec0f237a46ff41fe93",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:1a:6b",
+    "04:ce:14",
+    "44:39:c4"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Dell Wireless 1601 WiGig (DW1601); manufacturer USI QCA9005 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2012"
+  ],
+  "signature": "FeyOpYgf+klJh604CCnZuXTohZ4fWIpF7XJDckWE2jFh/PAMB8Zmcf3Q1X0gRl7EFQoM0+KWafuBR08OePhXBg=="
+}

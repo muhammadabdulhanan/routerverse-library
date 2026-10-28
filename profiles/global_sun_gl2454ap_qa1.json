@@ -1,0 +1,58 @@
+{
+  "profile_id": "global_sun_gl2454ap_qa1",
+  "brand": "Global Sun",
+  "model": "GL2454AP-QA1",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "e0d712e543a7c7a7970f6d4622ebd52860d5b2da45e9ab3f875cbb76dcf05909",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer unproven (no manufacturer property).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: O7J-GL2454AP-QA1; year: 2004; CPU: AR2312A; Wi-Fi chip: AR2312A"
+  ],
+  "signature": "XW7hJWFASlT8Z7CqfOo3fgS/c9v5FOtMBqmLs0OdhQJAUFWB1oQySj4RHKaMSIlubWHtiL+xKWR6vJsaV+55Cg=="
+}

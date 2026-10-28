@@ -1,0 +1,60 @@
+{
+  "profile_id": "dell_wireless_1550_dw1550",
+  "brand": "Dell",
+  "model": "Wireless 1550 (DW1550)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "f9f3060306438a4d8295175c78750aa5f76a98d2892b10d5eb45681f58bce570",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "40:f0:2f",
+    "b8:ee:65"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Dell Wireless 1550 (DW1550); manufacturer Lite-On WCBN606BH (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2012"
+  ],
+  "signature": "peCHz9mIeJQSdsI9mVU20ibzbEDgqFmEJE82PbFN0cp7AvZ+DgFEbnF0lYNI4AOOdeQlOArdpGF0gED3l0vCCQ=="
+}

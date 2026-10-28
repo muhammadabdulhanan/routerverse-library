@@ -1,0 +1,60 @@
+{
+  "profile_id": "engenius_ecb3500",
+  "brand": "EnGenius",
+  "model": "ECB3500",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "8de3868bb9abba793c49705e2164341fad654dc0ca067cc9f67f22cfda9a0172",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:02:6f"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: Senao; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: U2M-CB36600801; year: 2009; CPU: AR2316A; Wi-Fi chip: AR2316A"
+  ],
+  "signature": "BiVklZ7TXSR3Cb43hN6ONvoUdQwDcQxL1NEYJak93Bp1cAEMcWYvID5EBn+GAffOBqeqabWKoVJwUzHEGYN1Ag=="
+}

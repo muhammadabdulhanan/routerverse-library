@@ -1,0 +1,57 @@
+{
+  "profile_id": "gemtek_wrtr_296n",
+  "brand": "Gemtek",
+  "model": "WRTR-296N",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "bf092215e4c0c9aaec273590f6944fcba753da64cc79a18b584b8c57cbfa3ee3",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Gemtek WRTR-296N; FCC ID matches Buffalo WHR-600D — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: FDI000000011; year: 2013; CPU: MT7620A; Wi-Fi chip: MT7620A"
+  ],
+  "signature": "AR6agEtxRUBVkhEntCH/tC4m0lOm49O735oSN9KdSqVX6c0BcSCATJr3CbasIDrIdD/MBOkgGamb8ummoOlOBw=="
+}

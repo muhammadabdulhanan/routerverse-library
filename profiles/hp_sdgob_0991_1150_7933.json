@@ -1,0 +1,60 @@
+{
+  "profile_id": "hp_sdgob_0991_1150_7933",
+  "brand": "HP",
+  "model": "SDGOB-0991 (1150-7933)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "7096b08160ba834653e0c0f69c7defc05ed605df08b46e575d6613a5b5578b0a",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "90:4c:e5",
+    "ec:55:f9"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model HP SDGOB-0991 (1150-7933); manufacturer Foxconn U98Z058 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2009"
+  ],
+  "signature": "eiE5CK7MIc0HTUHw3Cmq6fy5Pa0BMSM59RNn+2hN4jR/6+Afay+RPjrIaCHB3G4m9oxcdOYR0JYErheZpre+Bg=="
+}

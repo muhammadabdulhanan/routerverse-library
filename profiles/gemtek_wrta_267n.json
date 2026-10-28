@@ -1,0 +1,59 @@
+{
+  "profile_id": "gemtek_wrta_267n",
+  "brand": "Gemtek",
+  "model": "WRTA-267N",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "882007bbb0d3f947d6a7d47cc5178d1f25976c3ab1759908a0b2f31e11210e3d",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:19:9d",
+    "00:26:82"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2010; CPU: AR7161; Wi-Fi chip: AR9220"
+  ],
+  "signature": "atNwLUS3h7xOH7mcUDfFgwh2SpkmxyW+uomK/aiy/PPTv0CkvDJmwQRfb2Xnvx7XKg81R1uw6Ne6SbGsQg5kCg=="
+}

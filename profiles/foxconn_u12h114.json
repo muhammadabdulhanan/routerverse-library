@@ -1,0 +1,60 @@
+{
+  "profile_id": "foxconn_u12h114",
+  "brand": "Foxconn",
+  "model": "U12H114",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "a190e8de7f4fcd8eda4c55e1fcc521aa82a0ffc4b4038f11a93580b9a8cfced4",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "30:46:9a",
+    "c0:3f:0e"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Foxconn U12H114; FCC ID matches Netgear WNR2000 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY309100105; year: 2009; CPU: BCM4716B0; Wi-Fi chip: BCM4716B0"
+  ],
+  "signature": "VGFBz95YEKHi7vA0RTngyK+whLUcZtau3WKIZrCxXDk0Kd786OUeoN6zQuKSac24/MPC21H1uqA3QQGUKpU8Bg=="
+}

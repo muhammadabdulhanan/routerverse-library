@@ -1,0 +1,60 @@
+{
+  "profile_id": "d_link_dwl_g510_rev_a1",
+  "brand": "D-Link",
+  "model": "DWL-G510 rev A1",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "d0cd416ebae3add173cbd071418e2c3f12d9aac05d8eba6f6a92ae076c46f9b6",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:0f:3d",
+    "00:11:95"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model D-Link DWL-G510 rev A1; manufacturer Global Sun GL2454VP-NM0 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2004"
+  ],
+  "signature": "m9NFVIbQ+1YSc5EFr0sOAjr2chRFetNzhYUUGWie3LMwRwgP3t4rQnuEHkE1TGsJ00OeqGkeVvtenIsIAyaUBQ=="
+}

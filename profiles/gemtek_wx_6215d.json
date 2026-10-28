@@ -1,0 +1,59 @@
+{
+  "profile_id": "gemtek_wx_6215d",
+  "brand": "Gemtek",
+  "model": "WX-6215D",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "f78d99fb2f91506b55143c162f86080045a39bf2d5591cf13cedd6f7f2ea493b",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:90:4b"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Gemtek WX-6215D; FCC ID matches Dell TrueMobile 1184 (WX-6215D) — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MXF-R910604; year: 2002; CPU: S3C4510B; Wi-Fi chip: ISL3871AIN33"
+  ],
+  "signature": "9v3T8v1eg8OSNoA34MdmUdgeWNHl/YLk6d85++/HuJlzzacomd58LHovHuobStjVdTiCDn5bdU2LSEb2771QDQ=="
+}

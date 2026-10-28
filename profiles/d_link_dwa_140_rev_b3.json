@@ -1,0 +1,59 @@
+{
+  "profile_id": "d_link_dwa_140_rev_b3",
+  "brand": "D-Link",
+  "model": "DWA-140 rev B3",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "ca2a7dd78cd491b939c6d309597932bed2f4ca5e0aa765592458b6df0046794c",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "84:c9:b2"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model D-Link DWA-140 rev B3; manufacturer Alpha Networks WUS-N24 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2011"
+  ],
+  "signature": "Lv3GZw+QJwEE/3eXTZT9nfBSUb3towU6Sl941hgd/ekK7G1muMSVjZ10JnmLXiqOSe3MqVqn9z+jmtyizi1qDw=="
+}

@@ -1,0 +1,64 @@
+{
+  "profile_id": "dell_wireless_1395_dw1395",
+  "brand": "Dell",
+  "model": "Wireless 1395 (DW1395)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "141dc5ea03098ac0d0f9d62d2f234597d4efa50dda338d15ee7040ee4efd286a",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:16:44",
+    "00:1e:4c",
+    "00:1f:3a",
+    "00:1f:e1",
+    "00:22:5f",
+    "00:23:4d"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Dell Wireless 1395 (DW1395); manufacturer Foxconn T77H021.00 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2007"
+  ],
+  "signature": "H5YQve8s5QLHZJsTnJKsYKSKyxhCEjLCSP4XihOjIm0a4dT7PK/EAHhgkbpMhZBgwTb7KSWBR+Z9kidIgv2PBQ=="
+}

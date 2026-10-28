@@ -1,0 +1,59 @@
+{
+  "profile_id": "engenius_esr_1221_ext",
+  "brand": "EnGenius",
+  "model": "ESR-1221 EXT",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "fb6495e8cf1562eee568d9d82d920e210cc211ef6166d26e0f83c3031e8e4f84",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:02:6f"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model EnGenius ESR-1221 EXT; manufacturer Senao NSR-1221 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: U2M-SR32108001; year: 2008; CPU: RTL8186; Wi-Fi chip: RTL8186"
+  ],
+  "signature": "jp3RlTybHEQ4y0Rb+4BYMCO4z56TbdLmYj635pd08weptyc3c3AHg22E4ME/Csg3sdI3rJy7sDu5FCkrZMXjDw=="
+}

@@ -1,0 +1,59 @@
+{
+  "profile_id": "gemtek_wadb_111g",
+  "brand": "Gemtek",
+  "model": "WADB-111G",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "57353b6857f021ff5387220810829a1b18425fdd2e0eade4da825ce16629e049",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:0f:cb"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Gemtek WADB-111G; FCC ID matches 3Com 3CRWDR200A-75 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: O9C-WL553; year: 2006; CPU: BCM6348; Wi-Fi chip: AR2414A"
+  ],
+  "signature": "VmtXKs49/BtjLBJl7lD0ZuDLmGdzS4CQPGYzEWRmDA3fyRj47ny2QGuyZhvCHZKB7agRyhEL4eNby1rQaFoBAQ=="
+}

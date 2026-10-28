@@ -1,0 +1,78 @@
+{
+  "profile_id": "dlink_dir1260",
+  "brand": "D-Link",
+  "model": "DIR-1260",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "6e0d042bf90ab302f5593af2d49c4bf82725db85e1948029226900c0a67d8e2c",
+  "last_updated": "2026-10-28",
+  "status": "unverified",
+  "oui_prefixes": [
+    "00:05:5d",
+    "00:15:e9",
+    "00:19:5b",
+    "14:d6:4d",
+    "1c:7e:e5",
+    "f0:7d:68"
+  ],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [
+        "D-Link",
+        "DIR-1260"
+      ],
+      "server_header_contains": [],
+      "realm_contains": [],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": [
+        "DIR-1260",
+        "D-Link"
+      ]
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet."
+  ],
+  "signature": "8y7pHw1BAKn99+j6gFKImEqm8K65MyqNSs2SuGfF7vjGB9hXszrE+YhNbiPUxmLgB4WInTybJoNcuSVLsXRyBQ=="
+}

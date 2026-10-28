@@ -1,0 +1,59 @@
+{
+  "profile_id": "hawking_hwr54g_rev_r",
+  "brand": "Hawking",
+  "model": "HWR54G rev R",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "1d79ed164daf4b9106bdf79af0d9fa31e869e7fde5bea8e414ba0fa7a76681aa",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:12:0e"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Hawking HWR54G rev R; manufacturer AboCom WR254 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MQ4WR254; year: 2005; CPU: RTL8186; Wi-Fi chip: RTL8186"
+  ],
+  "signature": "54QMZ52dUVzuZSMYiEoUPOf/6I+jhh55zV3sL4QG4/scLxmmwUcmiaFUQcmKYcqt60gkFa+sB/GaURucsjwUAA=="
+}

@@ -1,0 +1,68 @@
+{
+  "profile_id": "hardkernel_odroid",
+  "brand": "Hardkernel",
+  "model": "ODROID",
+  "hardware_versions": [
+    "-C1",
+    "-C2",
+    "-HC1",
+    "-N2",
+    "-U3",
+    "-X2 Rev 0.4 (20120808)",
+    "-XU",
+    "-XU3",
+    "-XU3 Lite",
+    "C1+ rev 0.4 (20160226)"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "26f21ce7c1dddaaf71d792aadb49aaeee4a1fa41288ddab5969d5d083527106d",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:1e:06",
+    "c2:22:09"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work"
+  ],
+  "signature": "YhnopJMevxx9MdTMcCZupgmcEIxEudqb5JqcQRR9rPwRBkAOITrd4ejxDC+9EaDO0+2VMcHBWdqr79fJYfITAg=="
+}

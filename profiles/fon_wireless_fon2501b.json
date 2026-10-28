@@ -1,0 +1,58 @@
+{
+  "profile_id": "fon_wireless_fon2501b",
+  "brand": "FON Wireless",
+  "model": "FON2501B",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "a44cc3ddd20baad859b1e05970866b3f3a9b524d5495025036ca28aa857b765a",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Fon Wireless FON2501B; manufacturer Arcadyan WG8013H22 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: UVAFON2501; year: 2013; CPU: BCM5358UB0; Wi-Fi chip: BCM5358UB0"
+  ],
+  "signature": "Eh3YCGR+i/2QNFWIhKXTxTvg7kMkV+sKtk8F0mI1ZfGidaxaXtDMH0R3xC0gubjVdHl+5xjke829W+0eEPaECg=="
+}

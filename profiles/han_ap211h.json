@@ -1,0 +1,58 @@
+{
+  "profile_id": "han_ap211h",
+  "brand": "HAN",
+  "model": "AP211H",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "be5f8dfc10eed08440144808287ecf5993970dea00ecde1bff5e1c37931c41f8",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: 2ALJ3AP211H; year: 2018; CPU: QCA9563; Wi-Fi chip: QCA9563",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model HAN AP211H; manufacturer SerComm CR400C (DeviWiki live)."
+  ],
+  "signature": "1PXsvrzz/RE05FzN1My+lowB2jQeTuZuUIznExhIbmz0Fxe1wyS4+dkovqXIconWawJQPz+bTIBHAD7QpIlrBA=="
+}

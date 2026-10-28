@@ -1,0 +1,59 @@
+{
+  "profile_id": "global_sun_gl2454rt_qa1_a40",
+  "brand": "Global Sun",
+  "model": "GL2454RT-QA1-A40",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "b73f202da14922623d4c674a15adfaceea2f724e10f28a40e54bab775169d3c3",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:0d:14"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Global Sun GL2454RT-QA1-A40; FCC ID matches AT&T 6800G — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: O7J-GL2454RT-QA; year: 2004; CPU: AR2313A; Wi-Fi chip: AR2313A"
+  ],
+  "signature": "n7wNbhF/LbdOHgnHnvMmlerpPhdH5mfEa9xsSDodctlj4aCka8v2FSFSkOK2gi5nc4/oz2ide3w+I9JhSFgeBQ=="
+}

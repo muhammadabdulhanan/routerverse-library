@@ -1,0 +1,59 @@
+{
+  "profile_id": "dell_wireless_2350_broadband_router_wrta_108gd",
+  "brand": "Dell",
+  "model": "Wireless 2350 Broadband Router (WRTA-108GD)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "9c6ec15e76a393bc7e310a3dc6e90985ee065949c67e852f24d6bec6c658eb92",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:90:4b"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Dell Wireless 2350 Broadband Router (WRTA-108GD); manufacturer Gemtek WRTA-108GD (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MXF-R930720G; year: 2004; CPU: AR2313A; Wi-Fi chip: AR2313A"
+  ],
+  "signature": "BXZWcRGRt521ufyANM5VU4EEz+NBlWCJ3fVFAPOPGVhSij+eo4Itq+PAcVWAvrln+C7rEi36cQcfCY6o5MQLCA=="
+}

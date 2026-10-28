@@ -1,0 +1,57 @@
+{
+  "profile_id": "global_sun_wl_rt_2454_nm2",
+  "brand": "Global Sun",
+  "model": "WL RT 2454 NM2",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "f9a4b36f38b678de652aa2262e8391c69b6d8cc70a4348e00eaa127a9ff6e09b",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Global Sun WL RT 2454 NM2; FCC ID matches Cameo WLG-2206 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: NHPWLG2206; year: 2005; CPU: 88W8510; Wi-Fi chip: 88W8510"
+  ],
+  "signature": "YguvFmu8Uykr9kdo4fmW4bb2tMfBrYKQ02SvirOwHEI9BaPE3dy9LrDLK6ZipdXHxggvs+cf2DbVCqzKxd3ZAQ=="
+}

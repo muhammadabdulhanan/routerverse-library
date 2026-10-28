@@ -1,0 +1,59 @@
+{
+  "profile_id": "gemtek_wx_2211a",
+  "brand": "Gemtek",
+  "model": "WX-2211A",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "83125c0f1b2c4d46a9c48ba1902ed76f35cd1afe5a362b3cbb55a2538b95af03",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:90:4b"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Gemtek WX-2211A; FCC ID matches TRENDnet TEW-211BRP — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MXF-R910130; year: 2002; CPU: S3C4510B; Wi-Fi chip: HFA3841"
+  ],
+  "signature": "aDu3mYIyaSc4aCypMpUQbMtV0XZZtphN3UN0mk7eCLCJXMSjoWcIrOoPTLgNN6h66xkIwb4aJnEaRMGbVNBJBg=="
+}

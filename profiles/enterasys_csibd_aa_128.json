@@ -1,0 +1,59 @@
+{
+  "profile_id": "enterasys_csibd_aa_128",
+  "brand": "Enterasys",
+  "model": "CSIBD-AA-128",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "b51ecbb2699ee8e97dc26f9c6aa1eb42164e2a3a12a4ed0e378e1b065f8bbb77",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:01:f4"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Enterasys CSIBD-AA-128; manufacturer Lucent ORiNOCO Classic (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: IMRWLPCE24H"
+  ],
+  "signature": "VVgfi+BcUaYx3T2d0/wIq7QfI3oTWZwmf1/kAwhxE68oJPg5QdJNrP5pByspIjz5WacDiMs0NRE/dM4b8Mk7AA=="
+}

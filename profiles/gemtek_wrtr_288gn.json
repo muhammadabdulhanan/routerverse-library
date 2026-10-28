@@ -1,0 +1,57 @@
+{
+  "profile_id": "gemtek_wrtr_288gn",
+  "brand": "Gemtek",
+  "model": "WRTR-288GN",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "df8a5d1c40e43c1fb1c6812c5f769c29912d9038e2a2fde575a47eadbc15c95b",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Gemtek WRTR-288GN; FCC ID matches Buffalo WCR-HP-G300 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: FDI-09101938-0; year: 2011; CPU: RT3352; Wi-Fi chip: RT3352"
+  ],
+  "signature": "gSaTjb87kKRAfAPRVwK74fUPhUklCQf4fYLW1IxoatmMmZbb8Tkytnsu6E0cNtgY57PoSERSvkgPfXWJOxg9Cw=="
+}

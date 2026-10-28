@@ -1,0 +1,60 @@
+{
+  "profile_id": "enterasys_rbt_1602",
+  "brand": "Enterasys",
+  "model": "RBT-1602",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "1fce9b258852a149e399d3bdea01d1d97b7cf3f9284a8e0527088a7715ff6865",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:1f:45"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Enterasys RBT-1602; manufacturer Alpha Networks WAP-D25 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: QZE200; year: 2005; CPU: AR5312A; Wi-Fi chip: AR5312A"
+  ],
+  "signature": "StlTljbU+wQeHsByZnUsxzdkaJY/Q+K4Vx+NKWlWu2DwnyJDNyDfZ/vjbVzszVSQBmbqEQgeF++uCLS7Q/etAg=="
+}

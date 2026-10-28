@@ -1,0 +1,63 @@
+{
+  "profile_id": "eumitcom_wa3001a",
+  "brand": "Eumitcom",
+  "model": "WA3001A",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "eb499029d67d36740e2fd176c7d0dcc7d6dc30c756e0d690c64c65c2a8a878b3",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:04:e2",
+    "00:30:bd"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: K7SF5D6130, LLM0102WA3001A; year: 2001; CPU: AT76C510; Wi-Fi chip: AT76C510",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: LLM0102WA3001A, RHK-G1CPE150; year: 2004; CPU: AT76C510; Wi-Fi chip: AT76C510",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer unproven (no manufacturer property).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: LLM0102WA3001A; year: 2001; CPU: AT76C510; Wi-Fi chip: AT76C510"
+  ],
+  "signature": "C3kqxgsFzoRsXQf3fh+qZyhtJ3ll5qwjng9fhdYHLxw5Lm93pkxJto2HjnFoY57marHWxyZyL4OyiELyN3XYBw=="
+}

@@ -1,0 +1,65 @@
+{
+  "profile_id": "foxconn_u12h181",
+  "brand": "Foxconn",
+  "model": "U12H181",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "549ca6162f0fea4f549ba8bf254bac04a8fc2c2b51f3261544387a47a7f7391d",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "20:4e:7f",
+    "20:e5:2a",
+    "4c:60:de",
+    "a0:21:b7",
+    "c4:3d:c7",
+    "e0:46:9a",
+    "e0:91:f5"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Foxconn U12H181; FCC ID matches Netgear WNDR4000 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY310400144; year: 2011; CPU: BCM4718A1; Wi-Fi chip: BCM4718A1"
+  ],
+  "signature": "8EO2bUPAVIpIUsU36Lfco5OJq9GWwX+uV8V9MLorMc6vTKHXIgCEvg3Kq491W49IYS+F6oTdMTWXbeZIjesoBg=="
+}

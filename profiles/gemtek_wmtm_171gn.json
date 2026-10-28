@@ -1,0 +1,57 @@
+{
+  "profile_id": "gemtek_wmtm_171gn",
+  "brand": "Gemtek",
+  "model": "WMTM-171GN",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "e7d84ba0c8249aef0017bb85a5442e5849ea4860b77ba9f69d50144e06a26e06",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Gemtek WMTM-171GN; FCC ID matches Kingston MobileLite Wireless — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: ZME-MLWG2; year: 2014; CPU: MT7620N; Wi-Fi chip: MT7620N"
+  ],
+  "signature": "HheepcRaLp0jolhjz/jLdfU1gv6FT6wpQSd1Lmk+Fb0F+ZkvCCtnF+qmTkfAeVsBTsTAPnCIZDPvSEVBh4IKBQ=="
+}

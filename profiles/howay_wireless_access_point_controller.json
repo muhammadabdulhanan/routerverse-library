@@ -1,0 +1,70 @@
+{
+  "profile_id": "howay_wireless_access_point_controller",
+  "brand": "Howay",
+  "model": "Wireless Access Point Controller",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "9721a9795906bf9fc93b8aa518800a9783dc74ab911feb8786a8d4351080e734",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [],
+      "server_header_contains": [],
+      "realm_contains": [],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": [
+        "src=\"images/acchtext.png\"",
+        "var oemproductname = \"mvc_howay6000\"",
+        "var oemproductname = \"mvc_howay6100\""
+      ]
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "FingerprintHub rule wireless-access-point-controller (verified: false). Generic language-switcher marker dropped."
+  ],
+  "signature": "7y16a5xmZb/hFgnEaYq+4jRhv0htx636Gwjdwobgp7Lc3XhgQRhghM2CYeEKDdJiq8nWmnF8mrwy2PsCtY92BA=="
+}

@@ -1,0 +1,58 @@
+{
+  "profile_id": "hootoo_ht_nd001",
+  "brand": "HooToo",
+  "model": "HT-ND001",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "c618a4f86e68073c260271902637a967156688ef86d54f0a2ac56b9bbb4cf0b9",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: 2AHVHWR1201; year: 2016; CPU: MT7621AT; Wi-Fi chip: MT7602EN",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model HooToo HT-ND001; manufacturer MTC WR1201 (DeviWiki live)."
+  ],
+  "signature": "0CIaMV+t+mTwp57f2VsVo7N54mIj4Y7wOZKLhpsM5gnOgYEGNf/rs9pa8zauz2Y7tfpoe00RQpXI3EeDLFmIDA=="
+}

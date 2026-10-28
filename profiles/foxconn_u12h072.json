@@ -1,0 +1,61 @@
+{
+  "profile_id": "foxconn_u12h072",
+  "brand": "Foxconn",
+  "model": "U12H072",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "d9a9452078d151f66c72cb07f600b6af7b26d7fbaa5e09029e439752502ef8e0",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:1b:2f",
+    "00:1e:2a"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Foxconn U12H072; FCC ID matches Netgear WGR614L — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY306400057; year: 2008; CPU: BCM5354; Wi-Fi chip: BCM5354",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY306400057; year: 2007; CPU: BCM5354; Wi-Fi chip: BCM5354"
+  ],
+  "signature": "6RS6y5u4HkLVfuVy5WpVvOFl8TmLYJvcspdL3UaAu9R/PwfvF06Dd+x5TH5t18FedQLOdVvGemCbJ7yr6lGIAw=="
+}

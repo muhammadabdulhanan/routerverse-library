@@ -1,0 +1,59 @@
+{
+  "profile_id": "gemtek_wrtr_203gn",
+  "brand": "Gemtek",
+  "model": "WRTR-203GN",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "2feaefe98e85d8b893992f70b00457b7685b77cd8d899aaf03a4586b47044a31",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:17:3f"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Gemtek WRTR-203GN; FCC ID matches Belkin F5D8231-4 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: K7SF5D8231-4C; year: 2007; CPU: RT1310A; Wi-Fi chip: RT2860"
+  ],
+  "signature": "iP72pySuW5HEXv53/Uxro8UJRfMI2jv3Pn5hsO3sTipOpYZdBnoc0ERy4Ghg+V2i9l01cOcnlU/xOI7R/NVTBw=="
+}

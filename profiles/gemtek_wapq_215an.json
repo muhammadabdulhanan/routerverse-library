@@ -1,0 +1,62 @@
+{
+  "profile_id": "gemtek_wapq_215an",
+  "brand": "Gemtek",
+  "model": "WAPQ-215AN",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "b9a81e1e32dc937358bab379ec4fe6fc2b851a3c03e1ed4075ce13cc6d427a45",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "30:60:23",
+    "58:56:e8",
+    "cc:7d:37",
+    "f8:0b:be"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Gemtek WAPQ-215AN; FCC ID matches Motorola VAP2500 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: ACQ-VAP2500; year: 2013; CPU: QT2018BC; Wi-Fi chip: QT2018BC"
+  ],
+  "signature": "9YDtEP1xzGbb6UZW7y24vKTMzzMTqmgDzMeRlHqOt2HenA3v088LXWTHynxhUbOGVGfLzSlFDdV6QaJyEAwtCg=="
+}

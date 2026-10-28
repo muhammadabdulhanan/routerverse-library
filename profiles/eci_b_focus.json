@@ -1,0 +1,58 @@
+{
+  "profile_id": "eci_b_focus",
+  "brand": "ECI",
+  "model": "B-FOCuS",
+  "hardware_versions": [
+    "O-4G2PW"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "e348d3a495165c887464b1d46ad61649a46b1ff91fe4c43fd54817a8f643f695",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "d0:54:2d"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work"
+  ],
+  "signature": "UiUdKodiJDVzO1/eDIYVuH2bDhtHy1+fs9F/OsmMb2yk0LGwI0Gy9120kb5A4iiN1eVgau7Q7ZuWdg0Hh22JCg=="
+}

@@ -1,0 +1,59 @@
+{
+  "profile_id": "delta_networks_lm_ws120",
+  "brand": "Delta Networks",
+  "model": "LM-WS120",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "116925ebd3a7940cd6cd8165ba6391c63697ffda7e6ff638020215c19a11b3bc",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:40:33"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Delta Networks LM-WS120; FCC ID matches Addtron AWS-110 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PD5LMWS120; year: 2001; CPU: AT76C510; Wi-Fi chip: AT76C510"
+  ],
+  "signature": "n33Af3fTppF8vlfmdR08D9/bAi5Mko+qslXZah89TNVELsyfp4gaYyNU0eFRSY8rO9T3PdM1M0w1iO6FTdkxAw=="
+}

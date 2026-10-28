@@ -1,0 +1,59 @@
+{
+  "profile_id": "dq_technology_visionnet_w203er_4",
+  "brand": "DQ",
+  "model": "Technology VisionNet W203ER-4",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "2406d0238275d783888f81b48e190decae0c82e6621ed2fb0a518bd4bbefeb98",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:01:38"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model DQ Technology VisionNet W203ER-4; manufacturer XAVi XW203ER-4 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2005; CPU: TNETD7300A; Wi-Fi chip: TNETW1130"
+  ],
+  "signature": "72Csd73M0PpIVxAmsqN+gyMNFBC030VFvm64+GwgIOj1/ivP9Rq71q7LpFv0HbPLlk2BJLmGc/YR1asF412fBw=="
+}

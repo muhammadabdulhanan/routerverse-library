@@ -1,0 +1,60 @@
+{
+  "profile_id": "dvd_watch_box",
+  "brand": "DVD",
+  "model": "Watch Box",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "c20681965b6474b83b4df5ab4520c211dd2dfd64a602118993fee14a3eafa8b3",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "28:c2:dd",
+    "a0:1e:0b"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model DVD Watch Box; manufacturer MINIX JX805AV1.2 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2016; CPU: S805; Wi-Fi chip: RTL8723BS"
+  ],
+  "signature": "1gJ8PXdKk15nnt6c5Mj+Hm6IyNZQnb0Ep+9vZEajrWYcMqx7Emsh2fbwjniJGfbnU9jkXrT8PzFqxbYac3bsDQ=="
+}

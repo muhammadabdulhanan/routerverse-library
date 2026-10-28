@@ -1,0 +1,59 @@
+{
+  "profile_id": "dynex_dx_e402_v2_0",
+  "brand": "Dynex",
+  "model": "DX-E402 v2.0",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "a3b73cf6ee8ae0514d23d6b37212b07ebfaacb9b24b0d35b6bcf06b9b67660fe",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "74:ea:3a"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wired); manufacturer on page: TP-LINK; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2010; CPU: 88E6218"
+  ],
+  "signature": "lvLlvJT5dCkpmHPW8Abqp9iux2eeQKemO29NtUF0afKyg6Ar2jE6k0VQviv1U/h1tTmA9FX8ISI5kH4eHUMOAg=="
+}

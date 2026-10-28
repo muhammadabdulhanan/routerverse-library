@@ -1,0 +1,62 @@
+{
+  "profile_id": "hp_rsvld_0608_1150_7924",
+  "brand": "HP",
+  "model": "RSVLD-0608 (1150-7924)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "ad1a1f039491076eb0896f81f4ef08e56eaa1b4354f043888d2680692ebf5675",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:1d:d9",
+    "00:1f:3a",
+    "00:1f:e1",
+    "90:4c:e5"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model HP RSVLD-0608 (1150-7924); manufacturer Foxconn U98H035 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2006"
+  ],
+  "signature": "jJ35KSTmaoOqxJ94/mXreoQ7WRSyAOOfjb93B1Cm8sw9FT+K6c3RuwGDk5x26eWK/PsmMcxxDJYpzzl3h6+7BQ=="
+}

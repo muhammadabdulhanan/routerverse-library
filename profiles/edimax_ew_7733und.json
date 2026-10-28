@@ -1,0 +1,60 @@
+{
+  "profile_id": "edimax_ew_7733und",
+  "brand": "Edimax",
+  "model": "EW-7733UnD",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "5bd9a67ceaac71b21dfe895ef6ecc3eccf063e14fee9e7a5bd11c6acf699073c",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "08:86:3b",
+    "ec:1a:59"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2011",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2012"
+  ],
+  "signature": "czDL7DuX2kRDlpc1WUXmKn20lUL9UktPt6BT5paAniVpxwoPtzXYzkoIOVbIWumX7fiuXNG7xvZDz0TiSCKcAw=="
+}

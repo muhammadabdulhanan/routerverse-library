@@ -1,0 +1,60 @@
+{
+  "profile_id": "encore_enhwi_2an3",
+  "brand": "Encore",
+  "model": "ENHWI-2AN3",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "d4e7064dc4250cc65d47ff195ed84cf28bcf58d4563c3607b4cebdb06d8e0635",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:02:6f"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: Senao; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: U2M-SR97908003; year: 2010; CPU: RT3052; Wi-Fi chip: RT3052"
+  ],
+  "signature": "GrZoyqnn3jvUINBfmE/pYyiCS6LD7mUlOmUifwFXXlRhnzPmUUCv/tt23mgCLI8eRKBhn0Z757nEoZ8C7DJDCA=="
+}

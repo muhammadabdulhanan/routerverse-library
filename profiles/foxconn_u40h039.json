@@ -1,0 +1,59 @@
+{
+  "profile_id": "foxconn_u40h039",
+  "brand": "Foxconn",
+  "model": "U40H039",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "e7b82df7eed7d8cb22f112867e5d3f30daf5782af0345556404d444137fe5f98",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "18:4f:32",
+    "60:6d:c7"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2015"
+  ],
+  "signature": "utxpu3fEdwgn4oWOckGj0697QRB9ow1eWTLIc974KaM4ttC9nWbH6K0eoqRmAmDiGGUSkgDsG4l8lJ17ri+ABw=="
+}

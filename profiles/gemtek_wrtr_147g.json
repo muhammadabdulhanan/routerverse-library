@@ -1,0 +1,62 @@
+{
+  "profile_id": "gemtek_wrtr_147g",
+  "brand": "Gemtek",
+  "model": "WRTR-147G",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "106acdc2da3034988d5d138a9bd6f622e7e7b176d416d22faba8c59d7f5ff99d",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:1e:e5",
+    "00:21:29",
+    "00:23:69"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Gemtek WRTR-147G; FCC ID matches Linksys WRV200 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-WRV200; year: 2006; CPU: RTL8651B; Wi-Fi chip: RT2661",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2007; CPU: RTL8651B; Wi-Fi chip: RT2661"
+  ],
+  "signature": "tmFxTeoXj1xDIYwiLYIsWsnju3iExfogdt5TPaYznD2fxkBhezA4KHaV98evs4+Pt+dEVa3ityE6PaOuDwFuDg=="
+}

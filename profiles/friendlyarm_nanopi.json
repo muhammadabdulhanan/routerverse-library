@@ -1,0 +1,66 @@
+{
+  "profile_id": "friendlyarm_nanopi",
+  "brand": "FriendlyARM",
+  "model": "NanoPi",
+  "hardware_versions": [
+    "NEO (512M) v1.31",
+    "NEO Plus2 (v1.1)",
+    "NEO2",
+    "NEO2 (1GB) v1.1",
+    "R1 (1GB) v1.0"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "f228f174375f7f4b85a5bb478b8a499a4df6f23577658b452dfc0bf088715f82",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "02:01:6a",
+    "02:01:e4",
+    "02:81:78",
+    "7a:e8:f8",
+    "8c:f7:10"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work"
+  ],
+  "signature": "/YW1KS6iZSOFsw9wi/3ztLuE3wnA6dCC1p5LWMECi8x6ZYu70F8rPNY8LsEJO2Z52BO4n7iP+Jt9KVy34XpvDw=="
+}

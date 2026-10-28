@@ -1,0 +1,59 @@
+{
+  "profile_id": "gigastone_smartbox_a2",
+  "brand": "Gigastone",
+  "model": "SmartBox A2",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "f456f260f756acc8c6be83c7abcf15919defbe95b7a089fed19a72db05aa712c",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "c0:34:b4"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Gigastone SmartBox A2; FCC ID matches Dane-Elec MJ-2n1W-C — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PLE-WD2501; year: 2012; CPU: AR9331; Wi-Fi chip: AR9331"
+  ],
+  "signature": "AHPev1mFFP7ywWHIKPnlSVTOX9yXiG8kh8wxr4Ns9ZiBYR7c/YFUaJFNazRcsd2/OSCPgM9v6rkoa3pzvkBFAA=="
+}

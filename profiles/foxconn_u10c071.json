@@ -1,0 +1,57 @@
+{
+  "profile_id": "foxconn_u10c071",
+  "brand": "Foxconn",
+  "model": "U10C071",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "537caf49bdb3757f32d3f16e1f47859c8aead541a9b3f9e6e7a812411b8a12d8",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Foxconn U10C071; FCC ID matches Ubee DVW323B — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: XCNDXW3WB; year: 2013; CPU: BCM3383; Wi-Fi chip: BCM4331"
+  ],
+  "signature": "XTmpypH6gpaky5arszW6E9nQBbAHVHZwDAR3Htf+JTg0WvUgYueFEDGJGDR2MVEG/iSUx1n10wrPTVXRGVRZCA=="
+}

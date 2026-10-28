@@ -1,0 +1,62 @@
+{
+  "profile_id": "foxconn_u12h093",
+  "brand": "Foxconn",
+  "model": "U12H093",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "2d9681f9c9a1354e42145474f17f06073f3861a4be49b9046e14b9636ca74d81",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:1f:33",
+    "00:22:3f",
+    "00:24:b2",
+    "00:26:f2",
+    "c0:3f:0e"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY307300072, PY308100078; year: 2008; CPU: BCM4704; Wi-Fi chip: BCM4321"
+  ],
+  "signature": "1q8Ph/bYuLw44im5fiTYiZC5wPs+JcsvAPyXUqMt3A33Ruz09slfYmWHYPisflMwPwbfdRn1Q4SuFfAf5L/wCQ=="
+}

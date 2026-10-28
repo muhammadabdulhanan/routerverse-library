@@ -1,0 +1,59 @@
+{
+  "profile_id": "d_link_dwr_118_rev_a2",
+  "brand": "D-Link",
+  "model": "DWR-118 rev A2",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "7decf0ab991701382634852519735bd9bf5ab3340f6f9ec608a8e334a7c04564",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "1c:5f:2b"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model D-Link DWR-118 rev A2; manufacturer Alpha Networks WR7620A (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); CPU: MT7620A; Wi-Fi chip: MT7620A"
+  ],
+  "signature": "OvBkZjK/KBxMz6maCfX5DNGqp6esYFtDQEOgTkd3bWJWDs3ha68zr254oHAVSfwp8og2ugcq+qwpZjLJIKDuDw=="
+}

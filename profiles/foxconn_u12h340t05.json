@@ -1,0 +1,57 @@
+{
+  "profile_id": "foxconn_u12h340t05",
+  "brand": "Foxconn",
+  "model": "U12H340T05",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "80f52f7c22fc8d74d2ab906150fd877de4c8fa2d3b4d0eb9dbaa1f6da42ef471",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Foxconn U12H340T05; FCC ID matches Netgear Orbi Wall Plug Satellite — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY316400361; year: 2017; CPU: IPQ4019; Wi-Fi chip: IPQ4019"
+  ],
+  "signature": "+50JKFyDrdHIg3gDZBGIRLNSxHQbA9lQGPrbTCGU0XzLAlMkMrZEP5IgfphS4fJ3QoCqE51oW8VoLWVT/6flAA=="
+}

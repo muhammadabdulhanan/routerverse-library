@@ -1,0 +1,61 @@
+{
+  "profile_id": "foxconn_u12h187",
+  "brand": "Foxconn",
+  "model": "U12H187",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "23195d27d2fb02b02cb4f0316c2f99c8a68a194b21ffbc14400b5f2912379439",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "20:4e:7f",
+    "74:44:01",
+    "84:1b:5e"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Foxconn U12H187; FCC ID matches Netgear WNDR3400 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY311100155; year: 2011; CPU: BCM5358UB0; Wi-Fi chip: BCM5358UB0"
+  ],
+  "signature": "3KqXsv9Wd9X75dKrwiTIEfPHY7zPz7e4saNm3U8eENu3dkVIoHKr5SLX28DRpy4ydT6mG07NczpenMxzRwo/CA=="
+}

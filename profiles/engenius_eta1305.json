@@ -1,0 +1,60 @@
+{
+  "profile_id": "engenius_eta1305",
+  "brand": "EnGenius",
+  "model": "ETA1305",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "089828a6ab32a73ada185958b85acd8c98735ddc94260b95806e181cc0e94566",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "88:dc:96"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: Senao; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: A8JETA1305; year: 2013; CPU: MT7620A; Wi-Fi chip: MT7620A"
+  ],
+  "signature": "5tWDXmanJj0dOCHnZZCuB11R0CGbogGTq3L1Wm6o2phuwRrv9x0jevgmlO/IBz/ltdBdfmzCa5PP30iKynLqAA=="
+}

@@ -1,0 +1,60 @@
+{
+  "profile_id": "edge_core_ecwo5211_l",
+  "brand": "Edge-corE",
+  "model": "ECWO5211-L",
+  "hardware_versions": [
+    "-L"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "230f06dfac4ee00756eab13ec56052d8c45127d5e0fe9acffc30423b9939214a",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "a8:2b:b5"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Edge-corE ECWO5211-L; manufacturer Amigo API50C (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: RC6-API50C, RC6-M2-TBT, YZKECWO5211L; year: 2018; CPU: IPQ4019; Wi-Fi chip: IPQ4019"
+  ],
+  "signature": "VCyWF27RQU8VzygB0pySya1kcB3wBzKmAAt+c+T6+cPv+p6dlBsWMPjJ7FhKwMRgJuTHJUAegvhshDJ9BF8YDg=="
+}

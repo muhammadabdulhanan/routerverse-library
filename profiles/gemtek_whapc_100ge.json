@@ -1,0 +1,59 @@
+{
+  "profile_id": "gemtek_whapc_100ge",
+  "brand": "Gemtek",
+  "model": "WHAPC-100GE",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "95b7cac922fa4c7dc2efc58d06c30d7a09c888bc54f9e59887c84a9ea81a50df",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:14:a5"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Gemtek WHAPC-100GE; FCC ID matches SparkLAN EP-6800 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MXF-HAP930819G; CPU: BCM4712; Wi-Fi chip: BCM4712"
+  ],
+  "signature": "5mr2lsmzkHrPPrvHXEGV2LiAL17ihzkKodYOOSlkuKWk9Mi1ylxseQ5gkgUIdwphWjcJg58MZIMrnUGDrjtGCw=="
+}

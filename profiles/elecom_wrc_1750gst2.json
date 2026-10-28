@@ -1,0 +1,56 @@
+{
+  "profile_id": "elecom_wrc_1750gst2",
+  "brand": "ELECOM",
+  "model": "WRC-1750GST2",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "8571e33c5c792f639c578f9e0f3b8465fd0e7428bba3311ecb7d51d39d3450db",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target ramips/mt7621); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "zGH9Ymg/7xzkXjeT5zKlwFBEEWfTIE/zP83EJYPK7uLm2Ac/lm9eLfJcQfLrYVs7oA1UwdioF3KNEJpXIUkXCw=="
+}

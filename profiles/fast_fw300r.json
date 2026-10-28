@@ -1,0 +1,58 @@
+{
+  "profile_id": "fast_fw300r",
+  "brand": "FAST",
+  "model": "FW300R",
+  "hardware_versions": [
+    "v9.x"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "8f6f54a311d8a3ec95c27ea31bab1532b1bb163f79c120eff92ab92475c67878",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "28:2c:b2"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work"
+  ],
+  "signature": "QRgBSTOHhZGz5bf8SYyLUFdVLW1Abn9Rux3HJDizNPvKb+QvZtgXGm/9I5qGy6dGbtqV0xydRXdv0ohxMXAYBQ=="
+}

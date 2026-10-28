@@ -1,0 +1,65 @@
+{
+  "profile_id": "d_link_dwr_117",
+  "brand": "D-Link",
+  "model": "DWR-117",
+  "hardware_versions": [
+    "A1"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "9f06c9bee65061ad776ac8fa9bc790960a32256bbf6045bd620be1a54116245f",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:05:5d",
+    "00:15:e9",
+    "00:19:5b",
+    "14:d6:4d",
+    "1c:7e:e5",
+    "f0:7d:68"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: KA2WR117A1; CPU: RT3352; Wi-Fi chip: RT3352",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model D-Link DWR-117; manufacturer Alpha Networks WRG-N46 (DeviWiki live)."
+  ],
+  "signature": "MtgHdVZW9I1z1PnIpldZV8GY6VG2WCoMkdqbTsrGjMxODTvr1sTpvqga15nHS2Lyma7tQPmalBhgB6ULWh9zCQ=="
+}

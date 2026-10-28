@@ -1,0 +1,60 @@
+{
+  "profile_id": "foxconn_u12h376",
+  "brand": "Foxconn",
+  "model": "U12H376",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "d2df3f9a20090e9fbca3148ab868d289cd2af420f7f917b171b669d6d481f974",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "14:59:c0"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Foxconn U12H376; FCC ID matches Netgear RAX75 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY318200414; year: 2019; CPU: BCM4908; Wi-Fi chip: BCM43684",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY318200414; year: 2018; CPU: BCM4908; Wi-Fi chip: BCM43684"
+  ],
+  "signature": "2O3v3sSMhiv489SLFQzEM1JDlQYkXybN9f5KorX6VmhtPNT1o2Yq5M/tFkgiv0PeIt8UMIi9Uv1IpyaaA3ISAg=="
+}

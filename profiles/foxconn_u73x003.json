@@ -1,0 +1,56 @@
+{
+  "profile_id": "foxconn_u73x003",
+  "brand": "Foxconn",
+  "model": "U73X003",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "fee7334e4b63e7dc7d4651efcb60f4092db1003a01bc1d62f56f896968e71102",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PPD-QCA6234, S59-4891; year: 2014; CPU: APQ8064T; Wi-Fi chip: AR6004"
+  ],
+  "signature": "4sP8hhh8I5v3GQbNVfah0X0UEbo5fOF6fiogKjt3b5MmrFECbErAo82kukoQ0I4+Ep6Ga29MT8ca5Qma6mL1Ag=="
+}

@@ -1,0 +1,56 @@
+{
+  "profile_id": "friendlyarm_nanopi_m1_plus",
+  "brand": "FriendlyARM",
+  "model": "NanoPi M1 Plus",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "15695c964537aaf36d0b13bdd3de6cb5f639b9199518cb35f929a42c1db85418",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target sunxi/cortexa7); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "gCXvS7Gg+3hq06d6L9A1Uk3tCkvPzIh7UedRV5Nz7cvnKqehPmuvJqI9qOayCOY/vEV5iG1YwJrr5rDkdpXLAQ=="
+}

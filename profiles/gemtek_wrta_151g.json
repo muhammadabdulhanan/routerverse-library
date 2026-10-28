@@ -1,0 +1,60 @@
+{
+  "profile_id": "gemtek_wrta_151g",
+  "brand": "Gemtek",
+  "model": "WRTA-151G",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "6acc4a485cccd0331d2b8427c71d8b8a1fe00c73c215767959ff1eea4d6cb27b",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:1a:c1"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Gemtek WRTA-151G; FCC ID matches 3Com 3CRWER100-75 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: O9C-WL537; year: 2006; CPU: AR2315A; Wi-Fi chip: AR2315A",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: O9C-WL537S; year: 2006; CPU: AR2316A; Wi-Fi chip: AR2316A"
+  ],
+  "signature": "23o6Lxb2lxBu3EIsPsNMyZnMfz4RGTTVJ8LqWoV9rRtQb3bgnO3BrwTnJQaHqg+q4GCiKuFDrEFVu9AwW6ExBA=="
+}

@@ -1,0 +1,59 @@
+{
+  "profile_id": "global_sun_gl2422rp_0t3_s01",
+  "brand": "Global Sun",
+  "model": "GL2422RP-0T3-S01",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "d10670803687d1b7a777bffe65a00ebff79f8b907b27bda91f0bb82eab887a7b",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:03:2f"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Global Sun GL2422RP-0T3-S01; FCC ID matches SMC SMC2404WBR — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: O7J-GL242204-0T; year: 2002; CPU: S3C4510B; Wi-Fi chip: ACX100"
+  ],
+  "signature": "r+1E7wVn4z7QXOlHK57WIRIAu0lmCc2SjCqaW8QHCGwMWgUkwBh28uQaFHZ+2246YRYVOTc7vE4AwlSXbrpQAQ=="
+}
