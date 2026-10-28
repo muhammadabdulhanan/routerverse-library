@@ -1,0 +1,64 @@
+{
+  "profile_id": "tenda_i21",
+  "brand": "Tenda",
+  "model": "i21",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "0e0bc3266ec6438253dcedb3c6385180052e1f7e24fca7303fc4daa550c2935c",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "04:95:e6",
+    "50:0f:f5",
+    "c8:3a:35",
+    "d8:32:14"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: 2ABZMAP345V2, V7TI21; year: 2018; CPU: RTL8197FN; Wi-Fi chip: RTL8197FN",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: Tenda; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: V7TI21; year: 2017; CPU: RTL8197FN; Wi-Fi chip: RTL8197FN"
+  ],
+  "signature": "jkJPChG+8GhHF6XUwKLQ/7KeTuXXp2/ycw/lAdlx8oM6NkqzrBgYn4VpUPlE0/6+mZBIYgYVyO7+VHR2RKyDDg=="
+}

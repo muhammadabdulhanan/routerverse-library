@@ -1,0 +1,76 @@
+{
+  "profile_id": "totolink_a3002ru",
+  "brand": "Totolink",
+  "model": "A3002RU",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "78ba277141f93d055cc9eb9c411161a72ec539468c8f5536896444a43d5dd15d",
+  "last_updated": "2026-10-28",
+  "status": "unverified",
+  "oui_prefixes": [
+    "78:44:76"
+  ],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [
+        "TOTOLINK",
+        "A3002RU"
+      ],
+      "server_header_contains": [],
+      "realm_contains": [],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": [
+        "A3002RU",
+        "TOTOLINK"
+      ]
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: X7DIP04281; year: 2017; CPU: RTL8197DN; Wi-Fi chip: RTL8812AR",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model TOTOLINK A3002RU; manufacturer Zioncom IP04281 (DeviWiki live)."
+  ],
+  "signature": "Wg3GYQKYj26v1zq7/+JZPl9uNOSDFU6GOhNXsUbaQhv4ldE4QcL/m7qm5WlbSazxX7pGBu0REJpqj9CvCf51Bw=="
+}

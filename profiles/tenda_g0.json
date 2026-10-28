@@ -1,0 +1,74 @@
+{
+  "profile_id": "tenda_g0",
+  "brand": "Tenda",
+  "model": "G0",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "20f05cc5cbe51b9513c4cec5655878db613ee231a9ae69da50386e70bc9371cc",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "04:95:e6",
+    "50:0f:f5",
+    "c8:3a:35",
+    "d8:32:14"
+  ],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [
+        "tenda"
+      ],
+      "server_header_contains": [],
+      "realm_contains": [],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": []
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "FingerprintHub rule g0 (verified: true).",
+    "Weak marker — low confidence match"
+  ],
+  "signature": "Cos6auTD06g7ll83X/mdI31+8AWd1YXEmpng2OMCIb4ac9EOAf2OJo2Q8b772OaJgV68WuDghMa0xUR2ucj3Dg=="
+}

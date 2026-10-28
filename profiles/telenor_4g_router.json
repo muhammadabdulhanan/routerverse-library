@@ -1,0 +1,69 @@
+{
+  "profile_id": "telenor_4g_router",
+  "brand": "Telenor",
+  "model": "4G Router",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "348afd0a41439eb5846b1355d8a3c279d68a91328d41911afe4f8287b4b141c4",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [],
+      "server_header_contains": [],
+      "realm_contains": [],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": [
+        "<form id=\"default_login\" name=\"default_login\" method=\"post\" action=\"/goform/user_login\">",
+        "please power off and plug in (u)sim card. then power on again. or pin is permanently blocked, please contact the provider"
+      ]
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "FingerprintHub rule telenor-4g-router (verified: false)."
+  ],
+  "signature": "+AQqxATkEe1wnUsXapwbIa4qQb+c9BCtwFXO2WY0sMTNluxNaxxGleCq1diMyb4Y1WQA0nU1F4R7fYz9xt8rAg=="
+}

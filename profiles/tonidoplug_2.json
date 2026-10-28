@@ -1,0 +1,60 @@
+{
+  "profile_id": "tonidoplug_2",
+  "brand": "TonidoPlug",
+  "model": "2",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "a655db6815aac2cc60292cff21b5ef728c7e612f3c77836b48cad4866c0182c8",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "40:2c:f4",
+    "dc:85:de"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model TonidoPlug 2; manufacturer USI Topkick 1281P2 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: IXMUGNAS-P3; year: 2011; CPU: 88F6283; Wi-Fi chip: 88W8786"
+  ],
+  "signature": "yyVQ3McVIiyzR1S+2El+bfdzxMA7RpyppabNJfJcua9w1Ycm0eJVKXZcY6dS8Lu0T9C04DgrtJOXP/mgG2fUDg=="
+}

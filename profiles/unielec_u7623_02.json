@@ -1,0 +1,56 @@
+{
+  "profile_id": "unielec_u7623_02",
+  "brand": "UniElec",
+  "model": "U7623-02",
+  "hardware_versions": [
+    "eMMC/512MiB RAM (legacy image)"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "18935a8014279f73571f0d5398f603ce59c58ddf3bcd27500f0a2bcd766e8e2b",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target mediatek/mt7623); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "RYI60KSvviSe5iLzlEpx6Kxo29nL+0YawV/sJmqaGn8q7iIP1n4dWdSAPZ3Da9dlNL5nxEpB71P9svEaj9EFDA=="
+}

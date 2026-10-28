@@ -1,0 +1,69 @@
+{
+  "profile_id": "tp_link_tl_wr741nd_v4_3",
+  "brand": "TP-Link",
+  "model": "TL-WR741ND v4.3",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "82d981c3ea3e310eae9c686a4e7d47801afc81e7626f80598bfa3f45b9884783",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "10:fe:ed",
+    "14:cc:20",
+    "30:b5:c2",
+    "64:66:b3",
+    "64:70:02",
+    "90:f6:52",
+    "a0:f3:c1",
+    "c4:6e:1f",
+    "e8:94:f6",
+    "f8:1a:67",
+    "f8:d1:11"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: TP-LINK; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: TE7WR741NDV4; year: 2011; CPU: AR9331; Wi-Fi chip: AR9331"
+  ],
+  "signature": "d7tf4ov7tXm89z1RNUvEYQgM9qJjFC3d7hGyiVXSQ69gD9yZN3qGgL7puiCzCndyOMhVWW5IckjylDHRQCkCDQ=="
+}

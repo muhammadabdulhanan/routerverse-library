@@ -1,0 +1,59 @@
+{
+  "profile_id": "smc_smcwbr14s_n5_rev_a2",
+  "brand": "SMC",
+  "model": "SMCWBR14S-N5 rev A2",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "2674dc8d46c216656c869e365c190894c4c7fe26a4f9192825ccc4fa1b084fea",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "78:cd:8e"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model SMC SMCWBR14S-N5 rev A2; manufacturer TP-LINK WR741ND (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: TE7WR741NDV4, UL9WNRT617V2, W6RRNX-N150RTV2, X4Y4ARN01154U4, YZKSMCWBR14SN5V2; year: 2013; CPU: AR9331; Wi-Fi chip: AR9331"
+  ],
+  "signature": "5ZXxlCF9eEuzwR3IWRxE/G6mO0IagMQdV6yz4n3odZJXoJuluKZXhxRdqeBJDMcWVjubVeU4AJVnLfbSv78dAA=="
+}

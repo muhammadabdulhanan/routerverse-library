@@ -1,0 +1,62 @@
+{
+  "profile_id": "tenda_ap5_v2",
+  "brand": "Tenda",
+  "model": "AP5 v2",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "47a9a5b7e8a64ba4b2922d5f8ab18d9ac285f9a456e85ac1a454eadc1c4eb017",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "04:95:e6",
+    "50:0f:f5",
+    "c8:3a:35",
+    "d8:32:14"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer unproven (no manufacturer property).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: V7TAP5V2; year: 2019; CPU: QCA9533; Wi-Fi chip: QCA9533"
+  ],
+  "signature": "HDTU/GYEu+K63R0u3RigBEvFP4Z5haR3u/qw1D+FhnZ/Ig1vMOQnINv3tguqAeR46GyYS0hjP5GJGmDJaCmXDA=="
+}

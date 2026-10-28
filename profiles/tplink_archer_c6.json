@@ -1,0 +1,88 @@
+{
+  "profile_id": "tplink_archer_c6",
+  "brand": "TP-Link",
+  "model": "Archer C6",
+  "hardware_versions": [
+    "V3",
+    "v1",
+    "v2",
+    "v2 (EU/RU/JP)",
+    "v2 (US)",
+    "v3"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "b2e4381d5490ef39d5763ca59e387c0dd3237c873ecc71aa6aeb9263e2b390de",
+  "last_updated": "2026-10-28",
+  "status": "unverified",
+  "oui_prefixes": [
+    "00:0a:eb",
+    "14:14:4b",
+    "14:cc:20",
+    "50:c7:bf",
+    "98:de:d0",
+    "a4:2b:b0",
+    "c0:06:c3",
+    "ec:08:6b"
+  ],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [
+        "TP-Link",
+        "Archer C6"
+      ],
+      "server_header_contains": [],
+      "realm_contains": [
+        "TP-Link"
+      ],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": [
+        "Archer C6",
+        "TP-Link"
+      ]
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "redmind-default-credentials:tp-link",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target ath79/generic, ramips/mt7621); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "/jpsAz/GCfWZpvy/vNihfi8zPl6fnC68XCaMSxUHKxlS3xwvU5j4pnOcqsN6Trm8SCymQ2m7yAoTEdsfInnFBQ=="
+}

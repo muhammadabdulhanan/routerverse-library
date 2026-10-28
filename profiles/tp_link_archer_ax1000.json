@@ -1,0 +1,65 @@
+{
+  "profile_id": "tp_link_archer_ax1000",
+  "brand": "TP-Link",
+  "model": "Archer AX1000",
+  "hardware_versions": [
+    "v1.x"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "ba3e9ec3d59c11ca250e86f9c6daf86f15fe2109c237dd8e61a7e7740b7b529c",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:0a:eb",
+    "14:14:4b",
+    "14:cc:20",
+    "50:c7:bf",
+    "98:de:d0",
+    "a4:2b:b0",
+    "c0:06:c3",
+    "ec:08:6b"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work"
+  ],
+  "signature": "FQK+yYidDPqo3Lm8ElP5rkI/u/Q2RfET/p+m+mqw3hJwGscOmoUyPw/RrER3hi/TyzQUSB2BGVABM+DU28gHAw=="
+}

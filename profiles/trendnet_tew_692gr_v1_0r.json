@@ -1,0 +1,59 @@
+{
+  "profile_id": "trendnet_tew_692gr_v1_0r",
+  "brand": "TRENDnet",
+  "model": "TEW-692GR V1.0R",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "2e3ac66604c585e199e6930b1af3ca0f80a72510bb373fd2d6534a20527639fc",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:14:d1"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model TRENDnet TEW-692GR V1.0R; manufacturer U-MEDIA WRT-893L (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: XU8TEW692GR; year: 2011; CPU: RT3883; Wi-Fi chip: RT3883"
+  ],
+  "signature": "8PRCOtBLlnac22DL4GB2nbTZ5E/6oh0aC1ZNta3RIJ4NQHllM65jr2eBI2fdtiE2vHZr+FseRUZ+5xuzQqwbCw=="
+}

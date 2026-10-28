@@ -1,0 +1,60 @@
+{
+  "profile_id": "trendnet_tew_672gr",
+  "brand": "TRENDnet",
+  "model": "TEW-672GR",
+  "hardware_versions": [
+    "V1.0R"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "122c6098e1fc51e5de8e1d0fa3a449f34f7cdaf28a9cd608f74754a4a5b2b6db",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:14:d1"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model TRENDnet TEW-672GR; manufacturer U-MEDIA WRT-790L (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: S9ZTEW672GR; year: 2008; CPU: RT2880; Wi-Fi chip: RT2880"
+  ],
+  "signature": "oZQDC26g9FR4tQNWQsKfqSMH/jIXwU4iDkt4noSc61QLEQSKTu6hUu2CNfWdCFAlKsSgqgXozbkw4Q765Bo9DQ=="
+}

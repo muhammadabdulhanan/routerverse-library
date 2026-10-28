@@ -1,0 +1,59 @@
+{
+  "profile_id": "trendnet_tew_829dru_v1_0r",
+  "brand": "TRENDnet",
+  "model": "TEW-829DRU v1.0R",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "fd0602ed91c3b494568e5f955804de24e9d828b8fed29c2e2859181646cf60d8",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "d8:eb:97"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: U-MEDIA; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: XU8TEW829DRU; year: 2018; CPU: IPQ4019; Wi-Fi chip: IPQ4019"
+  ],
+  "signature": "Tx8guP3tiCa7/ZJBLZQL2sO7eKsBa9jDmWrj7D5sXzyo58skzQ9D05KC72Li8pkD+3GB5rFW9H+cxNL+9EhtBg=="
+}

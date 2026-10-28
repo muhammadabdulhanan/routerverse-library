@@ -1,0 +1,57 @@
+{
+  "profile_id": "ubee_ubc1310_ba00",
+  "brand": "Ubee",
+  "model": "UBC1310-BA00",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "5de6fb8241af39a9914f5037957b82322bd99c5f074a03b5d2a1c71c9faeefcd",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Ubee UBC1310-BA00; manufacturer Foxconn U10C118 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: XCNUBC1310; year: 2018; CPU: BCM3384ZU; Wi-Fi chip: BCM4331"
+  ],
+  "signature": "sc4CWY6nDpK/x33PuP3ck3NJ931vKyraFAZBgU76rKsdTig8hG5KxKFvybghcLk8l5ONVP3p+Pkg9RHx1rfjCQ=="
+}

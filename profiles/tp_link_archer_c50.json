@@ -1,0 +1,67 @@
+{
+  "profile_id": "tp_link_archer_c50",
+  "brand": "TP-Link",
+  "model": "Archer C50",
+  "hardware_versions": [
+    "v1",
+    "v1.0",
+    "v2.0",
+    "v3",
+    "v3.x",
+    "v4",
+    "v4.x",
+    "v5.x",
+    "v6 (CA/EU/RU)"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "11f70d037388c8bb8ae9e5a3477f72f81bed2b1e5ff7e3bcde704b5f24c076fa",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "60:e3:27"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target ramips/mt7620, ramips/mt76x8); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "U50I4QPce0mmGeZyETkE1jgkXyaOe/N08N1cl7YsNO0lJkUqAwwmgbGNeJZ52sHEu8AyZwUz3TBSo9dQB152Bg=="
+}

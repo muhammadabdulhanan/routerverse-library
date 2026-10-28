@@ -1,0 +1,57 @@
+{
+  "profile_id": "trendnet_tew_631brp_v2_0r",
+  "brand": "TRENDnet",
+  "model": "TEW-631BRP V2.0R",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "c01e3bf818d1a1c9e81ce8e469472f905f3a9e4f628c78d599991097ebef4050",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model TRENDnet TEW-631BRP V2.0R; manufacturer U-MEDIA WRT-372U (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: S9ZTEW631BRP, SI5WRT372U; year: 2006; CPU: IP5160; Wi-Fi chip: AR5416"
+  ],
+  "signature": "NqP7YAoU8iuQFUrm17x3FeT4FkH9bLmlIUUIL2qYEtPfto819LPy9CQ+PfaFJ4Fp+1oZ0NYA9/JdBYsNbJscCA=="
+}

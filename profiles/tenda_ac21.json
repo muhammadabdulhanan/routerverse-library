@@ -1,0 +1,77 @@
+{
+  "profile_id": "tenda_ac21",
+  "brand": "Tenda",
+  "model": "AC21",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "45bea769983d93f08db32b10811e5009c910b53bd2fa7fa0f3e45bad0ac5b33c",
+  "last_updated": "2026-10-28",
+  "status": "unverified",
+  "oui_prefixes": [
+    "04:95:e6",
+    "50:0f:f5",
+    "c8:3a:35",
+    "d8:32:14"
+  ],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [
+        "Tenda",
+        "AC21"
+      ],
+      "server_header_contains": [],
+      "realm_contains": [],
+      "url_paths": [
+        "/",
+        "/login.html"
+      ],
+      "body_contains": [
+        "AC21",
+        "Tenda"
+      ]
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet."
+  ],
+  "signature": "0xdV8IMDughFEPH9kdmoTeyNd8LfgTvxLQ/vBZm/G2GVJT27cf36OoVFdL70Xf0WJVmsq0mLEVzfmc/LjYTfDw=="
+}

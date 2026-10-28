@@ -1,0 +1,59 @@
+{
+  "profile_id": "t_com_speedport_w723v_typ_b",
+  "brand": "T-Com",
+  "model": "Speedport W723V Typ B",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "ed3737a8f75bd89c4571f89212bb1da441cb7446f6370ad3d885bd223306dc31",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "74:31:70"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model T-Com Speedport W723V Typ B; manufacturer Arcadyan VGV8539 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2011; CPU: PSB 80920; Wi-Fi chip: BCM43222"
+  ],
+  "signature": "H34uiTrhg1LSNLZWOtG8YCs429im/D4S1q3izrKPRo2QvwKPdrNhrQE1km8z/t/9vCQtKkako+bFjU4xpZ4tCQ=="
+}

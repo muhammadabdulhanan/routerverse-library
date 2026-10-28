@@ -1,0 +1,57 @@
+{
+  "profile_id": "st_t_spo120",
+  "brand": "ST&T",
+  "model": "SPO120",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "e4e27d15d9ec88e72873f9bb618ed6b190206bc4774d1dc7de5ea3d0b0fcf1d5",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model ST&T SPO120; FCC ID matches Edimax SP-1101W — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: QBL-RTSPO120-0; year: 2014; CPU: RT5350; Wi-Fi chip: RT5350"
+  ],
+  "signature": "5yCRMLBN9I5gLAtj4hrUHgasw6l3GiE1BMrvpbbXxWE/LuhkD3DYbRQZtkg4uMoNjR1hPZJIJ6m/L/bgCSauAA=="
+}

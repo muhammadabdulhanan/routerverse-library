@@ -1,0 +1,61 @@
+{
+  "profile_id": "udoo_quad",
+  "brand": "UDOO",
+  "model": "Quad",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "96bc0e4c7d6c997b357c143116f8118ab5baa8c2641bc2383011910c18a0890f",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:c0:08",
+    "7c:dd:90"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: QR4WF5370M08; year: 2013; CPU: i.MX6Q; Wi-Fi chip: RT5370",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model UDOO Quad; manufacturer SECO CS975 (DeviWiki live)."
+  ],
+  "signature": "AYsoI8gcd/ER31gZ6bsklfZpShJcUQgpA0ipJ+O7/CHEnGQbueFlFu+k9rcbSky+aK0vG4PogOPbnVJWWkUfBg=="
+}

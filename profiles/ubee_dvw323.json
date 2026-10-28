@@ -1,0 +1,57 @@
+{
+  "profile_id": "ubee_dvw323",
+  "brand": "Ubee",
+  "model": "DVW323",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "6cfafbab0f9364f64016bc3be27a42cd10ab16c9a3b63cbc03452ca3538480ae",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Ubee DVW323; manufacturer Foxconn U10C071 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: XCNDXW3WB; year: 2013; CPU: BCM3383; Wi-Fi chip: BCM4331"
+  ],
+  "signature": "sbwOWLdbGHbjC/b17Nr/ShH9gZ9VakIYVvgfPkcNKvmccf2Ja6TwkMNIUzuxMXlSUf5FAjnoo3JewF6xi0uGAQ=="
+}

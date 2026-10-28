@@ -1,0 +1,59 @@
+{
+  "profile_id": "trendnet_tew_651br_v1_0r",
+  "brand": "TRENDnet",
+  "model": "TEW-651BR V1.0R",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "4cc883088ecef1c207f78ad19dbbb18071e5e465a2489c411ad3ee799373c67d",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:14:d1"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model TRENDnet TEW-651BR V1.0R; manufacturer Cameo WLN-2211 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: XU8TEW651BR; year: 2010; CPU: RTL8196B"
+  ],
+  "signature": "i4NWpK/lJQRaEggMpclGEkFl4Wchtky7Tl0qFQxt7/F0Z79KcjbfJvX8xxj3pK2MwkDLywyHGdEAFq4gMoTQDg=="
+}

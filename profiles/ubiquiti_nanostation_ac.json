@@ -1,0 +1,65 @@
+{
+  "profile_id": "ubiquiti_nanostation_ac",
+  "brand": "Ubiquiti",
+  "model": "NanoStation AC",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "fc4e9f932719d4e0ea4d94e6b4c1ba627f4bbf344d12e5c0abb1d4cb615fa27e",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:15:6d",
+    "04:18:d6",
+    "24:a4:3c",
+    "44:d9:e7",
+    "78:8a:20",
+    "80:2a:a8",
+    "f0:9f:c2"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target ath79/generic); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "zqxw5F5RnFHOVAbZkSHrxxx4mmq89LMBQH5G2jZhdGqb9ZuRbD7NwZNdx87a9xLfFrg3ItygDWjM7Pu3YZmJBg=="
+}

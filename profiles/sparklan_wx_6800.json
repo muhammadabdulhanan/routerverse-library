@@ -1,0 +1,58 @@
+{
+  "profile_id": "sparklan_wx_6800",
+  "brand": "SparkLAN",
+  "model": "WX-6800",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "83d5bb1d596b4fe144645062b0b2e5a4e4b7e659e7360222b96e0134ee6c10d7",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MXF-A920909G; year: 2004; CPU: BCM4702; Wi-Fi chip: BCM4306",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model SparkLAN WX-6800; manufacturer Gemtek WX5561 (DeviWiki live)."
+  ],
+  "signature": "PNkD/clsOvyz/c9i09/BDBX9bxJREgQkCNWs831uN6JSTWLECfCPs7TZnczYxBXWMP+vjrij/G04zg305RkCDw=="
+}

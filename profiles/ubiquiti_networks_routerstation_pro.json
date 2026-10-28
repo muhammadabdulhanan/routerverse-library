@@ -1,0 +1,59 @@
+{
+  "profile_id": "ubiquiti_networks_routerstation_pro",
+  "brand": "Ubiquiti",
+  "model": "Networks RouterStation Pro",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "c3ce6ead757622db25893d1e7aa7c05fc2d623a8c66cd2f1095cba7cb31abca1",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:15:6d"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Ubiquiti Networks RouterStation Pro; manufacturer U-MEDIA MPB-890A (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2009; CPU: AR7161"
+  ],
+  "signature": "50+Z20FBt2fuF+wRvaM+m6IzS1d6591t5WZqqDoAV9kz4Kul8zp1b7J5mFcnyzkuLSHP0RKOdKQixACX5Ck7Bw=="
+}

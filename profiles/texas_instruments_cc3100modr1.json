@@ -1,0 +1,57 @@
+{
+  "profile_id": "texas_instruments_cc3100modr1",
+  "brand": "Texas",
+  "model": "Instruments CC3100MODR1",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "fa39fe5eb130fdf45583ee2a3e8ffa9719e5778c3052f8089ae64199aa4cd58c",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Texas Instruments CC3100MODR1; manufacturer Foxconn T77H533.00 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Z64-CC3100MODR1; year: 2014; CPU: CC3100; Wi-Fi chip: CC3100"
+  ],
+  "signature": "2rsMbs7Me3bKbuocax0kLPbNAwtzR+B5MFiimTusqtFjBauz4ohKQHfOzxErKgdZfRggRQ3mRW8qKo1yWlGPBg=="
+}

@@ -1,0 +1,59 @@
+{
+  "profile_id": "unex_daxa_92",
+  "brand": "Unex",
+  "model": "DAXA-92",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "7854dd4cec80e510dd3bbe255c6a8de2e419c78991902fa71e000f18b63b4167",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "d8:61:62"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Unex DAXA-92; manufacturer Wistron NeWeb DAXA01 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2012"
+  ],
+  "signature": "3aNkXQTu3PO312Cl0fTU0ywGYi8E3wnQ2BpODnnFGAr4TMDQb/Bsf35XuHGYik+oe9tLngsU7MwtaAgT119qBg=="
+}

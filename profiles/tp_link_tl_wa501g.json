@@ -1,0 +1,58 @@
+{
+  "profile_id": "tp_link_tl_wa501g",
+  "brand": "TP-Link",
+  "model": "TL-WA501G",
+  "hardware_versions": [
+    "v2.22"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "fd4977db9389460c544dc2eef093f1d8ba3096319c84b25ed99604b525437410",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "54:e6:fc"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work"
+  ],
+  "signature": "esCdY+KoQCkO5xnQKVflQ+sVPrbkJqFl+frM1sx7jv3BQfN/Vn57c4Rljlx1jC7zJKHI3xteznxCISyEJwXcDA=="
+}

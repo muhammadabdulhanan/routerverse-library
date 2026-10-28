@@ -1,0 +1,59 @@
+{
+  "profile_id": "technexion_pico_imx6ul",
+  "brand": "TechNexion",
+  "model": "PICO-IMX6UL",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "91ff3a5b358da7873a5ac0f2f76836ce7af11731dbef8e91200858a4e31f737d",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:1f:75",
+    "21:11:16"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2016; CPU: MCIMX6G2D; Wi-Fi chip: BCM43430"
+  ],
+  "signature": "y/yCbJAsjaMZzdsogAbONOkJwlQ+5p+t6CuXdukBKIIqYxg67+YZRVZmDkL8RagRyU484X1zuOkpqa0csQJ5AQ=="
+}

@@ -1,0 +1,66 @@
+{
+  "profile_id": "tp_link_tl_wr941nd_v6_x",
+  "brand": "TP-Link",
+  "model": "TL-WR941ND v6.x",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "087ec4ddb749885af65acef7f28b44414bf4b5cfeebf31f39a89b893450b664d",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:0a:eb",
+    "14:14:4b",
+    "14:cc:20",
+    "50:c7:bf",
+    "98:de:d0",
+    "a4:2b:b0",
+    "c0:06:c3",
+    "ec:08:6b"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer unproven (no manufacturer property).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: TE7WR941NXV6; year: 2015; CPU: TP9343; Wi-Fi chip: TP9343"
+  ],
+  "signature": "i1B53AA0a9jitKzF0qBkvurm0D5SA6HDSKeLGhfNXiiFo2CUFVjmDpPBLqejzah3rKCupYk1g6by8pV3iJAlAw=="
+}

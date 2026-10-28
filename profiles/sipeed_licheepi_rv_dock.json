@@ -1,0 +1,56 @@
+{
+  "profile_id": "sipeed_licheepi_rv_dock",
+  "brand": "Sipeed",
+  "model": "LicheePi RV (dock)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "2a77cd5664e6f7d4e78eb656bf32f05ceb3acb7f0f514d517d0fd1aff60e0801",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target d1/generic); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "Cek5qHbM9HRg5n808Oi6920ecyXPW1VEfygqb7a+85ldQZo+LBpEoQsm0WtX392Pqjtt1xW+bLhDgpeABsmbDQ=="
+}

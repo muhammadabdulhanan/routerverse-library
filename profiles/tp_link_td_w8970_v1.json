@@ -1,0 +1,59 @@
+{
+  "profile_id": "tp_link_td_w8970_v1",
+  "brand": "TP-Link",
+  "model": "TD-W8970 v1",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "49a01adab0b8627be3a8d866a6fbc356f32d01a16b187cbbd35a529fe1722f90",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "a0:f3:c1"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer unproven (no manufacturer property).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: TE7TDW8970V1; year: 2013; CPU: PSB 80910; Wi-Fi chip: AR9381"
+  ],
+  "signature": "EXyXzqkQ3jZLHkCgorEO/uVnbxOMPJlrKzuZSv+eOJyv1sWe7qSKo4TZYOImTVmIPXvZAlwVJ6QcWNdYIKu+Dw=="
+}

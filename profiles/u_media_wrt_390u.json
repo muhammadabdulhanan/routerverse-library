@@ -1,0 +1,58 @@
+{
+  "profile_id": "u_media_wrt_390u",
+  "brand": "U-MEDIA",
+  "model": "WRT-390U",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "1ded1e7e1286f476587256995899fc60e8bbda3a18ca382262b6fc4ebd6d848a",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model U-MEDIA WRT-390U; FCC ID matches SMC SMCWGBR14-N — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: SI5WRT390U; year: 2007; CPU: IP5160U; Wi-Fi chip: AR5416",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: S9ZTEW633GR, SI5WRT390U; year: 2007; CPU: IP5160U; Wi-Fi chip: AR5416"
+  ],
+  "signature": "vMgRnYlZSa9mCv4JiYElt5BTOtI8oxM9TWyDV/s7dywk5i2Yy5yEYIuwY8V89xZvRrRFj5DhjvaW26uJjhsVDg=="
+}

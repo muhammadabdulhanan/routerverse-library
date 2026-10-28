@@ -1,0 +1,76 @@
+{
+  "profile_id": "ubiquiti_amplifi",
+  "brand": "Ubiquiti",
+  "model": "AmpliFi",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "e46de964d91fb4c45551b945a2f2edd0b5a18ba42e84c04b889c218b89e9f7e7",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:15:6d",
+    "04:18:d6",
+    "24:a4:3c",
+    "44:d9:e7",
+    "78:8a:20",
+    "80:2a:a8",
+    "f0:9f:c2"
+  ],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [
+        "Welcome to AmpliFi"
+      ],
+      "server_header_contains": [],
+      "realm_contains": [],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": []
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Fingerprint: recog (recog_html_title) Ubiquiti AmpliFi Router."
+  ],
+  "signature": "czqaiOMx7O9NrHltGwDHCZCqBOdKSc66M1uopit1Wj21Mlrh4yXEI17UFWVS5qNJ/SG1pzm93XJhnNr9V/I4CQ=="
+}

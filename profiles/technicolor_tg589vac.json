@@ -1,0 +1,57 @@
+{
+  "profile_id": "technicolor_tg589vac",
+  "brand": "Technicolor",
+  "model": "TG589vac",
+  "hardware_versions": [
+    "v2 HP"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "f2b532838c7c1886cabba6e0d651e6a983b939aaf868294c6d991109e5537a71",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: RSE-589VACV2HP; year: 2017; CPU: BCM63268; Wi-Fi chip: BCM63268"
+  ],
+  "signature": "RuhWHGu/R3vW6U6XR42Gq4eGYmoz6vllaSI4z5vrZ8jH8ZOw+/gR3ziK5Q8fQPqavDetFr5QPPUrW/NM/v5tCw=="
+}

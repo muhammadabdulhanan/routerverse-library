@@ -1,0 +1,60 @@
+{
+  "profile_id": "sony_pcwa_de50",
+  "brand": "Sony",
+  "model": "PCWA-DE50",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "1150c3a313db1397568421168d89b65ca4a6938ae6af1f2d23df03866ba53e00",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "08:00:46"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: AK8PCWADE50; year: 2003",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Sony PCWA-DE50; manufacturer Askey RT510W-D92 (DeviWiki live)."
+  ],
+  "signature": "LPY33La6wl7QOtB1f6pRi3Vi0kNI5us9rjz+9+GYdNBdjMYC6PImJHJsvy7FsawCQvyjKPXv/MOgqJIwJIt4DA=="
+}

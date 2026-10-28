@@ -1,0 +1,74 @@
+{
+  "profile_id": "synology_router_manager_srm",
+  "brand": "Synology",
+  "model": "Router Manager (SRM)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "77042e0ad5083f515657ab758187830b96b111b49a14442a400a9ec72fbcaf72",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [
+        "Synology Router - synology"
+      ],
+      "server_header_contains": [],
+      "realm_contains": [],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": [
+        "content=\"synologyrouter",
+        "hostname\" : \"synologyrouter\""
+      ]
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "FingerprintHub rule synology-router-manager (verified: false). Synology Router Manager firmware for RT-series routers.",
+    "Fingerprint: recog (recog_html_title) Synology DiskStation.",
+    "Fingerprint: recog (recog_html_title) Synology with WebStation web hosting.",
+    "Fingerprint: recog (recog_html_title) Synology Router."
+  ],
+  "signature": "G5yMj8Sylhy4PDWvtZoHI1SXzR/sSGJySryVDCQY+gJsmL5viampHmGs5YDjjhiyHCuBXjjd6lbIVP3oPotXAA=="
+}

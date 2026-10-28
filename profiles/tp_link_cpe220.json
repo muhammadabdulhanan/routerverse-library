@@ -1,0 +1,66 @@
+{
+  "profile_id": "tp_link_cpe220",
+  "brand": "TP-Link",
+  "model": "CPE220",
+  "hardware_versions": [
+    "v2",
+    "v3"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "f1d8d45165e3014b0b0581ecb634f991d99742855b17ba7c6d28fbfb99b8a7e1",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:0a:eb",
+    "14:14:4b",
+    "14:cc:20",
+    "50:c7:bf",
+    "98:de:d0",
+    "a4:2b:b0",
+    "c0:06:c3",
+    "ec:08:6b"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target ath79/generic); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "l2LOxwSjxO3E/9eXFaBw0xKDt0Brf949sqJmsKD5t06LVnrozGCT3+4u0qQgktBxVI4pZmx0jYEabF88A+h2CA=="
+}

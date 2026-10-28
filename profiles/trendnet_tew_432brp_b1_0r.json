@@ -1,0 +1,59 @@
+{
+  "profile_id": "trendnet_tew_432brp_b1_0r",
+  "brand": "TRENDnet",
+  "model": "TEW-432BRP B1.0R",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "9caf49edf2a3bee78671e9808a61d657c65042c717eaa493555136fa88d536a8",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:40:f4"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model TRENDnet TEW-432BRP B1.0R; manufacturer Cameo WLG-2206 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: NHPWLG2206; year: 2005; CPU: 88W8510; Wi-Fi chip: 88W8510"
+  ],
+  "signature": "hB4PUkumjgfbzfDRE9r9OxhhbNTAre7tLIOVelYPc0r79Y8Kpzl8PUlbu85Mjlnl4pCWM+uY6JzBtb8EU81ADA=="
+}

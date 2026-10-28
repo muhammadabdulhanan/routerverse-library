@@ -1,0 +1,57 @@
+{
+  "profile_id": "u_media_wrt_372u",
+  "brand": "U-MEDIA",
+  "model": "WRT-372U",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "43cd1ba00350f2549dbaa588f284f7edd97649236b5e86a37c46f6432bbe9fe1",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model U-MEDIA WRT-372U; FCC ID matches TRENDnet TEW-631BRP — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: S9ZTEW631BRP, SI5WRT372U; year: 2006; CPU: IP5160; Wi-Fi chip: AR5416"
+  ],
+  "signature": "SdKOzONClFqFgGXPbRtIC2Q1h23IT7EViEdts7MPMByAzXSy+VZ1FUumUzvTts4hUdc4VfHB5MaihyK4mg/7CQ=="
+}

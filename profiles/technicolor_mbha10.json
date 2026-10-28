@@ -1,0 +1,59 @@
+{
+  "profile_id": "technicolor_mbha10",
+  "brand": "Technicolor",
+  "model": "MBHA10",
+  "hardware_versions": [
+    "VWQ"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "e840ed3c9a384391e6f70c31ac3742803f16e461c91ee42d04c229654b26dc9e",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "e0:b9:e5"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: G95-MGM0110VZN; year: 2017; CPU: BCM63139; Wi-Fi chip: BCM4352"
+  ],
+  "signature": "BozBIkaRMvGS68x62cepqKWPm4XmI/TcJ1A4Ov1OxcBTBA+kH9ZuoONHXSa9sfBwWxcbHw2RA4BN2V1x82/CDQ=="
+}

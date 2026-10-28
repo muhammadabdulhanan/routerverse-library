@@ -1,0 +1,58 @@
+{
+  "profile_id": "smc_smc2552w_g",
+  "brand": "SMC",
+  "model": "SMC2552W-G",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "f8e90b067ccb30530ac44b15fe8fabd3e4c509ddb34be08c2d07e7717ee59dd6",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model SMC SMC2552W-G; manufacturer Accton WA4101 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: HEDSMC2552WG, HEDWA4101ACC, HEDWL463ACC; year: 2004; CPU: MPC8241; Wi-Fi chip: AR5212"
+  ],
+  "signature": "gDwnl1wvKEjK3++3OOQMO6YegYW7y9Fb0j7jBvOUtCGQhTwa0WgDzrKcC7HK/D5zrNqQ5nAD19mLYvDRYFTBCQ=="
+}

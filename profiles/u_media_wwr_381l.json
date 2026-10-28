@@ -1,0 +1,59 @@
+{
+  "profile_id": "u_media_wwr_381l",
+  "brand": "U-MEDIA",
+  "model": "WWR-381L",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "42e8697b1b20e2e427a15b7e19a467ded22f9690fd508312b8c54e4ced80f5e1",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:30:44"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model U-MEDIA WWR-381L; FCC ID matches CradlePoint MBR95 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: UXX-MBR95; year: 2011; CPU: RT3352; Wi-Fi chip: RT3052"
+  ],
+  "signature": "25yh3oa832BH9aPO0Kfa3iJ7BWUhLWoHgp/VKHdzFkPpq2iHC7TBU0dS1KOpehw0WsnEojzTGKrlgji5f6NjAA=="
+}

@@ -1,0 +1,61 @@
+{
+  "profile_id": "tp_link_archer_c2",
+  "brand": "TP-Link",
+  "model": "Archer C2",
+  "hardware_versions": [
+    "v1",
+    "v3",
+    "v3.x"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "1bc1301e4c38365c8829badf35662f62e2620cab4ec024c7d1003ccd65c56bbb",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "50:c7:bf"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target ath79/generic, ramips/mt7620); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "Rea1/kyxnksyAre7fQDo59mERD4rGLogue8BkgfQnKk9A1QcebJYr9/v2ZHxvdFShVWWvYiaJpTOuPgvquqZAQ=="
+}

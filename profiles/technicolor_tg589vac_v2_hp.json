@@ -1,0 +1,57 @@
+{
+  "profile_id": "technicolor_tg589vac_v2_hp",
+  "brand": "Technicolor",
+  "model": "TG589vac v2 HP",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "16835ef43f337292bfd824e544c0535398a2479ba6f71f69d78f4d9b5eccab92",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Technicolor TG589vac v2 HP; manufacturer Foxconn U46L342 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: RSE-589VACV2HP; year: 2017; CPU: BCM63268; Wi-Fi chip: BCM63268"
+  ],
+  "signature": "d6d0hO6WlI82v2k0UQ2rCZzkxKoGr9bynbgU6oh10B5MaCfgVWZ05yEqqddyamRsrBwYP/7IwByCH/cZ6YEZCA=="
+}

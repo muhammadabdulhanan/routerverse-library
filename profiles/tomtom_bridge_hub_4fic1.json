@@ -1,0 +1,57 @@
+{
+  "profile_id": "tomtom_bridge_hub_4fic1",
+  "brand": "TomTom",
+  "model": "BRIDGE Hub (4FIC1)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "7f38ef4b2c7b26c86de166fbf0caf703e433e452b1e9fb26c22f90fb98ff6a13",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model TomTom BRIDGE Hub (4FIC1); manufacturer Quanta Computer TNQ (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: QIPELS61-US, S4L4FIC1; year: 2018"
+  ],
+  "signature": "cxxZay3Mq46SRyhbD2bmA2C8XAzALuW1UcZlhzOaQAyuXKXq3mQ/sup/c9TZYMfIFMWTSXTeRvZFDxmEZO0mCA=="
+}

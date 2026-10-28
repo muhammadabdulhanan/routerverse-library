@@ -1,0 +1,60 @@
+{
+  "profile_id": "smc_smcwbr14s_n3",
+  "brand": "SMC",
+  "model": "SMCWBR14S-N3",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "707adbf09e9546e6c5fc6fa13fae25989d6cfb649b5b865e3424fc7f2abd24a5",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:22:2d"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model SMC SMCWBR14S-N3; manufacturer AWB WG6205 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: V8YFIU176205000W, V8YSMCWBR14SN3; year: 2009; CPU: RT3052; Wi-Fi chip: RT3052"
+  ],
+  "signature": "11REINnF/TDAF1H5QimONlPcI9TQa1jrRcGdzfDDSzOP90fR+ETB8vegplfdZ1Q42lCiyJP3UC3Yyi6gRDpWCA=="
+}

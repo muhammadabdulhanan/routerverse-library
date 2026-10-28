@@ -1,0 +1,60 @@
+{
+  "profile_id": "thomson_speedtouch_780_wl",
+  "brand": "Thomson",
+  "model": "SpeedTouch 780 WL",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "f28237430fde49560b2b2d7057df33b320f904c4fd5d8776cd580fa0f1c3066d",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:90:d0"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: RSE-ST780; year: 2005; CPU: BCM6348; Wi-Fi chip: BCM4318",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Thomson SpeedTouch 780 WL; manufacturer Askey RTA1006VW-D49 (DeviWiki live)."
+  ],
+  "signature": "nP/R5R7xKRlX0fxmR3MFlSRtl9C+APTzNDxbeFcqG2rEOE+vd9KkKYjuXUXZkKu4T8QhEQXsLkL2fC66dxYZDQ=="
+}

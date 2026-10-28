@@ -1,0 +1,57 @@
+{
+  "profile_id": "u_media_wst_880l",
+  "brand": "U-MEDIA",
+  "model": "WST-880L",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "3c6422754c62803c73cc418821d311e2003313a6e722a799dbf013d50e85fc0d",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model U-MEDIA WST-880L; FCC ID matches Linksys RE4100W — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-RE4100W; year: 2015; CPU: MT7628AN; Wi-Fi chip: MT7628AN"
+  ],
+  "signature": "rM3Su5PJUEgQZZmDfM7RDLVogwNCUKyOuZv87IvYIbetbAJdV7w6iVllhg926d3PfaUXWQkk4wBf/H8YNlqwAQ=="
+}

@@ -1,0 +1,65 @@
+{
+  "profile_id": "tp_link_sg2210p",
+  "brand": "TP-Link",
+  "model": "SG2210P",
+  "hardware_versions": [
+    "v3"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "38de38af651cddeeab5e2f4a05a1130ca3443ee891616d2acc2afd088c63c921",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:0a:eb",
+    "14:14:4b",
+    "14:cc:20",
+    "50:c7:bf",
+    "98:de:d0",
+    "a4:2b:b0",
+    "c0:06:c3",
+    "ec:08:6b"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target realtek/rtl838x); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "hAQYLLR5n4MTOhta6n/ZY7ARo0S+A7deco6kCgndl2MbksptsVilGDS9DaV9vVXA13CckZx69sThKiL5/Q0MDw=="
+}

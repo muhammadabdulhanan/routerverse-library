@@ -1,0 +1,79 @@
+{
+  "profile_id": "ubiquiti_generic",
+  "brand": "Ubiquiti",
+  "model": "Ubiquiti (generic)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "530e0132caa66faad5b0236af3d279a59b6164c77949b8e14b6f44288356f735",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:15:6d",
+    "04:18:d6",
+    "24:a4:3c",
+    "44:d9:e7",
+    "78:8a:20",
+    "80:2a:a8",
+    "f0:9f:c2"
+  ],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [
+        "EdgeOS",
+        "Ubiquiti Networks"
+      ],
+      "server_header_contains": [],
+      "realm_contains": [],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": []
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Fingerprint: recog (recog_html_title) Generic products by Ubiquiti Networks.",
+    "Brand-level fallback: model-level match pending.",
+    "Fingerprint: recog (recog_html_title) Ubiquiti EdgeRouter/EdgeSwitch/etc."
+  ],
+  "signature": "PT4n0U07cpRAv3MHxr5q5Ge1wYvoMYoqgFMShPg8VMuGr8mHrc6HJ+uvsInbNmkS5tyM+PktkH94YsLTMGHsAQ=="
+}

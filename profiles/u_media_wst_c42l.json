@@ -1,0 +1,57 @@
+{
+  "profile_id": "u_media_wst_c42l",
+  "brand": "U-MEDIA",
+  "model": "WST-C42L",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "799ddd6d388389aef2ee2e9e1a480d8d7b0473a0a7b211457bf0cbfe8fc4425b",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model U-MEDIA WST-C42L; FCC ID matches Linksys RE6700 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-RE6700; year: 2015; CPU: MT7620A; Wi-Fi chip: MT7620A"
+  ],
+  "signature": "EIN9s4YXhrBmxDIeD9/1esKOJnyePvO38my78jEkYZqp9j3S/rlGnt43oXmAawbFkb5x4n0kdYahehbTitYfDg=="
+}

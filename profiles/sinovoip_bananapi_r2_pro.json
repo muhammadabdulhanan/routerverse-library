@@ -1,0 +1,56 @@
+{
+  "profile_id": "sinovoip_bananapi_r2_pro",
+  "brand": "Sinovoip",
+  "model": "Bananapi-R2 Pro",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "85cad22e6373c293e049675724ed8bc9a9b93dcc75934456b658145b14d21b1d",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target rockchip/armv8); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "Tcez+6Rlf31zdToN0ef/hPIrTtnMIwvwf4G44s5n4MrUrPq+grBiSpsicXt/mSb1uHCcZm0hskll5RZJg0miAQ=="
+}

@@ -1,0 +1,56 @@
+{
+  "profile_id": "telstra_smart_modem_gen_2",
+  "brand": "Telstra",
+  "model": "Smart Modem Gen 2",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "10035affc1d3a524f75753525f983a6fe865310f75539d4a9b7cf0f6053f1e62",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Verified ISP mapping (Whirlpool AU evidence): Telstra Smart Modem Gen 2 = Technicolor DJA0231 or Arcadyan LH1000 (two hardware variants). ISP admin surface unproven (no fingerprint yet). Underlying vendor family: Technicolor / Arcadyan DJA0231 / LH1000."
+  ],
+  "signature": "TriAF0FMRMOQ27yKJk7OHBBYApU/lWRihg5xRmCHDasUWVeyPjC1dx2zGblWEK/RcGUGhfHsE7xpnlt5szzbCg=="
+}

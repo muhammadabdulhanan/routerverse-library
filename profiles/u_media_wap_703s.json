@@ -1,0 +1,62 @@
+{
+  "profile_id": "u_media_wap_703s",
+  "brand": "U-MEDIA",
+  "model": "WAP-703S",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "e4ac09098ac99dd868263dcc040ad074451d321f4f8f945c86a9c4b2cc729d99",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:23:69",
+    "00:25:9c",
+    "68:7f:74",
+    "98:fc:11"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model U-MEDIA WAP-703S; FCC ID matches Linksys WET610N — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-WAP610N; year: 2009; CPU: CNS1101M-250; Wi-Fi chip: MtW8171"
+  ],
+  "signature": "c61SFl19dJTJzMEmC3kTg+MsfGa+FST94FqjCnEuHV08hOUOa5Wog8aR9LdMhVfYwLpx7HZJuVkQIHy0dwHdCg=="
+}

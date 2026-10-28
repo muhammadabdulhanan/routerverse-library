@@ -1,0 +1,56 @@
+{
+  "profile_id": "sinovoip_banana_pi_m2_ultra",
+  "brand": "Sinovoip",
+  "model": "Banana Pi M2 Ultra",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "dce3cb35c41882d219ec5025855946d01f0157b38f4e541f7be4bfabc96fef1b",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target sunxi/cortexa7); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "yi2zBJXK6/Zp0Zhzh0KSi7Tcliun5LbHNF58lYviURdkmQXCuKi2R4uHL0YrO0QM24vzQ9PrzBXId5iIz47BDQ=="
+}

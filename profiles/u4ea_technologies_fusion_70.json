@@ -1,0 +1,58 @@
+{
+  "profile_id": "u4ea_technologies_fusion_70",
+  "brand": "U4EA Technologies",
+  "model": "Fusion 70",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "effa240b52167cf6e698f9b4f4a73ee621611751017c7696a1b747872c991c71",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PPQ-FUSION70; year: 2009; CPU: AR7161; Wi-Fi chip: AR9160",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model U4EA Technologies Fusion 70; manufacturer Lite-On WP711AP-US (DeviWiki live)."
+  ],
+  "signature": "tzO0Cwytv8vnYW1JWyY4c/adI8vvQGlelO8B98hIRG30IgHOisnkNwx63Oj9AuFd0qdupbMDo8qi2yDI1B0NDw=="
+}

@@ -1,0 +1,61 @@
+{
+  "profile_id": "totolink_a3",
+  "brand": "Totolink",
+  "model": "A3",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "1c52c80337ff97410311bcc313b1791956e2c7298e922cb04e4ff70790e2ffdf",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "f4:28:53"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target ramips/mt76x8); stock admin fingerprint not inferred from OpenWrt support.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: X7DIP04304; year: 2017; CPU: MT7628AN; Wi-Fi chip: MT7628AN",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model TOTOLINK A3; manufacturer Zioncom IP04304 (DeviWiki live)."
+  ],
+  "signature": "S1PYsWrVPvqgCf/0dyXQoJ+iAN6rGKejZZREL/7SLKQVDX58cqgc+jf0iUMA3IwpyifNx+k8TH5915BlxAPZAw=="
+}

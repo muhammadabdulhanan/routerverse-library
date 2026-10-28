@@ -1,0 +1,58 @@
+{
+  "profile_id": "t_w_cgnv4_rl110a",
+  "brand": "T&W",
+  "model": "CGNV4.RL110A",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "053c91f5ec4232e14a19b0ef8a93e58b6bdee26dea6839ad201ba58403ad0502",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "78:d9:9f"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2015; CPU: BCM68380; Wi-Fi chip: BCM43217T"
+  ],
+  "signature": "QAZHkJfpNoL6BhROovVuS/S/A8D65r4+RtrKvCFneawHxIRCuB/4g2fwBknjrupuoQUjRsgEhwynGNHctQTmDA=="
+}

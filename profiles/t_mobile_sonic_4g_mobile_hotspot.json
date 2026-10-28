@@ -1,0 +1,60 @@
+{
+  "profile_id": "t_mobile_sonic_4g_mobile_hotspot",
+  "brand": "T-Mobile",
+  "model": "Sonic 4G Mobile Hotspot",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "b0210446b5b24f7d0098b5f871048f8f7d1d29eea3dee8b6bec3a4744c3c4ccd",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "f4:55:9c"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: QISE587U-5; year: 2011",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model T-Mobile Sonic 4G Mobile Hotspot; manufacturer Huawei UMG587 (DeviWiki live)."
+  ],
+  "signature": "wGF6+gBecG+oGrNnjVMccu3h1GtmvVlmv63NaHSvcJN6nyaklDgS7XTCXxm2+T3kgdxBHpzlztYVTNMFPM1iDQ=="
+}

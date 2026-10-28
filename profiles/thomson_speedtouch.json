@@ -1,0 +1,70 @@
+{
+  "profile_id": "thomson_speedtouch",
+  "brand": "Thomson",
+  "model": "SpeedTouch",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "0eb73789ff542f893e4d7d8b44ecfbafa7761c21f2c269c116237d204319c279",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [],
+      "server_header_contains": [],
+      "realm_contains": [
+        "SpeedTouch"
+      ],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": []
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "basic auth",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Fingerprint: recog (recog_http_wwwauth) Thomson SpeedTouch xDSL router - short variant.",
+    "Fingerprint: recog (recog_http_wwwauth) Thomson SpeedTouch xDSL router.",
+    "Fingerprint: recog (recog_http_wwwauth) Thomson SpeedTouch xDSL router - qop variant."
+  ],
+  "signature": "msQnVOSXiUholSjEOIwck3V2SqaaGCY3kQlJZCv/I2ZdnlxZ7R4PuTuwxgNTkm2bQgkS1igoz8BxnyIns0opBQ=="
+}

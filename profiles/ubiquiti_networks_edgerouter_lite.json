@@ -1,0 +1,65 @@
+{
+  "profile_id": "ubiquiti_networks_edgerouter_lite",
+  "brand": "Ubiquiti",
+  "model": "Networks EdgeRouter LITE",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "b37bd457a679d6f8481299ccf4569ebbd4053b7b769757c07a1fa1d152606c50",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:15:6d",
+    "04:18:d6",
+    "24:a4:3c",
+    "44:d9:e7",
+    "78:8a:20",
+    "80:2a:a8",
+    "f0:9f:c2"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Ubiquiti Networks EdgeRouter LITE; manufacturer Foxconn U78Z025T (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2013; CPU: CN5020"
+  ],
+  "signature": "yZxX+W5ZyGA9kaFjWnkuUHuXiOdrbNR2c10QRsnQyY7Yo0+gdu+6oXNEjT5dlR3dK7sAqYyvGMck0H3is1jxCg=="
+}

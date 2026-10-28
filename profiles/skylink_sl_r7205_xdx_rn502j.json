@@ -1,0 +1,59 @@
+{
+  "profile_id": "skylink_sl_r7205_xdx_rn502j",
+  "brand": "SkyLink",
+  "model": "SL-R7205 (XDX-RN502J)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "8eaaab766898aee8b04c40687b04f5c99273060354d7ffc7129815e001af90d8",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:13:13"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model SkyLink SL-R7205 (XDX-RN502J); manufacturer widemac SL-R7205 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2010; CPU: RT3052; Wi-Fi chip: RT3052"
+  ],
+  "signature": "tYfEH/SEr38D6Xv7b/BywnztbtcuV2Pzki9EGxY92HzgEd6kbkJ1KzVQFOddDMH6HXoa7k/XGlDcDagHFzngBQ=="
+}

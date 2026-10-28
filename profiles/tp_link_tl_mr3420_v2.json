@@ -1,0 +1,60 @@
+{
+  "profile_id": "tp_link_tl_mr3420_v2",
+  "brand": "TP-Link",
+  "model": "TL-MR3420 v2",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "ffc946f19369bc6295f0c90210d776c1b7880386386319e999af1c08f6126b24",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "64:70:02",
+    "e8:de:27"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer unproven (no manufacturer property).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: TE7MR3420V2; year: 2012; CPU: AR9341; Wi-Fi chip: AR9341"
+  ],
+  "signature": "U4ThvDQUhX2BowWDpQYH/M/KoNcGN1on3AVEoibRxQm20UX7hZ0ru+Os7TR5f/TrO4NWb072kkt0xfrl8hPUBg=="
+}

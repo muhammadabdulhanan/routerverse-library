@@ -1,0 +1,65 @@
+{
+  "profile_id": "ubiquiti_powerbeam_5ac",
+  "brand": "Ubiquiti",
+  "model": "PowerBeam 5AC",
+  "hardware_versions": [
+    "500",
+    "Gen2"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "efb7f045b20840c839c0e5541d205cc10881e7cac2cead8256a5c414cb030577",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:15:6d",
+    "04:18:d6",
+    "24:a4:3c",
+    "44:d9:e7",
+    "78:8a:20",
+    "80:2a:a8",
+    "f0:9f:c2"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target ath79/generic); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "9r6LLDj8bSV4PANT8F5IgeoZHyMbb2ktdj/rJ/hxWMSSrMUU/yJaRZyIvfJ6PSKImLyO+6IV9VxW7xfovu8+Aw=="
+}

@@ -1,0 +1,59 @@
+{
+  "profile_id": "tp_link_td_w89841n_v4_0",
+  "brand": "TP-Link",
+  "model": "TD-W89841N v4.0",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "23486d9d9270f53e706f90734416f7d5fc8b6c7cf8c620e59d71e5cccb5ac216",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "0c:72:2c"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: TP-LINK; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2014; CPU: RTL8676; Wi-Fi chip: RTL8192CE"
+  ],
+  "signature": "fiRhYoRvcIVo1yySDMoYdC2BZUh2gUVSv13/+kbfkz/8y2n5O+YCxPyx5VNbV+jv/cRNdOu9G/AHMfzh4TX2BA=="
+}

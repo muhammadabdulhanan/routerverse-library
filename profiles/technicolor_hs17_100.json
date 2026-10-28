@@ -1,0 +1,57 @@
+{
+  "profile_id": "technicolor_hs17_100",
+  "brand": "Technicolor",
+  "model": "HS17-100",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "dee37d110e1b82166a1fdcf8753c6b2a36a32b102d6ad23390aae15fc540c35a",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model technicolor HS17-100; FCC ID matches DIRECTV Genie — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: G95HS17; year: 2016; CPU: BCM7366; Wi-Fi chip: QT3840BC"
+  ],
+  "signature": "2ahq6LN7iS3uIi7c+XppQcsPNz6XXWk375otq/Ra5nejZN/mh1pX+4za7dyS86GvPy2cqBNENU13V4rciCHOBQ=="
+}

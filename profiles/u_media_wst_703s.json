@@ -1,0 +1,59 @@
+{
+  "profile_id": "u_media_wst_703s",
+  "brand": "U-MEDIA",
+  "model": "WST-703S",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "7421d9e95f4a7ba256c6d0d829755652d4a932ff0448670bca86fd5e1fbd0949",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "68:7f:74"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model U-MEDIA WST-703S; FCC ID matches Linksys WET610N — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-WET610N; year: 2008; CPU: STR9101; Wi-Fi chip: MtW8171"
+  ],
+  "signature": "OuOLEVHdCOCQqKrBB7uzDO4yw7K+CvphvQZTdp1Jye/kagljq/+MJIBtdD3f/rz7+AGYBWRXD1aDMsKhuHj1DQ=="
+}

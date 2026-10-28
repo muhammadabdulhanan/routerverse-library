@@ -1,0 +1,58 @@
+{
+  "profile_id": "toshiba_canvio_home_backup_share",
+  "brand": "Toshiba",
+  "model": "Canvio Home Backup & Share",
+  "hardware_versions": [
+    "HDNB130XKEK1"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "e5fc8c1df2f91daa4e197c9dd6f3af7e0cc2d6d84a5fc77655de2f72e1f7d544",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "e8:9d:87"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work"
+  ],
+  "signature": "IsvTIvEUTC90dLxRf674DLEt1AAVE0kEIkLizC5DkKbwuwGCrvhFz78ewv5TztKQ8TKHMpB9ktwf+jjdeTGiAg=="
+}

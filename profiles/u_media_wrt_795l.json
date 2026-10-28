@@ -1,0 +1,56 @@
+{
+  "profile_id": "u_media_wrt_795l",
+  "brand": "U-MEDIA",
+  "model": "WRT-795L",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "eba0ec7656a53ff443699c89687d5187f69af3eb3a7c70af5d8486879ef849d9",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: UXX-MBR1400V2; year: 2012; CPU: RT3883F; Wi-Fi chip: RT3883F"
+  ],
+  "signature": "/OekJsaWipmBBCRmU3hD3+q5QvOvwBNaEJ8Y6Ofq9vTBMtOiwpw2I7dW5Lp4RThvrOfd+pLo2x0Qwbw8SMN8Cw=="
+}

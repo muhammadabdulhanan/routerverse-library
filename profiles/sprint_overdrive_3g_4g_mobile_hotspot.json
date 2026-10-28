@@ -1,0 +1,59 @@
+{
+  "profile_id": "sprint_overdrive_3g_4g_mobile_hotspot",
+  "brand": "Sprint",
+  "model": "Overdrive 3G/4G Mobile Hotspot",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "42fde6c13c41cdd52d61f4b3e639f2fc41213ecda2fffeed3e4bac8667dfcb5f",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:0b:6c"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Sprint Overdrive 3G/4G Mobile Hotspot; manufacturer Sierra Wireless AirCard W801 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: N7N-MC5728, N7N-MHS801; year: 2009; CPU: 88AP310; Wi-Fi chip: 88W8688"
+  ],
+  "signature": "orrSXrAWlm4QSWGkyS/WTxsPPvJwnIJW244Yof8tOc7izI+EiNanNOYwbLSeYddF8rzfZ/K8oh7p7jwBTIYHAQ=="
+}

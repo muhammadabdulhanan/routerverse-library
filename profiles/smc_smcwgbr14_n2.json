@@ -1,0 +1,58 @@
+{
+  "profile_id": "smc_smcwgbr14_n2",
+  "brand": "SMC",
+  "model": "SMCWGBR14-N2",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "2f8406d7adb4192ac8d58600dd0893e036d8474fb472fbfda1807dd89d50d0fb",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model SMC SMCWGBR14-N2; manufacturer TP-LINK TL-WR1043ND (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: TE7WR1043NX, YZKSMCWGBR14N2; year: 2011; CPU: AR9132; Wi-Fi chip: AR9132"
+  ],
+  "signature": "gTXbd7YWo6LUsTT5t+NEaOMAOB4ZEysXChGNoi62ABxsELOdOwBce6r2qJoiiUoPa4RStdiqx8vpjN8+L6HfAQ=="
+}

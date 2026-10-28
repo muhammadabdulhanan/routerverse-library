@@ -1,0 +1,59 @@
+{
+  "profile_id": "sohoware_netblaster_ii_hub_ncp600",
+  "brand": "SOHOware",
+  "model": "NetBlaster II Hub (NCP600)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "118a10a168fa85dd05286fc808b95d370714772b0191e909515eecc4d8f977ee",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:80:c6"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model SOHOware NetBlaster II Hub (NCP600); manufacturer National Datacomm NWH650 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: IOU0650S02; year: 2001; CPU: Am186EM-40; Wi-Fi chip: HFA3841"
+  ],
+  "signature": "TI8WSYzyj2YM3WZnvTAUftfNgXWqomnSzshZIKXIt9tjuYTW+lSPFeG+lL8RuEEUegk5QISAM3M7aBQKQhddAw=="
+}

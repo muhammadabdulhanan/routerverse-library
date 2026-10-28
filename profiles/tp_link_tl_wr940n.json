@@ -1,0 +1,63 @@
+{
+  "profile_id": "tp_link_tl_wr940n",
+  "brand": "TP-Link",
+  "model": "TL-WR940N",
+  "hardware_versions": [
+    "v1.3",
+    "v2.x",
+    "v3.x",
+    "v4.x",
+    "v6.x (EU)"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "7cd8cc6615bde7c19e13962c02cf72ec73a4b6f4e2cced400480974dc2e58bc2",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "54:e6:fc",
+    "f8:1a:67"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work"
+  ],
+  "signature": "g5m2U1dnbMXFpB2baYoOMy0dwxZ1A4rAitenBw8Tgdz+2sKoiSU7zIz9Xk3nXFLMSGbxyD2QTtTkMwEle18qBA=="
+}

@@ -1,0 +1,59 @@
+{
+  "profile_id": "technicolor_dwt765cha",
+  "brand": "Technicolor",
+  "model": "DWT765CHA",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "4c5ae8b054164c5f725b5dcb573e4b833598e08c443ef09bb6bf63e4cfb43d40",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "fc:94:e3"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model technicolor DWT765CHA; FCC ID matches Channel Master CM-7600 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: G95-CM-7600; year: 2018; CPU: 88DE3218; Wi-Fi chip: 88W8897"
+  ],
+  "signature": "1AQl5tjydCf+7CGjhBFTnS9sq0U2cLuThKonwQ+zUKURRC9/IYrFHI/hP1pNeeDbpgTrBUuc7gKSriky+TyTDA=="
+}

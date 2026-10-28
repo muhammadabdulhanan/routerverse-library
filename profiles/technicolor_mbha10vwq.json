@@ -1,0 +1,59 @@
+{
+  "profile_id": "technicolor_mbha10vwq",
+  "brand": "Technicolor",
+  "model": "MBHA10VWQ",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "89d808c4dade60f6764622d5276c3e1f9c516a1abb5173c6ebe35e7a93acbb83",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "e0:b9:e5"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Technicolor MBHA10VWQ; manufacturer Foxconn U46L360 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: G95-MGM0110VZN; year: 2017; CPU: BCM63139; Wi-Fi chip: BCM4352"
+  ],
+  "signature": "f8yr3vUNy91g8PyfXq8rHhkfKMDm3yufTEXyIILLPFUxIn/mMgmVDFE386C1sGgTgb2a++qe0/+aFEHAfRdtBw=="
+}

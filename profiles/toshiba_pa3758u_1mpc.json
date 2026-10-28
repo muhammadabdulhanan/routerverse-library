@@ -1,0 +1,59 @@
+{
+  "profile_id": "toshiba_pa3758u_1mpc",
+  "brand": "Toshiba",
+  "model": "PA3758U-1MPC",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "2c6420abdc1de65f1f40034631fbae68d99fe18a82f7283f98412acc49268ccb",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "70:1a:04"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Toshiba PA3758U-1MPC; manufacturer Lite-On WN6602LH (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2009"
+  ],
+  "signature": "KAZVMtK9GIRkkdKw/W4ak4h19UMFhcVzBBgdhsdPn7TxB3+PLsfTZqeJi24+6FD/6WSjZnOeiKQmYem+98WRDQ=="
+}

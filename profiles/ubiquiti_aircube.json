@@ -1,0 +1,79 @@
+{
+  "profile_id": "ubiquiti_aircube",
+  "brand": "Ubiquiti",
+  "model": "airCube",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "9a674080ffa3559ffad813cbefcd1c58fa9c5233a3f3d92e91adb2d8a100720a",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:15:6d",
+    "04:18:d6",
+    "24:a4:3c",
+    "44:d9:e7",
+    "78:8a:20",
+    "80:2a:a8",
+    "f0:9f:c2"
+  ],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [
+        "airCube"
+      ],
+      "server_header_contains": [
+        "airCube"
+      ],
+      "realm_contains": [],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": []
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Fingerprint: recog (recog_html_title) Ubiquiti airCube WAP.",
+    "Fingerprint: recog (recog_http_servers) Ubiquiti airMAX airCube accessory."
+  ],
+  "signature": "DzCvH9APue8lu3gYMAwr6zF98Wupz2Sz8okLcCDHw2WsrXPdH2qUx0/9iOtMthUeD6I0NfDtpVeaDh9cz1M/Bg=="
+}

@@ -1,0 +1,59 @@
+{
+  "profile_id": "ubiquiti_networks_rocketm5_titanium_rm5_ti",
+  "brand": "Ubiquiti",
+  "model": "Networks RocketM5 Titanium (RM5-Ti)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "39859b14f36560e422d16982497d0a20e0b12b8e8cefeecfa7eca921a180dfbc",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:27:22"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer unproven (no manufacturer property).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: SWX-RM5T-DFS; year: 2013; CPU: AR7370; Wi-Fi chip: AR9280"
+  ],
+  "signature": "86x+X00KPfRHJV1cwRkhYi4gDadepBbdgyeFOi7zX5K2/3YClFYVNB9rzvefTTVJeFik96xRtGpCgkYD2PANAA=="
+}

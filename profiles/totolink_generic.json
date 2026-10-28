@@ -1,0 +1,71 @@
+{
+  "profile_id": "totolink_generic",
+  "brand": "Totolink",
+  "model": "Totolink (generic)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "047b498742d2b28c3618fbd2290dc0b3026a538f3164e8693947acf5971b6ae1",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [
+        "totolink"
+      ],
+      "server_header_contains": [],
+      "realm_contains": [],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": [
+        "totolink"
+      ]
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "FingerprintHub rules a3002ru, ex1200t_firmware, a3300r_firmware, a3700r_firmware, cp450_firmware, totolink-router (verified: true). All share one generic marker, so this brand fallback preserves them; models seen: A3002RU, EX1200T, A3300R, A3700R, CP450.",
+    "Brand-level fallback: model-level match pending."
+  ],
+  "signature": "yShEtLXA1oE5RVguv3DLeiGTlMxXcma5eLTndiRU8bJiZbqjr9PLiTJJpiiHHdLYwrmZWuQDU07hYV9TrR5uAw=="
+}

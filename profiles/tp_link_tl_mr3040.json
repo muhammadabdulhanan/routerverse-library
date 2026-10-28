@@ -1,0 +1,58 @@
+{
+  "profile_id": "tp_link_tl_mr3040",
+  "brand": "TP-Link",
+  "model": "TL-MR3040",
+  "hardware_versions": [
+    "v2.x"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "690ec86a95375446b3d17dfc2f661d35e67cde89e5f893dcb5fcedf2368d8543",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "a0:f3:c1"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work"
+  ],
+  "signature": "7OfPsRfcVuJTSFfG9aRyMCaYysJb0LTri7gZQn3s3HUOXzJhwgY1nz7+aWQbSxDRsnBtjFpUgR7OF5iDnWgDCg=="
+}

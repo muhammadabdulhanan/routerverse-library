@@ -1,0 +1,59 @@
+{
+  "profile_id": "top_global_3g_phoebus_mb6000",
+  "brand": "Top",
+  "model": "Global 3G Phoebus (MB6000)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "ec5b1a6d7883d79bad27a55b5c5f55d60aba33e11c4be43513a811597df7b7aa",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:0b:89"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Top Global 3G Phoebus (MB6000); manufacturer Gemtek WAPB-136G (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: SUMMB6000; year: 2005; CPU: BCM4712; Wi-Fi chip: BCM4712"
+  ],
+  "signature": "69o2MCcQx7H8YO5CmoLaoSOTid1I0RqIr3on5mUR3Rnbhm1vdaHS2aXVdu0Hn6YIXOavpm2vABjYOaoETbQeBA=="
+}

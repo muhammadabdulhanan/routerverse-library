@@ -1,0 +1,59 @@
+{
+  "profile_id": "trendnet_tew_635brm_v1_0r",
+  "brand": "TRENDnet",
+  "model": "TEW-635BRM V1.0R",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "f2190fc0cfa4c47c9a58ba90c60d5fbabe4ca7666a9a4064602f2e97e5ade346",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:14:d1"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model TRENDnet TEW-635BRM V1.0R; manufacturer SerComm IP1006GA (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: S9ZTEW635BRM; year: 2008; CPU: BCM6348S; Wi-Fi chip: BCM4322"
+  ],
+  "signature": "jlM2ARtvXWE+BhKFJhn44z4UVeBGm7TjkTcRamvx26RJM2w0Ep1+VZ36BCmwi65TyDxN9859qU3j7++AJAmKBQ=="
+}

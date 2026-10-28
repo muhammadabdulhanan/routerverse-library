@@ -1,0 +1,60 @@
+{
+  "profile_id": "tp_link_archer_c5_v1_x",
+  "brand": "TP-Link",
+  "model": "Archer C5 v1.x",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "0745fc9ba4b98c2ca9a3dcf60663838e2ad35bfe6d83a2f5765fce85f47be0db",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "1c:fa:68",
+    "ec:26:ca"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: TP-LINK; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: TE7C5; year: 2014; CPU: QCA9558; Wi-Fi chip: QCA9558"
+  ],
+  "signature": "U3hpthD4VL21I7EIgvfJrqQBiCabh14qpYmgcaf8NG/bH34Lt0hdnaPQgo+v+GLYQEH9lWeKOgs3nqw6x2JhBA=="
+}

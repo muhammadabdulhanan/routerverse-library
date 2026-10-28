@@ -1,0 +1,59 @@
+{
+  "profile_id": "u_media_wrt_c40b",
+  "brand": "U-MEDIA",
+  "model": "WRT-C40B",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "4f9b6a3bd4f280cf8a69f067b1ed14ded43e2e39d87018bff9b0cd8324018c48",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "b8:eb:97"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model U-MEDIA WRT-C40B; FCC ID matches TRENDnet TEW-811DRU — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: XU8TEW1200AC; year: 2013; CPU: BCM47081A0; Wi-Fi chip: BCM4352"
+  ],
+  "signature": "JEoKyMFII7/x/hy4HGWZUuxNHmfR5s8XrNSHXKYrCaD/Qh8nIO07qLZsHwxcH5coGNMjsl9e7ayke4bDA+kzBg=="
+}
