@@ -1,0 +1,57 @@
+{
+  "profile_id": "zyxel_gs1900_8",
+  "brand": "Zyxel",
+  "model": "GS1900-8",
+  "hardware_versions": [
+    "A1",
+    "B1"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "b8804282555d0c6c7227b3fb9680f1834fc3c5b26a4f641d368217ab4e18e42d",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target realtek/rtl838x); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "XDeg8oD2x64mCb8DnK5Hwz7k/tr21TSpu+12mosj5riXUrU3T0L6f/4Mt5Mi11qywlfKDq9+cRKhR2FesZjZAA=="
+}

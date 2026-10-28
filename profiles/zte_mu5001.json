@@ -1,0 +1,63 @@
+{
+  "profile_id": "zte_mu5001",
+  "brand": "ZTE",
+  "model": "MU5001",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "3ec0a5640611506717d2cdd98bdf4b5bef943c002a61bf32ad776b4dc9cd0547",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:1a:11",
+    "34:4d:ea",
+    "8c:34:fd",
+    "9c:b8:b4",
+    "d0:15:4d",
+    "d0:15:a6"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Saudi ISP context (STC/Mobily/Zain): network-compatible, ISP issue unproven — no tender/support/manual source confirms ISP issue. ZTE 5G mobile Wi-Fi router."
+  ],
+  "signature": "p9hT1NiHFOZiLxcSgr7Qny7ri5E5517WBYgl7CWWuboH0uSo3g70/iUk9UoblZfjCp+eCnQXR9a46gaCUrCYAA=="
+}

@@ -1,0 +1,58 @@
+{
+  "profile_id": "vivato_va4200",
+  "brand": "Vivato",
+  "model": "VA4200",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "37560c3e5c68c87e7485be62e92b7ecabdb111b87c3b8abea850180f7dd03b87",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: QLNVA4200AP; year: 2005; Wi-Fi chip: AR5213A",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Vivato VA4200; manufacturer Gemtek WAPD-130AG (DeviWiki live)."
+  ],
+  "signature": "3EgfEhl1j+9zUtv7h2fk81Kfov8ibfCxaOOm1cHWlGO4tXHCBuKc6zeEARbJ+RUR9XT34ccN0e4K1TKJY7ttAw=="
+}

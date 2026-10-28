@@ -1,0 +1,60 @@
+{
+  "profile_id": "usi_topkick_1281p2",
+  "brand": "USI",
+  "model": "Topkick 1281P2",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "3ae7deb912f008bd2bdba59cb8a5fd6153b9abdde9ae65068144d34cdb4b164c",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "40:2c:f4",
+    "dc:85:de"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model USI Topkick 1281P2; FCC ID matches CodeLathe LLC TonidoPlug — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: IXMUGNAS-P3; year: 2011; CPU: 88F6283; Wi-Fi chip: 88W8786"
+  ],
+  "signature": "bUfZZqUNGm/gD17fAd6wyKqfQfqQ013OQHrn/kjxiAnI5FbMZ3fqaOXvIw79Yb8XGnxw1SB2aeyMD/5e/zK7Cg=="
+}

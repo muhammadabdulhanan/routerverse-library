@@ -1,0 +1,59 @@
+{
+  "profile_id": "zoom_x6_adsl_router",
+  "brand": "Zoom",
+  "model": "X6 ADSL Router",
+  "hardware_versions": [
+    "Series 1046 (5590A)"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "e41c4f3ea5cb3fccfac122d44e39e56d9f64b8587aaa378f9085c12524bbf673",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:01:38"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: BDN1046JB; year: 2006; CPU: Argon 432 (DA4-9431-PCA Z); Wi-Fi chip: ISL3886"
+  ],
+  "signature": "JmaiEmO0OTgOA+bwhxzQazalnTZysv2zsonaZIuse2Y9oqCSy3KB8RLe3beQ8dnOJsF5iagCMn1P/jm9whbzDQ=="
+}

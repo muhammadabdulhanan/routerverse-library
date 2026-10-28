@@ -1,0 +1,78 @@
+{
+  "profile_id": "xiaomi_ax3000",
+  "brand": "Xiaomi",
+  "model": "AX3000",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "f469770901819ca1ffd104ea5e821af56999da724fec46055bcd9ae97977ae63",
+  "last_updated": "2026-10-28",
+  "status": "unverified",
+  "oui_prefixes": [
+    "28:52:61",
+    "50:ec:50",
+    "64:09:80",
+    "78:11:dc",
+    "f0:b4:29"
+  ],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [
+        "Xiaomi",
+        "AX3000"
+      ],
+      "server_header_contains": [],
+      "realm_contains": [],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": [
+        "AX3000",
+        "Xiaomi",
+        "MiWiFi"
+      ]
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet."
+  ],
+  "signature": "SJ2UBK9rYRJ4aBicagaJdrjBDKvxX4oFlNKzIAHKhHESOtarhRwo/uH4sd2lmcik5zMh7Vy8sHusfLl/weD9Cw=="
+}

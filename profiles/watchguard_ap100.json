@@ -1,0 +1,59 @@
+{
+  "profile_id": "watchguard_ap100",
+  "brand": "WatchGuard",
+  "model": "AP100",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "a4806d44c4061941e5a82eac1d16c3edb482cadc08de2a82074d0de2ac27f55f",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target ath79/generic); stock admin fingerprint not inferred from OpenWrt support.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: U2M-CAP2100AG; year: 2012; CPU: AR9344; Wi-Fi chip: AR9344",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model WatchGuard AP100; manufacturer Senao CAP2100AG (DeviWiki live)."
+  ],
+  "signature": "LUAmfeu+HqyawoLK/fKgBLpOWG1/0AQN8DrW+Yuo57fZYwd/SiS3sYYiy0Mp/b6f5qxl8iMFDYNuKahrSNw5CA=="
+}

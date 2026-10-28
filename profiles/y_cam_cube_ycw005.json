@@ -1,0 +1,59 @@
+{
+  "profile_id": "y_cam_cube_ycw005",
+  "brand": "Y-cam",
+  "model": "Cube (YCW005)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "6bbf88de29aafb0135a1c42617ac20697379ca17b9c23eb012ec08fe8c50530b",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:e0:4c"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Y-cam Cube (YCW005); manufacturer Anbash NC215 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: V4FCUBE; year: 2013; CPU: GM8125; Wi-Fi chip: RT3070"
+  ],
+  "signature": "rlpWjC8ezG5iL4BQnH1LW6FlvORC8GnGwhJt1Bss6ej6JERERx0t8vQOykdhmmjlHFihhMVaQPtKaN1gwtjEAQ=="
+}

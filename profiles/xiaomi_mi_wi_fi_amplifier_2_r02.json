@@ -1,0 +1,62 @@
+{
+  "profile_id": "xiaomi_mi_wi_fi_amplifier_2_r02",
+  "brand": "Xiaomi",
+  "model": "Mi Wi-Fi Amplifier 2 R02",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "5997f6c20650b41e00be0acc52cb9b40251cda220c468b9d7ade3b9da0b3a21d",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "28:52:61",
+    "50:ec:50",
+    "64:09:80",
+    "78:11:dc",
+    "f0:b4:29"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work"
+  ],
+  "signature": "4NeutZFhI7liZEpae49BWKcX/XUJTyHkx3yTrEjFjw9lBzMINGL7YwdJW7asZNtt028ynaTbbioYjDl18aLpAg=="
+}

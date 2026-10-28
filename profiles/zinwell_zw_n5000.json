@@ -1,0 +1,57 @@
+{
+  "profile_id": "zinwell_zw_n5000",
+  "brand": "Zinwell",
+  "model": "ZW-N5000",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "d1b43a776496d67644d2525d9002192e2611c5e6520bce1157896e83dc67105e",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Zinwell ZW-N5000; FCC ID matches Celeno VXT1836 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Y7E-VXT1836000001; year: 2013; CPU: CL1830; Wi-Fi chip: CL1830"
+  ],
+  "signature": "Omulbtf+N7Y7keUHMCZOoaadGdA1GCEpVtUZmmS+aUCfmnJaWa5wQZiKTBZYCvzxipQCHdIV9kaLMMVjm5MOCw=="
+}

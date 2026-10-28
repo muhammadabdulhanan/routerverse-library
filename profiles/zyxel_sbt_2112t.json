@@ -1,0 +1,59 @@
+{
+  "profile_id": "zyxel_sbt_2112t",
+  "brand": "Zyxel",
+  "model": "SBT-2112T",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "7319cb9ea401b4dc8fa3d2a499f3c25d242fceb43e2f2627da5d35f49df60266",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "ec:43:f6"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wired); manufacturer unproven (no manufacturer property).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); CPU: STi7105-EUD"
+  ],
+  "signature": "QNbZpri2TLK1I6S6+WKAvxh9qnMBQRV++eMQECQ0U6e2mBkkq6e1L6PrC7i4yU3tlvliUDNxdkKgdUkUAVckAg=="
+}

@@ -1,0 +1,57 @@
+{
+  "profile_id": "usi_waa_b_agb_01",
+  "brand": "USI",
+  "model": "WAA-B-AGB-01",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "b24834e7f09f626d02f1c6aa42448872252ef5b7f2181c2a8365aa7f8791aa3b",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model USI WAA-B-AGB-01; FCC ID matches SMC SMCWAA-B — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: IXMWAA-B-AGB-01; year: 2004"
+  ],
+  "signature": "DNwjnVA3K0e5L9H3Pnlr2Uf8A5wYPN9wi6P0uH3aM3qiJtgMStm5tzOJr5bUltOzV4C9deElYimIXfGDPDVRBw=="
+}

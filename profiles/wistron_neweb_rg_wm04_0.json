@@ -1,0 +1,61 @@
+{
+  "profile_id": "wistron_neweb_rg_wm04_0",
+  "brand": "Wistron NeWeb",
+  "model": "RG-WM04.0",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "3d49f82c7658b0ab6aa9e1c95eabcfef821b3e6acd6aa89ae52634b0ffc7b9bd",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "20:aa:4b",
+    "58:6d:8f",
+    "c8:d7:19"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Wistron NeWeb RG-WM04.0; FCC ID matches Cisco EA4500 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-EA4500; year: 2012; CPU: 88F6282; Wi-Fi chip: 88W8366"
+  ],
+  "signature": "1v837thMAISLb34hOMjAfuvL3DMyzbAJCKw3orvwkuPN4AjMqUBJmfG+RCeKw/o+HtXgLLZxnWUAXQ8TqLnPBw=="
+}

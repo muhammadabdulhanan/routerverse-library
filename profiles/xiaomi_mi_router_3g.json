@@ -1,0 +1,62 @@
+{
+  "profile_id": "xiaomi_mi_router_3g",
+  "brand": "Xiaomi",
+  "model": "Mi Router 3G",
+  "hardware_versions": [
+    "v2"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "b25fc1c59680b43b764d3416da0c55e7e12d6dcf78d8712dacab78de5943b9ec",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "28:52:61",
+    "50:ec:50",
+    "64:09:80",
+    "78:11:dc",
+    "f0:b4:29"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target ramips/mt7621); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "0jp27Y3UUof07qoCNyi22dk/drJfkpxmnlyatVDB7ESfr9JjwpSXmqi5oSjsnTO/ifjh3Q7QMtdHU5znDp+VBg=="
+}

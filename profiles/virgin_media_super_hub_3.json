@@ -1,0 +1,58 @@
+{
+  "profile_id": "virgin_media_super_hub_3",
+  "brand": "Virgin Media",
+  "model": "Super Hub 3",
+  "hardware_versions": [
+    "3"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "35909ce949c8c7b5f67e3c12c6c034467da04a713dfa8e6194c91afad416964c",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Virgin Media Super Hub 3; manufacturer Arris TG2492LG (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: UIDTG2492; year: 2016; CPU: DHCE2652; Wi-Fi chip: AR9382"
+  ],
+  "signature": "qOKnbeN8OyVWEZU4CK1XMz1OOKveWDP4OyWkF+Dc2juECjqeS7tlT40yFxbm4rqI1T8l3Ha6TznPE1/BGQrCAQ=="
+}

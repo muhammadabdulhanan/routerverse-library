@@ -1,0 +1,57 @@
+{
+  "profile_id": "zoom_x6_adsl_modem_series_1084",
+  "brand": "Zoom",
+  "model": "X6 ADSL Modem, Series 1084",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "ff7427ec498739e1e53bca18b3a4d82e848de0df8dc8f249caffdb6c02d86aa6",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: DareGlobal; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: BDN-SERIES1084; year: 2010; CPU: BCM6333; Wi-Fi chip: BCM4312"
+  ],
+  "signature": "YVorPUmGjh+iKqsI0VTWJGU07v94IEhVv5KfxMX5zV9JxJtBhlBjtFoM7s89eujC30VLetx7c7D3f/H/VFjeAQ=="
+}

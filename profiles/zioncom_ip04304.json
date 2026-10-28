@@ -1,0 +1,59 @@
+{
+  "profile_id": "zioncom_ip04304",
+  "brand": "Zioncom",
+  "model": "IP04304",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "27b7308c9035e6b8d50ace2530a5c71254f92c255e9fbebe504591f324875c28",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "f4:28:53"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Zioncom IP04304; FCC ID matches Totolink A3 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: X7DIP04304; year: 2017; CPU: MT7628AN; Wi-Fi chip: MT7628AN"
+  ],
+  "signature": "bkSD/EaqqUoEXchXI528Yl09g9m4/cvSACVRKPrDuDkZbAcfnE7G+J04o57IW0O3HPeZ0CjOxAHZ1vFKPMmsAQ=="
+}

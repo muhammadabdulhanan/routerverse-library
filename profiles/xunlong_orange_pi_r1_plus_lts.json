@@ -1,0 +1,56 @@
+{
+  "profile_id": "xunlong_orange_pi_r1_plus_lts",
+  "brand": "Xunlong",
+  "model": "Orange Pi R1 Plus LTS",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "bfc6ed871729143bda75b742ef17e7f03ce28d4c49acfb4763e7240cdd7bb164",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target rockchip/armv8); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "77J3JDoB9qxUPtT/h+qrcaQ8gV/Nhw5SjH6QFklT/n2iwpQO/rPJRXIAEQZnqtvyJ09x85DjD59UBomlWdEpAA=="
+}

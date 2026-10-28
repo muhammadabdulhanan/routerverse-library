@@ -1,0 +1,60 @@
+{
+  "profile_id": "usrobotics_usr5462",
+  "brand": "USRobotics",
+  "model": "USR5462",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "f5efd2b61e1d71e54c44140ff86617da9ac822e081fbf6d2275ddcc51ea78e8d",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:c0:49"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: RAXWG4005D-U5; year: 2004; CPU: ISL3893; Wi-Fi chip: ISL3893",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model USRobotics USR5462; manufacturer Arcadyan WG4005D-U5 (DeviWiki live)."
+  ],
+  "signature": "Hgt4RZmgeDY/xoURWl3hl/BMFexjqtV3+tq4DzkB0z0yBec58gyEzelC2lFC+eJr3DrT1rrx5OSlmVYsZqP+BA=="
+}

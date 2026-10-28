@@ -1,0 +1,63 @@
+{
+  "profile_id": "zte_mc801a1",
+  "brand": "ZTE",
+  "model": "MC801A1",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "042d3fc4db89d952268409f1d8d21a5416f27949dc363e27fafc0c0ea1bf466e",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:1a:11",
+    "34:4d:ea",
+    "8c:34:fd",
+    "9c:b8:b4",
+    "d0:15:4d",
+    "d0:15:a6"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Saudi ISP context (STC/Mobily/Zain): network-compatible, ISP issue unproven — no tender/support/manual source confirms ISP issue. Variant of the ZTE MC801A family."
+  ],
+  "signature": "cwMiKphIz2geqk0c3J8iDDTpzdqD+pL70ZfDbjNplH/gtBOjoEB0lmsJUvwbw4846CyKSeNpcq/5FLsAKSfBBQ=="
+}

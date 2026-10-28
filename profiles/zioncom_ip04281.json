@@ -1,0 +1,59 @@
+{
+  "profile_id": "zioncom_ip04281",
+  "brand": "Zioncom",
+  "model": "IP04281",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "3e7519b4d90b8c756e97191d1dd63a98aa260363551bc50d76b4d793a070b543",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "78:44:76"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Zioncom IP04281; FCC ID matches Totolink A3002RU — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: X7DIP04281; year: 2017; CPU: RTL8197DN; Wi-Fi chip: RTL8812AR"
+  ],
+  "signature": "lnv9c/3eC7qjZjuDZe3hDzsbi+YgVPC6BYp83AtEU7qbWt1v1Gyt0T5emIo0BIo5fsImg/7Sk/Ko8OdyxDIGDg=="
+}

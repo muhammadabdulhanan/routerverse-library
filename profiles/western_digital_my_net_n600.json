@@ -1,0 +1,60 @@
+{
+  "profile_id": "western_digital_my_net_n600",
+  "brand": "Western Digital",
+  "model": "My Net N600",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "48a4a6f417f7d4d2ab61bae0b1be1fe78b8ec38be34a50cc6fdd8ffec8ad2438",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:90:a9"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target ath79/generic); stock admin fingerprint not inferred from OpenWrt support.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Western Digital My Net N600; manufacturer Alpha Networks WRG-ND16 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: RRK-D2F; year: 2012; CPU: AR9344; Wi-Fi chip: AR9344"
+  ],
+  "signature": "HulZQ2A3UlZUAwkTj1606+y0OFC15mcNbw8MBAw9w67h1ITRUsqAo1TIBk4sVyGDovThFnBjsY+vbueT7bHLCw=="
+}

@@ -1,0 +1,57 @@
+{
+  "profile_id": "zioncom_ip04349",
+  "brand": "Zioncom",
+  "model": "IP04349",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "cf065f0db97d64263be3da327fd757cb555c03dcab931497e12f915975f07d21",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Zioncom IP04349; FCC ID matches Totolink A7000R — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: X7DIP04349; year: 2018; CPU: MT7621AT; Wi-Fi chip: MT7615N"
+  ],
+  "signature": "5XCOXm8vO60Ld7qOfb9XnVnj5uD/Z94QCVXL4TLABgGZzoSua4tZkWWOnHet31TWJ7x8qviEn27I1H4RhL8pBg=="
+}

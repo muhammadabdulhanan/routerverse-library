@@ -1,0 +1,59 @@
+{
+  "profile_id": "zyxel_nwd6505",
+  "brand": "Zyxel",
+  "model": "NWD6505",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "c45db0a92f61954095bcfa1db6aab6af9d104d68af1839f4a30c4e4360c7b776",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "fc:f5:28"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model ZyXEL NWD6505; manufacturer AboCom NWD6505F (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2013"
+  ],
+  "signature": "XdLU4/20s6ctzm+oWQGMjyy6WyR3F7AHoCIXBF3rs8iOs3hlbWnHpXxKp+nAz53Y2VoKwMj9pSK6yT23OViCDw=="
+}

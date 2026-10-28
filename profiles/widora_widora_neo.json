@@ -1,0 +1,57 @@
+{
+  "profile_id": "widora_widora_neo",
+  "brand": "Widora",
+  "model": "Widora-NEO",
+  "hardware_versions": [
+    "16M",
+    "32M"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "e8d0865cb06f89d78340896f41e1e72d132ec584554ca7fa9b38fdbc1fa15a8e",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target ramips/mt76x8); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "K55jzQ4ZK3coEaOiSnAko/tf2ujcuDWqrBd3DP4Tkc1njdJiUaoqs0Ri5HPz1RCaDS6IzqSwYfJ3DJpx9Yf7Bg=="
+}

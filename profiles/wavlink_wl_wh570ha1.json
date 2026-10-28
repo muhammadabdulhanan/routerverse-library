@@ -1,0 +1,58 @@
+{
+  "profile_id": "wavlink_wl_wh570ha1",
+  "brand": "Wavlink",
+  "model": "WL-WH570HA1",
+  "hardware_versions": [
+    "A"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "2667a5e2612925c36c7a762b42b7f61a8f40d4114e16ecf527f3862d68dbef80",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "80:3f:5d"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work"
+  ],
+  "signature": "b0Qh8WDxz9r4Duw1ZlyPp/FUn0kuXIer6B2hWW+biMay9Iuf1dL7q+hi1F8/WIfFGnficy9TwwSvGNugzU0vCA=="
+}

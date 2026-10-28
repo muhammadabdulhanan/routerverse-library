@@ -1,0 +1,81 @@
+{
+  "profile_id": "zte_generic",
+  "brand": "ZTE",
+  "model": "ZTE (generic)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "b69d2ed06a4474201cc6bf51a64c16204a08a3f2e253358ac0f1d6df511bf23e",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:1a:11",
+    "34:4d:ea",
+    "8c:34:fd",
+    "9c:b8:b4",
+    "d0:15:4d",
+    "d0:15:a6"
+  ],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [],
+      "server_header_contains": [
+        "ZTE corp"
+      ],
+      "realm_contains": [
+        "ZXHN",
+        "ZXV"
+      ],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": []
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "basic auth",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Fingerprint: recog (recog_http_wwwauth) ZTE ZXHN router.",
+    "Brand-level fallback: model-level match pending.",
+    "Fingerprint: recog (recog_http_wwwauth) ZTE ZXV router.",
+    "Fingerprint: WhatWeb plugin zte-iad.rb (facts only). ZTE IAD server string."
+  ],
+  "signature": "r5RRT6FlsQXwoRkncRbxz5Cx5yWT92wPZSVTEohw3GkLZUJXKuGKak3Hdu+AIoy2Bs7CHOqaFYxN8nkseTxiAQ=="
+}

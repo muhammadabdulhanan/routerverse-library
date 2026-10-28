@@ -1,0 +1,63 @@
+{
+  "profile_id": "zte_q7",
+  "brand": "ZTE",
+  "model": "Q7",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "cd7d0ab520cce01651460ad931a72cac067fdfae2f87032278804985e7f2657c",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:1a:11",
+    "34:4d:ea",
+    "8c:34:fd",
+    "9c:b8:b4",
+    "d0:15:4d",
+    "d0:15:a6"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target ramips/mt7620); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "lzkjTalFUqTgYwj2hGlSjTXPdJkP1zb6bjtpW9SQiMiZEvHzpSESPyUFJrUx34Lj2/iHid9BNHlu0ZtXooHLCg=="
+}

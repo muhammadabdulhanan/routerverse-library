@@ -1,0 +1,60 @@
+{
+  "profile_id": "wistron_neweb_rgwm06",
+  "brand": "Wistron NeWeb",
+  "model": "RGWM06",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "f4fbee2ff075e31b6a4219af4b5f676b53e4e459cb1e73208e969eb9e39ed387",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "20:aa:4b",
+    "c8:d7:19"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Wistron NeWeb RGWM06; FCC ID matches Cisco EA3500 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-EA3500; year: 2012; CPU: 88F6282; Wi-Fi chip: 88W8366"
+  ],
+  "signature": "St18Pq7WZzu6qvUqorGuXqtmt6MOiT5nPb5hGo7YlUanjURVUxapM2w8jTU2R6TK5s0ZvjxILQT4KBr4H+CMAw=="
+}

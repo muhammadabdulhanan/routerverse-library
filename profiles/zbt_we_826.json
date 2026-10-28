@@ -1,0 +1,60 @@
+{
+  "profile_id": "zbt_we_826",
+  "brand": "ZBT",
+  "model": "WE-826",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "4fc2538b4c33666c845f1c5125035b18d3a4c4452d8d4cf70a175d4a527cd8d3",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: 2AH9TW826, XMR201605EC25A, XNI-IDS23004; year: 2018; CPU: MT7620A; Wi-Fi chip: MT7620A",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: 2AE6X-RR; year: 2015; CPU: MT7620A; Wi-Fi chip: MT7620A",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: ZBT; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: 2AH9TW826; year: 2016; CPU: MT7620A; Wi-Fi chip: MT7620A"
+  ],
+  "signature": "xvUbUJBWOkXV1e9+A0kbCjiobf9SL2v3Uwf3YgBXUJ4RXa/lq4P6bjl5b/SRTkZ6Q/1e1GIt+zs4yj5Alv35Bw=="
+}

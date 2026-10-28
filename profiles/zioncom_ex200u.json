@@ -1,0 +1,57 @@
+{
+  "profile_id": "zioncom_ex200u",
+  "brand": "Zioncom",
+  "model": "EX200U",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "fd9d77857fdc16b951f6ec18172c256863dddba94f94cd3d3bab12aa944b3f9e",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Zioncom EX200U; FCC ID matches Totolink EX200U — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: X7DWX019; year: 2018; CPU: RTL8196EU; Wi-Fi chip: RTL8192ER"
+  ],
+  "signature": "1KepbFgFGrXdDA7lcRQGESlQccbNnF6NxNEESY/U7kkO7cvTIgySamsgV5gBie7IMcyGuNFN5519K38JLCIHDw=="
+}

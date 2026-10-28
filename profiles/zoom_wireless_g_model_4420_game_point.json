@@ -1,0 +1,59 @@
+{
+  "profile_id": "zoom_wireless_g_model_4420_game_point",
+  "brand": "Zoom",
+  "model": "Wireless-G Model 4420 (Game Point!)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "1ccc9275338a7b689c9e406216210780d04e6f31516e7ba2ae24d12c8b0cd2c0",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:12:bf"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Zoom Wireless-G Model 4420 (Game Point!); manufacturer Arcadyan WA4001A (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: RAXWA4001AARC; year: 2004; CPU: ISL3893; Wi-Fi chip: ISL3893"
+  ],
+  "signature": "r5TTehhS+cX8osSpcA7lPQh/OfQLpVpFRDvtbJEURbzEqxqe1YbJyNdPt2Ce41adPcVxNsXeM9651bVaDPXzCQ=="
+}

@@ -1,0 +1,59 @@
+{
+  "profile_id": "wistron_neweb_saq5g",
+  "brand": "Wistron NeWeb",
+  "model": "SAQ5G",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "af284b92157b3b1a0dd1a5336f4699dda952c4f3848a089c671d77ee6f7722c9",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "f4:f5:d8"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Wistron NeWeb SAQ5G; FCC ID matches Google Wifi — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: A4RNLS-1304-25; year: 2016; CPU: IPQ4019; Wi-Fi chip: IPQ4019"
+  ],
+  "signature": "q9REavsIDzZEW6sQk6+qB13Kz8ZOS//ek8mYHYwUIBB9bT/bSqZhOuAy7m6/vuUN5FscPosIY9VELcj2sYxPAQ=="
+}

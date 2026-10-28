@@ -1,0 +1,56 @@
+{
+  "profile_id": "xunlong_orange_pi_zero_plus",
+  "brand": "Xunlong",
+  "model": "Orange Pi Zero Plus",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "2b988c2bf974d734ff2adda78255b299cdf147b94551ee00d7fe16ad6f7e0db1",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target sunxi/cortexa53); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "vY5YuJldRswpTXbM7018eTBx16VPcuUeMh06eMdu8e2+KqxtuUAGkDvWHDz3qpnIlEVqCgezeYEDussbdazICQ=="
+}

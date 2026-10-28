@@ -1,0 +1,62 @@
+{
+  "profile_id": "xiaomi_ax3600",
+  "brand": "Xiaomi",
+  "model": "AX3600",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "2bdcb5c6f9b6bc10f9f655d74d41d5982ea02c5d8de262ed24b7fa49b0c772ba",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "28:52:61",
+    "50:ec:50",
+    "64:09:80",
+    "78:11:dc",
+    "f0:b4:29"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target qualcommax/ipq807x); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "96A6NhRUZoWQUbLWrXyAd8zG19obj2S67g0S6eWaEoPJsECXfN7J1AfTUDvoJ7NsRkzL5/HsGkoO63kjbHd9Cw=="
+}

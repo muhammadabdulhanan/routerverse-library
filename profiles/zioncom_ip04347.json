@@ -1,0 +1,57 @@
+{
+  "profile_id": "zioncom_ip04347",
+  "brand": "Zioncom",
+  "model": "IP04347",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "0130ee5cec80c5fd1a36bd44592ffa6e12ceaa0908620f6ee9c979e26ffdd8b6",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Zioncom IP04347; FCC ID matches Totolink A810R — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: X7DIP04347; year: 2018; CPU: RTL8197FNT; Wi-Fi chip: RTL8197FNT"
+  ],
+  "signature": "VT3+aFkzpnW6XhnfLadc5/juOcv/v0TbKjWE23s8TCmmt7DCocBv977xShe0xLpQgM+rUjcf9Ty/T/lyeQzTAQ=="
+}

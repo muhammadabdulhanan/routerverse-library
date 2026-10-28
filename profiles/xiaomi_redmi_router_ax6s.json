@@ -1,0 +1,62 @@
+{
+  "profile_id": "xiaomi_redmi_router_ax6s",
+  "brand": "Xiaomi",
+  "model": "Redmi Router AX6S",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "4d3f04baf1731e3c86b9749b93df8ef7b728a25dfb2ffb52474db1bc1fcf914f",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "28:52:61",
+    "50:ec:50",
+    "64:09:80",
+    "78:11:dc",
+    "f0:b4:29"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target mediatek/mt7622); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "HTmCb76vjdKf2VscgXj9c18c+WqbTVwN5iOFUWtjEHgzIVz4EGeq2GHfp49PRPmgyBhXcUXzCZLIPRnygzN4BA=="
+}

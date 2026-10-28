@@ -1,0 +1,60 @@
+{
+  "profile_id": "wistron_neweb_rgwm04",
+  "brand": "Wistron NeWeb",
+  "model": "RGWM04",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "d45f7b63d2fcba74fad367c5cc2792b699a3aceca784dc21d47d494fdc334a45",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "58:6d:8f",
+    "c0:c1:c0"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Wistron NeWeb RGWM04; FCC ID matches Linksys E4200 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-E4200V2; year: 2011; CPU: 88F6282; Wi-Fi chip: 88W8366"
+  ],
+  "signature": "oJgzGdvY2rg7eqLJ5I2qQm14fuO8BkOa5g97OcVcAU8NzG4tPkHS4L6eqkTHpjngqh2HNkXNZgVVG4J5IxqGBA=="
+}

@@ -1,0 +1,57 @@
+{
+  "profile_id": "zunidata_r2010a",
+  "brand": "ZuniData",
+  "model": "R2010A",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "29b33d438d20797a87480d8324404fc04a9690173704a890b0815a6636391516",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model ZuniData R2010A; FCC ID matches Elecom WRH-150BK / WRH-150WH — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Z28-R2010A; year: 2014; CPU: RTL8196EU; Wi-Fi chip: RTL8192ER"
+  ],
+  "signature": "PdQX5DQcfu/96kXH5nTS2idibf1PpAWkfN4YPytkEo/PZmIe3n2mqli7/xWKJh82WNDrPThVXe/aMsG4WBW3AQ=="
+}
