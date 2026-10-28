@@ -1,0 +1,57 @@
+{
+  "profile_id": "buffalo_whr_g300n_v1",
+  "brand": "Buffalo",
+  "model": "WHR-G300N v1",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "454850af10ed19bdc2962b01c0295e0d269a65efc118065ed7dccc27379268ad",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Buffalo WHR-G300N v1; manufacturer Gemtek WRTR-237GN (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: FDI-09101538-0; year: 2008; CPU: RT3052; Wi-Fi chip: RT3052"
+  ],
+  "signature": "FHrYo7a5MpPFg9r6R88VNNHrh5oWU7q0E3XPGdqQ/wSqwvobapxjvGjxa+EjWJ23QIkI4qJvn2/t7q3HqD1CDg=="
+}

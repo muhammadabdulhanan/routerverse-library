@@ -1,0 +1,61 @@
+{
+  "profile_id": "beeline_smartbox_turbo",
+  "brand": "Beeline",
+  "model": "SmartBox Turbo+",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "865642a6f24b4420395fa396a258e609b7be87296ff62923128bf1033468574b",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "d4:21:22"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target ramips/mt7621); stock admin fingerprint not inferred from OpenWrt support.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Beeline SmartBox Turbo+; manufacturer SerComm HC910 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2018; CPU: MT7621AT; Wi-Fi chip: MT7603EN"
+  ],
+  "signature": "YR4VL52VbYvFN8MtKa/uSpVqRruduVYBgq6qJA5uMGPcjKq7oPFGXoaXfFB9TSBdF5NDFe3pUU7tefCmn3NSAw=="
+}

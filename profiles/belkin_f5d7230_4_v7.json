@@ -1,0 +1,60 @@
+{
+  "profile_id": "belkin_f5d7230_4_v7",
+  "brand": "Belkin",
+  "model": "F5D7230-4 v7",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "693b86f507f4ab1140c05526f617ed5b30dad3375ba608c0902c0ccf38c75c31",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:11:50",
+    "00:17:3f"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Belkin F5D7230-4 v7; manufacturer Arcadyan WG4005G (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: RAXWG4005G; year: 2006; CPU: AR2317; Wi-Fi chip: AR2317"
+  ],
+  "signature": "KrHP+GMKY8BxSNODPnIv83dujq93+YlxQtjjxk3MFWNulnRANr9T0av9+KzTMKhc37kkEDSqxjlqHGi7TGlCCQ=="
+}

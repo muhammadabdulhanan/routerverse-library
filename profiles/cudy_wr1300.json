@@ -1,0 +1,74 @@
+{
+  "profile_id": "cudy_wr1300",
+  "brand": "Cudy",
+  "model": "WR1300",
+  "hardware_versions": [
+    "v1",
+    "v2",
+    "v3"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "d862e9ee80ea89e31ab90177f4bc086fe898b00d8969d6d72b3e2ce50e7f4f3e",
+  "last_updated": "2026-10-28",
+  "status": "unverified",
+  "oui_prefixes": [],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [
+        "Cudy",
+        "WR1300"
+      ],
+      "server_header_contains": [],
+      "realm_contains": [],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": [
+        "WR1300",
+        "Cudy"
+      ]
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target ramips/mt7621); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "y3f66JfpGZA3ymwIxxhMRkbvsikIu5TOnvgZKkYc9GV29laPIZt1CnFbYVx9CAt6t5fMBb0v06mmvN5o9tjnBg=="
+}

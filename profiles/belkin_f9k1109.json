@@ -1,0 +1,60 @@
+{
+  "profile_id": "belkin_f9k1109",
+  "brand": "Belkin",
+  "model": "F9K1109",
+  "hardware_versions": [
+    "Version 1.0",
+    "v1"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "e533630566e5410c7a4647b6866916e2106395406068387aab04068c67deb315",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "08:86:3b"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target ramips/rt3883); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "+dgjnqiy1GWY2qHb5CzlX2X4trLF8WcW1euAQqdSc4Jx8CNO3X8X/NZXg+JHB9abzHJlEgV2QuAmhUuc3kw1BA=="
+}

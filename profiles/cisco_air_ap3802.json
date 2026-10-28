@@ -1,0 +1,63 @@
+{
+  "profile_id": "cisco_air_ap3802",
+  "brand": "Cisco",
+  "model": "AIR-AP3802",
+  "hardware_versions": [
+    "I-A-K9"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "d7fc97dde28e3ba9b741129e9b0f048fa517d3c330b012d36707e60f603c200d",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:be:75",
+    "28:ac:9e",
+    "4c:77:6d",
+    "70:0f:6a",
+    "70:69:5a",
+    "78:0c:0f"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work"
+  ],
+  "signature": "tjtVdCQD7BBqmFqg3mdX76KzmnXrH47eSZO+Js3lhJHRbh91G8XY6woiFsrEG9FApALsOmUtZjskDGY4v6LRDQ=="
+}

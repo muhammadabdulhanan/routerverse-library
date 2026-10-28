@@ -1,0 +1,56 @@
+{
+  "profile_id": "buffalo_wsr_6000ax8p",
+  "brand": "Buffalo",
+  "model": "WSR-6000AX8P",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "44d35016bb4beecf75d1f1410548e88c9fe7ff23941a976ebcb6b1fc64e973f3",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target mediatek/filogic); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "gzyk86v4E9Vl3cQqkhFHgpeo5HthT9f2Lpp5y8r/6c9QZThqUVhJpy0t4xzMo11O6F3v+UNU8gmeZiC239GFDA=="
+}

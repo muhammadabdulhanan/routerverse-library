@@ -1,0 +1,61 @@
+{
+  "profile_id": "bt_home_hub_5a",
+  "brand": "BT",
+  "model": "Home Hub 5A",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "1c19cd1ab31e1163c0888a249bd06918f7415bcc2654b77df34d77bc9f7bbf38",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:33:bb",
+    "00:37:b7",
+    "00:62:2c"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model BT Home Hub 5A; manufacturer Askey RTV7505W (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2013; CPU: PSB 80910; Wi-Fi chip: AR9227"
+  ],
+  "signature": "hqkIP+6LJL6Q31ovwJh+yTlBVN4huUbH9av6Amf+AAcoIN3td0MJ6LD6/dD8I3cBRbZbD5MXDjec7CUckJ14Ag=="
+}

@@ -1,0 +1,59 @@
+{
+  "profile_id": "buffalo_wxr_1900dhp",
+  "brand": "Buffalo",
+  "model": "WXR-1900DHP",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "b56ad109903a848e5a26bda35e1d9bf0c5fbda6c3f38039b1d4d0d3e4c76f0d9",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target bcm53xx/generic); stock admin fingerprint not inferred from OpenWrt support.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: Arcadyan; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: FDI000000022; year: 2014; CPU: BCM4709A0; Wi-Fi chip: BCM4360"
+  ],
+  "signature": "1xOzhTBiwEnhdmGCE9k57WmhEPZZ0qrCITMxKt0q4/4VH9lKMe0ZsuIp9H7+T9KBx/WKBZcc0Mo1kxmk176+BQ=="
+}

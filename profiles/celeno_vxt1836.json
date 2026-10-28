@@ -1,0 +1,58 @@
+{
+  "profile_id": "celeno_vxt1836",
+  "brand": "Celeno",
+  "model": "VXT1836",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "792ab8accaca88cd78701c5cceddefd9071493d5245f21ccbd877469ccb6e25c",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Y7E-VXT1836000001; year: 2013; CPU: CL1830; Wi-Fi chip: CL1830",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Celeno VXT1836; manufacturer Zinwell ZW-N5000 (DeviWiki live)."
+  ],
+  "signature": "gOYel/pOABLa8SK7slxUuEfHZZEvQ/DAlLtIzKqiJ/V3ol4g6xZtw6f55hMhRa2l/BuQMI6rEbn/v27Xko+UDA=="
+}

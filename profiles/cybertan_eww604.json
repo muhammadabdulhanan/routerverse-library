@@ -1,0 +1,59 @@
+{
+  "profile_id": "cybertan_eww604",
+  "brand": "CyberTAN",
+  "model": "EWW604",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "94d94ecc61986a7090171097e3bcf31a35d2e1d059dc875664651616c8c767d4",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "14:91:82"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model CyberTAN EWW604; FCC ID matches Linksys EA8500 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-EA8500; year: 2015; CPU: IPQ8064; Wi-Fi chip: QCA9980"
+  ],
+  "signature": "hWxCGtdcInYE9gQrKmX6R1zoAsBmIAPl1csC4Rva8ml7z16wdDDvMB3THI0RXh0oUpCa1XXDPvNGARa80ZRBDw=="
+}

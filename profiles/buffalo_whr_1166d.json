@@ -1,0 +1,59 @@
+{
+  "profile_id": "buffalo_whr_1166d",
+  "brand": "Buffalo",
+  "model": "WHR-1166D",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "4547d49c03aaf841c02edd8d7eb3f57978fa0f2e964e1f1615f1078529b1ee02",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target ramips/mt7620); stock admin fingerprint not inferred from OpenWrt support.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: FDI000000020; year: 2013; CPU: MT7620A; Wi-Fi chip: MT7620A",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Buffalo WHR-1166D; manufacturer Gemtek WRTR-300AGN (DeviWiki live)."
+  ],
+  "signature": "aXVY5SmnVSrFt9FupSkrVaJTW/vGsjUwgeUQIlO29en0l9UzVjESY3N7JD7hgKAuIhKm/RR+58IJlgQKBy4DCA=="
+}

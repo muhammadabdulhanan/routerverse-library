@@ -1,0 +1,59 @@
+{
+  "profile_id": "d_link_di_614_rev_a1_a2",
+  "brand": "D-Link",
+  "model": "DI-614+ rev A1 / A2",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "e5d4e6db2ba229e672a5519c2d843c24bb8c4a5aee86c0b137afc09c71b1c5d5",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:80:c8"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model D-Link DI-614+ rev A1 / A2; manufacturer Global Sun GL2422RT-0T2 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: KA2DI614-PLUS; year: 2002; CPU: S3C4510B; Wi-Fi chip: ACX100"
+  ],
+  "signature": "VZ68fNZYRmdfCKjAVMuHD8E5J0f58tefIdFhLq9UOTRD1eTmx5Y/szytG6rn0n9nsfu/bQ/rHRHB/HNP/dR4Cw=="
+}

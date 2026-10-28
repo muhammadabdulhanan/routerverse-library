@@ -1,0 +1,60 @@
+{
+  "profile_id": "belkin_f9k1002",
+  "brand": "Belkin",
+  "model": "F9K1002",
+  "hardware_versions": [
+    "v2",
+    "v3",
+    "v4",
+    "v5"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "8ccc133e339e9d5f0b4030c8a0d11059de6f2be817914fe660177a611f166ba7",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: K7SF9K1002V5; year: 2012; CPU: BCM5357C0; Wi-Fi chip: BCM5357C0"
+  ],
+  "signature": "QCoVgDijdJrXKeJxj1B0b/dkVzBRn7Eh6XpIVXpSgL91NGScWTw1pksChQTlgEuSjhrQQRBsHBp5laprpeSeAg=="
+}

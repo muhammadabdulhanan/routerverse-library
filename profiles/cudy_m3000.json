@@ -1,0 +1,59 @@
+{
+  "profile_id": "cudy_m3000",
+  "brand": "Cudy",
+  "model": "M3000",
+  "hardware_versions": [
+    "v1/v2",
+    "v1/v2 (OpenWrt U-Boot layout)",
+    "v2 with Motorcomm YT8821",
+    "v2 with Motorcomm YT8821 (OpenWrt U-Boot layout)"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "0ef7b9661a2c08289693c3b0394b637497e8e0ff83d52fb7728bf1f7ef581451",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target mediatek/filogic); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "8oNCkE81zKRJJR8z68OLXV79UwpdVXeFV8ICPfIm5aCZKgUCoj7oFXpgiuTb/Z0XvdHYH6xNObzxa9+V0aggCg=="
+}

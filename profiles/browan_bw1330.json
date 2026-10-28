@@ -1,0 +1,58 @@
+{
+  "profile_id": "browan_bw1330",
+  "brand": "Browan",
+  "model": "BW1330",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "67f46968e2fe6dfb47c57a0f264f829ff0714539b6f962376d47e71e1ddc5c7c",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MXF-R950829G; year: 2006",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Browan BW1330; manufacturer Gemtek WRTD-155AG (DeviWiki live)."
+  ],
+  "signature": "ZDDFcCjMqAGop4EQyIbBlNvgPBvUY8jochXKGI40BTb7Szq1DPsf1ynasuWptdyU6twKD6726KgyD2POHUnNBg=="
+}

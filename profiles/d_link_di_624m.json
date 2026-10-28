@@ -1,0 +1,64 @@
+{
+  "profile_id": "d_link_di_624m",
+  "brand": "D-Link",
+  "model": "DI-624M",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "e9c773d03d7a33ca68afbac739cf2476f486d44f32ad5119584621bdac24356e",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:01:46",
+    "00:01:95",
+    "00:11:95",
+    "00:13:46",
+    "00:15:e9",
+    "00:17:9a"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model D-Link DI-624M; manufacturer Global Sun WL-RT-2554-27A0 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: KA2DI624MA1; year: 2005; CPU: RTL8651B; Wi-Fi chip: AR5513"
+  ],
+  "signature": "ira54ls8l4OnEgX/TMRmVHMczETYF/1Kin1ky4E0rAbjAcFfwYvWGU/RM0E24trvOzK5JADJTQCSo2mETQ0VDQ=="
+}

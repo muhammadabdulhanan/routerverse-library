@@ -1,0 +1,79 @@
+{
+  "profile_id": "citrix_generic",
+  "brand": "Citrix",
+  "model": "Citrix (generic)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "5addf55839e5aa5ba65101828536e26328263cbb1c1f2eb8b3520f5cc3bd80c9",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [
+        "NetScaler SDX Gateway",
+        "Netscaler Gateway",
+        "citrix gateway"
+      ],
+      "server_header_contains": [],
+      "realm_contains": [],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": [
+        "\"/vpn/resources/{lang}\"",
+        "/vpn/js/gateway_login_view.js?",
+        "class=\"_ctxstxt_netscalergateway\"",
+        "class=\"citrixreceiverlogoaboutbox\""
+      ]
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "FingerprintHub rules gateway, netscaler_gateway, citrix-access-gateway (verified: true/false mixed).",
+    "Brand-level fallback: model-level match pending.",
+    "Matching needs favicon fetch — pending future app support",
+    "Fingerprint: recog (recog_html_title) Citrix Netscaler Gateway.",
+    "Fingerprint: recog (recog_html_title) Citrix NetScaler SDX Gateway."
+  ],
+  "signature": "VBHY9vuagUe9EEYd4abF2kLGtKTcMuAabVeTjCPB+JeCJU0hR0/vIym8i+1SeWsF+1ElW3KUa92iMaPMiolFCA=="
+}

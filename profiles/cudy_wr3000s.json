@@ -1,0 +1,57 @@
+{
+  "profile_id": "cudy_wr3000s",
+  "brand": "Cudy",
+  "model": "WR3000S",
+  "hardware_versions": [
+    "v1",
+    "v1 (OpenWrt U-Boot layout)"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "00024da3ffd2a268bdd37b0ebc75a0c109c5bd6bdbc92485b105090e64841095",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target mediatek/filogic); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "dTeg/aNyTthvVUgg65Qq9BBlTCcGvc0q9wk0MJ2bNCO6IQMKT95IWTB58MlRpgaqo65NAAvA9HNH6gVkcyhyBA=="
+}

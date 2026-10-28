@@ -1,0 +1,59 @@
+{
+  "profile_id": "bt_dual_band_wi_fi_extender_n_600",
+  "brand": "BT",
+  "model": "Dual-Band Wi-Fi Extender N 600",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "baa59c34f30f41bd4095bde7026f2f6757e119cd3fcf744ea27a220b9206cedd",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "bc:96:80"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: Shenzhen Gongjin Electronics; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2013; CPU: MT7620A; Wi-Fi chip: MT7620A"
+  ],
+  "signature": "PygSADVIJ/5iGlP7hc9acerwPIgwzDwXsqpBBvqsnP0UQnZnDZOxRIVHIlEOwSK83gjhTGiq+npRKbPVtfPPDA=="
+}

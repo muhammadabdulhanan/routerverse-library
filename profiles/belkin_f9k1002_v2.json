@@ -1,0 +1,59 @@
+{
+  "profile_id": "belkin_f9k1002_v2",
+  "brand": "Belkin",
+  "model": "F9K1002 v2",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "bcae6fb4275726307a1305f3a987eb68bf8575d8908976a5e61e6e8e14ef4142",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "08:86:3b"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: Arcadyan; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: K7SF9K1002V2; year: 2011; CPU: RT3052; Wi-Fi chip: RT3052"
+  ],
+  "signature": "8sPa2X9KCDmeQjA88/jg+G0VAnxhPdX86D+zul0hkTCA/XMkkyQf/K10qKmA9EjAOy/CIOGoFpyyoT70Y+1/DA=="
+}

@@ -1,0 +1,60 @@
+{
+  "profile_id": "belkin_f5d6231_4",
+  "brand": "Belkin",
+  "model": "F5D6231-4",
+  "hardware_versions": [
+    "v1",
+    "v2"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "e3c22ebfd9e724e42f09e20b5ec635ff737fc77b8d268359e747d04616a9d28e",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:30:bd"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: K7SF5D6231-4; year: 2002; CPU: CX84200-11; Wi-Fi chip: AT76C502A"
+  ],
+  "signature": "M1L+PIfrG1CPQxbnQdF5oHhlye+CJe/0/KKy4Q8oshqsutVt7kDP5RoBT3VC2q8V1t6fRBMgbdXw17GavhfVAg=="
+}

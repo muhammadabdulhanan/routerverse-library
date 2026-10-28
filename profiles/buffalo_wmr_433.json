@@ -1,0 +1,60 @@
+{
+  "profile_id": "buffalo_wmr_433",
+  "brand": "Buffalo",
+  "model": "WMR-433",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "bd2648d863e58a71e2b274f09f7a3af6e154b0691d8e494652d7b028a0c32df1",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "dc:fb:02"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: FDI000000024; year: 2014; CPU: RTL8881AM; Wi-Fi chip: RTL8881AM",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Buffalo WMR-433; manufacturer Gemtek WRTT-305ACN (DeviWiki live)."
+  ],
+  "signature": "jxtqVLjnxLZUoCtFjPxFPd2xwvwS5Rx1Iqevw2Je/5aaIMDOa46QC6ndcxqUoX/k8yyHHGw/DCckNoHB2njZAw=="
+}

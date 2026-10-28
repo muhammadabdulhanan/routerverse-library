@@ -1,0 +1,60 @@
+{
+  "profile_id": "buffalo_wsr_1166dhp",
+  "brand": "Buffalo",
+  "model": "WSR-1166DHP",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "ae643424e7d3ca0158d114ab2660415926bd47cb9b9a3b7615e7516f70dffadc",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "cc:e1:d5"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target ramips/mt7621); stock admin fingerprint not inferred from OpenWrt support.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Buffalo WSR-1166DHP; manufacturer Arcadyan WG9115A (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: FDI000000028; year: 2015; CPU: MT7621AT; Wi-Fi chip: MT7603EN"
+  ],
+  "signature": "IZbherB6QMpQQMu5EP7z11zL3rG9DyS+pB4nygBZiEf574dYsPjoLSm5lETz295w6d7kDiFMxiQMfYG/e/ADCA=="
+}

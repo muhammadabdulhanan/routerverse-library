@@ -1,0 +1,62 @@
+{
+  "profile_id": "buffalo_wzr_900dhp",
+  "brand": "Buffalo",
+  "model": "WZR-900DHP",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "fbbe8c80efabe160f59c56bf5b29f7502c0a9d01dece6fd3729692087473f654",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "10:6f:3f",
+    "b0:c7:45"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target bcm53xx/generic); stock admin fingerprint not inferred from OpenWrt support.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Buffalo WZR-900DHP; manufacturer Arcadyan WG9116H (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: FDI000000014; year: 2013; CPU: BCM47081A0; Wi-Fi chip: BCM4331"
+  ],
+  "signature": "SLQqvi6BPxYlB1higGPYwv7gqWiN5+dO6mAgwq1pvDI7tc03rwq2xXhbI3onOWdRbqcrrlgEfi8ZPYsKOlUEDQ=="
+}

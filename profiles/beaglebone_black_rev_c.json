@@ -1,0 +1,59 @@
+{
+  "profile_id": "beaglebone_black_rev_c",
+  "brand": "BeagleBone",
+  "model": "Black (Rev C)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "365a6825cd3f13e178237b40ce4eb28d7e1511529a66885330dd45471fff74b6",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "50:72:24"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wired); manufacturer unproven (no manufacturer property).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2014; CPU: Sitara AM3358"
+  ],
+  "signature": "7y5H593xsfp6BOCCG4ecHlXLvShLHcmN5lnDdtthzYL60DKSmisnTb/lov2Pe37XnWLM8EyTy0Qr3zfT5IPABw=="
+}

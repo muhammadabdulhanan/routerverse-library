@@ -1,0 +1,72 @@
+{
+  "profile_id": "belkin_f5d7230_4",
+  "brand": "Belkin",
+  "model": "F5D7230-4",
+  "hardware_versions": [
+    "v1",
+    "v1 (v1444)",
+    "v2",
+    "v3",
+    "v4",
+    "v5",
+    "v7",
+    "v8",
+    "v9",
+    "vA",
+    "ver. 6000"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "57f7528145343d83b51429cd2c197b076ae90ab76db93386646566c2412473c7",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:11:50",
+    "00:15:50",
+    "00:17:3f",
+    "00:1c:df"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: RAXWG4005FB; year: 2005; CPU: AR2315; Wi-Fi chip: AR2315"
+  ],
+  "signature": "Ih6NTFF5oGCqDexxTMHm8jwMQK5m2CU0ac2vmtGkOfA/HT2uBhxcZ797qSSM4SfAqpwN43CCBpkDBNT1q74ODQ=="
+}

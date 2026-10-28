@@ -1,0 +1,62 @@
+{
+  "profile_id": "cisco_aironet_mpi350_air_mpi350_u58h010",
+  "brand": "Cisco",
+  "model": "Aironet MPI350 (AIR-MPI350), U58H010",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "00a15ec58f0374d019fe0b1e84b889239544bbd76e6c00d7d6f2c977c11d6f3c",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:1c:10",
+    "00:25:9c",
+    "00:40:96",
+    "f4:cf:e2"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Cisco Aironet MPI350 (AIR-MPI350), U58H010; manufacturer Ambit Microsystems U58H010 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2003"
+  ],
+  "signature": "P2q1mJLyyJSur9PC+uFvmsDXoJ9x2f3Ig0Q259y/vbsA2eHyrvUMtBYuZxlvH2gevhtCuE9PbmQH4dfAo/MADQ=="
+}

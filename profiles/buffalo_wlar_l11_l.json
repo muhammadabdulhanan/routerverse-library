@@ -1,0 +1,60 @@
+{
+  "profile_id": "buffalo_wlar_l11_l",
+  "brand": "Buffalo",
+  "model": "WLAR-L11-L",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "4a98dadb80175523e0ac261aba419975ab8514e018e4bab057827818202f28da",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:02:2d",
+    "00:40:26"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: Melco; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: IMRWLPCE24H; year: 2001; CPU: SH7709A (HD6417709A); Wi-Fi chip: HERMES I"
+  ],
+  "signature": "EmT59ajauY8lZqanQinEAXErPrvaR3T4tTCo7EiCdejBi0LIZ0zmIeIdd32FN1a2IVlcs5VgX5S6fIqG6zS7AQ=="
+}

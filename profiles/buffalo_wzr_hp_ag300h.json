@@ -1,0 +1,61 @@
+{
+  "profile_id": "buffalo_wzr_hp_ag300h",
+  "brand": "Buffalo",
+  "model": "WZR-HP-AG300H",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "c340b7394db7ded92c2404808e652937957161731c29c70c3339ac00df8a7396",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "4c:e6:76"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target ath79/generic); stock admin fingerprint not inferred from OpenWrt support.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: FDI-09101889-0; year: 2011; CPU: AR7161; Wi-Fi chip: AR9220",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Buffalo WZR-HP-AG300H; manufacturer Gemtek WRTA-273N (DeviWiki live)."
+  ],
+  "signature": "+I4tlIcNHK6qz3fYhBL6+58cYti0+4hj2UCkbRwrg5qOPvNilE/WmeHevQloiJ8yLJjFjHRXiPlk0b/2JFLUCw=="
+}

@@ -1,0 +1,58 @@
+{
+  "profile_id": "charter_rax1v1k",
+  "brand": "Charter",
+  "model": "RAX1V1K",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "ef20e7fe7c7a7e2013613dfa65e672177c48c235b40d335a23a7b3584a0f9360",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: H8NRAX1V1K; year: 2018; CPU: IPQ8072; Wi-Fi chip: QCN5054",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Charter RAX1V1K; manufacturer Askey RT5000W (DeviWiki live)."
+  ],
+  "signature": "glkc5H9niY0KKOwCn+E3krKz27iwL/lXTvx3bmzdSOXaCsemkdrltVSrxRO3E3CsQVxcTf9bej7YSgjp9rtpCA=="
+}

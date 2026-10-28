@@ -1,0 +1,58 @@
+{
+  "profile_id": "cisco_on100_k9",
+  "brand": "Cisco",
+  "model": "ON100-K9",
+  "hardware_versions": [
+    "V01"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "59a38be7f383660af5b1b81d50f4890f26b0094cc9dba3a24b937d52cb3d67dd",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "64:00:f1"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work"
+  ],
+  "signature": "N12YfUpXW0rkjelFFU1ijrPZH+160anRsmAQp/FhW6JFxsaPv+JbXSHS7l2bXwW3G8stiBbpDujINzVBuKQlAg=="
+}

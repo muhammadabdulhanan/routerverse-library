@@ -1,0 +1,58 @@
+{
+  "profile_id": "comtrend_ar5302",
+  "brand": "Comtrend",
+  "model": "AR5302",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "492ab247581275b7c591c352999521b21c87995953a122721b8c8b9be56e8001",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "f8:8e:85"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); CPU: RT63365E; Wi-Fi chip: RT5390HL"
+  ],
+  "signature": "7UIZxrz7iODEUIohy4inTQXgWsysB8bB+GLj0oBFEQmjO7eizomWTgATXWkR0aMZX4cYQpA8EwSNYywBlI1mAA=="
+}

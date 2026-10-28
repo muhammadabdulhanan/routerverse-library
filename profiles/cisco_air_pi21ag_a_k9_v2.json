@@ -1,0 +1,59 @@
+{
+  "profile_id": "cisco_air_pi21ag_a_k9_v2",
+  "brand": "Cisco",
+  "model": "AIR-PI21AG-A-K9 v2",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "c185f7417f1fb0058dd6f5abbf0fdea264ed10832f42e4fff65e9c9504db8088",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:40:96"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Cisco AIR-PI21AG-A-K9 v2; manufacturer Ambit Microsystems U58H071 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28)"
+  ],
+  "signature": "ZL+37biIjnohnb+BJq4um8w2nofzdS8bGkFMIQUkZzuw8zBSMO57hL2GkaWjMYzmCSzXkr0Llt3jnjzTs9gwAg=="
+}

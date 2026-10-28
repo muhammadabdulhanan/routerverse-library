@@ -1,0 +1,74 @@
+{
+  "profile_id": "cisco_ios",
+  "brand": "Cisco",
+  "model": "IOS",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "aa543b7c08d7b2e80602fbd0eb3d2ceda810d30ef52187418c0b9b8d87da2f62",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:1c:10",
+    "00:25:9c",
+    "00:40:96",
+    "f4:cf:e2"
+  ],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [],
+      "server_header_contains": [
+        "cisco-IOS"
+      ],
+      "realm_contains": [],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": []
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Fingerprint: recog (recog_http_servers) Cisco IOS.",
+    "Fingerprint: recog (recog_http_servers) Cisco IOS with version information."
+  ],
+  "signature": "z8PhKKGLxMk+h0JsPKxpfliiwsQuZoSTAqSPMHqiHM1O3Dxy6ddGzXQUS+wR144Pxp7hTQir3r/+GnEEbkO+Dw=="
+}

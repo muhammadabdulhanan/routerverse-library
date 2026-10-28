@@ -1,0 +1,60 @@
+{
+  "profile_id": "d_link_dir_855_rev_a2",
+  "brand": "D-Link",
+  "model": "DIR-855 rev A2",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "a1b2087fc083bd8ff1d542089ce3be2ab224943629e3eaa67b0e630c393390cd",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:18:e7",
+    "00:24:01"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: Cameo; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: KA2DIR855A2, PPD-AR5BMB81, PPD-AR5BMB82; year: 2008; CPU: IP5170U; Wi-Fi chip: AR9160"
+  ],
+  "signature": "+VhXXi2r6F1NHACwTtKrHIsVdOPTxhdGSkC9lLzf8bSAkzS//aJaXlaeSjxauuKKsM7ATL7QtiwIFWGDYqm4Cw=="
+}

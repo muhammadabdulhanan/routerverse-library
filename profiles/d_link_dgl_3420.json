@@ -1,0 +1,66 @@
+{
+  "profile_id": "d_link_dgl_3420",
+  "brand": "D-Link",
+  "model": "DGL-3420",
+  "hardware_versions": [
+    "A1"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "31b1e4c8f3d500e458d2699a72c845b0ec8046b93d976e362a8fb9be7e37a35c",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:05:5d",
+    "00:13:46",
+    "00:15:e9",
+    "00:19:5b",
+    "14:d6:4d",
+    "1c:7e:e5",
+    "f0:7d:68"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: KA2DGL3420A1; year: 2004; CPU: AR2313A; Wi-Fi chip: AR2313A",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model D-Link DGL-3420; manufacturer Global Sun WL AP 2554 RA1 (DeviWiki live)."
+  ],
+  "signature": "fDG+fVQcxXYxAa6dMIwLIQHhAVrnhjX0v9io6S7ApkdQn5Eh3pIzESsNbDwb692nelzSFDcN7gTTcInEVSilDg=="
+}

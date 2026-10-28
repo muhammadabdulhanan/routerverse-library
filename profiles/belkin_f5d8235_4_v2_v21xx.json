@@ -1,0 +1,59 @@
+{
+  "profile_id": "belkin_f5d8235_4_v2_v21xx",
+  "brand": "Belkin",
+  "model": "F5D8235-4 v2 (v21xx)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "3c56c4f7f2aab93bc2449a5b2af9c91ba2121b4dc0950bab92042c5d4f30eb66",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:22:75"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Belkin F5D8235-4 v2 (v21xx); manufacturer Gemtek WRTR-234GN (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: K7SF5D8235-4B; year: 2009; CPU: RT3052; Wi-Fi chip: RT3052"
+  ],
+  "signature": "7PjEE6RIb9Ox39yw8C0GgFAmqV0Rk28K0dV6TbOS0x61x4Mz21m5zhyd2WpmO/7G57KG4YQPvlN6MZ0w4DBUAw=="
+}

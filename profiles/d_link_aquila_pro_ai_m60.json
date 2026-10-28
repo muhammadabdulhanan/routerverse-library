@@ -1,0 +1,63 @@
+{
+  "profile_id": "d_link_aquila_pro_ai_m60",
+  "brand": "D-Link",
+  "model": "AQUILA PRO AI M60",
+  "hardware_versions": [
+    "A1"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "59ba6215fb5cac3b4134aa081aa73a9a82c900e1e0d34680bcf8e4a7281b7ee9",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:05:5d",
+    "00:15:e9",
+    "00:19:5b",
+    "14:d6:4d",
+    "1c:7e:e5",
+    "f0:7d:68"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target mediatek/filogic); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "30kUeEAZZW/0lD7dQ8HaW/XVUzEmglTLks308i1QAydJWqj9Y48DZGU+qlXoUq3hEwfkxzVu61DDH1a/DzbQAg=="
+}

@@ -1,0 +1,60 @@
+{
+  "profile_id": "blitzz_bwa611b",
+  "brand": "Blitzz",
+  "model": "BWA611B",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "bbeb8f45477e965195213bc16a825a2ed029163369babf3e4abb304dba919455",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:e0:98"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MQ4ARM804; year: 2003; CPU: 88W8500; Wi-Fi chip: 88W8500",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Blitzz BWA611B; manufacturer AboCom ARM804 (DeviWiki live)."
+  ],
+  "signature": "/FNWKq+j81Enn1BSESQq2laBWyXkHlYN4XYd7KiYXLhf6VzVnrKYf7BqW0Z6MPa5EeW2ACYg44Wh37Bs8YLNCA=="
+}

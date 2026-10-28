@@ -1,0 +1,59 @@
+{
+  "profile_id": "bec_technologies_mx_230_m1",
+  "brand": "BEC",
+  "model": "Technologies MX-230 M1",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "9883cb76a2e25700f1fe1e72fce300352e55f0f4a03e498274ef3441f8c21255",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:04:ed"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer unproven (no manufacturer property).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: QI3BIL-MX230M1, XMR, XMR201707BG96; year: 2018; CPU: MT7525; Wi-Fi chip: MDM9206"
+  ],
+  "signature": "T1mtMhbo5XJaK5Kzlm5VxfqsXEESbgGZSV8b4C9wEUPA7zQEBegCPAAH3bQayGuphc2fkYsiVXuGsM7M/b01Dg=="
+}

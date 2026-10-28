@@ -1,0 +1,59 @@
+{
+  "profile_id": "cyfre_3g_router",
+  "brand": "Cyfre",
+  "model": "3G Router",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "fba1f040997da4be5097c18d971fd5e2aca4e8a95251d2e4f8f490e5387a3e0a",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:50:18"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Cyfre 3G Router; manufacturer AMIT WMQ137AM (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PBLWL533M; year: 2008; CPU: 20000; Wi-Fi chip: RT2561S"
+  ],
+  "signature": "7dPS/7EV6d2Z9oDpZhNK/HdI7O8pnls81UutBlAjx2FVp+DRlHspa1Owxo2t0JVyRaU+1g6muL/H4JiuvXhCAQ=="
+}

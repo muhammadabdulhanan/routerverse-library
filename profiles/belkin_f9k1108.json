@@ -1,0 +1,60 @@
+{
+  "profile_id": "belkin_f9k1108",
+  "brand": "Belkin",
+  "model": "F9K1108",
+  "hardware_versions": [
+    "v1"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "c69b1b3bbc92f0db0a96db69dd638dc7b1a7c3cbccd2f844908afcf75e956763",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "08:86:3b"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Belkin F9K1108; manufacturer Arcadyan WG8005G12 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: K7SF9K1108V1; year: 2011; CPU: BCM5358UB0; Wi-Fi chip: BCM5358UB0"
+  ],
+  "signature": "JGKCzySX9N0ShK6ldoHfbl5/3s7290scDXGFe5HKE2OoaZvI0g4D/+NvJMiqWR6KiLn1kHTzX0D0xB50Md8rBg=="
+}

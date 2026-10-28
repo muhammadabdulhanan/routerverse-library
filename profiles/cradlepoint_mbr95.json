@@ -1,0 +1,60 @@
+{
+  "profile_id": "cradlepoint_mbr95",
+  "brand": "CradlePoint",
+  "model": "MBR95",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "74a38017aa6a9237a6b2999df37ee5d1035c45bfa72287ae548ed5099c692aa2",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:30:44"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: UXX-MBR95; year: 2011; CPU: RT3352; Wi-Fi chip: RT3052",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model CradlePoint MBR95; manufacturer U-MEDIA WWR-381L (DeviWiki live)."
+  ],
+  "signature": "Lw7L090kSz6ECqGYfLiglFIAUDUEeT85kJ7WUww/YJzkp/bh1ZE3vqXPBTBFeATeqGwgbIcJFMCPmgzq6r+8BQ=="
+}

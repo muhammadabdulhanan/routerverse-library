@@ -1,0 +1,60 @@
+{
+  "profile_id": "buffalo_wlae_ag300n",
+  "brand": "Buffalo",
+  "model": "WLAE-AG300N",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "1c36e5d594df58bcf159cf0fbc1f98b839ebcf47c2b29cd595979a6ff9279585",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "4c:e6:76"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: FDI-09101592-0; year: 2010; CPU: AR7240; Wi-Fi chip: AR9280",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Buffalo WLAE-AG300N; manufacturer Gemtek WRTA-266N (DeviWiki live)."
+  ],
+  "signature": "Tfx/5SnScecziH8H7fWqhLnSDFxa8/u45ACvZhltNOT/VDa3QuJIjCZlY5PYFrRvRINb2LB3SfbrkBjL7h7DAw=="
+}

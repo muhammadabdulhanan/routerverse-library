@@ -1,0 +1,60 @@
+{
+  "profile_id": "belkin_f7d2301",
+  "brand": "Belkin",
+  "model": "F7D2301",
+  "hardware_versions": [
+    "v1"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "daf5342013e27ea7b07006c366544247c4af8ad60bb562f576c2aef8a18b8746",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "94:44:52"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Belkin F7D2301; manufacturer Arcadyan WG7005E22 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: K7SF7D2301V1; year: 2010; CPU: RT3052; Wi-Fi chip: RT3052"
+  ],
+  "signature": "+9w/QF9UqqXCmXNSiz8lnaNH/rQOBRLeg8AHLxtIn8NC1ZeBCQg23Qj7KhwhTt752t+7sa7V7Soq2OwW0QfiAA=="
+}

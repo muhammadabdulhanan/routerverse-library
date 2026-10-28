@@ -1,0 +1,59 @@
+{
+  "profile_id": "compal_broadband_networks_ch7465lg_lc",
+  "brand": "Compal",
+  "model": "Broadband Networks CH7465LG-LC",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "fe7cc6afe39b436c47023dd4636862387ea4ada35eaef245bfc58cc4adf9a60d",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "ac:22:05"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Compal Broadband Networks CH7465LG-LC; manufacturer Arcadyan CH7465 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: O2U-AP7465; year: 2018; CPU: DHCE2652; Wi-Fi chip: CL242"
+  ],
+  "signature": "38FKim0i6WMuOXq8eP3Ob80VWaGcpw61p+9tRj94rVI/5G88d5DozhSwjp6e0pWiP9Wwb9JgYyDgTSgfHI+NBw=="
+}

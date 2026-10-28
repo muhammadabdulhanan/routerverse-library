@@ -1,0 +1,71 @@
+{
+  "profile_id": "d_link_di_624",
+  "brand": "D-Link",
+  "model": "DI-624",
+  "hardware_versions": [
+    "A1",
+    "B1",
+    "C1",
+    "C2/C3",
+    "D2",
+    "E1",
+    "unk. rev."
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "a1b4ad0dcf00e1e03c21fdd17caac58bbca9e2e511752544ddb59c6372a73b2c",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:05:5d",
+    "00:0d:88",
+    "00:13:46",
+    "00:15:e9",
+    "00:80:c8"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: KA2DI624E1; year: 2005; CPU: AR2316A; Wi-Fi chip: AR2316A",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model D-Link DI-624+; manufacturer Global Sun GL2454RT-IA1 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: KA2T1130, O7J-GL2454MP-0T; year: 2003; CPU: MSP2007; Wi-Fi chip: TNETW1130"
+  ],
+  "signature": "ypIaWGn3aLNavppVq7JwGTZGaqcQWsqLlxhVt5CB1ZRp9O+byWBpPpQKdbsKGoJrRngqvJT2rS7AL0AbD0WNBQ=="
+}

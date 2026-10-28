@@ -1,0 +1,59 @@
+{
+  "profile_id": "d_link_dir_320_rev_a2",
+  "brand": "D-Link",
+  "model": "DIR-320 rev A2",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "4895e3f51473b5851faac45c02ecd13795284cd9fc656fde845482eceee30cd4",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "f0:d7:68"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model D-Link DIR-320 rev A2; manufacturer Alpha Networks WRG-G27 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: KA2DIR320A1; year: 2007; CPU: BCM5354; Wi-Fi chip: BCM5354"
+  ],
+  "signature": "qLEJ59i6MQz4AfoAM0HcY6MG9Ac28VDp/3Yd/oEheMmjL5DYzq98Z8Q8bGqxvRm6dTqZT6rRl1MxCnqojUM6CA=="
+}

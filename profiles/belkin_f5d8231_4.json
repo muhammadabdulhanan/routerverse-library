@@ -1,0 +1,68 @@
+{
+  "profile_id": "belkin_f5d8231_4",
+  "brand": "Belkin",
+  "model": "F5D8231-4",
+  "hardware_versions": [
+    "v1000",
+    "v2000",
+    "v3000",
+    "v4000",
+    "v5000"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "55c8e7b13ec803badd5e7900ceaaadbb036765a7dff1e1f9cdc270eaf6339c68",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:11:50",
+    "00:11:6b",
+    "00:17:3f"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: K7SF5D8231-4; year: 2006; CPU: IXP420; Wi-Fi chip: AR5416",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: K7SF5D8231-4C; year: 2007; CPU: RT1310A; Wi-Fi chip: RT2860",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: K7SF5D8231-4E; year: 2008; CPU: RT2880; Wi-Fi chip: RT2880",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: K7SF5D8231-4D, P27IP1006AA; year: 2007; CPU: AR7130; Wi-Fi chip: AR5416"
+  ],
+  "signature": "g7frhtHXHmPsbCBXdouyRLFiXbONoJKbucRj8HcceNEGsWbNLRA0gEAuRV6HinWq0gy95ZPFtzR7hcylh3VaCg=="
+}

@@ -1,0 +1,59 @@
+{
+  "profile_id": "d_link_dir_516_rev_a1",
+  "brand": "D-Link",
+  "model": "DIR-516 rev A1",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "0e9f3972f27efb13d98851af629ca6f9175e5b9f27e4f077fb325d74ec946b96",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "f8:e9:03"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model D-Link DIR-516 rev A1; manufacturer Alpha Networks WRG-AC17 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: KA2IR516A1; year: 2014; CPU: RTL8881AM; Wi-Fi chip: RTL8881AM"
+  ],
+  "signature": "SuQoRtubrm5GO/uQkiXrH6xjYaHX7Cvae/Q00g71UPZqSLdZlX0MWATu9zq716Pm7rU0B1jGKyZXaM7hvh8kBA=="
+}

@@ -1,0 +1,59 @@
+{
+  "profile_id": "belkin_f7d2101",
+  "brand": "Belkin",
+  "model": "F7D2101",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "545f7dcbc78f8c3a6defb1b5a02649c1b4e9fee45d29b05c866c9827b2c47353",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "94:44:52"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Belkin F7D2101; manufacturer Arcadyan WN7522D-LF-AK (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2010"
+  ],
+  "signature": "u8GLdBxHv+1Rx3KvSAcOlkGnssHKMdzpGiUdgMO+rwe6wRiCwP2kSHIESXJPVa4Kek97eTG8tEeGo2VwWBzwDA=="
+}

@@ -1,0 +1,61 @@
+{
+  "profile_id": "d_link_di_524_rev_a1",
+  "brand": "D-Link",
+  "model": "DI-524 rev A1",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "aba0340c5da6dce3af6cce899b5360b541771483e12f1e4ebf9c5cdf543c6dc5",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:0d:88",
+    "00:0f:3d",
+    "00:11:95"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model D-Link DI-524 rev A1; manufacturer Global Sun GL2454RT-NM0 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: KA2DI524; year: 2003; CPU: 88W8510; Wi-Fi chip: 88W8510"
+  ],
+  "signature": "tEjBWqspkAXU656raD+u4oERLIP0vlICJb94HPGE51R51qWvd9s4CukiNssDMo5iOKNLTVnNTgbmLcZmnFglAA=="
+}

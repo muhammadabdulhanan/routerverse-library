@@ -1,0 +1,60 @@
+{
+  "profile_id": "d_link_dir_600l_rev_a1",
+  "brand": "D-Link",
+  "model": "DIR-600L rev A1",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "a6b1147485d19e6f6a40bf42954870e71a76d30e83f7a919c02ab4013edddf1e",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "14:d6:4d",
+    "c8:d3:a3"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model D-Link DIR-600L rev A1; manufacturer Alpha Networks WRG-N40 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: KA2IR600LA1; year: 2012; CPU: RTL8196C; Wi-Fi chip: RTL8188RE"
+  ],
+  "signature": "0dAJX3axRA2E9Gaw7ejK+p8m8qBWUyI6s6gwumKzUoVG0T/l6JOMOjiVcluj/uRZtIeiC7RLDQa4C/q8z3JmBg=="
+}

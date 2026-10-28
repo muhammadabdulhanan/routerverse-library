@@ -1,0 +1,64 @@
+{
+  "profile_id": "d_link_dir_655_rev_b1",
+  "brand": "D-Link",
+  "model": "DIR-655 rev B1",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "dfac2427435da3aec33f8554d3a44269fb26e643e8f04b5bba1cf0dc76041573",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:18:e7",
+    "14:d6:4d",
+    "1c:7e:e5",
+    "1c:af:f7",
+    "5c:d9:98",
+    "84:c9:b2"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: Cameo; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: KA2IR655B1; year: 2009; CPU: IP7150U; Wi-Fi chip: AR9223"
+  ],
+  "signature": "XlX89N2R3L58ULEDzq//tVLnHlBki0J/SbgMGNcoI14oVg6x3QH7FO6xGlG+yD1u3wi8fmf5Y6Gkl2iSPKTIDg=="
+}
