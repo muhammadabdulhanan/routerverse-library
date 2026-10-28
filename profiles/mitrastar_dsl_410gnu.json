@@ -1,0 +1,57 @@
+{
+  "profile_id": "mitrastar_dsl_410gnu",
+  "brand": "MitraStar",
+  "model": "DSL-410GNU",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "a2f4827de6d1e11583fddcf39c65ab57ef8b4b89139557cf478cafd1a8175c67",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model MitraStar DSL-410GNU; FCC ID matches Zyxel C1000Z — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: I88C1000Z; year: 2012; CPU: BCM63268; Wi-Fi chip: BCM63268"
+  ],
+  "signature": "ryHY44Hb6l7gcSenwj2f5SeQZoc3dESeRUvV/IBi4A/olDdn0IpGJ6P+w9g/vpUFBJW9fr1WKH1nbiYtB5zQAQ=="
+}

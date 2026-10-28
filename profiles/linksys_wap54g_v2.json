@@ -1,0 +1,60 @@
+{
+  "profile_id": "linksys_wap54g_v2",
+  "brand": "Linksys",
+  "model": "WAP54G v2",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "883b53c296308d20f82687af9fa8caac94157ad67acdade973f97f94ef77cc12",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:0f:66",
+    "00:12:17"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Linksys WAP54G v2; manufacturer Gemtek WAPB-108GL (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-WAP54GV2; year: 2003; CPU: BCM4712; Wi-Fi chip: BCM4712"
+  ],
+  "signature": "Q3hCQ48LS2xpE2cu2SxJbcvL/rYALZhDD32yLi34xozdG3C0VeASM4JAcgB3eUuY2Uy60umPg+WucWOdt+ffAg=="
+}

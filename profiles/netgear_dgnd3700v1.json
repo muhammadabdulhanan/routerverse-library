@@ -1,0 +1,59 @@
+{
+  "profile_id": "netgear_dgnd3700v1",
+  "brand": "Netgear",
+  "model": "DGND3700v1",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "1168d5ae52a83392fbb8937e8ddd7d04d7c03daf354cb301fc0b5dd11ec1928b",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "20:4e:7f"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Netgear DGND3700v1; manufacturer Foxconn U12L144T01 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY310100129; year: 2011; CPU: BCM6368; Wi-Fi chip: BCM43222"
+  ],
+  "signature": "sJUYY8m8YmnW0Cd94NoEgz+tZB63Bs+ZVGT3uqmun/aZW0CXzt2duqkY7k+9jRL2iw/3TJoqgZNEw1lz9skBBw=="
+}

@@ -1,0 +1,63 @@
+{
+  "profile_id": "linksys_wrv200",
+  "brand": "Linksys",
+  "model": "WRV200",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "6918fc56c1dc797a4ee84c46dea038eafd39e2829edbde12dc47a117b19fdf00",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:04:5a",
+    "00:1e:e5",
+    "68:7f:74",
+    "c0:56:27"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-WRV200; year: 2006; CPU: RTL8651B; Wi-Fi chip: RT2661",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Linksys WRV200; manufacturer Gemtek WRTR-147G (DeviWiki live)."
+  ],
+  "signature": "xQCx6INqGwWOvOAcjXmmabwq83SE7pWvIsX/1fouD+Uh+GihTH2wCKmg4Fj2OncBhfXdYyvhxqsQscZeRpZLBQ=="
+}

@@ -1,0 +1,59 @@
+{
+  "profile_id": "nag_snr_cpe_w4n_3g",
+  "brand": "NAG",
+  "model": "SNR-CPE-W4N-3G",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "b9e26462a5b5313858e3974d3044ba4bb494b04bb23f4c121c5bd6168c8f9834",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "f8:f0:82"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model NAG SNR-CPE-W4N-3G; manufacturer SkyLink SL-R7205 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2011; CPU: RT3052; Wi-Fi chip: RT3052"
+  ],
+  "signature": "3pEw8tC1DySNyDBmEMqPaIp9t1xRa6XdvvUkW26sEAotsZ3U5WZ+fxPEX78VpDjlCTV8cyQ7vCXFnDcwIF+FBg=="
+}

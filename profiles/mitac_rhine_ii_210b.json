@@ -1,0 +1,57 @@
+{
+  "profile_id": "mitac_rhine_ii_210b",
+  "brand": "Mitac",
+  "model": "Rhine-II 210B",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "161ecfa09a1cead891e013e5dcccfc262665a70001741129816ebd72214c3390",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Mitac Rhine-II 210B; FCC ID matches TROY Wireless EtherPortal — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: EJH210B; year: 2002; CPU: S3C4510B"
+  ],
+  "signature": "JSlXnGayfJ84N3f+51UHpqEbxccQlYNqccdwMT7DudJ1WK7ilHGvzQAgFDfcMXTFzPTkhBzHfLRTVqZ4ndU3Ag=="
+}

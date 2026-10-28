@@ -1,0 +1,64 @@
+{
+  "profile_id": "netgear_ex6150v2",
+  "brand": "Netgear",
+  "model": "EX6150v2",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "6928dbc2079bfe18065b7e6b5fadd71d949500f315927174c7b4ec37db8c80e6",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:09:5b",
+    "00:14:6c",
+    "a0:04:60",
+    "a0:63:91",
+    "c4:04:15",
+    "e4:f4:c6"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: Delta Networks; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY316100334; year: 2016; CPU: IPQ4018; Wi-Fi chip: IPQ4018"
+  ],
+  "signature": "yPkSPAV+3fUPoscg9wFOOLwJgTIsrksPOsfsYL491O16jrYZ1lqbNnWNC/n0f8Q15e4m2SxRmLxdDnIET/5ABg=="
+}

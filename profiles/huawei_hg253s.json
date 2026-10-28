@@ -1,0 +1,68 @@
+{
+  "profile_id": "huawei_hg253s",
+  "brand": "Huawei",
+  "model": "HG253s",
+  "hardware_versions": [
+    "v2"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "b5918716d5ff80d9baf45467aba7e5eb6a7d7922c07d9278fba524904ca7d6ca",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:e0:fc",
+    "04:8d:38",
+    "0c:96:bf",
+    "10:47:80",
+    "20:f1:7c",
+    "54:89:98",
+    "5c:7d:5e",
+    "70:8c:b5",
+    "a4:99:47",
+    "e8:cd:2d",
+    "f8:3d:ff"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target bmips/bcm6362); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "OWqubgKZf9VTu0kDGoMbtkLqBC5jY7cJSB/ACQbx5KxqZ9FdJziukMVGhvLjQfS1qc05lpJ8F2c3Vuf+1e03Dg=="
+}

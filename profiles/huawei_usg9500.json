@@ -1,0 +1,81 @@
+{
+  "profile_id": "huawei_usg9500",
+  "brand": "Huawei",
+  "model": "USG9500",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "ec4a34aa425eb231d20c50fc698a0c6290eaef7e083a5472fedbeb8bdf5902c3",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:e0:fc",
+    "04:8d:38",
+    "0c:96:bf",
+    "10:47:80",
+    "20:f1:7c",
+    "54:89:98",
+    "5c:7d:5e",
+    "70:8c:b5",
+    "a4:99:47",
+    "e8:cd:2d",
+    "f8:3d:ff"
+  ],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [
+        "huawei"
+      ],
+      "server_header_contains": [],
+      "realm_contains": [],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": []
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "FingerprintHub rule usg9500 (verified: true).",
+    "Weak marker — low confidence match"
+  ],
+  "signature": "bB8XxGrONhpWC6GRH5ZQIInkZlW7hKQ309LnLDnWTo7nkg/lM6sfwX39QioE4v1KsKemABZ7fkY9xlpyCjCiCA=="
+}

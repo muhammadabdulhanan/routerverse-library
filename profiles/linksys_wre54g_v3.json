@@ -1,0 +1,63 @@
+{
+  "profile_id": "linksys_wre54g_v3",
+  "brand": "Linksys",
+  "model": "WRE54G v3",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "ab13f81c1679ebac8be52bb7b1d01025dd703480ef16d25658eb6fd1c34dfb16",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:18:f8",
+    "00:1e:e5",
+    "00:23:69",
+    "00:25:9c",
+    "68:7f:74"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Linksys WRE54G v3; manufacturer Gemtek WACM-125G (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-WRE54GV3; year: 2006; CPU: 88W8515; Wi-Fi chip: 88W8515"
+  ],
+  "signature": "v8UsRQYAKiDWlo6WbAEzPklmPTIrg0Ud62G3U3TKB3cXK1VIctSDBmPL1K8O9GtlkJJA1CdrL7GgyGfjKSb/Ag=="
+}

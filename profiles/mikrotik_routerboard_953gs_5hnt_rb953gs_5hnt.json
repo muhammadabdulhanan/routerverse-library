@@ -1,0 +1,64 @@
+{
+  "profile_id": "mikrotik_routerboard_953gs_5hnt_rb953gs_5hnt",
+  "brand": "MikroTik",
+  "model": "RouterBOARD 953GS-5HnT (RB953GS-5HnT)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "2b58bbf12d59abe1be96552cceef4a803c347bf28833c8967e111e9878245946",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:0c:42",
+    "2c:c8:1b",
+    "64:d1:54",
+    "78:9a:18",
+    "cc:2d:e0",
+    "e4:8d:8c"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer unproven (no manufacturer property).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2014; CPU: QCA9558; Wi-Fi chip: QCA9558"
+  ],
+  "signature": "/F1D1nXbzZ0hyd9lMF6cacg5FepnLBH7CQt3CLQ+xeiZYaWU+afMDp4o/u/wTI+uPJH52f9mmS6BfFokG+kWBg=="
+}

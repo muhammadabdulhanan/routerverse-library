@@ -1,0 +1,64 @@
+{
+  "profile_id": "linksys_wusb54gsc_v1",
+  "brand": "Linksys",
+  "model": "WUSB54GSC v1",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "e21951d6aaa5d022db36d8515d705aef1f580f9a8b626ad112047eb7a818eb5b",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:18:39",
+    "00:1a:70",
+    "00:1c:10",
+    "00:1e:e5",
+    "00:21:29",
+    "00:22:6b"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Linksys WUSB54GSC v1; manufacturer Gemtek WUBB-151GB (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-WUSB54GSC; year: 2006"
+  ],
+  "signature": "0PzbvDFKI4GE2dq9+5wDflwfh3iOMN0tiYpUkVtEXoWwB9BRSsdw/4lqV9LX0WrUmfTao4tBYlRRLWHLQsmPDw=="
+}

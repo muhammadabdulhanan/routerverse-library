@@ -1,0 +1,64 @@
+{
+  "profile_id": "linksys_e3000",
+  "brand": "Linksys",
+  "model": "E3000",
+  "hardware_versions": [
+    "v1"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "6f32aec0d9ba6f1d6e608011be9906933a05c7f8f963ac40e6d39538612b6ce6",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:25:9c",
+    "68:7f:74",
+    "98:fc:11",
+    "c0:c1:c0"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target bcm47xx/generic); stock admin fingerprint not inferred from OpenWrt support.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: CyberTAN; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-E3000, Q87-WRT610NV2; year: 2010; CPU: BCM4718A1; Wi-Fi chip: BCM4718A1"
+  ],
+  "signature": "I2tNT6kb9EB/XRvkOgeGbzv81Ue8On5C2ygZlKgxjXm6WOUe8BswyqlkPcSbGd8UUfXEfQg69b2J2YOfOb86BA=="
+}

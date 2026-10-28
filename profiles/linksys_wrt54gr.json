@@ -1,0 +1,65 @@
+{
+  "profile_id": "linksys_wrt54gr",
+  "brand": "Linksys",
+  "model": "WRT54GR",
+  "hardware_versions": [
+    "v1.0",
+    "v1.1"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "14880d0b16c116d36bb3bb95bf91779c25de46f485e63b61888a24a8c15ba9cc",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:04:5a",
+    "00:14:bf",
+    "00:18:f8",
+    "68:7f:74",
+    "c0:56:27"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-WRT54GR; year: 2005; CPU: R3211-G; Wi-Fi chip: RT2661",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-WRT54GRV11; year: 2006; CPU: R3211-G; Wi-Fi chip: RT2661"
+  ],
+  "signature": "9G0whBoVikIuxFvT7/E++Q8VZX6aB0o0oHy81tq4ThgFxpRelczS9Atm1e+UT3VJsXbBtcy+8jY30wzfyfumBw=="
+}

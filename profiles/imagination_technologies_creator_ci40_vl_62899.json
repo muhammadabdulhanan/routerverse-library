@@ -1,0 +1,56 @@
+{
+  "profile_id": "imagination_technologies_creator_ci40_vl_62899",
+  "brand": "Imagination Technologies",
+  "model": "Creator Ci40 (VL-62899)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "4efe9c5d6ec4bfb4425957ae4b98bfb5b562fff35aedbb3a2d48188e0e368df4",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target pistachio/generic); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "I423YQ9dewW+MbrLwg9iCtOkOCo2p8Szk80YvzLoztnNKnKyWORwe2bdARji9BPi8ELsEYr9L/4HrR9EELSCCg=="
+}

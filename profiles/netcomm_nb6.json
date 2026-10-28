@@ -1,0 +1,63 @@
+{
+  "profile_id": "netcomm_nb6",
+  "brand": "NetComm",
+  "model": "NB6",
+  "hardware_versions": [
+    "Plus4W",
+    "Plus4Wn",
+    "rev 1",
+    "rev 2"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "a850ad5f1e429af3d655709f2531d4431c7e662cb5638d819824654e13d58683",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:60:64"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model NetComm NB6; manufacturer Askey RTA1320 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2009; CPU: BCM6338"
+  ],
+  "signature": "L4SN8hTozqsZ+M5RoRLcPKuERyPGMW0P+A5r6aPLxUHfR+rzC4BTKMMYl/XlAyH4gnphPTgyqFK7eeHh3x3hCg=="
+}

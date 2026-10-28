@@ -1,0 +1,81 @@
+{
+  "profile_id": "huawei_secoway",
+  "brand": "Huawei",
+  "model": "Secoway",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "76e9e57902f67b6522d0d8c8d6f07437578e9c01c84078796c9f2996ba7a4e4c",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:e0:fc",
+    "04:8d:38",
+    "0c:96:bf",
+    "10:47:80",
+    "20:f1:7c",
+    "54:89:98",
+    "5c:7d:5e",
+    "70:8c:b5",
+    "a4:99:47",
+    "e8:cd:2d",
+    "f8:3d:ff"
+  ],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [],
+      "server_header_contains": [],
+      "realm_contains": [],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": [
+        "sweb-lib/plat/login/login_new.js",
+        "sweb-lib/resource/"
+      ]
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "FingerprintHub rule huawei-secoway (verified: false)."
+  ],
+  "signature": "aEtMgGQxJBjSK5zFF1m0uYRjUJeAm68MKHkPuE3bwbSwMxhZKPdtczB6PBEeGLPYnEQU9k+bf+I/W9ky3ZG/CQ=="
+}

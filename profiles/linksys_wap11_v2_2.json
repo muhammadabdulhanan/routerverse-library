@@ -1,0 +1,61 @@
+{
+  "profile_id": "linksys_wap11_v2_2",
+  "brand": "Linksys",
+  "model": "WAP11 v2.2",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "9c03f415b60c7effc62d49885b20b596117d700166dadea111ea6779d0e037dd",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:04:5a",
+    "68:7f:74",
+    "c0:56:27"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Linksys WAP11 v2.2; manufacturer Global Sun GL2422AP-0T (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: O7J-GL2422AP; year: 2002; CPU: S3C4510B; Wi-Fi chip: ACX100"
+  ],
+  "signature": "uHOVxA7FXerqI65AmMg5TGaR/Y5kHGxRIlD6HWtwpd4qIDrha3DTAyJmii2Yf+drj2bCVbLQghbR4AOqA5nDAQ=="
+}

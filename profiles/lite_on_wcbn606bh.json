@@ -1,0 +1,59 @@
+{
+  "profile_id": "lite_on_wcbn606bh",
+  "brand": "Lite-On",
+  "model": "WCBN606BH",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "86b8d30413b98f94eafd5c4e928fdf5638f64a48c6941a97f7a4bda213d10d75",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "40:f0:2f",
+    "b8:ee:65"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2012"
+  ],
+  "signature": "MdKOjsbwf5VH4iB27buhwghGJxiWdDVokGf1HLgZwGTyLjBwC0H7uCXtMFymfNijLs9vfbSMpEAO0o8l64EgAQ=="
+}

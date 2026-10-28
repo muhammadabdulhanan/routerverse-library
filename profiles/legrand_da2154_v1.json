@@ -1,0 +1,60 @@
+{
+  "profile_id": "legrand_da2154_v1",
+  "brand": "Legrand",
+  "model": "DA2154-V1",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "35da4728310601e6def36053a512956282acb056a6d73099451fcecf594d1498",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "6c:fd:b9"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: TP-LINK; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: YV8-DA2154V1; year: 2013; CPU: AR9341; Wi-Fi chip: AR9341"
+  ],
+  "signature": "blSKZ2msPUCic39yPK9baTJlhJwiorJbej9FB9XCXKGb5t/8SDVcztv+AHS/A2XybRicUjg1iM+s/Og89WuZCA=="
+}

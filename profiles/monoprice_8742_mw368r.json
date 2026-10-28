@@ -1,0 +1,60 @@
+{
+  "profile_id": "monoprice_8742_mw368r",
+  "brand": "Monoprice",
+  "model": "8742 (MW368R)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "9794ae60bff912c96f351af84e00b89c57e03d4e7123fc4f2a7ac730a2cb1ede",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "c8:3a:35"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Monoprice 8742 (MW368R); manufacturer Tenda W368R (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: V7TW368R; year: 2012; CPU: BCM5357C0; Wi-Fi chip: BCM5357C0"
+  ],
+  "signature": "MOfkuIAW65RcGMJ8aWu0NXcT07AZ8lUrcB7Qf/yvu+9WlatZWqoYeanluWJVeR/eepMRkmvJy5EkHun1BLKPDA=="
+}

@@ -1,0 +1,59 @@
+{
+  "profile_id": "netgear_cg3100dv3",
+  "brand": "Netgear",
+  "model": "CG3100Dv3",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "477230f63c228dbbc7bb254f5295a3cfeb42b1a5407da94cb6eb2d23402b1181",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "84:1b:5e"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Netgear CG3100Dv3; manufacturer Pegatron ACM6280 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY309300119; year: 2012; CPU: BCM3380G; Wi-Fi chip: BCM43225"
+  ],
+  "signature": "UU3wO32TxZY7T2X+6q9o6t6WpA3MhqLaZ0t+nJKx050Z+yyJR+7hnFc05Sdo9q3/XusCNdUkAQtZIg2kNeHZAw=="
+}

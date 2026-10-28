@@ -1,0 +1,59 @@
+{
+  "profile_id": "ignitenet_ml_60_lw",
+  "brand": "IgniteNet",
+  "model": "ML-60-LW",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "58aaf79b1834d88d422412164602c7c07d893d957b30ec12f16caf571623d06f",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "28:76:10"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model IgniteNet ML-60-LW; manufacturer Accton ML60LW (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: HEDML60LW, HEDML60PRS4601; year: 2018; CPU: IPQ4018; Wi-Fi chip: IPQ4018"
+  ],
+  "signature": "UnwRMuOrug27tNk+x5ciri1lJEowIcYw8KPTeIP+nqo/Q6696YNXufoDpMcqRbpXr20pQr5PQEazpWKkRdpTBQ=="
+}

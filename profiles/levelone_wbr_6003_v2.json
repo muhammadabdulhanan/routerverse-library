@@ -1,0 +1,59 @@
+{
+  "profile_id": "levelone_wbr_6003_v2",
+  "brand": "LevelOne",
+  "model": "WBR-6003 v2",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "0d349fd191c9afb1e8308703b52790e697e83829eb0a7986e590a6c53aaf54d4",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:11:6b"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model LevelOne WBR-6003 v2; manufacturer AMIT CDE530AM-002 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PBLCDE530AM002; year: 2011; CPU: RT5350S; Wi-Fi chip: RT5350S"
+  ],
+  "signature": "TLSsbYw9w3Ku8hu5oV+iaag+mDyvyJVa1qHumT7FVb20wdoZ1mn0KTERd9cdK69ohi7dd5alHhoVoEtsoMRLBg=="
+}

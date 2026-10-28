@@ -1,0 +1,62 @@
+{
+  "profile_id": "linksys_wrt330n",
+  "brand": "Linksys",
+  "model": "WRT330N",
+  "hardware_versions": [
+    "v1"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "4731dc3f049096b2a596758855d881dea52d8cbb005bb97e6357fdb535dd0243",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:04:5a",
+    "68:7f:74",
+    "c0:56:27"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-WRT330N; year: 2006; CPU: IP5160U; Wi-Fi chip: AR5416",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Linksys WRT330N; manufacturer U-MEDIA MPB-800U (DeviWiki live)."
+  ],
+  "signature": "r8/uWN3oKb76wduXX7EcPdV4D0tyHk/mGtxw+mOGfHDgmBFhMFiVwZdQzR9r761fiRUscph5jrLRS2soWWNLDA=="
+}

@@ -1,0 +1,65 @@
+{
+  "profile_id": "netgear_ex2700",
+  "brand": "Netgear",
+  "model": "EX2700",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "3b0185a2ab53020793fbdfcab8f9dd8a6dc38ab4737ad8203e8023b1fa62f5a7",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:09:5b",
+    "00:14:6c",
+    "a0:04:60",
+    "a0:63:91",
+    "c4:04:15",
+    "e4:f4:c6"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: Delta Networks; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY314200263; year: 2014; CPU: MT7620A; Wi-Fi chip: MT7620A"
+  ],
+  "signature": "13Hbwkb8P17PdawepC34tJf39ajmt0MCUWSk/+qNlt7YslBvxXuv7HXqPwK/6LpLSQMPnjSw2lAMub82bZ+4BA=="
+}

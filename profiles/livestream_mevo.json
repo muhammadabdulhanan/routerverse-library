@@ -1,0 +1,61 @@
+{
+  "profile_id": "livestream_mevo",
+  "brand": "Livestream",
+  "model": "Mevo",
+  "hardware_versions": [
+    "A10101A",
+    "Plus (A20201A)"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "2486ac62ff770842ec137392cbc624b45f37af817a4324d2e3a1cff4c2795118",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "38:f0:c8"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: 2AHGTA10101A; year: 2016; CPU: A9SE; Wi-Fi chip: BCM43340",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: 2AHGTA20201A; year: 2017"
+  ],
+  "signature": "eKslvxO0fEyjG+LbY5/Mt0Y4EwGa91m9leBdw76/JnuY/qD9fE93U/jOcUfCzqZT240tOBM++/qIieoRaHIdAg=="
+}

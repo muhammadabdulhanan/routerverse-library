@@ -1,0 +1,60 @@
+{
+  "profile_id": "mi_casa_verde_vera3",
+  "brand": "Mi Casa Verde",
+  "model": "Vera3",
+  "hardware_versions": [
+    "3"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "b8e10c8e73e45f032ae35206fc8ebf8c58eb0a51374288d14947d49ea6672883",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:0e:8f"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Mi Casa Verde Vera3; manufacturer SerComm NA900 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: P27NA900A; year: 2011; CPU: RT3662F; Wi-Fi chip: RT3662F"
+  ],
+  "signature": "N5SCabHpcfe0C2SVIZCMI1pxHiC4t1WoRGlkj1ur2/rH4gLT6wdmEkoOyXEcZpJTN3LJiofoDvsXved55U9kAQ=="
+}

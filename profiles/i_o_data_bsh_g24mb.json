@@ -1,0 +1,56 @@
+{
+  "profile_id": "i_o_data_bsh_g24mb",
+  "brand": "I-O DATA",
+  "model": "BSH-G24MB",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "f78ef70de8f6ee03e6abbd28a5f2d3267bfa352db91ab4be7873205dbc61f31c",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target realtek/rtl838x); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "kFJhz0I01RT1JfQ28uP3fL+TrehqxV56bDwpe3uR7YtVMys0wjF5fJ1N2WJawhku7u4tg0U/L8gbPCpkqSTXDw=="
+}

@@ -1,0 +1,59 @@
+{
+  "profile_id": "levelone_wbr_3406tx_v4",
+  "brand": "LevelOne",
+  "model": "WBR-3406TX v4",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "c222aa5535107037901ca9d3a9c5378434a36c03ff4c788bc15e2b34fa5326e6",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:11:6b"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model LevelOne WBR-3406TX v4; manufacturer AMIT WIQ318D2 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: ULT540547080301; year: 2008; CPU: 20100-G; Wi-Fi chip: 20100-G"
+  ],
+  "signature": "HwqDwTJMbVixhguB11TCx1HU5TUQFZQ699wrMRiE/ImrrIyvtzmJDuaOsnuHMXNsbbvsGGNMOuRbaW8L5tauBA=="
+}

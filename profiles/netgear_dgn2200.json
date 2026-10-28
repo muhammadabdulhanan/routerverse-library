@@ -1,0 +1,79 @@
+{
+  "profile_id": "netgear_dgn2200",
+  "brand": "Netgear",
+  "model": "DGN2200",
+  "hardware_versions": [
+    "v1",
+    "v4"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "f4293265dfe22162dffd4e5514c187e59c2953a4986c823031491a3784eeec18",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:09:5b",
+    "00:14:6c",
+    "a0:04:60",
+    "a0:63:91",
+    "c4:04:15",
+    "e4:f4:c6"
+  ],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [
+        "dgn2200",
+        "netgear dgn2200"
+      ],
+      "server_header_contains": [],
+      "realm_contains": [],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": []
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "FingerprintHub rule dgn2200 (verified: true).",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY312300211; year: 2013; CPU: BCM63281; Wi-Fi chip: BCM43217"
+  ],
+  "signature": "u5Be17JLFjnL2qf6B4Cs0jj/xdFvY0TfCfOYZAhv2y6QF5Zm/tW4uXn5u4ybi4jlzwxrGsqPbGdfGn7rMM6uCw=="
+}

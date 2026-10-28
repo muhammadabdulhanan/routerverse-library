@@ -1,0 +1,56 @@
+{
+  "profile_id": "marvell_armada_388_rd_rd_88f6820_ap",
+  "brand": "Marvell",
+  "model": "Armada 388 RD (RD-88F6820-AP)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "d211b1c347a0b68c1cf409f82d865ae0a7a5cd7df50a88fc2cc0598c814707f8",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target mvebu/cortexa9); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "dByLmNDKp6NT1+jWj++kIkW7FIYr7OEx22eBOpyQmliTqlykQ994uZVkdNjgYLK54dLBomz2uDXgq/IBOmbwDw=="
+}

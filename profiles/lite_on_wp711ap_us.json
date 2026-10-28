@@ -1,0 +1,57 @@
+{
+  "profile_id": "lite_on_wp711ap_us",
+  "brand": "Lite-On",
+  "model": "WP711AP-US",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "768de1831be7d1250a146d07fb4e74521c7ee9f2e97786bb1a4f31b68af9de47",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Lite-On WP711AP-US; FCC ID matches U4EA Technologies Fusion 70 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PPQ-FUSION70; year: 2009; CPU: AR7161; Wi-Fi chip: AR9160"
+  ],
+  "signature": "XE79F8Q62AgEMvK2mYBOZCrIigIGXRFFMbvFp/zbIG0ZBydpQCkxv2ijokJEh1PRO44LkL62b6TbtpePcpeHAg=="
+}

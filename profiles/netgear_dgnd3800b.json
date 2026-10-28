@@ -1,0 +1,66 @@
+{
+  "profile_id": "netgear_dgnd3800b",
+  "brand": "Netgear",
+  "model": "DGND3800B",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "728821a36fca43455e48b8e1d08aae78d82f9af8205a610d99631a76762f7c2d",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:09:5b",
+    "00:14:6c",
+    "a0:04:60",
+    "a0:63:91",
+    "c4:04:15",
+    "e4:f4:c6"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target bmips/bcm6368); stock admin fingerprint not inferred from OpenWrt support.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Netgear DGND3800B; manufacturer Foxconn U12L144T11 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PY310100129; year: 2011; CPU: BCM6368; Wi-Fi chip: BCM43222"
+  ],
+  "signature": "sDy3mam1LDYMRCBxnMfbk0ZL8CIkTTZL1lqk383As/2oE9iPr6783W/qctcdij1YRoyrRd43LB1R8exUep6eBQ=="
+}

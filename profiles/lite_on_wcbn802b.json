@@ -1,0 +1,60 @@
+{
+  "profile_id": "lite_on_wcbn802b",
+  "brand": "Lite-On",
+  "model": "WCBN802B",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "9d5c9738546cba42496b32be2ceb1a2a1f34bc27f48ab43d246f25b695737710",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "24:fd:52",
+    "90:48:9a",
+    "ac:d1:b8"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2013"
+  ],
+  "signature": "RvtrgR6R0uDsop682LoQd88ZCQnOEfAvKnjm34Cy4+jDxssn0gegism12xpgU6gOs+7qwIV5vC3zKsGe5dJZCg=="
+}

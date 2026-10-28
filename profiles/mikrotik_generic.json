@@ -1,0 +1,79 @@
+{
+  "profile_id": "mikrotik_generic",
+  "brand": "MikroTik",
+  "model": "MikroTik (generic)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "3b08552288e5e08dde0e3ba5b299edcd926f1706581e052bac1486f6a9cd1802",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:0c:42",
+    "2c:c8:1b",
+    "64:d1:54",
+    "78:9a:18",
+    "cc:2d:e0",
+    "e4:8d:8c"
+  ],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [
+        "RouterOS router configuration page"
+      ],
+      "server_header_contains": [
+        "MikroTik UPnP/1.0"
+      ],
+      "realm_contains": [],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": []
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Fingerprint: recog (recog_html_title) MikroTik RouterOS router configuration page.",
+    "Brand-level fallback: model-level match pending.",
+    "Fingerprint: recog (recog_http_servers) MikroTik RouterOS."
+  ],
+  "signature": "C0qL7uS37kqmoR5V95myqBGC81N0h61XiwTZj3TZgnlsdV8hOaeJgXJ/0Zhw2t4AeK91qGqqn5DDiAZINnWNAg=="
+}

@@ -1,0 +1,61 @@
+{
+  "profile_id": "linksys_wap54g_v1_1",
+  "brand": "Linksys",
+  "model": "WAP54G v1.1",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "0d3785ac29ef5bf9193fdf5f95268d16756f35c7e970c6a255ac921726f90f54",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:04:5a",
+    "68:7f:74",
+    "c0:56:27"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Linksys WAP54G v1.1; manufacturer Gemtek WX5541 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PKW-WAP54G; year: 2003; CPU: BCM4702; Wi-Fi chip: BCM4306"
+  ],
+  "signature": "6WzvhyCoqfPAPEeCxlwK5XaYJqux7iVgW1e/CwqCjtugp1yiA8xnwZxMWEuKRPugRqJbdHcGMs7pDS8KnacXAQ=="
+}

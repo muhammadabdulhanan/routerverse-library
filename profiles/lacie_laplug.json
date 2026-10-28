@@ -1,0 +1,58 @@
+{
+  "profile_id": "lacie_laplug",
+  "brand": "LaCie",
+  "model": "LaPlug",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "7e58824f08f7dd1cc501091b701d8cb25477f2c4f75ad82a03d1e33423cc3d07",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MXF-LP1; year: 2011; CPU: 88F6192; Wi-Fi chip: RT3091",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model LaCie LaPlug; manufacturer Gemtek WNSM-104GN (DeviWiki live)."
+  ],
+  "signature": "GxMKZ2ZcAPUgUtUNv4NvDXKtbW9+l66gXvTn/+PzFgo7/6qQ3eQ+BYbJ05R87IjrcbAj2oe1yAkd5+i+c9wlAA=="
+}

@@ -1,0 +1,59 @@
+{
+  "profile_id": "levelone_wap_0003",
+  "brand": "LevelOne",
+  "model": "WAP-0003",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "a9c587f82fbb47cc46538d27926f0703e5757cca4834381e39272f3dbb9340c7",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:11:6b"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model LevelOne WAP-0003; manufacturer Global Sun GL2454AP-QA (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: O7J-GL2454AP-QA; year: 2003; CPU: AR2313A; Wi-Fi chip: AR2313A"
+  ],
+  "signature": "92zhVVSRgwkzwsuTVNP6GW4R2wdfPRWmSX5A7P5FhKrzIbrmS5cgOrKBQBTYLjTJjToqD0dEI7dgT7WE9tqlBA=="
+}

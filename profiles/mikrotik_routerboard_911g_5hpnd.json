@@ -1,0 +1,63 @@
+{
+  "profile_id": "mikrotik_routerboard_911g_5hpnd",
+  "brand": "MikroTik",
+  "model": "RouterBOARD 911G-5HPnD",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "a87503b7882cc0837e9b1ab9f910cea02da23e57753e1b227e830b86472861d3",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:0c:42",
+    "2c:c8:1b",
+    "64:d1:54",
+    "78:9a:18",
+    "cc:2d:e0",
+    "e4:8d:8c"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target ath79/mikrotik); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "yY6SIechW+hbBiu0VtfP6mnxG8o7X31NAknrzHd9OAldDn3IG1eHa3lHRW9Hgf93gDa8X1bY2MWcScc4lGlCAg=="
+}

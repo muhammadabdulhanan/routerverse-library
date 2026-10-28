@@ -1,0 +1,60 @@
+{
+  "profile_id": "motorola_surfboard_sbg940",
+  "brand": "Motorola",
+  "model": "SURFboard SBG940",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "7ed93a8299111ea52d525c742a33521b8faac8c4f67a2303cc05e84564ba7e56",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:15:2f",
+    "00:1c:11"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: Mototech; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: ACQSBG940-1, IHDSBG940-1; year: 2004; CPU: BCM3348; Wi-Fi chip: BCM4306"
+  ],
+  "signature": "laFQyFuo6hgUM25jfP2d9tdvN3+CTKt4Jj5+0uXpJh2js5RO/9Scik0wTmok0df+SlI6zaQLts8bkEQPOL83Dg=="
+}

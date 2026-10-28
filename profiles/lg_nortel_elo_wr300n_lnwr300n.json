@@ -1,0 +1,58 @@
+{
+  "profile_id": "lg_nortel_elo_wr300n_lnwr300n",
+  "brand": "LG-Nortel",
+  "model": "ELO WR300N (LNWR300N)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "94a6782e3964c1f6e5be96a30f747d5b83b1fbb00391863f6327b2bdc4c69d0e",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model LG-Nortel ELO WR300N (LNWR300N); manufacturer U-MEDIA WRT-383U (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: SI5WRT383U; year: 2007; CPU: IP5100U; Wi-Fi chip: RT2860"
+  ],
+  "signature": "DnXYkubp9cfK81jNFEgIkZYB+FbjtO9lcv++R/SqzwQ3MpG/cTXi3aRPptuc+efRpsSa9JzrAJaBh0ntQ7drCQ=="
+}

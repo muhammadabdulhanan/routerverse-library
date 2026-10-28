@@ -1,0 +1,59 @@
+{
+  "profile_id": "infomark_imw_c910w",
+  "brand": "Infomark",
+  "model": "IMW-C910W",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "d89188fa15c47c84807ce3063781e48565804de9f46d79fb9716469221486f64",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:1e:31"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Infomark IMW-C910W; FCC ID matches Clear Spot Voyager — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: YCO-IMW-C910W; year: 2012; CPU: GDM7205; Wi-Fi chip: AR6003G-AC2B"
+  ],
+  "signature": "94pWsbWpZ9Rh/+oZ1lJIGVFFsUJFiatOhu263Wv0GBMXx4IOHqzG8rcEB/v3VqpgZijueUnk6I6YvQQQa8/hBQ=="
+}

@@ -1,0 +1,60 @@
+{
+  "profile_id": "microsoft_mn_500",
+  "brand": "Microsoft",
+  "model": "MN-500",
+  "hardware_versions": [
+    "A1"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "7db57218eb73ccad2797e602088e6e5975abd6563fbc6bda4428cb79acce63b5",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:50:f2"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: HEDACC300568; year: 2002; CPU: X01-03620-01; Wi-Fi chip: ISL3873B",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Microsoft MN-500; manufacturer Accton WG3005C-68 (DeviWiki live)."
+  ],
+  "signature": "hyOi+gjjARDIfNw1uLRngybXSNTdAuyzkMj2T0fiNRGFvng9kJ2md61VuKiJ3i6Z0fSfHQek34EaIC33bYm/Dg=="
+}

@@ -1,0 +1,61 @@
+{
+  "profile_id": "linksys_wcg200",
+  "brand": "Linksys",
+  "model": "WCG200",
+  "hardware_versions": [
+    "-CC v1",
+    "v1",
+    "v2"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "3f5ff568dbf3eee351f74c67bb8450cebabe1439fed6213f0b62e8c3c625d49e",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:0c:41"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-WCG200; year: 2003; CPU: BCM3348; Wi-Fi chip: BCM4306"
+  ],
+  "signature": "k6v4R8oBejWqi++LPi9W8+QVjjAU/nXqcu8/H5vCS5vG0Ys3pqNuWp+BMUaE9HxWPO451Cu3spuCdS1McfIyBw=="
+}

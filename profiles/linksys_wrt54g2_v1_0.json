@@ -1,0 +1,63 @@
+{
+  "profile_id": "linksys_wrt54g2_v1_0",
+  "brand": "Linksys",
+  "model": "WRT54G2 v1.0",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "ab8642e36f9f70dbbdde602a9c8f4f1071e9f0fa50c287570a3ddafd4d2431e4",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:1e:e5",
+    "00:21:29",
+    "00:22:6b",
+    "00:23:69",
+    "00:25:9c"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: CyberTAN; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-WRT54G2V1; year: 2008; CPU: BCM5354; Wi-Fi chip: BCM5354"
+  ],
+  "signature": "6HgVFDdYCB6qElPtxdE2ccmMcjns9gvSfWC8NptuIZ+HqUx6mgfG0qu7Bbf/tY9xXplcgVOw/g0Ftrcnuln6BA=="
+}

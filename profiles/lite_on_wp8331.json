@@ -1,0 +1,59 @@
+{
+  "profile_id": "lite_on_wp8331",
+  "brand": "Lite-On",
+  "model": "WP8331",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "6318cf4abe90bca78634886f73c30143fdf9c04b3054d072d52531b1f2ab79df",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "88:b1:e1"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Lite-On WP8331; FCC ID matches Mojo Networks C-100 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: PPQ-WP8331; year: 2016; CPU: IPQ4028; Wi-Fi chip: IPQ4028"
+  ],
+  "signature": "fHzBe7kWxvHcDRpzzYpZtnKsDz/nuMheAVX3PWifCnQvdpH8LKJzNUf1Si+YhSuKRPr9i96IzM3CXkC6lOqCBw=="
+}

@@ -1,0 +1,68 @@
+{
+  "profile_id": "lucent_orinoco_classic",
+  "brand": "Lucent",
+  "model": "ORiNOCO Classic",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "111fd74ec22d8461dbb147e53268ca8cdd97fda38166a2ff5487a3ed80ebc029",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:01:f4",
+    "00:02:2d",
+    "00:02:a5",
+    "00:60:6d",
+    "00:e0:63",
+    "08:00:46"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: IMRWLPCE24H; year: 1999",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 1999",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2001",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28)",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: IMRWLPCE24H",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: IMRWLPCE24H, NM5-A2400S; year: 2001"
+  ],
+  "signature": "ca30XUWGWwa0ueu+sq722YtOwVAOdZpJPAcEL7wt8/2QQ+MsDoW0NkPuUwhV9AB+Mt5Nkm/1MTiY64+ZAWFsCw=="
+}

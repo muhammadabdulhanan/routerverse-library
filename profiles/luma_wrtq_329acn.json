@@ -1,0 +1,59 @@
+{
+  "profile_id": "luma_wrtq_329acn",
+  "brand": "Luma",
+  "model": "WRTQ-329ACN",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "00bb58c7ca8ed8602ee22067444bfdb0c040f5458b4c5a868b0d9c7788980a63",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "1c:49:7b"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: Gemtek; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MXF-L1000; year: 2016; CPU: IPQ4018; Wi-Fi chip: IPQ4018"
+  ],
+  "signature": "F2JT5axq4WBEnbhi0fDgLAqOeBKKKbH53xaF2l9Dm3X9s9zJXE2xyLi6V0WPm5uk/lvG/sMI1m9qkjPj0PJkCw=="
+}

@@ -1,0 +1,63 @@
+{
+  "profile_id": "mikrotik_routerboard_962uigs_5hact2hnt_hap_ac",
+  "brand": "MikroTik",
+  "model": "RouterBOARD 962UiGS-5HacT2HnT (hAP ac)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "11c33b2013d47f9170b577e1b070cbfcb9ea4de192e8f953718729e00901b33c",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:0c:42",
+    "2c:c8:1b",
+    "64:d1:54",
+    "78:9a:18",
+    "cc:2d:e0",
+    "e4:8d:8c"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target ath79/mikrotik); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "W9YCMn8SV0F8g8KzSAGeo6QUFprTH3KE+ItsuZoOJPM1SJCuUw67PpVO6yKOuhtok5wu3s20Mx6uGB9xbCx9DA=="
+}

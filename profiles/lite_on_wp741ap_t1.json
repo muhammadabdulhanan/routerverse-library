@@ -1,0 +1,57 @@
+{
+  "profile_id": "lite_on_wp741ap_t1",
+  "brand": "Lite-On",
+  "model": "WP741AP-T1",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "0849e6c63eceea3bcee90ff0b88e09f1bd7efe3326b477f664835abdbf702ae4",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Lite-On WP741AP-T1; FCC ID matches Trapeze Networks MP-82 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: QZE280; year: 2009; CPU: AR7161; Wi-Fi chip: AR9160"
+  ],
+  "signature": "PXiQ/X4U2Uj7obl61iFakmOsZz8z+PGuqCd42HapvQWAy62yX95+ud+Iz7/B/h5ClptQfo6GFx5ZlVOzuYvJCA=="
+}

@@ -1,0 +1,84 @@
+{
+  "profile_id": "linksys_wrt54g",
+  "brand": "Linksys",
+  "model": "WRT54G",
+  "hardware_versions": [
+    "v1",
+    "v1.1",
+    "v2.0",
+    "v3",
+    "v3.0",
+    "v4",
+    "v5",
+    "v6",
+    "v7.2",
+    "v8.0",
+    "v8.1",
+    "v8.2"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "31afd76f0a657b64fbadf913344b63dcc8641ce82cc732c4f505ae8152ba8bed",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:13:10",
+    "00:18:f8"
+  ],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [],
+      "server_header_contains": [],
+      "realm_contains": [
+        "WRT54G"
+      ],
+      "url_paths": [
+        "/"
+      ],
+      "body_contains": []
+    }
+  ],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "basic auth",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Fingerprint: recog (recog_http_wwwauth) Linksys WRT54G wireless access point (dozen of variants of the product).",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-WRT54GV81; year: 2007; CPU: BCM5354; Wi-Fi chip: BCM5354"
+  ],
+  "signature": "YGvlNzRXgOmfgyQqEiWw+OVWc/o1zKXvYy4KcQb5yxZIKqWWgoA193AtuXYG9SLwKbLSf3cKENEgepzpoT2gAw=="
+}

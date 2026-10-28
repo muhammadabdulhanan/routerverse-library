@@ -1,0 +1,59 @@
+{
+  "profile_id": "mikrotik_routerboard_cap_ac_rbcapgi_5acd2nd",
+  "brand": "MikroTik",
+  "model": "RouterBOARD cAP ac (RBcAPGi-5acD2nD)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "5829681062546388efe7b8caf407ddc969948b415c9a8e9654b8ce4c4822e62a",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "64:d1:54"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: Wistron NeWeb; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: TV7CPGI5ACD2ND; year: 2017; CPU: IPQ4018; Wi-Fi chip: IPQ4018"
+  ],
+  "signature": "1pt7jLMrl/TPGWS18fGbhdl+yROXMaXuDYoQB9LuWYNc6cg/fjX/AjfeloPD+32MCMAIwUkDgtLlyUuIyv9cDw=="
+}

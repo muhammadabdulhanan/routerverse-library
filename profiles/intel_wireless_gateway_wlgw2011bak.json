@@ -1,0 +1,59 @@
+{
+  "profile_id": "intel_wireless_gateway_wlgw2011bak",
+  "brand": "Intel",
+  "model": "Wireless Gateway (WLGW2011BAK)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "e35b2fd9382e6c2f45e96d4e5d678ce4c96f1b6321dc5af822eae51c34d1f86d",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:02:b3"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: Gemtek; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: MXF-C900525, PD9-R900531; year: 2001; CPU: S3C4510B; Wi-Fi chip: HFA3841"
+  ],
+  "signature": "Lhg/gRdWdmGLGP0i2yupa9bln56LDu0EkSh+sm0T3WPWbWYel+LlH8e1v/pA4GIobDaSVJw+zw14o1+fjyWHBQ=="
+}

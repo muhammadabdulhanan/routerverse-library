@@ -1,0 +1,60 @@
+{
+  "profile_id": "huawei_hg256s",
+  "brand": "Huawei",
+  "model": "HG256s",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "f6a3964ab5d1aed9b225a61853d0ea1e5f7c702e500fbdc394d28096f8393073",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "1c:1d:67",
+    "cc:96:a0"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer unproven (no manufacturer property).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); CPU: RT3052F; Wi-Fi chip: RT3052F"
+  ],
+  "signature": "hVfTb7DEbqFzM/5K2WYPe/ptg1GlctiWZKfLekY3xMVNRxT0OY4pgXCSFbV4y3+sa3TA1rq/oBIjHxbu3ZBEBA=="
+}

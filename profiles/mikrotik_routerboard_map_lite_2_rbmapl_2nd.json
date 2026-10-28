@@ -1,0 +1,60 @@
+{
+  "profile_id": "mikrotik_routerboard_map_lite_2_rbmapl_2nd",
+  "brand": "MikroTik",
+  "model": "RouterBOARD mAP lite 2 (RBmAPL-2nD)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "dff651d46018153482a85cf0776fe284f1b05b2178622c6780697e39f4ff7ee0",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:0c:42",
+    "4c:5e:0c"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: brand/model from page title (category: wireless); manufacturer on page: Gemtek; Manuf product model not stated.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: TV7MAPL2ND; year: 2015; CPU: QCA9533; Wi-Fi chip: QCA9533"
+  ],
+  "signature": "teH25f9Qie6tccSmVsG+KKD7pWxpYfmONnOzPomnwYBLQmDrw9CVz6Mw8ghg6uxRoETzuuuMjjIKkhfbgy4XCQ=="
+}

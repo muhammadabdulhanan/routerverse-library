@@ -1,0 +1,59 @@
+{
+  "profile_id": "lite_on_wp741ap",
+  "brand": "Lite-On",
+  "model": "WP741AP",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "278045a1158745dd05bfe1ad5d4415074e89d0a7194d3f48785a48ad90f6905f",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:19:92"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "DeviWiki live: manufacturer model Lite-On WP741AP; FCC ID matches Adtran Bluesocket BSAP-1800V2 — same hardware family, name variant.",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: TIH-BSAP1800V2; year: 2010; CPU: AR7161; Wi-Fi chip: AR9160"
+  ],
+  "signature": "W6UEkcKQ9RAT49sv930p3hOnyp781G3gu77VlMh4mqE+hZIorVUYVwk67q1743nStcelkR6ncgLjwZZ65nM/AA=="
+}

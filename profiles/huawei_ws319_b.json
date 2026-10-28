@@ -1,0 +1,68 @@
+{
+  "profile_id": "huawei_ws319_b",
+  "brand": "Huawei",
+  "model": "WS319-B",
+  "hardware_versions": [
+    "B"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "79b7a3a2849a256923b9ccbbce07791116e8b48a2d67f19b0fd1fdc36123bf0b",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:e0:fc",
+    "04:8d:38",
+    "0c:96:bf",
+    "10:47:80",
+    "20:f1:7c",
+    "54:89:98",
+    "5c:7d:5e",
+    "70:8c:b5",
+    "a4:99:47",
+    "e8:cd:2d",
+    "f8:3d:ff"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work"
+  ],
+  "signature": "iIjldGSILl5FlKXM1EWuX/g46ZM9kyRY6isimzfxxcZDO9g+WKTlzqmUTiaOFFDhdZ/3iuN+cF5UF1iQH7bnAA=="
+}

@@ -1,0 +1,64 @@
+{
+  "profile_id": "netgear_dg834gbv5",
+  "brand": "Netgear",
+  "model": "DG834GBv5",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "4394a2bfdf0d58e6ea0d2dc7c07b1e608f7f0777c48a149443e8ad3e4cc5cce7",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:09:5b",
+    "00:14:6c",
+    "a0:04:60",
+    "a0:63:91",
+    "c4:04:15",
+    "e4:f4:c6"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Netgear DG834GBv5; manufacturer Foxconn U12L157 (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28); year: 2009; CPU: CX94610; Wi-Fi chip: CX94610"
+  ],
+  "signature": "C4HIQNvjZ4QbQm2TteNeeg7M7tGOWymzah4sZmiAG23PEXGSif77vFUsv8w6mDqTIdeQqd82znMSwjGyKUgCCg=="
+}

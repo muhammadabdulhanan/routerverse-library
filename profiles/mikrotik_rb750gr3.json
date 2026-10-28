@@ -1,0 +1,126 @@
+{
+  "profile_id": "mikrotik_rb750gr3",
+  "brand": "MikroTik",
+  "model": "RB750Gr3",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": "6.40.0",
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "f924b89c0b676c08379041cdd5fc6ed0201bde0966ad7818545fccd7c4297c61",
+  "last_updated": "2026-10-22",
+  "status": "unverified",
+  "oui_prefixes": [
+    "00:0c:42",
+    "2c:c8:1b",
+    "64:d1:54",
+    "78:9a:18",
+    "cc:2d:e0",
+    "e4:8d:8c"
+  ],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [
+        "RouterOS",
+        "MikroTik"
+      ],
+      "server_header_contains": [],
+      "realm_contains": [],
+      "url_paths": [
+        "/",
+        "/webfig/"
+      ],
+      "body_contains": [
+        "RouterOS",
+        "MikroTik"
+      ]
+    }
+  ],
+  "default_gateway_paths": [
+    "/",
+    "/webfig/"
+  ],
+  "driver_type": "api",
+  "admin_url": "http://{gateway}/",
+  "login_method": "API login",
+  "ports": [
+    80,
+    443,
+    8728,
+    8729
+  ],
+  "default_credentials_ref": "redmind-default-credentials:mikrotik",
+  "supported_controls": [
+    {
+      "control_id": "router_info",
+      "read_method": "RouterOS API /system/resource and /system/routerboard",
+      "write_method": "not_writable",
+      "value_rules": {},
+      "risk_level": "low",
+      "needs_reboot": false,
+      "warning_text": ""
+    },
+    {
+      "control_id": "connected_devices",
+      "read_method": "RouterOS API /ip/dhcp-server/lease and /ip/arp",
+      "write_method": "not_writable",
+      "value_rules": {},
+      "risk_level": "low",
+      "needs_reboot": false,
+      "warning_text": ""
+    },
+    {
+      "control_id": "reboot",
+      "read_method": "not_applicable",
+      "write_method": "RouterOS API /system/reboot",
+      "value_rules": {},
+      "risk_level": "high",
+      "needs_reboot": true,
+      "warning_text": "The router will reboot and the network will be offline for a short time."
+    },
+    {
+      "control_id": "admin_password",
+      "read_method": "not_readable",
+      "write_method": "RouterOS API /user/set (password)",
+      "value_rules": {
+        "min_length": 10
+      },
+      "risk_level": "high",
+      "needs_reboot": false,
+      "warning_text": "Changing the admin password ends the current admin session. Store the new password before applying."
+    },
+    {
+      "control_id": "firmware_check",
+      "read_method": "RouterOS API /system/package",
+      "write_method": "not_writable",
+      "value_rules": {},
+      "risk_level": "low",
+      "needs_reboot": false,
+      "warning_text": ""
+    }
+  ],
+  "unsupported_controls": [
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "device_block",
+    "wifi_channel",
+    "wifi_security_view"
+  ],
+  "tested_on": "Reference only: MikroTik RB750Gr3 running RouterOS 6.48.6 (identification data from RedMind scans). No control test performed.",
+  "tested_by": "RouterVerse seed import (RedMind reference data)",
+  "test_result": {
+    "identification": "reference",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "RB750Gr3 (hEX) has no WiFi radio, so all WiFi controls are unsupported on this model.",
+    "Unverified profile: no RouterVerse driver test has run against a real RB750Gr3 yet."
+  ],
+  "signature": "Jhk1BkwP2I5fJG+bKIbj6xZBL53DGIu7VZNDPJAakJVixAdhbQNMj/5XOLAyw6vnUryAEamKvwm1Mno/A2+6AQ=="
+}

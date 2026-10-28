@@ -1,0 +1,56 @@
+{
+  "profile_id": "luma_home_wrtq_329acn",
+  "brand": "Luma Home",
+  "model": "WRTQ-329ACN",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "4db0aa6519c0573d781c961f059b149179a41aed208f1bc92e87f74e21f332d8",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "openwrt",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "OpenWrt 25.12.6 supports this device (Firmware Selector profiles.json, target ipq40xx/generic); stock admin fingerprint not inferred from OpenWrt support."
+  ],
+  "signature": "CkfnfzwvnvM4ECZ/DntE1g2KZ+E+sKW4L3bQGe9ZgW9D2spTxLreQD9ZMTBDsnLKB4ijCaGg4si6CZSR1/19Dg=="
+}

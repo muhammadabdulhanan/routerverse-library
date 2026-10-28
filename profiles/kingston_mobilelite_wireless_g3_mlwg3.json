@@ -1,0 +1,57 @@
+{
+  "profile_id": "kingston_mobilelite_wireless_g3_mlwg3",
+  "brand": "Kingston",
+  "model": "MobileLite Wireless G3 (MLWG3)",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "ea0d1a03854322765854ec1145e8ac3535955369c710f58d43af8e204dd964e9",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Kingston MobileLite Wireless G3 (MLWG3); manufacturer Gemtek WRTM-328ACN (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: ZME-MLWG3; year: 2015; CPU: MT7628AN; Wi-Fi chip: MT7628AN"
+  ],
+  "signature": "8K9Y2b/N0yfSvPzlWZ5XRsVH+Dwyx5UClxSkf07JLLtomia8bZFYN+cBfRbeYwMXOCySYjfzHP9uvo5o1L8ECg=="
+}

@@ -1,0 +1,82 @@
+{
+  "profile_id": "mikrotik_hap_ax2",
+  "brand": "MikroTik",
+  "model": "hAP ax2",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "2b7ac514cf88c22b1a1abf178f74ee87b8b3815b7c60575caf8a6dc95166c5a2",
+  "last_updated": "2026-10-28",
+  "status": "unverified",
+  "oui_prefixes": [
+    "00:0c:42",
+    "2c:c8:1b",
+    "64:d1:54",
+    "78:9a:18",
+    "cc:2d:e0",
+    "e4:8d:8c"
+  ],
+  "http_fingerprints": [
+    {
+      "page_title_contains": [
+        "RouterOS",
+        "MikroTik"
+      ],
+      "server_header_contains": [],
+      "realm_contains": [],
+      "url_paths": [
+        "/",
+        "/webfig/"
+      ],
+      "body_contains": [
+        "RouterOS",
+        "MikroTik"
+      ]
+    }
+  ],
+  "default_gateway_paths": [
+    "/",
+    "/webfig/"
+  ],
+  "driver_type": "api",
+  "admin_url": "http://{gateway}/",
+  "login_method": "API login",
+  "ports": [
+    80,
+    443,
+    8728,
+    8729
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet."
+  ],
+  "signature": "AFVMXc96IuOf22g4G+xz+2LZgFDKLHUD1rQVuc0BVFS2KTob/GeyGhthFxZR1HcQmFY09lfw2ufRhHvpN2rWBA=="
+}

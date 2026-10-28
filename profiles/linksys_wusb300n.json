@@ -1,0 +1,64 @@
+{
+  "profile_id": "linksys_wusb300n",
+  "brand": "Linksys",
+  "model": "WUSB300N",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "997c434206e85c973403402daeb51965b53006b264f3f798f337bb34dfacc585",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:18:f8",
+    "00:1a:70",
+    "00:1c:10",
+    "00:1d:7e",
+    "00:1e:e5",
+    "00:21:29"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model Linksys WUSB300N; manufacturer Gemtek WUBM-183GN (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: Q87-WUSB300N; year: 2006"
+  ],
+  "signature": "WLY9X1PW6pB2GCvIkWwIrpU5VMeOWjHljAnfZuvwRi1Fj7zlgogMmR1TJ5rM+JW0PLG13LGqQ0ZMsEmsMLEbBw=="
+}

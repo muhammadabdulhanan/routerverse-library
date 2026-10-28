@@ -1,0 +1,59 @@
+{
+  "profile_id": "netcomm_nb6plus4w",
+  "brand": "NetComm",
+  "model": "NB6Plus4W",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "206de8d498c5031bed41d2fe251a78633fb10299ebcc82af0808093a9f73bd2b",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "00:60:64"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Rebrand — manufacturer proven, admin surface unproven. Display brand/model NetComm NB6Plus4W; manufacturer Askey RTA1025W (DeviWiki live).",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: H8N-RTA103XW, XIA-N; year: 2008; CPU: BCM6348; Wi-Fi chip: BCM4318"
+  ],
+  "signature": "zMxlxTdb0EDkJnKTLyP074tHtKNLXkwsuuLnfjPBWBByid5qHeITJ/YofBqHZIRST4irQadWILHF/geQe2ouAQ=="
+}

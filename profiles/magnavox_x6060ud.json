@@ -1,0 +1,59 @@
+{
+  "profile_id": "magnavox_x6060ud",
+  "brand": "Magnavox",
+  "model": "X6060UD",
+  "hardware_versions": [
+    "unspecified"
+  ],
+  "firmware_range": {
+    "min": null,
+    "max": null
+  },
+  "profile_version": 1,
+  "profile_hash": "010f04b1ac8d0696bf1d1d8bb51aa1c3f0dbf446bf842a380e0d4898b6650085",
+  "last_updated": "2026-10-28",
+  "status": "community",
+  "oui_prefixes": [
+    "7c:4f:b5"
+  ],
+  "http_fingerprints": [],
+  "default_gateway_paths": [
+    "/"
+  ],
+  "driver_type": "web",
+  "admin_url": "http://{gateway}/",
+  "login_method": "form login",
+  "ports": [
+    80,
+    443
+  ],
+  "default_credentials_ref": "Vendor factory defaults — see vendor manual",
+  "supported_controls": [],
+  "unsupported_controls": [
+    "router_info",
+    "wifi_ssid_24",
+    "wifi_ssid_5",
+    "wifi_password",
+    "wifi_band_enable",
+    "guest_wifi",
+    "connected_devices",
+    "device_block",
+    "reboot",
+    "wifi_channel",
+    "wifi_security_view",
+    "admin_password",
+    "firmware_check"
+  ],
+  "tested_on": "",
+  "tested_by": "",
+  "test_result": {
+    "driver": "pending",
+    "controls": "not_tested"
+  },
+  "known_issues": [
+    "Registration-only entry. The model is known to the Library, but its driver is still pending, so no controls are available yet.",
+    "Source: WikiDevi 2019 snapshot — back-catalog data, stale for post-2019 models, verify before any driver work",
+    "Source: DeviWiki live (deviwiki.com Special:Ask, fetched 2026-10-28). FCC ID: RAXWN7111A; year: 2011; CPU: BCM7615; Wi-Fi chip: BCM43234"
+  ],
+  "signature": "WP8WpxNwaP9F7KupdK+jhr0vSWjgBd3WAJD8HoMxQeli8tOg6y+rnE4C7yg2m0jdKgRlcBiPgBAu2saUMigBDw=="
+}
